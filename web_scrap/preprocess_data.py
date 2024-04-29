@@ -19,7 +19,7 @@ def preprocess_text(text):
     return text
 
 # Read data from file
-with open('commentary.txt', 'r') as file:
+with open('test_data.txt', 'r') as file:
     data = file.read()
 
 # Preprocess data
