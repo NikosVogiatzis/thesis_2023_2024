@@ -1,0 +1,663 @@
+7'	Federico Valverde - Real Madrid - won a free kick in attack.
+8'	Lucas Vázquez - Real Madrid - won a free kick on the right wing.
+22'	Toni Kroos - Real Madrid - won a free kick in defence.
+38'	Andriy Lunin - Real Madrid - won a free kick in defence.
+39'	Joshua Kimmich - FC Bayern München - won a free kick in defence.
+40'	Jamal Musiala - FC Bayern München - won a free kick in attack.
+43'	Jude Bellingham - Real Madrid - won a free kick in attack.
+61'	Jude Bellingham - Real Madrid - won a free kick in defence.
+64'	Harry Kane - FC Bayern München - won a free kick in defence.
+65'	Jamal Musiala - FC Bayern München - won a free kick in defence.
+68'	Konrad Laimer - FC Bayern München - won a free kick in defence.
+74'	Vinícius Júnior - Real Madrid - won a free kick on the left wing.
+75'	Toni Kroos - Real Madrid - won a free kick on the left wing.
+76'	Leroy Sané - FC Bayern München - won a free kick in defence.
+78'	Jamal Musiala - FC Bayern München - won a free kick on the left wing.
+86'	Brahim Díaz - Real Madrid - won a free kick in defence.
+90'	Joselu - Real Madrid - won a free kick in defence.
+90'	Kim Min-Jae - FC Bayern München - won a free kick in defence.
+90+1'	Alphonso Davies - FC Bayern München - won a free kick in defence.
+2'	Ousmane Dembélé - Paris Saint Germain - won a free kick in defence.
+8'	Ousmane Dembélé - Paris Saint Germain - won a free kick in defence.
+19'	Warren Zaïre-Emery - Paris Saint Germain - won a free kick on the right wing.
+28'	Karim Adeyemi - Borussia Dortmund - won a free kick on the left wing.
+33'	Achraf Hakimi - Paris Saint Germain - won a free kick in defence.
+45+1'	Achraf Hakimi - Paris Saint Germain - won a free kick in attack.
+45+4'	Ian Maatsen - Borussia Dortmund - won a free kick on the left wing.
+46'	Beraldo - Paris Saint Germain - won a free kick in defence.
+48'	Achraf Hakimi - Paris Saint Germain - won a free kick in defence.
+49'	Kylian Mbappé - Paris Saint Germain - won a free kick on the left wing.
+53'	Karim Adeyemi - Borussia Dortmund - won a free kick in defence.
+54'	Beraldo - Paris Saint Germain - won a free kick in defence.
+55'	Ousmane Dembélé - Paris Saint Germain - won a free kick in attack.
+57'	Julian Ryerson - Borussia Dortmund - won a free kick in defence.
+65'	Ian Maatsen - Borussia Dortmund - won a free kick on the left wing.
+76'	Achraf Hakimi - Paris Saint Germain - won a free kick in defence.
+85'	Julian Ryerson - Borussia Dortmund - won a free kick in defence.
+2'	Julian Brandt - Borussia Dortmund - won a free kick on the right wing.
+8'	Emre Can - Borussia Dortmund - won a free kick in attack.
+18'	Ian Maatsen - Borussia Dortmund - won a free kick on the left wing.
+33'	Niclas Füllkrug - Borussia Dortmund - won a free kick in defence.
+42'	Fabián Ruiz - Paris Saint Germain - won a free kick in defence.
+45+1'	Marcel Sabitzer - Borussia Dortmund - won a free kick in defence.
+49'	Jadon Sancho - Borussia Dortmund - won a free kick in defence.
+55'	Nuno Mendes - Paris Saint Germain - won a free kick in defence.
+57'	Ian Maatsen - Borussia Dortmund - won a free kick in attack.
+64'	Bradley Barcola - Paris Saint Germain - won a free kick in defence.
+65'	Ousmane Dembélé - Paris Saint Germain - won a free kick in attack.
+75'	Nico Schlotterbeck - Borussia Dortmund - won a free kick in defence.
+82'	Lee Kang-In - Paris Saint Germain - won a free kick on the right wing.
+83'	Beraldo - Paris Saint Germain - won a free kick in defence.
+9'	Ferland Mendy - Real Madrid - won a free kick in defence.
+12'	Vinícius Júnior - Real Madrid - won a free kick on the left wing.
+19'	Leroy Sané - FC Bayern München - won a free kick on the right wing.
+20'	Konrad Laimer - FC Bayern München - won a free kick in defence.
+22'	Jude Bellingham - Real Madrid - won a free kick in defence.
+25'	Harry Kane - FC Bayern München - won a free kick in defence.
+28'	Harry Kane - FC Bayern München - won a free kick in defence.
+39'	Vinícius Júnior - Real Madrid - won a free kick on the left wing.
+57'	Harry Kane - FC Bayern München - won a free kick in defence.
+58'	Jude Bellingham - Real Madrid - won a free kick in attack.
+61'	Jamal Musiala - FC Bayern München - won a free kick in attack.
+71'	Joshua Kimmich - FC Bayern München - won a free kick in defence.
+77'	Nacho - Real Madrid - won a free kick in defence.
+79'	Harry Kane - FC Bayern München - won a free kick in defence.
+80'	Konrad Laimer - FC Bayern München - won a free kick in attack.
+82'	Andriy Lunin - Real Madrid - won a free kick in defence.
+90+5'	Joselu - Real Madrid - won a free kick on the left wing.
+90+7'	Nacho - Real Madrid - won a free kick in defence.
+90+10'	Eric Choupo-Moting - FC Bayern München - won a free kick in defence.
+90+12'	Matthijs de Ligt - FC Bayern München - won a free kick in defence.
+90+15'	Joshua Kimmich - FC Bayern München - won a free kick in defence.
+1'	Jack Grealish - Manchester City - won a free kick in attack.
+4'	Dani Carvajal - Real Madrid - won a free kick on the right wing.
+29'	Mateo Kovacic - Manchester City - won a free kick in attack.
+30'	Jude Bellingham - Real Madrid - won a free kick in defence.
+34'	Rúben Dias - Manchester City - won a free kick in defence.
+36'	Rúben Dias - Manchester City - won a free kick in defence.
+37'	Vinícius Júnior - Real Madrid - won a free kick in attack.
+45+1'	Ferland Mendy - Real Madrid - won a free kick in defence.
+47'	Phil Foden - Manchester City - won a free kick in defence.
+47'	Rodri - Manchester City - won a free kick in defence.
+48'	Eduardo Camavinga - Real Madrid - won a free kick in defence.
+50'	Jack Grealish - Manchester City - won a free kick in attack.
+51'	Ferland Mendy - Real Madrid - won a free kick in defence.
+54'	Erling Haaland - Manchester City - won a free kick in attack.
+55'	Rodrygo - Real Madrid - won a free kick in defence.
+81'	Jack Grealish - Manchester City - won a free kick in attack.
+82'	Eduardo Camavinga - Real Madrid - won a free kick in defence.
+88'	Brahim Díaz - Real Madrid - won a free kick in defence.
+90+1'	Mateo Kovacic - Manchester City - won a free kick on the left wing.
+90+2'	Jack Grealish - Manchester City - won a free kick in defence.
+1'	Konrad Laimer - FC Bayern München - won a free kick in defence.
+8'	Bukayo Saka - Arsenal - won a free kick on the right wing.
+9'	Bukayo Saka - Arsenal - won a free kick on the right wing.
+21'	Bukayo Saka - Arsenal - won a free kick on the right wing.
+22'	Gabriel Magalhães - Arsenal - won a free kick in attack.
+24'	Harry Kane - FC Bayern München - won a free kick in defence.
+30'	Jamal Musiala - FC Bayern München - won a free kick in defence.
+35'	Jorginho - Arsenal - won a free kick on the right wing.
+36'	Bukayo Saka - Arsenal - won a free kick on the right wing.
+38'	Matthijs de Ligt - FC Bayern München - won a free kick in defence.
+39'	Harry Kane - FC Bayern München - won a free kick in defence.
+42'	Harry Kane - FC Bayern München - won a free kick in defence.
+43'	Kai Havertz - Arsenal - won a free kick in attack.
+45'	Harry Kane - FC Bayern München - won a free kick in defence.
+48'	Harry Kane - FC Bayern München - won a free kick in attack.
+50'	Declan Rice - Arsenal - won a free kick on the left wing.
+55'	Gabriel Magalhães - Arsenal - won a free kick in attack.
+59'	Bukayo Saka - Arsenal - won a free kick in attack.
+64'	Oleksandr Zinchenko - Arsenal - won a free kick in defence.
+78'	Harry Kane - FC Bayern München - won a free kick in defence.
+81'	Kingsley Coman - FC Bayern München - won a free kick in defence.
+84'	Declan Rice - Arsenal - won a free kick in defence.
+86'	Jamal Musiala - FC Bayern München - won a free kick in attack.
+89'	Jamal Musiala - FC Bayern München - won a free kick in defence.
+1'	Ousmane Dembélé - Paris Saint Germain - won a free kick on the right wing.
+7'	Lamine Yamal - Barcelona - won a free kick in defence.
+10'	Nuno Mendes - Paris Saint Germain - won a free kick on the left wing.
+11'	Lamine Yamal - Barcelona - won a free kick in defence.
+17'	Robert Lewandowski - Barcelona - won a free kick in defence.
+24'	Jules Koundé - Barcelona - won a free kick on the right wing.
+30'	Beraldo - Paris Saint Germain - won a free kick in defence.
+34'	Marco Asensio - Paris Saint Germain - won a free kick in defence.
+36'	Robert Lewandowski - Barcelona - won a free kick in defence.
+38'	Jules Koundé - Barcelona - won a free kick in defence.
+45+2'	Jules Koundé - Barcelona - won a free kick in defence.
+53'	Lucas Hernández - Paris Saint Germain - won a free kick in defence.
+60'	Sergi Roberto - Barcelona - won a free kick in defence.
+65'	João Félix - Barcelona - won a free kick in defence.
+66'	Frenkie de Jong - Barcelona - won a free kick in attack.
+68'	Robert Lewandowski - Barcelona - won a free kick in attack.
+71'	Pedri - Barcelona - won a free kick in defence.
+81'	João Félix - Barcelona - won a free kick on the left wing.
+82'	Bradley Barcola - Paris Saint Germain - won a free kick in defence.
+87'	Lucas Hernández - Paris Saint Germain - won a free kick in attack.
+88'	Warren Zaïre-Emery - Paris Saint Germain - won a free kick in attack.
+89'	Jules Koundé - Barcelona - won a free kick in defence.
+4'	Niclas Füllkrug - Borussia Dortmund - won a free kick in defence.
+15'	Julian Ryerson - Borussia Dortmund - won a free kick on the right wing.
+18'	Emre Can - Borussia Dortmund - won a free kick in defence.
+22'	Felix Nmecha - Borussia Dortmund - won a free kick in defence.
+23'	Rodrigo De Paul - Atletico Madrid - won a free kick in attack.
+27'	Nico Schlotterbeck - Borussia Dortmund - won a free kick in defence.
+28'	Emre Can - Borussia Dortmund - won a free kick in defence.
+39'	Rodrigo De Paul - Atletico Madrid - won a free kick in defence.
+50'	Rodrigo De Paul - Atletico Madrid - won a free kick on the left wing.
+50'	Julian Ryerson - Borussia Dortmund - won a free kick in defence.
+53'	Marcos Llorente - Atletico Madrid - won a free kick on the right wing.
+63'	Sébastien Haller - Borussia Dortmund - won a free kick in attack.
+67'	Marcos Llorente - Atletico Madrid - won a free kick in defence.
+72'	Sébastien Haller - Borussia Dortmund - won a free kick in attack.
+74'	Antoine Griezmann - Atletico Madrid - won a free kick on the left wing.
+75'	Julian Ryerson - Borussia Dortmund - won a free kick in defence.
+77'	Marcos Llorente - Atletico Madrid - won a free kick on the right wing.
+2'	Koke - Atletico Madrid - won a free kick in defence.
+26'	Niclas Füllkrug - Borussia Dortmund - won a free kick in defence.
+28'	Rodrigo De Paul - Atletico Madrid - won a free kick on the left wing.
+30'	Karim Adeyemi - Borussia Dortmund - won a free kick in defence.
+37'	Nico Schlotterbeck - Borussia Dortmund - won a free kick in defence.
+41'	Gregor Kobel - Borussia Dortmund - won a free kick in defence.
+43'	César Azpilicueta - Atletico Madrid - won a free kick on the left wing.
+45+1'	Karim Adeyemi - Borussia Dortmund - won a free kick on the right wing.
+54'	Niclas Füllkrug - Borussia Dortmund - won a free kick in attack.
+59'	Emre Can - Borussia Dortmund - won a free kick in attack.
+60'	Rodrigo De Paul - Atletico Madrid - won a free kick in defence.
+68'	Niclas Füllkrug - Borussia Dortmund - won a free kick on the right wing.
+83'	Rodrigo De Paul - Atletico Madrid - won a free kick on the right wing.
+88'	Koke - Atletico Madrid - won a free kick on the right wing.
+89'	Emre Can - Borussia Dortmund - won a free kick in defence.
+90+2'	Emre Can - Borussia Dortmund - won a free kick in attack.
+90+3'	Pablo Barrios - Atletico Madrid - won a free kick in defence.
+4'	Robert Lewandowski - Barcelona - won a free kick in defence.
+9'	Vitinha - Paris Saint Germain - won a free kick on the right wing.
+12'	Frenkie de Jong - Barcelona - won a free kick in defence.
+16'	Robert Lewandowski - Barcelona - won a free kick in attack.
+23'	Lucas Hernández - Paris Saint Germain - won a free kick in defence.
+29'	Bradley Barcola - Paris Saint Germain - won a free kick in attack.
+35'	Robert Lewandowski - Barcelona - won a free kick in defence.
+36'	Pedri - Barcelona - won a free kick in defence.
+38'	João Cancelo - Barcelona - won a free kick in defence.
+44'	Raphinha - Barcelona - won a free kick on the right wing.
+45'	Pedri - Barcelona - won a free kick in attack.
+50'	Lucas Hernández - Paris Saint Germain - won a free kick in attack.
+56'	Warren Zaïre-Emery - Paris Saint Germain - won a free kick in defence.
+62'	Robert Lewandowski - Barcelona - won a free kick in attack.
+71'	Achraf Hakimi - Paris Saint Germain - won a free kick in defence.
+73'	Ferran Torres - Barcelona - won a free kick in defence.
+84'	João Félix - Barcelona - won a free kick on the right wing.
+90+2'	Lee Kang-In - Paris Saint Germain - won a free kick on the left wing.
+90+3'	Lee Kang-In - Paris Saint Germain - won a free kick in defence.
+90+7'	Manuel Ugarte - Paris Saint Germain - won a free kick in defence.
+6'	Josko Gvardiol - Manchester City - won a free kick in defence.
+21'	Jude Bellingham - Real Madrid - won a free kick in defence.
+22'	Eduardo Camavinga - Real Madrid - won a free kick in defence.
+25'	Phil Foden - Manchester City - won a free kick in defence.
+27'	Jack Grealish - Manchester City - won a free kick on the left wing.
+35'	Toni Kroos - Real Madrid - won a free kick in defence.
+38'	Jack Grealish - Manchester City - won a free kick on the left wing.
+45+2'	Vinícius Júnior - Real Madrid - won a free kick on the left wing.
+55'	Ferland Mendy - Real Madrid - won a free kick in defence.
+58'	Dani Carvajal - Real Madrid - won a free kick in defence.
+59'	Dani Carvajal - Real Madrid - won a free kick in attack.
+61'	Jude Bellingham - Real Madrid - won a free kick in defence.
+62'	Eduardo Camavinga - Real Madrid - won a free kick in defence.
+72'	Rodrygo - Real Madrid - won a free kick in defence.
+80'	Jérémy Doku - Manchester City - won a free kick in attack.
+84'	Jérémy Doku - Manchester City - won a free kick on the left wing.
+85'	Bernardo Silva - Manchester City - won a free kick on the right wing.
+89'	Jérémy Doku - Manchester City - won a free kick in defence.
+90'	Brahim Díaz - Real Madrid - won a free kick in defence.
+90+1'	Dani Carvajal - Real Madrid - won a free kick in defence.
+90+4'	Kyle Walker - Manchester City - won a free kick on the right wing.
+103'	Jude Bellingham - Real Madrid - won a free kick in defence.
+112'	Eduardo Camavinga - Real Madrid - won a free kick in attack.
+114'	Brahim Díaz - Real Madrid - won a free kick in defence.
+119'	Mateo Kovacic - Manchester City - won a free kick in defence.
+1'	Declan Rice - Arsenal - won a free kick in defence.
+5'	Joshua Kimmich - FC Bayern München - won a free kick in defence.
+15'	Harry Kane - FC Bayern München - won a free kick in defence.
+19'	Jamal Musiala - FC Bayern München - won a free kick in defence.
+27'	Gabriel Martinelli - Arsenal - won a free kick in defence.
+32'	Harry Kane - FC Bayern München - won a free kick in attack.
+37'	Harry Kane - FC Bayern München - won a free kick in defence.
+38'	Gabriel Martinelli - Arsenal - won a free kick on the left wing.
+42'	Martin Ødegaard - Arsenal - won a free kick in defence.
+48'	Noussair Mazraoui - FC Bayern München - won a free kick on the right wing.
+52'	Leon Goretzka - FC Bayern München - won a free kick in defence.
+54'	Martin Ødegaard - Arsenal - won a free kick in attack.
+67'	Raphaël Guerreiro - FC Bayern München - won a free kick in defence.
+68'	Matthijs de Ligt - FC Bayern München - won a free kick on the right wing.
+71'	Gabriel Jesus - Arsenal - won a free kick in defence.
+75'	Manuel Neuer - FC Bayern München - won a free kick in defence.
+78'	Bukayo Saka - Arsenal - won a free kick in attack.
+84'	Raphaël Guerreiro - FC Bayern München - won a free kick in defence.
+85'	Gabriel Jesus - Arsenal - won a free kick in attack.
+87'	Matthijs de Ligt - FC Bayern München - won a free kick in defence.
+90+2'	Kai Havertz - Arsenal - won a free kick in defence.
+90+2'	Joshua Kimmich - FC Bayern München - won a free kick in defence.
+90+5'	Bukayo Saka - Arsenal - won a free kick in attack.
+7'	Federico Valverde - Real Madrid - won a free kick in attack.
+17'	Xavi Simons - RB Leipzig - won a free kick in defence.
+18'	Eduardo Camavinga - Real Madrid - won a free kick in defence.
+23'	Mohamed Simakan - RB Leipzig - won a free kick in defence.
+25'	Toni Kroos - Real Madrid - won a free kick in defence.
+27'	Loïs Openda - RB Leipzig - won a free kick in defence.
+29'	Brahim Díaz - Real Madrid - won a free kick in defence.
+32'	Xavi Simons - RB Leipzig - won a free kick on the left wing.
+34'	Ferland Mendy - Real Madrid - won a free kick in defence.
+54'	David Raum - RB Leipzig - won a free kick in defence.
+64'	Dani Carvajal - Real Madrid - won a free kick in defence.
+66'	Xavi Simons - RB Leipzig - won a free kick in defence.
+69'	Mohamed Simakan - RB Leipzig - won a free kick in defence.
+69'	Loïs Openda - RB Leipzig - won a free kick in defence.
+70'	Xaver Schlager - RB Leipzig - won a free kick in defence.
+70'	Dani Olmo - RB Leipzig - won a free kick in defence.
+73'	Dani Olmo - RB Leipzig - won a free kick in defence.
+76'	Eduardo Camavinga - Real Madrid - won a free kick in defence.
+76'	Eduardo Camavinga - Real Madrid - won a free kick in defence.
+85'	Aurélien Tchouaméni - Real Madrid - won a free kick in defence.
+86'	Aurélien Tchouaméni - Real Madrid - won a free kick in defence.
+89'	Xavi Simons - RB Leipzig - won a free kick on the left wing.
+1'	Rodri - Manchester City - won a free kick in defence.
+6'	John Stones - Manchester City - won a free kick in attack.
+8'	Jack Grealish - Manchester City - won a free kick in attack.
+25'	Elias Jelert - FC Copenhagen - won a free kick in defence.
+27'	Jérémy Doku - Manchester City - won a free kick in defence.
+32'	Diogo Gonçalves - FC Copenhagen - won a free kick in attack.
+41'	Rodri - Manchester City - won a free kick in attack.
+48'	Rodri - Manchester City - won a free kick in attack.
+55'	Kevin De Bruyne - Manchester City - won a free kick in attack.
+57'	Kevin De Bruyne - Manchester City - won a free kick in attack.
+70'	Rúben Dias - Manchester City - won a free kick in defence.
+71'	Erling Haaland - Manchester City - won a free kick in attack.
+74'	Bernardo Silva - Manchester City - won a free kick on the left wing.
+88'	Erling Haaland - Manchester City - won a free kick in defence.
+2'	Bradley Barcola - Paris Saint Germain - won a free kick in defence.
+4'	Ousmane Dembélé - Paris Saint Germain - won a free kick in defence.
+6'	Martín Zubimendi - Real Sociedad - won a free kick in attack.
+9'	Achraf Hakimi - Paris Saint Germain - won a free kick on the right wing.
+9'	Igor Zubeldia - Real Sociedad - won a free kick in defence.
+14'	Warren Zaïre-Emery - Paris Saint Germain - won a free kick in attack.
+15'	Achraf Hakimi - Paris Saint Germain - won a free kick in defence.
+20'	Brais Méndez - Real Sociedad - won a free kick on the right wing.
+23'	Danilo Pereira - Paris Saint Germain - won a free kick in defence.
+26'	Javi Galán - Real Sociedad - won a free kick in defence.
+36'	Ousmane Dembélé - Paris Saint Germain - won a free kick in attack.
+42'	Ousmane Dembélé - Paris Saint Germain - won a free kick in defence.
+46'	Kylian Mbappé - Paris Saint Germain - won a free kick in defence.
+47'	André Silva - Real Sociedad - won a free kick on the left wing.
+64'	Ousmane Dembélé - Paris Saint Germain - won a free kick on the right wing.
+65'	Ousmane Dembélé - Paris Saint Germain - won a free kick on the right wing.
+70'	Beraldo - Paris Saint Germain - won a free kick in defence.
+90+2'	Fabián Ruiz - Paris Saint Germain - won a free kick in defence.
+3'	Mattéo Guendouzi - Lazio - won a free kick in defence.
+5'	Gustav Isaksen - Lazio - won a free kick in attack.
+9'	Luis Alberto - Lazio - won a free kick in defence.
+15'	Adam Marusic - Lazio - won a free kick in defence.
+27'	Mattéo Guendouzi - Lazio - won a free kick in defence.
+30'	Jamal Musiala - FC Bayern München - won a free kick in attack.
+36'	Ciro Immobile - Lazio - won a free kick in defence.
+45+1'	Jamal Musiala - FC Bayern München - won a free kick in defence.
+46'	Joshua Kimmich - FC Bayern München - won a free kick in defence.
+47'	Jamal Musiala - FC Bayern München - won a free kick in defence.
+65'	Mattéo Guendouzi - Lazio - won a free kick in defence.
+84'	Harry Kane - FC Bayern München - won a free kick in attack.
+90'	Mathys Tel - FC Bayern München - won a free kick in defence.
+90+4'	Jamal Musiala - FC Bayern München - won a free kick in attack.
+5'	Jerdy Schouten - PSV Eindhoven - won a free kick in defence.
+8'	Julian Ryerson - Borussia Dortmund - won a free kick in defence.
+12'	Johan Bakayoko - PSV Eindhoven - won a free kick in defence.
+22'	Julian Ryerson - Borussia Dortmund - won a free kick on the right wing.
+23'	Sergiño Dest - PSV Eindhoven - won a free kick in defence.
+27'	Hirving Lozano - PSV Eindhoven - won a free kick on the left wing.
+32'	Hirving Lozano - PSV Eindhoven - won a free kick in attack.
+41'	Hirving Lozano - PSV Eindhoven - won a free kick on the left wing.
+42'	Johan Bakayoko - PSV Eindhoven - won a free kick on the right wing.
+45+2'	Hirving Lozano - PSV Eindhoven - won a free kick in defence.
+50'	Donyell Malen - Borussia Dortmund - won a free kick in defence.
+57'	Sergiño Dest - PSV Eindhoven - won a free kick in defence.
+64'	Malik Tillman - PSV Eindhoven - won a free kick in defence.
+71'	Nico Schlotterbeck - Borussia Dortmund - won a free kick on the left wing.
+73'	Malik Tillman - PSV Eindhoven - won a free kick in defence.
+75'	Sergiño Dest - PSV Eindhoven - won a free kick in defence.
+76'	Niclas Füllkrug - Borussia Dortmund - won a free kick in defence.
+77'	Donyell Malen - Borussia Dortmund - won a free kick on the left wing.
+80'	Emre Can - Borussia Dortmund - won a free kick in defence.
+90+2'	Sergiño Dest - PSV Eindhoven - won a free kick in defence.
+90+4'	Malik Tillman - PSV Eindhoven - won a free kick in defence.
+5'	Marcos Llorente - Atletico Madrid - won a free kick in attack.
+5'	Lautaro Martínez - Inter Milan - won a free kick in defence.
+17'	Marcos Llorente - Atletico Madrid - won a free kick in defence.
+24'	Nahuel Molina - Atletico Madrid - won a free kick on the right wing.
+25'	Nicolò Barella - Inter Milan - won a free kick in defence.
+34'	Antoine Griezmann - Atletico Madrid - won a free kick in defence.
+36'	Henrikh Mkhitaryan - Inter Milan - won a free kick in defence.
+38'	José Giménez - Atletico Madrid - won a free kick in attack.
+40'	Henrikh Mkhitaryan - Inter Milan - won a free kick in attack.
+48'	Jan Oblak - Atletico Madrid - won a free kick in defence.
+49'	Lautaro Martínez - Inter Milan - won a free kick in attack.
+59'	Henrikh Mkhitaryan - Inter Milan - won a free kick on the right wing.
+60'	Marko Arnautovic - Inter Milan - won a free kick on the right wing.
+61'	Lautaro Martínez - Inter Milan - won a free kick in attack.
+67'	Antoine Griezmann - Atletico Madrid - won a free kick on the right wing.
+68'	Marko Arnautovic - Inter Milan - won a free kick in defence.
+69'	Alessandro Bastoni - Inter Milan - won a free kick in defence.
+72'	Lautaro Martínez - Inter Milan - won a free kick in defence.
+82'	Lautaro Martínez - Inter Milan - won a free kick in defence.
+84'	Benjamin Pavard - Inter Milan - won a free kick in defence.
+86'	Samuel Lino - Atletico Madrid - won a free kick in defence.
+90+2'	Davide Frattesi - Inter Milan - won a free kick on the right wing.
+90+3'	Alexis Sánchez - Inter Milan - won a free kick in defence.
+90+4'	Ángel Correa - Atletico Madrid - won a free kick in defence.
+2'	Galeno - FC Porto - won a free kick on the left wing.
+4'	Pepê Aquino - FC Porto - won a free kick in defence.
+9'	Ben White - Arsenal - won a free kick in defence.
+10'	Francisco Conceição - FC Porto - won a free kick on the right wing.
+11'	Wendell - FC Porto - won a free kick in defence.
+13'	Declan Rice - Arsenal - won a free kick in attack.
+16'	Martin Ødegaard - Arsenal - won a free kick in attack.
+17'	Pepe - FC Porto - won a free kick in defence.
+19'	Nico González - FC Porto - won a free kick in defence.
+23'	Galeno - FC Porto - won a free kick in defence.
+23'	Pepê Aquino - FC Porto - won a free kick in defence.
+24'	Martin Ødegaard - Arsenal - won a free kick in defence.
+25'	Gabriel Magalhães - Arsenal - won a free kick in defence.
+25'	Bukayo Saka - Arsenal - won a free kick on the right wing.
+30'	Leandro Trossard - Arsenal - won a free kick in defence.
+36'	Alan Varela - FC Porto - won a free kick in attack.
+39'	Evanilson - FC Porto - won a free kick in defence.
+40'	Kai Havertz - Arsenal - won a free kick in defence.
+41'	Martin Ødegaard - Arsenal - won a free kick in defence.
+44'	Evanilson - FC Porto - won a free kick in defence.
+48'	Francisco Conceição - FC Porto - won a free kick on the right wing.
+49'	Declan Rice - Arsenal - won a free kick on the left wing.
+52'	Gabriel Martinelli - Arsenal - won a free kick on the left wing.
+55'	Leandro Trossard - Arsenal - won a free kick in defence.
+56'	Pepe - FC Porto - won a free kick in defence.
+57'	Francisco Conceição - FC Porto - won a free kick on the right wing.
+59'	Pepê Aquino - FC Porto - won a free kick in defence.
+60'	Pepê Aquino - FC Porto - won a free kick in defence.
+62'	Kai Havertz - Arsenal - won a free kick in defence.
+65'	Pepê Aquino - FC Porto - won a free kick in defence.
+71'	Evanilson - FC Porto - won a free kick in defence.
+71'	Otávio - FC Porto - won a free kick in defence.
+80'	Wendell - FC Porto - won a free kick in defence.
+88'	Wendell - FC Porto - won a free kick in defence.
+89'	Iván Jaime - FC Porto - won a free kick in attack.
+90+1'	Bukayo Saka - Arsenal - won a free kick on the right wing.
+9'	Khvicha Kvaratskhelia - Napoli - won a free kick on the left wing.
+13'	Pedri - Barcelona - won a free kick in attack.
+16'	Giovanni Di Lorenzo - Napoli - won a free kick in defence.
+20'	Amir Rrahmani - Napoli - won a free kick in defence.
+21'	Andreas Christensen - Barcelona - won a free kick in attack.
+24'	Frank Anguissa - Napoli - won a free kick in defence.
+25'	Khvicha Kvaratskhelia - Napoli - won a free kick on the left wing.
+30'	Victor Osimhen - Napoli - won a free kick in defence.
+31'	Ilkay Gündogan - Barcelona - won a free kick in defence.
+32'	Robert Lewandowski - Barcelona - won a free kick on the right wing.
+34'	Victor Osimhen - Napoli - won a free kick in attack.
+36'	Matteo Politano - Napoli - won a free kick on the right wing.
+44'	Amir Rrahmani - Napoli - won a free kick in defence.
+56'	Victor Osimhen - Napoli - won a free kick on the right wing.
+58'	Khvicha Kvaratskhelia - Napoli - won a free kick in defence.
+60'	Ilkay Gündogan - Barcelona - won a free kick in attack.
+65'	Lamine Yamal - Barcelona - won a free kick on the right wing.
+67'	Matteo Politano - Napoli - won a free kick in defence.
+70'	Lamine Yamal - Barcelona - won a free kick in defence.
+78'	Jesper Lindstrøm - Napoli - won a free kick in defence.
+78'	Stanislav Lobotka - Napoli - won a free kick in attack.
+82'	Andreas Christensen - Barcelona - won a free kick in defence.
+87'	Frenkie de Jong - Barcelona - won a free kick in defence.
+88'	Frenkie de Jong - Barcelona - won a free kick in defence.
+90'	Robert Lewandowski - Barcelona - won a free kick in defence.
+9'	Fabián Ruiz - Paris Saint Germain - won a free kick in defence.
+10'	Takefusa Kubo - Real Sociedad - won a free kick on the right wing.
+11'	Sheraldo Becker - Real Sociedad - won a free kick in defence.
+20'	Fabián Ruiz - Paris Saint Germain - won a free kick in defence.
+22'	Kylian Mbappé - Paris Saint Germain - won a free kick on the left wing.
+24'	Kylian Mbappé - Paris Saint Germain - won a free kick on the left wing.
+25'	Javi Galán - Real Sociedad - won a free kick in defence.
+28'	Takefusa Kubo - Real Sociedad - won a free kick in attack.
+33'	Brais Méndez - Real Sociedad - won a free kick in defence.
+35'	Javi Galán - Real Sociedad - won a free kick on the left wing.
+36'	Gianluigi Donnarumma - Paris Saint Germain - won a free kick in defence.
+38'	Robin Le Normand - Real Sociedad - won a free kick on the left wing.
+41'	Javi Galán - Real Sociedad - won a free kick in defence.
+42'	Nuno Mendes - Paris Saint Germain - won a free kick in defence.
+45+2'	Kylian Mbappé - Paris Saint Germain - won a free kick in defence.
+45+2'	Achraf Hakimi - Paris Saint Germain - won a free kick in defence.
+45+4'	Hamari Traoré - Real Sociedad - won a free kick in defence.
+48'	Beraldo - Paris Saint Germain - won a free kick in defence.
+49'	Fabián Ruiz - Paris Saint Germain - won a free kick on the left wing.
+54'	Ousmane Dembélé - Paris Saint Germain - won a free kick in attack.
+59'	Kylian Mbappé - Paris Saint Germain - won a free kick on the left wing.
+62'	Lee Kang-In - Paris Saint Germain - won a free kick in defence.
+65'	Robin Le Normand - Real Sociedad - won a free kick on the left wing.
+71'	Vitinha - Paris Saint Germain - won a free kick in defence.
+72'	Martín Zubimendi - Real Sociedad - won a free kick on the left wing.
+74'	Mikel Merino - Real Sociedad - won a free kick on the left wing.
+78'	Ander Barrenetxea - Real Sociedad - won a free kick in defence.
+82'	Lee Kang-In - Paris Saint Germain - won a free kick in defence.
+84'	Kylian Mbappé - Paris Saint Germain - won a free kick in defence.
+84'	Lucas Hernández - Paris Saint Germain - won a free kick in defence.
+86'	Lee Kang-In - Paris Saint Germain - won a free kick on the left wing.
+90+3'	Manuel Ugarte - Paris Saint Germain - won a free kick in defence.
+10'	Mattéo Guendouzi - Lazio - won a free kick on the right wing.
+19'	Mattia Zaccagni - Lazio - won a free kick in defence.
+20'	Mattia Zaccagni - Lazio - won a free kick on the left wing.
+21'	Felipe Anderson - Lazio - won a free kick in defence.
+23'	Aleksandar Pavlovic - FC Bayern München - won a free kick in defence.
+25'	Raphaël Guerreiro - FC Bayern München - won a free kick on the left wing.
+27'	Luis Alberto - Lazio - won a free kick in defence.
+31'	Thomas Müller - FC Bayern München - won a free kick in attack.
+32'	Alessio Romagnoli - Lazio - won a free kick in defence.
+48'	Mattia Zaccagni - Lazio - won a free kick on the left wing.
+55'	Mattéo Guendouzi - Lazio - won a free kick in defence.
+56'	Felipe Anderson - Lazio - won a free kick in attack.
+60'	Felipe Anderson - Lazio - won a free kick in defence.
+63'	Leon Goretzka - FC Bayern München - won a free kick in defence.
+76'	Gustav Isaksen - Lazio - won a free kick on the right wing.
+77'	Harry Kane - FC Bayern München - won a free kick in defence.
+79'	Valentín Castellanos - Lazio - won a free kick in attack.
+80'	Harry Kane - FC Bayern München - won a free kick in attack.
+87'	Mario Gila - Lazio - won a free kick in attack.
+88'	Harry Kane - FC Bayern München - won a free kick in defence.
+90'	Harry Kane - FC Bayern München - won a free kick in attack.
+90+1'	Konrad Laimer - FC Bayern München - won a free kick on the right wing.
+7'	Nacho - Real Madrid - won a free kick in defence.
+7'	Jude Bellingham - Real Madrid - won a free kick in defence.
+14'	Benjamin Henrichs - RB Leipzig - won a free kick on the right wing.
+16'	Vinícius Júnior - Real Madrid - won a free kick in defence.
+20'	Vinícius Júnior - Real Madrid - won a free kick in defence.
+31'	Loïs Openda - RB Leipzig - won a free kick in defence.
+36'	Jude Bellingham - Real Madrid - won a free kick on the left wing.
+45'	Dani Carvajal - Real Madrid - won a free kick in attack.
+46'	Toni Kroos - Real Madrid - won a free kick in defence.
+46'	Dani Carvajal - Real Madrid - won a free kick in defence.
+48'	Xavi Simons - RB Leipzig - won a free kick in attack.
+50'	Rodrygo - Real Madrid - won a free kick on the right wing.
+52'	Benjamin Henrichs - RB Leipzig - won a free kick in defence.
+54'	Willi Orbán - RB Leipzig - won a free kick in defence.
+56'	Vinícius Júnior - Real Madrid - won a free kick in defence.
+58'	Dani Olmo - RB Leipzig - won a free kick in attack.
+58'	Dani Olmo - RB Leipzig - won a free kick in attack.
+60'	Willi Orbán - RB Leipzig - won a free kick in defence.
+65'	Xavi Simons - RB Leipzig - won a free kick in defence.
+71'	Jude Bellingham - Real Madrid - won a free kick in attack.
+73'	Xavi Simons - RB Leipzig - won a free kick in attack.
+74'	Toni Kroos - Real Madrid - won a free kick in defence.
+75'	Xavi Simons - RB Leipzig - won a free kick in defence.
+86'	Antonio Rüdiger - Real Madrid - won a free kick in defence.
+89'	Federico Valverde - Real Madrid - won a free kick in defence.
+90+2'	Eljif Elmas - RB Leipzig - won a free kick in defence.
+21'	Elias Jelert - FC Copenhagen - won a free kick in defence.
+31'	Denis Vavro - FC Copenhagen - won a free kick in attack.
+36'	Oscar Bobb - Manchester City - won a free kick in defence.
+38'	Elias Jelert - FC Copenhagen - won a free kick in defence.
+43'	Matheus Nunes - Manchester City - won a free kick in attack.
+45+1'	Kevin Diks - FC Copenhagen - won a free kick in defence.
+53'	Mateo Kovacic - Manchester City - won a free kick in defence.
+54'	Rico Lewis - Manchester City - won a free kick on the right wing.
+64'	Matheus Nunes - Manchester City - won a free kick on the right wing.
+79'	Manuel Akanji - Manchester City - won a free kick in defence.
+83'	Manuel Akanji - Manchester City - won a free kick in defence.
+89'	Rico Lewis - Manchester City - won a free kick in defence.
+90'	Rico Lewis - Manchester City - won a free kick in defence.
+90+1'	Peter Ankersen - FC Copenhagen - won a free kick in defence.
+6'	Stanislav Lobotka - Napoli - won a free kick in defence.
+10'	Khvicha Kvaratskhelia - Napoli - won a free kick in defence.
+14'	Fermín López - Barcelona - won a free kick in defence.
+21'	Robert Lewandowski - Barcelona - won a free kick in defence.
+25'	Jules Koundé - Barcelona - won a free kick on the right wing.
+27'	Mário Rui - Napoli - won a free kick in defence.
+32'	Fermín López - Barcelona - won a free kick in defence.
+39'	Robert Lewandowski - Barcelona - won a free kick on the right wing.
+40'	Mário Rui - Napoli - won a free kick in defence.
+44'	Mário Rui - Napoli - won a free kick on the left wing.
+45+2'	Ilkay Gündogan - Barcelona - won a free kick in defence.
+45+4'	Raphinha - Barcelona - won a free kick on the right wing.
+53'	Lamine Yamal - Barcelona - won a free kick on the right wing.
+53'	Matteo Politano - Napoli - won a free kick on the right wing.
+60'	Raphinha - Barcelona - won a free kick on the left wing.
+63'	João Cancelo - Barcelona - won a free kick in defence.
+65'	Ilkay Gündogan - Barcelona - won a free kick in defence.
+66'	Jules Koundé - Barcelona - won a free kick in defence.
+67'	Lamine Yamal - Barcelona - won a free kick in attack.
+71'	Raphinha - Barcelona - won a free kick in attack.
+81'	Ilkay Gündogan - Barcelona - won a free kick in attack.
+85'	Lamine Yamal - Barcelona - won a free kick on the right wing.
+88'	Stanislav Lobotka - Napoli - won a free kick in attack.
+1'	Otávio - FC Porto - won a free kick in defence.
+3'	Jorginho - Arsenal - won a free kick in defence.
+12'	João Mário - FC Porto - won a free kick in defence.
+18'	Jorginho - Arsenal - won a free kick on the right wing.
+20'	Leandro Trossard - Arsenal - won a free kick in defence.
+21'	Pepê Aquino - FC Porto - won a free kick in defence.
+26'	William Saliba - Arsenal - won a free kick in defence.
+31'	Bukayo Saka - Arsenal - won a free kick on the right wing.
+39'	Galeno - FC Porto - won a free kick in defence.
+44'	Nico González - FC Porto - won a free kick in defence.
+45+3'	Kai Havertz - Arsenal - won a free kick in defence.
+47'	Jorginho - Arsenal - won a free kick on the right wing.
+54'	Leandro Trossard - Arsenal - won a free kick on the left wing.
+55'	Martin Ødegaard - Arsenal - won a free kick in defence.
+61'	Jorginho - Arsenal - won a free kick in defence.
+62'	João Mário - FC Porto - won a free kick in defence.
+63'	Galeno - FC Porto - won a free kick in attack.
+66'	Galeno - FC Porto - won a free kick in defence.
+67'	Pepe - FC Porto - won a free kick in defence.
+72'	Nico González - FC Porto - won a free kick in defence.
+72'	Kai Havertz - Arsenal - won a free kick on the left wing.
+76'	Evanilson - FC Porto - won a free kick on the right wing.
+79'	Pepê Aquino - FC Porto - won a free kick in defence.
+80'	Declan Rice - Arsenal - won a free kick in defence.
+84'	Nico González - FC Porto - won a free kick in defence.
+89'	Bukayo Saka - Arsenal - won a free kick in defence.
+89'	Mehdi Taremi - FC Porto - won a free kick in defence.
+94'	Bukayo Saka - Arsenal - won a free kick on the right wing.
+99'	Kai Havertz - Arsenal - won a free kick in attack.
+112'	Pepê Aquino - FC Porto - won a free kick in defence.
+113'	Ben White - Arsenal - won a free kick in defence.
+114'	Gonçalo Borges - FC Porto - won a free kick on the right wing.
+115'	Kai Havertz - Arsenal - won a free kick in defence.
+116'	Pepê Aquino - FC Porto - won a free kick in defence.
+117'	Gabriel Magalhães - Arsenal - won a free kick in defence.
+119'	Kai Havertz - Arsenal - won a free kick in defence.
+120'	Bukayo Saka - Arsenal - won a free kick on the right wing.
+5'	Donyell Malen - Borussia Dortmund - won a free kick in defence.
+10'	Marcel Sabitzer - Borussia Dortmund - won a free kick in defence.
+47'	Sergiño Dest - PSV Eindhoven - won a free kick on the left wing.
+48'	Malik Tillman - PSV Eindhoven - won a free kick in attack.
+50'	Salih Özcan - Borussia Dortmund - won a free kick in defence.
+57'	Donyell Malen - Borussia Dortmund - won a free kick in defence.
+65'	Emre Can - Borussia Dortmund - won a free kick on the right wing.
+76'	Felix Nmecha - Borussia Dortmund - won a free kick in defence.
+76'	Karim Adeyemi - Borussia Dortmund - won a free kick on the right wing.
+81'	Walter Benítez - PSV Eindhoven - won a free kick in defence.
+83'	Sergiño Dest - PSV Eindhoven - won a free kick in defence.
+86'	Marcel Sabitzer - Borussia Dortmund - won a free kick on the left wing.
+88'	Hirving Lozano - PSV Eindhoven - won a free kick on the left wing.
+89'	Sergiño Dest - PSV Eindhoven - won a free kick in defence.
+7'	Alessandro Bastoni - Inter Milan - won a free kick on the left wing.
+12'	Hakan Çalhanoglu - Inter Milan - won a free kick in defence.
+15'	Nicolò Barella - Inter Milan - won a free kick in defence.
+19'	Federico Dimarco - Inter Milan - won a free kick in defence.
+38'	Rodrigo De Paul - Atletico Madrid - won a free kick in attack.
+38'	Marcus Thuram - Inter Milan - won a free kick in defence.
+40'	Stefan Savic - Atletico Madrid - won a free kick in defence.
+41'	Nicolò Barella - Inter Milan - won a free kick in defence.
+45'	Henrikh Mkhitaryan - Inter Milan - won a free kick in defence.
+45+1'	Mario Hermoso - Atletico Madrid - won a free kick in defence.
+46'	Marcus Thuram - Inter Milan - won a free kick in defence.
+50'	Henrikh Mkhitaryan - Inter Milan - won a free kick in defence.
+54'	Hakan Çalhanoglu - Inter Milan - won a free kick in defence.
+57'	Samuel Lino - Atletico Madrid - won a free kick in defence.
+59'	Axel Witsel - Atletico Madrid - won a free kick in defence.
+60'	Mario Hermoso - Atletico Madrid - won a free kick on the left wing.
+63'	Henrikh Mkhitaryan - Inter Milan - won a free kick in attack.
+71'	Rodrigo De Paul - Atletico Madrid - won a free kick in defence.
+72'	Nicolò Barella - Inter Milan - won a free kick on the right wing.
+74'	Marcus Thuram - Inter Milan - won a free kick in attack.
+78'	Marcus Thuram - Inter Milan - won a free kick in defence.
+89'	Davide Frattesi - Inter Milan - won a free kick in attack.
+90'	Stefan Savic - Atletico Madrid - won a free kick in defence.
+93'	Marcus Thuram - Inter Milan - won a free kick in defence.
+103'	Francesco Acerbi - Inter Milan - won a free kick in defence.
+104'	Memphis Depay - Atletico Madrid - won a free kick in attack.
+105+1'	Memphis Depay - Atletico Madrid - won a free kick on the left wing.
+105+2'	Ángel Correa - Atletico Madrid - won a free kick in defence.
+105+3'	Koke - Atletico Madrid - won a free kick in defence.
+111'	Hakan Çalhanoglu - Inter Milan - won a free kick in defence.
+112'	Alexis Sánchez - Inter Milan - won a free kick in attack.
+118'	Memphis Depay - Atletico Madrid - won a free kick in attack.
+119'	Matteo Darmian - Inter Milan - won a free kick on the left wing.
+2'	Ulisses Garcia - Young Boys - won a free kick in defence.
+5'	Xaver Schlager - RB Leipzig - won a free kick in defence.
+5'	Loïs Openda - RB Leipzig - won a free kick in defence.
+6'	Benjamin Henrichs - RB Leipzig - won a free kick on the right wing.
+15'	Cheikh Niasse - Young Boys - won a free kick in defence.
+16'	Cheikh Niasse - Young Boys - won a free kick in attack.
+22'	Cedric Itten - Young Boys - won a free kick in defence.
+24'	Benjamin Henrichs - RB Leipzig - won a free kick in defence.
+45'	Xavi Simons - RB Leipzig - won a free kick in attack.
+51'	Cheikh Niasse - Young Boys - won a free kick in defence.
+59'	Filip Ugrinic - Young Boys - won a free kick in defence.
+61'	Benjamin Henrichs - RB Leipzig - won a free kick in attack.
+61'	Kevin Kampl - RB Leipzig - won a free kick on the left wing.
+66'	Xavi Simons - RB Leipzig - won a free kick on the left wing.
+69'	Benjamin Henrichs - RB Leipzig - won a free kick in defence.
+76'	Xavi Simons - RB Leipzig - won a free kick in attack.
+79'	Darian Males - Young Boys - won a free kick in attack.
+83'	Xavi Simons - RB Leipzig - won a free kick in defence.
+84'	Meschack Elia - Young Boys - won a free kick in defence.
+90'	Meschack Elia - Young Boys - won a free kick on the left wing.
+90+1'	Christoph Baumgartner - RB Leipzig - won a free kick on the left wing.
+1'	Ruben Loftus-Cheek - AC Milan - won a free kick on the right wing.
+4'	Anthony Gordon - Newcastle United - won a free kick in defence.
+7'	Rafael Leão - AC Milan - won a free kick on the left wing.
+11'	Théo Hernández - AC Milan - won a free kick in defence.
+12'	Jacob Murphy - Newcastle United - won a free kick on the right wing.
+17'	Alexander Isak - Newcastle United - won a free kick in defence.
+24'	Ruben Loftus-Cheek - AC Milan - won a free kick in defence.
+28'	Kieran Trippier - Newcastle United - won a free kick in defence.
+29'	Anthony Gordon - Newcastle United - won a free kick on the left wing.
+33'	Bruno Guimarães - Newcastle United - won a free kick in attack.
+37'	Bruno Guimarães - Newcastle United - won a free kick in defence.
+39'	Bruno Guimarães - Newcastle United - won a free kick in attack.
+42'	Alexander Isak - Newcastle United - won a free kick in defence.
+44'	Samuel Chukwueze - AC Milan - won a free kick on the right wing.
+47'	Alexander Isak - Newcastle United - won a free kick in defence.
+49'	Tommaso Pobega - AC Milan - won a free kick in defence.
+50'	Sean Longstaff - Newcastle United - won a free kick in defence.
+52'	Olivier Giroud - AC Milan - won a free kick in defence.
+55'	Ruben Loftus-Cheek - AC Milan - won a free kick on the right wing.
+56'	Samuel Chukwueze - AC Milan - won a free kick on the right wing.
+57'	Théo Hernández - AC Milan - won a free kick on the left wing.
+58'	Jacob Murphy - Newcastle United - won a free kick in attack.
+60'	Rade Krunic - AC Milan - won a free kick in defence.
+69'	Alexander Isak - Newcastle United - won a free kick in defence.
+82'	Bruno Guimarães - Newcastle United - won a free kick in attack.
+83'	Sean Longstaff - Newcastle United - won a free kick in defence.
+89'	Rade Krunic - AC Milan - won a free kick in defence.
+90+2'	Elliot Anderson - Newcastle United - won a free kick in attack.

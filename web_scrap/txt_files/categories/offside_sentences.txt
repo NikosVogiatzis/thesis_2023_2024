@@ -1,0 +1,98 @@
+2'	Offside - Real Madrid. Jude Bellingham is in offside.
+80'	Offside - Real Madrid. Vinícius Júnior is in offside.
+16'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
+18'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
+31'	Offside - Borussia Dortmund. Julian Brandt is in offside.
+48'	Offside - Borussia Dortmund. Niclas Füllkrug is in offside.
+77'	Offside - Borussia Dortmund. Mats Hummels is in offside.
+90+9'	Offside - FC Bayern München. Alphonso Davies is in offside.
+90+13'	Offside - FC Bayern München. Noussair Mazraoui is in offside.
+7'	Offside - Arsenal. Bukayo Saka is in offside.
+45+1'	Offside - Arsenal. Kai Havertz is in offside.
+47'	Offside - Arsenal. Kai Havertz is in offside.
+71'	Offside - FC Bayern München. Kingsley Coman is in offside.
+77'	Offside - FC Bayern München. Harry Kane is in offside.
+7'	Offside - Barcelona. Ilkay Gündogan is in offside.
+28'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
+43'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
+45'	Offside - Barcelona. Robert Lewandowski is in offside.
+46'	Offside - Barcelona. Robert Lewandowski is in offside.
+64'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
+72'	Offside - Paris Saint Germain. Bradley Barcola is in offside.
+12'	Offside - Atletico Madrid. Álvaro Morata is in offside.
+13'	Offside - Borussia Dortmund. Jadon Sancho is in offside.
+24'	Offside - Atletico Madrid. Nahuel Molina is in offside.
+66'	Offside - Paris Saint Germain. Bradley Barcola is in offside.
+85'	Offside - Barcelona. Robert Lewandowski is in offside.
+90+6'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
+39'	Offside - Manchester City. Josko Gvardiol is in offside.
+90+1'	Offside - Real Madrid. Vinícius Júnior is in offside.
+10'	Offside - FC Bayern München. Leon Goretzka is in offside.
+30'	Offside - Arsenal. Kai Havertz is in offside.
+80'	Offside - Arsenal. Gabriel Jesus is in offside.
+90+1'	Offside - Arsenal. Bukayo Saka is in offside.
+2'	Offside - RB Leipzig. Benjamin Henrichs is in offside.
+36'	Offside - RB Leipzig. David Raum is in offside.
+59'	Offside - Manchester City. John Stones is in offside.
+16'	Offside - Real Sociedad. Takefusa Kubo is in offside.
+25'	Offside - Paris Saint Germain. Ousmane Dembélé is in offside.
+28'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
+59'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
+90+3'	Offside - Real Sociedad. Umar Sadiq is in offside.
+24'	Offside - FC Bayern München. Thomas Müller is in offside.
+39'	Offside - FC Bayern München. Harry Kane is in offside.
+28'	Offside - PSV Eindhoven. Malik Tillman is in offside.
+39'	Offside - Borussia Dortmund. Jadon Sancho is in offside.
+69'	Offside - PSV Eindhoven. Johan Bakayoko is in offside.
+15'	Offside - Napoli. Victor Osimhen is in offside.
+27'	Offside - Napoli. Victor Osimhen is in offside.
+50'	Offside - Napoli. Victor Osimhen is in offside.
+68'	Offside - Napoli. Matteo Politano is in offside.
+72'	Offside - Barcelona. Robert Lewandowski is in offside.
+21'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
+26'	Offside - Real Sociedad. Sheraldo Becker is in offside.
+44'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
+46'	Offside - Real Sociedad. Mikel Oyarzabal is in offside.
+46'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
+58'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
+61'	Offside - Paris Saint Germain. Lee Kang-In is in offside.
+63'	Offside - Real Sociedad. Ander Barrenetxea is in offside.
+72'	Offside - Real Sociedad. Martín Zubimendi is in offside.
+80'	Offside - Paris Saint Germain. Warren Zaïre-Emery is in offside.
+80'	Offside - Real Sociedad. Ander Barrenetxea is in offside.
+87'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
+9'	Offside - RB Leipzig. Benjamin Sesko is in offside.
+21'	Offside - Real Madrid. Federico Valverde is in offside.
+1'	Offside - FC Copenhagen. Elias Achouri is in offside.
+27'	Offside - FC Copenhagen. Orri Óskarsson is in offside.
+33'	Offside - FC Copenhagen. Elias Achouri is in offside.
+42'	Offside - FC Copenhagen. Elias Achouri is in offside.
+45'	Offside - Manchester City. Matheus Nunes is in offside.
+7'	Offside - Napoli. Matteo Politano is in offside.
+18'	Offside - Napoli. Victor Osimhen is in offside.
+22'	Offside - Napoli. Victor Osimhen is in offside.
+43'	Offside - Napoli. Victor Osimhen is in offside.
+68'	Offside - Barcelona. Lamine Yamal is in offside.
+20'	Offside - Arsenal. Gabriel Magalhães is in offside.
+35'	Offside - FC Porto. Galeno is in offside.
+60'	Offside - Arsenal. Bukayo Saka is in offside.
+70'	Offside - FC Porto. Evanilson is in offside.
+81'	Offside - Arsenal. Kai Havertz is in offside.
+90+7'	Offside - FC Porto. Mehdi Taremi is in offside.
+24'	Offside - PSV Eindhoven. Malik Tillman is in offside.
+77'	Offside - Borussia Dortmund. Niclas Füllkrug is in offside.
+79'	Offside - PSV Eindhoven. Hirving Lozano is in offside.
+90+3'	Offside - Borussia Dortmund. Niclas Füllkrug is in offside.
+41'	Offside - Young Boys. Anthony Racioppi with a pass, however Meschack Elia is in offside.
+58'	Offside - RB Leipzig. Xaver Schlager with a pass, however Loïs Openda is in offside.
+64'	Offside - Young Boys. Mohamed Ali Camara with a pass, however Meschack Elia is in offside.
+67'	Offside - RB Leipzig. David Raum with a pass, however Benjamin Sesko is in offside.
+72'	Offside - Young Boys. Silvere Ganvoula with a pass, however Meschack Elia is in offside.
+87'	Offside - RB Leipzig. David Raum with a pass, however Benjamin Sesko is in offside.
+3'	Offside - Newcastle United. Nick Pope with a pass, however Alexander Isak is in offside.
+9'	Offside - AC Milan. Ruben Loftus-Cheek with a pass, however Samuel Chukwueze is in offside.
+22'	Offside - Newcastle United. Kieran Trippier with a pass, however Jacob Murphy is in offside.
+35'	Offside - AC Milan. Mike Maignan with a pass, however Olivier Giroud is in offside.
+43'	Offside - AC Milan. Malick Thiaw with a pass, however Rafael Leão is in offside.
+46'	Offside - AC Milan. Olivier Giroud with a pass, however Samuel Chukwueze is in offside.
+61'	Offside - Newcastle United. Bruno Guimarães with a pass, however Sandro Tonali is in offside.

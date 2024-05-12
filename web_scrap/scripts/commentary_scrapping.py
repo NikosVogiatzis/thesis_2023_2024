@@ -1,22 +1,21 @@
+# In this file the data retreival is being implemented. From file web_scrap/txt_files/urls.txt, we access each page refering to live commenteries of champions league game
+# based on the tags (that found via page inspect) we extract all valueable information in the format: 'Minute' 'Event' and store them line by line in the file
+# web_scrap/txt_files/commentary.txt 
+
 import requests
 from bs4 import BeautifulSoup
 
 
 urls_from_file = []
-file_path = 'urls.txt'
+file_path = 'web_scrap/txt_files/urls.txt'
 
-# -------- Read the urls via output.txt file --------
 
 with open(file_path, 'r') as file:
     for line in file:
         urls_from_file.append(line.strip())
 
-# ---------- end of reading ----------
 
-# -> extract commentary and store them 
-
-
-all_times = []
+all_time_stamps = []
 all_commentaries = []
 
 for url in urls_from_file:
@@ -37,7 +36,6 @@ for url in urls_from_file:
             span_element = time_element.find('span', class_=['bold vertical pl8', 'bold vertical pl4'])
             # Extract the text from the <span> element
             time_text = span_element.text.strip()
-
             trimmed_time.append(time_text)
 
         commentary_element = element.find(class_=['lc_text_x odd', 'lc_text_x even'])
@@ -45,14 +43,12 @@ for url in urls_from_file:
             span_element = commentary_element.find('span', class_='vertical')
             # Extract the text from the <span> element
             commentary_text = span_element.text.strip()
-
             trimmed_commentary.append(commentary_text)
 
-    all_times.append(trimmed_time)
+    all_time_stamps.append(trimmed_time)
     all_commentaries.append(trimmed_commentary)
 
-    # Open the file in write mode
-with open('commentary.txt', 'w', encoding='utf-8') as file:
+with open('web_scrap/txt_files/commentary.txt', 'w', encoding='utf-8') as file:
         for times, commentaries in zip(all_times, all_commentaries):
             for time, commentary in zip(times, commentaries):
                 file.write(f"{time}\t{commentary}\n")

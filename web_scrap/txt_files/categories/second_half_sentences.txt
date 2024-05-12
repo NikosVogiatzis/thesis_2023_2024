@@ -1,0 +1,60 @@
+45'	Second Half starts FC Bayern München 0, Real Madrid 1.
+90+4'	Second Half ended - FC Bayern München 2, Real Madrid 2.
+45'	Second Half starts Borussia Dortmund 1, Paris Saint Germain 0.
+90+5'	Second Half ended - Borussia Dortmund 1, Paris Saint Germain 0.
+45'	Second Half starts Paris Saint Germain 0, Borussia Dortmund 0.
+90+4'	Second Half ended - Paris Saint Germain 0, Borussia Dortmund 1.
+45'	Second Half starts Real Madrid 0, FC Bayern München 0.
+90+15'	Second Half ended - Real Madrid 2, FC Bayern München 1.
+45'	Second Half starts Real Madrid 2, Manchester City 1.
+90+4'	Second Half ended - Real Madrid 3, Manchester City 3.
+45'	Second Half starts Arsenal 1, FC Bayern München 2.
+90+6'	Second Half ended - Arsenal 2, FC Bayern München 2.
+45'	Second Half starts Paris Saint Germain 0, Barcelona 1.
+90+4'	Second Half ended - Paris Saint Germain 2, Barcelona 3.
+45'	Second Half starts Atletico Madrid 2, Borussia Dortmund 0.
+90+6'	Second Half ended - Atletico Madrid 2, Borussia Dortmund 1.
+45'	Second Half starts Borussia Dortmund 2, Atletico Madrid 0.
+90+5'	Second Half ended - Borussia Dortmund 4, Atletico Madrid 2.
+45'	Second Half starts Barcelona 1, Paris Saint Germain 1.
+90+8'	Second Half ended - Barcelona 1, Paris Saint Germain 4.
+45'	Second Half starts Manchester City 0, Real Madrid 1.
+90+6'	Second Half ended - Manchester City 1, Real Madrid 1.
+45'	Second Half starts FC Bayern München 0, Arsenal 0.
+90+5'	Second Half ended - FC Bayern München 1, Arsenal 0.
+45'	Second Half starts RB Leipzig 0, Real Madrid 0.
+90+5'	Second Half ended - RB Leipzig 0, Real Madrid 1.
+45'	Second Half starts FC Copenhagen 1, Manchester City 2.
+90+4'	Second Half ended - FC Copenhagen 1, Manchester City 3.
+45'	Second Half starts Paris Saint Germain 0, Real Sociedad 0.
+90+4'	Second Half ended - Paris Saint Germain 2, Real Sociedad 0.
+45'	Second Half starts Lazio 0, FC Bayern München 0.
+90+5'	Second Half ended - Lazio 1, FC Bayern München 0.
+45'	Second Half starts PSV Eindhoven 0, Borussia Dortmund 1.
+90+7'	Second Half ended - PSV Eindhoven 1, Borussia Dortmund 1.
+45'	Second Half starts Inter Milan 0, Atletico Madrid 0.
+90+5'	Second Half ended - Inter Milan 1, Atletico Madrid 0.
+45'	Second Half starts FC Porto 0, Arsenal 0.
+90+6'	Second Half ended - FC Porto 1, Arsenal 0.
+45'	Second Half starts Napoli 0, Barcelona 0.
+90+5'	Second Half ended - Napoli 1, Barcelona 1.
+45'	Second Half starts Real Sociedad 0, Paris Saint Germain 1.
+90+3'	Second Half ended - Real Sociedad 1, Paris Saint Germain 2.
+45'	Second Half starts FC Bayern München 2, Lazio 0.
+90+5'	Second Half ended - FC Bayern München 3, Lazio 0.
+45'	Second Half starts Real Madrid 0, RB Leipzig 0.
+90+5'	Second Half ended - Real Madrid 1, RB Leipzig 1.
+45'	Second Half starts Manchester City 3, FC Copenhagen 1.
+90+3'	Second Half ended - Manchester City 3, FC Copenhagen 1.
+45'	Second Half starts Barcelona 2, Napoli 1.
+90+4'	Second Half ended - Barcelona 3, Napoli 1.
+45'	Second Half starts Arsenal 1, FC Porto 0.
+90+8'	Second Half ended - Arsenal 1, FC Porto 0.
+45'	Second Half starts Borussia Dortmund 1, PSV Eindhoven 0.
+90+5'	Second Half ended - Borussia Dortmund 2, PSV Eindhoven 0.
+45'	Second Half starts Atletico Madrid 1, Inter Milan 1.
+90+4'	Second Half ended - Atletico Madrid 2, Inter Milan 1.
+45'	Second Half starts Young Boys 1, RB Leipzig 1.
+90+5'	Second Half ended - Young Boys 1, RB Leipzig 3.
+45'	Second Half starts AC Milan 0, Newcastle United 0.
+90+6'	Second Half ended - AC Milan 0, Newcastle United 0.

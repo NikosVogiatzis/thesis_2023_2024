@@ -1,0 +1,658 @@
+7'	Fouled by Leon Goretzka - FC Bayern München
+8'	Fouled by Leon Goretzka - FC Bayern München
+22'	Fouled by Thomas Müller - FC Bayern München
+38'	Fouled by Konrad Laimer - FC Bayern München
+39'	Fouled by Vinícius Júnior - Real Madrid
+40'	Fouled by Nacho - Real Madrid
+43'	Fouled by Noussair Mazraoui - FC Bayern München
+61'	Fouled by Konrad Laimer - FC Bayern München
+64'	Fouled by Toni Kroos - Real Madrid
+65'	Fouled by Eduardo Camavinga - Real Madrid
+68'	Fouled by Eduardo Camavinga - Real Madrid
+74'	Fouled by Konrad Laimer - FC Bayern München
+75'	Fouled by Harry Kane - FC Bayern München
+76'	Fouled by Luka Modric - Real Madrid
+78'	Fouled by Lucas Vázquez - Real Madrid
+86'	Fouled by Konrad Laimer - FC Bayern München
+90'	Fouled by Eric Dier - FC Bayern München
+90'	Fouled by Joselu - Real Madrid
+90+1'	Fouled by Lucas Vázquez - Real Madrid
+2'	Fouled by Emre Can - Borussia Dortmund
+8'	Fouled by Emre Can - Borussia Dortmund
+19'	Fouled by Ian Maatsen - Borussia Dortmund
+28'	Fouled by Achraf Hakimi - Paris Saint Germain
+33'	Fouled by Marcel Sabitzer - Borussia Dortmund
+45+1'	Fouled by Marcel Sabitzer - Borussia Dortmund
+45+4'	Fouled by Achraf Hakimi - Paris Saint Germain
+46'	Fouled by Niclas Füllkrug - Borussia Dortmund
+48'	Fouled by Karim Adeyemi - Borussia Dortmund
+49'	Fouled by Marcel Sabitzer - Borussia Dortmund
+53'	Fouled by Marquinhos - Paris Saint Germain
+54'	Fouled by Niclas Füllkrug - Borussia Dortmund
+55'	Fouled by Emre Can - Borussia Dortmund
+57'	Fouled by Bradley Barcola - Paris Saint Germain
+65'	Fouled by Achraf Hakimi - Paris Saint Germain
+76'	Fouled by Karim Adeyemi - Borussia Dortmund
+85'	Fouled by Vitinha - Paris Saint Germain
+2'	Fouled by Warren Zaïre-Emery - Paris Saint Germain
+8'	Fouled by Gonçalo Ramos - Paris Saint Germain
+18'	Fouled by Ousmane Dembélé - Paris Saint Germain
+33'	Fouled by Marquinhos - Paris Saint Germain
+42'	Fouled by Julian Ryerson - Borussia Dortmund
+45+1'	Fouled by Kylian Mbappé - Paris Saint Germain
+49'	Fouled by Kylian Mbappé - Paris Saint Germain
+55'	Fouled by Emre Can - Borussia Dortmund
+57'	Fouled by Ousmane Dembélé - Paris Saint Germain
+64'	Fouled by Marcel Sabitzer - Borussia Dortmund
+65'	Fouled by Mats Hummels - Borussia Dortmund
+75'	Fouled by Ousmane Dembélé - Paris Saint Germain
+82'	Fouled by Nico Schlotterbeck - Borussia Dortmund
+83'	Fouled by Niclas Füllkrug - Borussia Dortmund
+9'	Fouled by Joshua Kimmich - FC Bayern München
+12'	Fouled by Konrad Laimer - FC Bayern München
+19'	Fouled by Ferland Mendy - Real Madrid
+20'	Fouled by Federico Valverde - Real Madrid
+22'	Fouled by Matthijs de Ligt - FC Bayern München
+25'	Fouled by Dani Carvajal - Real Madrid
+28'	Fouled by Antonio Rüdiger - Real Madrid
+39'	Fouled by Matthijs de Ligt - FC Bayern München
+57'	Fouled by Ferland Mendy - Real Madrid
+58'	Fouled by Konrad Laimer - FC Bayern München
+61'	Fouled by Antonio Rüdiger - Real Madrid
+71'	Fouled by Nacho - Real Madrid
+77'	Fouled by Harry Kane - FC Bayern München
+79'	Fouled by Eduardo Camavinga - Real Madrid
+80'	Fouled by Luka Modric - Real Madrid
+82'	Fouled by Aleksandar Pavlovic - FC Bayern München
+90+5'	Fouled by Konrad Laimer - FC Bayern München
+90+7'	Fouled by Konrad Laimer - FC Bayern München
+90+10'	Fouled by Eduardo Camavinga - Real Madrid
+90+12'	Fouled by Éder Militão - Real Madrid
+90+15'	Fouled by Luka Modric - Real Madrid
+1'	Fouled by Aurélien Tchouaméni - Real Madrid
+4'	Fouled by Josko Gvardiol - Manchester City
+29'	Fouled by Dani Carvajal - Real Madrid
+30'	Fouled by Phil Foden - Manchester City
+34'	Fouled by Vinícius Júnior - Real Madrid
+36'	Fouled by Jude Bellingham - Real Madrid
+37'	Fouled by Manuel Akanji - Manchester City
+45+1'	Fouled by Erling Haaland - Manchester City
+47'	Fouled by Ferland Mendy - Real Madrid
+47'	Fouled by Eduardo Camavinga - Real Madrid
+48'	Fouled by Erling Haaland - Manchester City
+50'	Fouled by Vinícius Júnior - Real Madrid
+51'	Fouled by Phil Foden - Manchester City
+54'	Fouled by Antonio Rüdiger - Real Madrid
+55'	Fouled by Manuel Akanji - Manchester City
+81'	Fouled by Eduardo Camavinga - Real Madrid
+82'	Fouled by Phil Foden - Manchester City
+88'	Fouled by Bernardo Silva - Manchester City
+90+1'	Fouled by Federico Valverde - Real Madrid
+90+2'	Fouled by Dani Carvajal - Real Madrid
+1'	Fouled by Jorginho - Arsenal
+8'	Fouled by Alphonso Davies - FC Bayern München
+9'	Fouled by Alphonso Davies - FC Bayern München
+21'	Fouled by Jamal Musiala - FC Bayern München
+22'	Fouled by Harry Kane - FC Bayern München
+24'	Fouled by William Saliba - Arsenal
+30'	Fouled by William Saliba - Arsenal
+35'	Fouled by Konrad Laimer - FC Bayern München
+36'	Fouled by Leon Goretzka - FC Bayern München
+38'	Fouled by Kai Havertz - Arsenal
+39'	Fouled by Gabriel Martinelli - Arsenal
+42'	Fouled by Kai Havertz - Arsenal
+43'	Fouled by Matthijs de Ligt - FC Bayern München
+45'	Fouled by William Saliba - Arsenal
+48'	Fouled by Gabriel Magalhães - Arsenal
+50'	Fouled by Leroy Sané - FC Bayern München
+55'	Fouled by Harry Kane - FC Bayern München
+59'	Fouled by Konrad Laimer - FC Bayern München
+78'	Fouled by Martin Ødegaard - Arsenal
+81'	Fouled by Gabriel Magalhães - Arsenal
+84'	Fouled by Konrad Laimer - FC Bayern München
+86'	Fouled by Bukayo Saka - Arsenal
+89'	Fouled by Thomas Partey - Arsenal
+1'	Fouled by João Cancelo - Barcelona
+7'	Fouled by Fabián Ruiz - Paris Saint Germain
+10'	Fouled by Raphinha - Barcelona
+11'	Fouled by Nuno Mendes - Paris Saint Germain
+17'	Fouled by Beraldo - Paris Saint Germain
+24'	Fouled by Kylian Mbappé - Paris Saint Germain
+30'	Fouled by Robert Lewandowski - Barcelona
+34'	Fouled by Sergi Roberto - Barcelona
+36'	Fouled by Beraldo - Paris Saint Germain
+38'	Fouled by Kylian Mbappé - Paris Saint Germain
+45+2'	Fouled by Marco Asensio - Paris Saint Germain
+53'	Fouled by Raphinha - Barcelona
+60'	Fouled by Fabián Ruiz - Paris Saint Germain
+65'	Fouled by Vitinha - Paris Saint Germain
+66'	Fouled by Warren Zaïre-Emery - Paris Saint Germain
+68'	Fouled by Vitinha - Paris Saint Germain
+71'	Fouled by Kylian Mbappé - Paris Saint Germain
+81'	Fouled by Marquinhos - Paris Saint Germain
+82'	Fouled by Pau Cubarsí - Barcelona
+87'	Fouled by João Cancelo - Barcelona
+88'	Fouled by Andreas Christensen - Barcelona
+89'	Fouled by Beraldo - Paris Saint Germain
+4'	Fouled by José Giménez - Atletico Madrid
+15'	Fouled by Rodrigo De Paul - Atletico Madrid
+18'	Fouled by Axel Witsel - Atletico Madrid
+22'	Fouled by Koke - Atletico Madrid
+23'	Fouled by Emre Can - Borussia Dortmund
+27'	Fouled by Samuel Lino - Atletico Madrid
+28'	Fouled by Marcos Llorente - Atletico Madrid
+39'	Fouled by Julian Ryerson - Borussia Dortmund
+50'	Fouled by Julian Ryerson - Borussia Dortmund
+50'	Fouled by Álvaro Morata - Atletico Madrid
+53'	Fouled by Ian Maatsen - Borussia Dortmund
+63'	Fouled by José Giménez - Atletico Madrid
+72'	Fouled by José Giménez - Atletico Madrid
+74'	Fouled by Julian Ryerson - Borussia Dortmund
+75'	Fouled by José Giménez - Atletico Madrid
+77'	Fouled by Emre Can - Borussia Dortmund
+2'	Fouled by Emre Can - Borussia Dortmund
+26'	Fouled by Axel Witsel - Atletico Madrid
+28'	Fouled by Emre Can - Borussia Dortmund
+30'	Fouled by César Azpilicueta - Atletico Madrid
+37'	Fouled by Álvaro Morata - Atletico Madrid
+41'	Fouled by César Azpilicueta - Atletico Madrid
+43'	Fouled by Julian Ryerson - Borussia Dortmund
+45+1'	Fouled by Mario Hermoso - Atletico Madrid
+54'	Fouled by Mario Hermoso - Atletico Madrid
+59'	Fouled by Antoine Griezmann - Atletico Madrid
+60'	Fouled by Marcel Sabitzer - Borussia Dortmund
+68'	Fouled by Koke - Atletico Madrid
+83'	Fouled by Ian Maatsen - Borussia Dortmund
+88'	Fouled by Salih Özcan - Borussia Dortmund
+89'	Fouled by Saúl Ñíguez - Atletico Madrid
+90+2'	Fouled by José Giménez - Atletico Madrid
+90+3'	Fouled by Salih Özcan - Borussia Dortmund
+4'	Fouled by Marquinhos - Paris Saint Germain
+9'	Fouled by Frenkie de Jong - Barcelona
+12'	Fouled by Warren Zaïre-Emery - Paris Saint Germain
+16'	Fouled by Vitinha - Paris Saint Germain
+23'	Fouled by Robert Lewandowski - Barcelona
+29'	Fouled by Ronald Araujo - Barcelona
+35'	Fouled by Achraf Hakimi - Paris Saint Germain
+36'	Fouled by Lucas Hernández - Paris Saint Germain
+38'	Fouled by Achraf Hakimi - Paris Saint Germain
+44'	Fouled by Nuno Mendes - Paris Saint Germain
+45'	Fouled by Fabián Ruiz - Paris Saint Germain
+50'	Fouled by Robert Lewandowski - Barcelona
+56'	Fouled by Frenkie de Jong - Barcelona
+62'	Fouled by Marquinhos - Paris Saint Germain
+71'	Fouled by Ferran Torres - Barcelona
+73'	Fouled by Marquinhos - Paris Saint Germain
+84'	Fouled by Manuel Ugarte - Paris Saint Germain
+90+2'	Fouled by Fermín López - Barcelona
+90+3'	Fouled by Fermín López - Barcelona
+90+7'	Fouled by Fermín López - Barcelona
+6'	Fouled by Federico Valverde - Real Madrid
+21'	Fouled by Rúben Dias - Manchester City
+22'	Fouled by Bernardo Silva - Manchester City
+25'	Fouled by Ferland Mendy - Real Madrid
+27'	Fouled by Dani Carvajal - Real Madrid
+35'	Fouled by Kevin De Bruyne - Manchester City
+38'	Fouled by Dani Carvajal - Real Madrid
+45+2'	Fouled by Kyle Walker - Manchester City
+55'	Fouled by Rúben Dias - Manchester City
+58'	Fouled by Jack Grealish - Manchester City
+59'	Fouled by Jack Grealish - Manchester City
+61'	Fouled by Josko Gvardiol - Manchester City
+62'	Fouled by Rodri - Manchester City
+72'	Fouled by Manuel Akanji - Manchester City
+80'	Fouled by Luka Modric - Real Madrid
+84'	Fouled by Eduardo Camavinga - Real Madrid
+85'	Fouled by Brahim Díaz - Real Madrid
+89'	Fouled by Dani Carvajal - Real Madrid
+90'	Fouled by Rodri - Manchester City
+90+1'	Fouled by Jérémy Doku - Manchester City
+90+4'	Fouled by Ferland Mendy - Real Madrid
+103'	Fouled by Kevin De Bruyne - Manchester City
+112'	Fouled by Phil Foden - Manchester City
+114'	Fouled by Bernardo Silva - Manchester City
+119'	Fouled by Jude Bellingham - Real Madrid
+1'	Fouled by Harry Kane - FC Bayern München
+5'	Fouled by Gabriel Martinelli - Arsenal
+15'	Fouled by William Saliba - Arsenal
+19'	Fouled by Jorginho - Arsenal
+27'	Fouled by Jamal Musiala - FC Bayern München
+32'	Fouled by Gabriel Magalhães - Arsenal
+37'	Fouled by Gabriel Magalhães - Arsenal
+38'	Fouled by Leon Goretzka - FC Bayern München
+42'	Fouled by Konrad Laimer - FC Bayern München
+48'	Fouled by Gabriel Martinelli - Arsenal
+52'	Fouled by Takehiro Tomiyasu - Arsenal
+54'	Fouled by Konrad Laimer - FC Bayern München
+67'	Fouled by Jorginho - Arsenal
+68'	Fouled by Leandro Trossard - Arsenal
+71'	Fouled by Raphaël Guerreiro - FC Bayern München
+75'	Fouled by Ben White - Arsenal
+78'	Fouled by Kim Min-Jae - FC Bayern München
+84'	Fouled by Ben White - Arsenal
+85'	Fouled by Jamal Musiala - FC Bayern München
+87'	Fouled by Gabriel Magalhães - Arsenal
+90+2'	Fouled by Joshua Kimmich - FC Bayern München
+90+2'	Fouled by Leandro Trossard - Arsenal
+90+5'	Fouled by Kim Min-Jae - FC Bayern München
+7'	Fouled by Xavi Simons - RB Leipzig
+17'	Fouled by Dani Carvajal - Real Madrid
+18'	Fouled by Dani Olmo - RB Leipzig
+23'	Fouled by Eduardo Camavinga - Real Madrid
+25'	Fouled by Loïs Openda - RB Leipzig
+27'	Fouled by Toni Kroos - Real Madrid
+29'	Fouled by Willi Orbán - RB Leipzig
+32'	Fouled by Dani Carvajal - Real Madrid
+34'	Fouled by Dani Olmo - RB Leipzig
+54'	Fouled by Rodrygo - Real Madrid
+64'	Fouled by Loïs Openda - RB Leipzig
+66'	Fouled by Dani Carvajal - Real Madrid
+69'	Fouled by Vinícius Júnior - Real Madrid
+69'	Fouled by Dani Carvajal - Real Madrid
+70'	Fouled by Federico Valverde - Real Madrid
+70'	Fouled by Ferland Mendy - Real Madrid
+73'	Fouled by Rodrygo - Real Madrid
+76'	Fouled by Amadou Haidara - RB Leipzig
+76'	Fouled by Yussuf Poulsen - RB Leipzig
+85'	Fouled by Benjamin Sesko - RB Leipzig
+86'	Fouled by Eljif Elmas - RB Leipzig
+89'	Fouled by Federico Valverde - Real Madrid
+1'	Fouled by Viktor Claesson - FC Copenhagen
+6'	Fouled by Magnus Mattsson - FC Copenhagen
+8'	Fouled by Viktor Claesson - FC Copenhagen
+25'	Fouled by Kevin De Bruyne - Manchester City
+27'	Fouled by Viktor Claesson - FC Copenhagen
+32'	Fouled by Jérémy Doku - Manchester City
+41'	Fouled by Viktor Claesson - FC Copenhagen
+48'	Fouled by Kevin Diks - FC Copenhagen
+55'	Fouled by Elias Achouri - FC Copenhagen
+57'	Fouled by Kevin Diks - FC Copenhagen
+70'	Fouled by Andreas Cornelius - FC Copenhagen
+71'	Fouled by Oscar Højlund - FC Copenhagen
+74'	Fouled by Kevin Diks - FC Copenhagen
+88'	Fouled by Denis Vavro - FC Copenhagen
+2'	Fouled by Hamari Traoré - Real Sociedad
+4'	Fouled by Javi Galán - Real Sociedad
+6'	Fouled by Fabián Ruiz - Paris Saint Germain
+9'	Fouled by Javi Galán - Real Sociedad
+9'	Fouled by Kylian Mbappé - Paris Saint Germain
+14'	Fouled by Ander Barrenetxea - Real Sociedad
+15'	Fouled by Igor Zubeldia - Real Sociedad
+20'	Fouled by Beraldo - Paris Saint Germain
+23'	Fouled by André Silva - Real Sociedad
+26'	Fouled by Ousmane Dembélé - Paris Saint Germain
+36'	Fouled by Robin Le Normand - Real Sociedad
+42'	Fouled by Robin Le Normand - Real Sociedad
+46'	Fouled by Igor Zubeldia - Real Sociedad
+47'	Fouled by Vitinha - Paris Saint Germain
+64'	Fouled by Ander Barrenetxea - Real Sociedad
+65'	Fouled by Javi Galán - Real Sociedad
+70'	Fouled by Takefusa Kubo - Real Sociedad
+90+2'	Fouled by Hamari Traoré - Real Sociedad
+3'	Fouled by Joshua Kimmich - FC Bayern München
+5'	Fouled by Leon Goretzka - FC Bayern München
+9'	Fouled by Dayot Upamecano - FC Bayern München
+15'	Fouled by Jamal Musiala - FC Bayern München
+27'	Fouled by Joshua Kimmich - FC Bayern München
+30'	Fouled by Mario Gila - Lazio
+36'	Fouled by Dayot Upamecano - FC Bayern München
+45+1'	Fouled by Adam Marusic - Lazio
+46'	Fouled by Felipe Anderson - Lazio
+47'	Fouled by Mattéo Guendouzi - Lazio
+65'	Fouled by Noussair Mazraoui - FC Bayern München
+84'	Fouled by Alessio Romagnoli - Lazio
+90'	Fouled by Manuel Lazzari - Lazio
+90+4'	Fouled by Valentín Castellanos - Lazio
+5'	Fouled by Niclas Füllkrug - Borussia Dortmund
+8'	Fouled by Hirving Lozano - PSV Eindhoven
+12'	Fouled by Marco Reus - Borussia Dortmund
+22'	Fouled by Hirving Lozano - PSV Eindhoven
+23'	Fouled by Julian Ryerson - Borussia Dortmund
+27'	Fouled by Mats Hummels - Borussia Dortmund
+32'	Fouled by Emre Can - Borussia Dortmund
+41'	Fouled by Julian Ryerson - Borussia Dortmund
+42'	Fouled by Ian Maatsen - Borussia Dortmund
+45+2'	Fouled by Julian Ryerson - Borussia Dortmund
+50'	Fouled by Sergiño Dest - PSV Eindhoven
+57'	Fouled by Donyell Malen - Borussia Dortmund
+64'	Fouled by Emre Can - Borussia Dortmund
+71'	Fouled by Ismael Saibari - PSV Eindhoven
+73'	Fouled by Nico Schlotterbeck - Borussia Dortmund
+75'	Fouled by Marius Wolf - Borussia Dortmund
+76'	Fouled by Jerdy Schouten - PSV Eindhoven
+77'	Fouled by Jordan Teze - PSV Eindhoven
+80'	Fouled by Ismael Saibari - PSV Eindhoven
+90+2'	Fouled by Marcel Sabitzer - Borussia Dortmund
+90+4'	Fouled by Emre Can - Borussia Dortmund
+5'	Fouled by Alessandro Bastoni - Inter Milan
+5'	Fouled by Axel Witsel - Atletico Madrid
+24'	Fouled by Alessandro Bastoni - Inter Milan
+25'	Fouled by Rodrigo De Paul - Atletico Madrid
+34'	Fouled by Benjamin Pavard - Inter Milan
+36'	Fouled by Saúl Ñíguez - Atletico Madrid
+38'	Fouled by Marcus Thuram - Inter Milan
+40'	Fouled by Antoine Griezmann - Atletico Madrid
+48'	Fouled by Benjamin Pavard - Inter Milan
+49'	Fouled by Koke - Atletico Madrid
+59'	Fouled by Stefan Savic - Atletico Madrid
+60'	Fouled by Axel Witsel - Atletico Madrid
+61'	Fouled by Stefan Savic - Atletico Madrid
+67'	Fouled by Henrikh Mkhitaryan - Inter Milan
+69'	Fouled by Antoine Griezmann - Atletico Madrid
+72'	Fouled by Stefan Savic - Atletico Madrid
+82'	Fouled by Stefan Savic - Atletico Madrid
+84'	Fouled by Álvaro Morata - Atletico Madrid
+86'	Fouled by Davide Frattesi - Inter Milan
+90+2'	Fouled by Pablo Barrios - Atletico Madrid
+90+3'	Fouled by Ángel Correa - Atletico Madrid
+90+4'	Fouled by Carlos Augusto - Inter Milan
+2'	Fouled by Declan Rice - Arsenal
+4'	Fouled by Gabriel Martinelli - Arsenal
+9'	Fouled by Nico González - FC Porto
+10'	Fouled by Gabriel Martinelli - Arsenal
+11'	Fouled by Bukayo Saka - Arsenal
+13'	Fouled by Evanilson - FC Porto
+16'	Fouled by Pepe - FC Porto
+17'	Fouled by Ben White - Arsenal
+19'	Fouled by Declan Rice - Arsenal
+23'	Fouled by Ben White - Arsenal
+23'	Fouled by Gabriel Magalhães - Arsenal
+24'	Fouled by Wendell - FC Porto
+25'	Fouled by Francisco Conceição - FC Porto
+25'	Fouled by Wendell - FC Porto
+30'	Fouled by Pepê Aquino - FC Porto
+36'	Fouled by Gabriel Martinelli - Arsenal
+39'	Fouled by William Saliba - Arsenal
+40'	Fouled by Francisco Conceição - FC Porto
+41'	Fouled by Evanilson - FC Porto
+44'	Fouled by Bukayo Saka - Arsenal
+48'	Fouled by Jakub Kiwior - Arsenal
+49'	Fouled by Evanilson - FC Porto
+52'	Fouled by Francisco Conceição - FC Porto
+55'	Fouled by Alan Varela - FC Porto
+56'	Fouled by Gabriel Magalhães - Arsenal
+57'	Fouled by Jakub Kiwior - Arsenal
+59'	Fouled by Jakub Kiwior - Arsenal
+60'	Fouled by Kai Havertz - Arsenal
+62'	Fouled by Nico González - FC Porto
+65'	Fouled by Leandro Trossard - Arsenal
+71'	Fouled by William Saliba - Arsenal
+71'	Fouled by Martin Ødegaard - Arsenal
+80'	Fouled by Jakub Kiwior - Arsenal
+88'	Fouled by Jakub Kiwior - Arsenal
+89'	Fouled by Ben White - Arsenal
+90+1'	Fouled by Galeno - FC Porto
+9'	Fouled by Jules Koundé - Barcelona
+13'	Fouled by Amir Rrahmani - Napoli
+16'	Fouled by Frenkie de Jong - Barcelona
+20'	Fouled by Andreas Christensen - Barcelona
+21'	Fouled by Jens Cajuste - Napoli
+24'	Fouled by Pedri - Barcelona
+25'	Fouled by Andreas Christensen - Barcelona
+30'	Fouled by Íñigo Martínez - Barcelona
+31'	Fouled by Juan Jesus - Napoli
+32'	Fouled by Juan Jesus - Napoli
+34'	Fouled by Íñigo Martínez - Barcelona
+36'	Fouled by Frenkie de Jong - Barcelona
+44'	Fouled by Ilkay Gündogan - Barcelona
+56'	Fouled by Íñigo Martínez - Barcelona
+58'	Fouled by Lamine Yamal - Barcelona
+60'	Fouled by Juan Jesus - Napoli
+65'	Fouled by Juan Jesus - Napoli
+67'	Fouled by João Cancelo - Barcelona
+70'	Fouled by Hamed Traorè - Napoli
+78'	Fouled by Jules Koundé - Barcelona
+78'	Fouled by Andreas Christensen - Barcelona
+82'	Fouled by Hamed Traorè - Napoli
+87'	Fouled by Giacomo Raspadori - Napoli
+88'	Fouled by Giovanni Simeone - Napoli
+90'	Fouled by Amir Rrahmani - Napoli
+9'	Fouled by Takefusa Kubo - Real Sociedad
+10'	Fouled by Nuno Mendes - Paris Saint Germain
+11'	Fouled by Lucas Hernández - Paris Saint Germain
+20'	Fouled by Mikel Merino - Real Sociedad
+22'	Fouled by Igor Zubeldia - Real Sociedad
+24'	Fouled by Hamari Traoré - Real Sociedad
+25'	Fouled by Bradley Barcola - Paris Saint Germain
+28'	Fouled by Nuno Mendes - Paris Saint Germain
+33'	Fouled by Warren Zaïre-Emery - Paris Saint Germain
+35'	Fouled by Bradley Barcola - Paris Saint Germain
+36'	Fouled by Mikel Merino - Real Sociedad
+38'	Fouled by Kylian Mbappé - Paris Saint Germain
+41'	Fouled by Achraf Hakimi - Paris Saint Germain
+42'	Fouled by Takefusa Kubo - Real Sociedad
+45+2'	Fouled by Igor Zubeldia - Real Sociedad
+45+2'	Fouled by Sheraldo Becker - Real Sociedad
+45+4'	Fouled by Ousmane Dembélé - Paris Saint Germain
+48'	Fouled by Mikel Oyarzabal - Real Sociedad
+49'	Fouled by Igor Zubeldia - Real Sociedad
+54'	Fouled by Igor Zubeldia - Real Sociedad
+59'	Fouled by Hamari Traoré - Real Sociedad
+62'	Fouled by Javi Galán - Real Sociedad
+65'	Fouled by Warren Zaïre-Emery - Paris Saint Germain
+71'	Fouled by Mikel Merino - Real Sociedad
+72'	Fouled by Warren Zaïre-Emery - Paris Saint Germain
+74'	Fouled by Vitinha - Paris Saint Germain
+78'	Fouled by Achraf Hakimi - Paris Saint Germain
+82'	Fouled by Ander Barrenetxea - Real Sociedad
+84'	Fouled by Robin Le Normand - Real Sociedad
+84'	Fouled by Takefusa Kubo - Real Sociedad
+86'	Fouled by Hamari Traoré - Real Sociedad
+90+3'	Fouled by André Silva - Real Sociedad
+10'	Fouled by Jamal Musiala - FC Bayern München
+19'	Fouled by Joshua Kimmich - FC Bayern München
+20'	Fouled by Leroy Sané - FC Bayern München
+21'	Fouled by Harry Kane - FC Bayern München
+23'	Fouled by Matías Vecino - Lazio
+25'	Fouled by Felipe Anderson - Lazio
+27'	Fouled by Joshua Kimmich - FC Bayern München
+31'	Fouled by Felipe Anderson - Lazio
+32'	Fouled by Aleksandar Pavlovic - FC Bayern München
+48'	Fouled by Joshua Kimmich - FC Bayern München
+55'	Fouled by Leon Goretzka - FC Bayern München
+56'	Fouled by Leon Goretzka - FC Bayern München
+60'	Fouled by Matthijs de Ligt - FC Bayern München
+63'	Fouled by Valentín Castellanos - Lazio
+76'	Fouled by Leon Goretzka - FC Bayern München
+77'	Fouled by Mario Gila - Lazio
+79'	Fouled by Aleksandar Pavlovic - FC Bayern München
+80'	Fouled by Alessio Romagnoli - Lazio
+87'	Fouled by Mathys Tel - FC Bayern München
+88'	Fouled by Danilo Cataldi - Lazio
+90'	Fouled by Alessio Romagnoli - Lazio
+90+1'	Fouled by Luca Pellegrini - Lazio
+7'	Fouled by Dani Olmo - RB Leipzig
+7'	Fouled by Xaver Schlager - RB Leipzig
+14'	Fouled by Jude Bellingham - Real Madrid
+16'	Fouled by Benjamin Henrichs - RB Leipzig
+20'	Fouled by Xaver Schlager - RB Leipzig
+31'	Fouled by Aurélien Tchouaméni - Real Madrid
+36'	Fouled by Benjamin Henrichs - RB Leipzig
+45'	Fouled by Dani Olmo - RB Leipzig
+46'	Fouled by Dani Olmo - RB Leipzig
+46'	Fouled by Xavi Simons - RB Leipzig
+48'	Fouled by Federico Valverde - Real Madrid
+50'	Fouled by David Raum - RB Leipzig
+52'	Fouled by Vinícius Júnior - Real Madrid
+54'	Fouled by Vinícius Júnior - Real Madrid
+56'	Fouled by Amadou Haidara - RB Leipzig
+58'	Fouled by Ferland Mendy - Real Madrid
+58'	Fouled by Toni Kroos - Real Madrid
+60'	Fouled by Jude Bellingham - Real Madrid
+65'	Fouled by Aurélien Tchouaméni - Real Madrid
+71'	Fouled by Willi Orbán - RB Leipzig
+73'	Fouled by Aurélien Tchouaméni - Real Madrid
+74'	Fouled by Xaver Schlager - RB Leipzig
+75'	Fouled by Toni Kroos - Real Madrid
+86'	Fouled by Christoph Baumgartner - RB Leipzig
+89'	Fouled by Benjamin Henrichs - RB Leipzig
+90+2'	Fouled by Joselu - Real Madrid
+21'	Fouled by Rúben Dias - Manchester City
+31'	Fouled by Erling Haaland - Manchester City
+36'	Fouled by Scott McKenna - FC Copenhagen
+38'	Fouled by Rico Lewis - Manchester City
+43'	Fouled by Mohamed Elyounoussi - FC Copenhagen
+45+1'	Fouled by Rodri - Manchester City
+53'	Fouled by William Clem - FC Copenhagen
+54'	Fouled by Mohamed Elyounoussi - FC Copenhagen
+64'	Fouled by Elias Jelert - FC Copenhagen
+79'	Fouled by Magnus Mattsson - FC Copenhagen
+83'	Fouled by Andreas Cornelius - FC Copenhagen
+89'	Fouled by Birger Meling - FC Copenhagen
+90'	Fouled by Magnus Mattsson - FC Copenhagen
+90+1'	Fouled by Micah Hamilton - Manchester City
+6'	Fouled by Andreas Christensen - Barcelona
+10'	Fouled by Jules Koundé - Barcelona
+14'	Fouled by Hamed Traorè - Napoli
+21'	Fouled by Amir Rrahmani - Napoli
+25'	Fouled by Khvicha Kvaratskhelia - Napoli
+27'	Fouled by Lamine Yamal - Barcelona
+32'	Fouled by Hamed Traorè - Napoli
+39'	Fouled by Juan Jesus - Napoli
+40'	Fouled by Lamine Yamal - Barcelona
+44'	Fouled by Lamine Yamal - Barcelona
+45+2'	Fouled by Juan Jesus - Napoli
+45+4'	Fouled by Hamed Traorè - Napoli
+53'	Fouled by Mário Rui - Napoli
+53'	Fouled by João Cancelo - Barcelona
+60'	Fouled by Stanislav Lobotka - Napoli
+63'	Fouled by Hamed Traorè - Napoli
+65'	Fouled by Juan Jesus - Napoli
+66'	Fouled by Khvicha Kvaratskhelia - Napoli
+67'	Fouled by Mathías Olivera - Napoli
+71'	Fouled by Frank Anguissa - Napoli
+81'	Fouled by Stanislav Lobotka - Napoli
+85'	Fouled by Mathías Olivera - Napoli
+88'	Fouled by Sergi Roberto - Barcelona
+1'	Fouled by Kai Havertz - Arsenal
+3'	Fouled by Evanilson - FC Porto
+12'	Fouled by Declan Rice - Arsenal
+18'	Fouled by Evanilson - FC Porto
+20'	Fouled by João Mário - FC Porto
+21'	Fouled by Jorginho - Arsenal
+26'	Fouled by Evanilson - FC Porto
+31'	Fouled by Nico González - FC Porto
+39'	Fouled by William Saliba - Arsenal
+44'	Fouled by Kai Havertz - Arsenal
+45+3'	Fouled by Alan Varela - FC Porto
+47'	Fouled by Nico González - FC Porto
+54'	Fouled by Francisco Conceição - FC Porto
+55'	Fouled by Wendell - FC Porto
+61'	Fouled by Evanilson - FC Porto
+62'	Fouled by Kai Havertz - Arsenal
+63'	Fouled by Jakub Kiwior - Arsenal
+66'	Fouled by Bukayo Saka - Arsenal
+67'	Fouled by Kai Havertz - Arsenal
+72'	Fouled by Jorginho - Arsenal
+72'	Fouled by Pepe - FC Porto
+76'	Fouled by Jorginho - Arsenal
+79'	Fouled by Jorginho - Arsenal
+80'	Fouled by Francisco Conceição - FC Porto
+84'	Fouled by Gabriel Jesus - Arsenal
+89'	Fouled by Galeno - FC Porto
+89'	Fouled by Gabriel Magalhães - Arsenal
+94'	Fouled by Otávio - FC Porto
+99'	Fouled by Marko Grujic - FC Porto
+112'	Fouled by Eddie Nketiah - Arsenal
+113'	Fouled by Galeno - FC Porto
+114'	Fouled by Gabriel Jesus - Arsenal
+115'	Fouled by Marko Grujic - FC Porto
+116'	Fouled by Kai Havertz - Arsenal
+117'	Fouled by Mehdi Taremi - FC Porto
+119'	Fouled by Marko Grujic - FC Porto
+120'	Fouled by Stephen Eustáquio - FC Porto
+5'	Fouled by Luuk de Jong - PSV Eindhoven
+10'	Fouled by Guus Til - PSV Eindhoven
+47'	Fouled by Donyell Malen - Borussia Dortmund
+48'	Fouled by Mats Hummels - Borussia Dortmund
+50'	Fouled by Mauro Júnior - PSV Eindhoven
+57'	Fouled by Jerdy Schouten - PSV Eindhoven
+65'	Fouled by Luuk de Jong - PSV Eindhoven
+76'	Fouled by Mauro Júnior - PSV Eindhoven
+76'	Fouled by Sergiño Dest - PSV Eindhoven
+81'	Fouled by Niclas Füllkrug - Borussia Dortmund
+82'	Fouled by Karim Adeyemi - Borussia Dortmund
+86'	Fouled by Mauro Júnior - PSV Eindhoven
+88'	Fouled by Niklas Süle - Borussia Dortmund
+89'	Fouled by Felix Nmecha - Borussia Dortmund
+7'	Fouled by Koke - Atletico Madrid
+12'	Fouled by Antoine Griezmann - Atletico Madrid
+15'	Fouled by Samuel Lino - Atletico Madrid
+19'	Fouled by Nahuel Molina - Atletico Madrid
+38'	Fouled by Benjamin Pavard - Inter Milan
+38'	Fouled by Koke - Atletico Madrid
+40'	Fouled by Lautaro Martínez - Inter Milan
+41'	Fouled by Mario Hermoso - Atletico Madrid
+45'	Fouled by Rodrigo De Paul - Atletico Madrid
+46'	Fouled by Stefan Savic - Atletico Madrid
+50'	Fouled by Álvaro Morata - Atletico Madrid
+54'	Fouled by Antoine Griezmann - Atletico Madrid
+57'	Fouled by Denzel Dumfries - Inter Milan
+59'	Fouled by Marcus Thuram - Inter Milan
+60'	Fouled by Denzel Dumfries - Inter Milan
+63'	Fouled by Axel Witsel - Atletico Madrid
+71'	Fouled by Hakan Çalhanoglu - Inter Milan
+72'	Fouled by Álvaro Morata - Atletico Madrid
+74'	Fouled by Axel Witsel - Atletico Madrid
+78'	Fouled by Koke - Atletico Madrid
+89'	Fouled by Koke - Atletico Madrid
+90'	Fouled by Marcus Thuram - Inter Milan
+93'	Fouled by Stefan Savic - Atletico Madrid
+103'	Fouled by Ángel Correa - Atletico Madrid
+104'	Fouled by Hakan Çalhanoglu - Inter Milan
+105+1'	Fouled by Yann Bisseck - Inter Milan
+105+2'	Fouled by Francesco Acerbi - Inter Milan
+105+3'	Fouled by Francesco Acerbi - Inter Milan
+111'	Fouled by Saúl Ñíguez - Atletico Madrid
+112'	Fouled by Saúl Ñíguez - Atletico Madrid
+118'	Fouled by Yann Bisseck - Inter Milan
+119'	Fouled by Stefan Savic - Atletico Madrid
+2'	Fouled by Loïs Openda - RB Leipzig
+5'	Fouled by Cheikh Niasse - Young Boys
+5'	Fouled by Mohamed Ali Camara - Young Boys
+6'	Fouled by Cedric Itten - Young Boys
+15'	Fouled by Yussuf Poulsen - RB Leipzig
+16'	Fouled by Xaver Schlager - RB Leipzig
+22'	Fouled by Mohamed Simakan - RB Leipzig
+24'	Fouled by Cedric Itten - Young Boys
+45'	Fouled by Loris Benito - Young Boys
+51'	Fouled by Kevin Kampl - RB Leipzig
+59'	Fouled by Xaver Schlager - RB Leipzig
+61'	Fouled by Cheikh Niasse - Young Boys
+61'	Fouled by Sandro Lauper - Young Boys
+66'	Fouled by Cheikh Niasse - Young Boys
+69'	Fouled by Ulisses Garcia - Young Boys
+76'	Fouled by Lewin Blum - Young Boys
+79'	Fouled by Benjamin Sesko - RB Leipzig
+83'	Fouled by Lewin Blum - Young Boys
+84'	Fouled by Xaver Schlager - RB Leipzig
+90'	Fouled by Mohamed Simakan - RB Leipzig
+90+1'	Fouled by Aurèle Amenda - Young Boys
+1'	Fouled by Sandro Tonali - Newcastle United
+4'	Fouled by Davide Calabria - AC Milan
+7'	Fouled by Sean Longstaff - Newcastle United
+11'	Fouled by Sean Longstaff - Newcastle United
+12'	Fouled by Tommaso Pobega - AC Milan
+17'	Fouled by Malick Thiaw - AC Milan
+24'	Fouled by Sandro Tonali - Newcastle United
+28'	Fouled by Olivier Giroud - AC Milan
+29'	Fouled by Davide Calabria - AC Milan
+33'	Fouled by Ruben Loftus-Cheek - AC Milan
+37'	Fouled by Ruben Loftus-Cheek - AC Milan
+39'	Fouled by Ruben Loftus-Cheek - AC Milan
+42'	Fouled by Malick Thiaw - AC Milan
+44'	Fouled by Dan Burn - Newcastle United
+47'	Fouled by Samuel Chukwueze - AC Milan
+49'	Fouled by Fabian Schär - Newcastle United
+50'	Fouled by Tommaso Pobega - AC Milan
+52'	Fouled by Dan Burn - Newcastle United
+55'	Fouled by Sandro Tonali - Newcastle United
+56'	Fouled by Sandro Tonali - Newcastle United
+57'	Fouled by Bruno Guimarães - Newcastle United
+58'	Fouled by Fikayo Tomori - AC Milan
+60'	Fouled by Anthony Gordon - Newcastle United
+69'	Fouled by Christian Pulisic - AC Milan
+82'	Fouled by Yunus Musah - AC Milan
+83'	Fouled by Olivier Giroud - AC Milan
+89'	Fouled by Elliot Anderson - Newcastle United
+90+2'	Fouled by Rade Krunic - AC Milan

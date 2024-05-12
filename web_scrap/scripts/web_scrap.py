@@ -1,5 +1,10 @@
+# This script is responsible for extracting the url's from 30 latest match results for champions league
+# it is implemented with BeautifulSoup 
+# after retrieving the urls, they get saved in a file urls.txt in directory web_scrap/txt_files/
+
 import requests
 from bs4 import BeautifulSoup
+
 
 url = 'https://www-sportsmole-co-uk.translate.goog/football/champions-league/results.html?_x_tr_sl=en&_x_tr_tl=el&_x_tr_hl=el&_x_tr_pto=sc'
 
@@ -10,7 +15,6 @@ soup = BeautifulSoup(page.content, 'html.parser')
 # Find all elements with class name specified and store them inside doc list
 url_elements = soup.find_all(class_='l_sfp_links')
 
-# Here all urls from which we want to extract data, are stored
 urls = []
 
 # for each element inside url_elements, grab the href to match details url
@@ -22,8 +26,6 @@ for element in url_elements:
 # Shorten the list to 30 urls
 urls = urls[:30]
 i = 0
-
-
 
 
 # Find all tags that contain the href link to the page containing the live commentary
@@ -50,16 +52,12 @@ for element in tags_to_commentary:
         href = element['href']
         links_to_commentary.append(href)
 
-# Write all urls in the file urs.txt
+# Write all urls in the file urls.txt
 
-file_path = "urls.txt"
+file_path = "web_scrap/txt_files/urls.txt"
 
 
-# Open the file in write mode
 with open(file_path, 'w') as file:
-    # Iterate over the elements of the list
     for item in links_to_commentary:
-        # Write each element followed by a newline character
         file.write(item + '\n')
 
-# Initialize an empty list to store the lines
