@@ -31,7 +31,6 @@
 30'	César Azpilicueta - Atletico Madrid - receive yellow card for a foul.
 43'	Julian Ryerson - Borussia Dortmund - receive yellow card for a foul.
 45+1'	Mario Hermoso - Atletico Madrid - receive yellow card for a foul.
-29'	Ronald Araujo - Barcelona - receive red card.
 40'	Iñigo Martínez - Barcelona - receive yellow card.
 40'	Kylian Mbappé - Paris Saint Germain - receive yellow card.
 45+1'	Fabián Ruiz - Paris Saint Germain - receive yellow card for a foul.
@@ -59,12 +58,10 @@
 74'	Kevin Diks - FC Copenhagen - receive yellow card for a foul.
 36'	Robin Le Normand - Real Sociedad - receive yellow card for a foul.
 90+2'	Hamari Traoré - Real Sociedad - receive yellow card for a foul.
-67'	Dayot Upamecano - FC Bayern München - receive red card.
 68'	Joshua Kimmich - FC Bayern München - receive yellow card.
 22'	Hirving Lozano - PSV Eindhoven - receive yellow card for a foul.
 42'	Ian Maatsen - Borussia Dortmund - receive yellow card for a foul.
 45+1'	Nico Schlotterbeck - Borussia Dortmund - receive yellow card for a foul.
-75'	Substitution - PSV Eindhoven. Ricardo Pepi for Hirving Lozano.
 53'	Mario Hermoso - Atletico Madrid - receive yellow card for a foul.
 82'	Stefan Savic - Atletico Madrid - receive yellow card.
 84'	Álvaro Morata - Atletico Madrid - receive yellow card for a foul.
@@ -103,7 +100,6 @@
 39'	William Saliba - Arsenal - receive yellow card for a foul.
 73'	Pepe - FC Porto - receive yellow card for a foul.
 116'	Kai Havertz - Arsenal - receive yellow card for a foul.
-82'	Substitution - PSV Eindhoven. Ricardo Pepi for Joey Veerman.
 88'	Niklas Süle - Borussia Dortmund - receive yellow card for a foul.
 89'	Felix Nmecha - Borussia Dortmund - receive yellow card for a foul.
 41'	Mario Hermoso - Atletico Madrid - receive yellow card for a foul.

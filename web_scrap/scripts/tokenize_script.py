@@ -15,7 +15,8 @@ categories = {
     'attacking_attempt' : ['Missed chance', 'attacking attempt', 'shot blocked', 'hits'],
     'referee' : ['referee', 'VAR '],
     'goal': ['own goal', 'goal!'],
-    'card': ['yellow card', 'red card', 'card'],
+    'yellow card': ['yellow card'],
+    'red card': ['red card'],
     'penalty' : ['penalty'],
     'substitution' : ['substitution'],
     'offside' : ['offside'],
@@ -29,7 +30,6 @@ categories = {
     'hand_ball' : ['hand ball'],
     'end_game' : ['game finished'],
     'dangerous_play' : ['dangerous play'],
-    'assist' : ['assist'],
     'Other': [] 
 }
 

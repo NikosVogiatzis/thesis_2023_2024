@@ -49,7 +49,7 @@ for url in urls_from_file:
     all_commentaries.append(trimmed_commentary)
 
 with open('web_scrap/txt_files/commentary.txt', 'w', encoding='utf-8') as file:
-        for times, commentaries in zip(all_times, all_commentaries):
+        for times, commentaries in zip(all_time_stamps, all_commentaries):
             for time, commentary in zip(times, commentaries):
                 file.write(f"{time}\t{commentary}\n")
 
