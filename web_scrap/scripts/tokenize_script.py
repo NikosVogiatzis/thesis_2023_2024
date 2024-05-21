@@ -12,6 +12,7 @@ sentences = text.split('\n')
 
 categories = {
     'corner' : ['corner -'],
+    'penalty_procedure': ['penalty shootout', 'penalty saved', 'penalty missed', 'converts'],
     'attacking_attempt' : ['Missed chance', 'attacking attempt', 'shot blocked', 'hits'],
     'referee' : ['referee', 'VAR '],
     'goal': ['own goal', 'goal!'],
