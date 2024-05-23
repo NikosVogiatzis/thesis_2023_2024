@@ -1,7 +1,3 @@
-57'	Goal! FC Bayern München 2, Real Madrid 1. Harry Kane - FC Bayern München - converts the penalty with a shot with right foot to the left corner.
-83'	Goal! FC Bayern München 2, Real Madrid 2. Vinícius Júnior - Real Madrid - converts the penalty with a shot with right foot to the centre of the goal.
-32'	Goal! Arsenal 1, FC Bayern München 2. Harry Kane - FC Bayern München - converts the penalty with a shot with right foot to the right corner.
-61'	Goal! Barcelona 1, Paris Saint Germain 3. Kylian Mbappé - Paris Saint Germain - converts the penalty with a shot with right foot to the top left corner.
 120'	Penalty Shootout begins Manchester City 1, Real Madrid 1.
 120'	Goal! Manchester City 1 - 1 - , Real Madrid 1. Julián Álvarez - Manchester City - converts the penalty with a shot with right foot to the right corner.
 120'	Penalty saved. Luka Modric - Real Madrid - shot with right foot saved in the left corner.
@@ -14,8 +10,6 @@
 120'	Goal! Manchester City 1 - 3 - , Real Madrid 1 - 3 Ederson - Manchester City - converts the penalty with a shot with left foot to the left corner.
 120'	Goal! Manchester City 1 - 3 - , Real Madrid 1 - 4 Antonio Rüdiger - Real Madrid - converts the penalty with a shot with right foot to the left corner.
 120'	Penalty Shootout ends, Manchester City 1 - 3 - , Real Madrid 1 - 4
-69'	Goal! Lazio 1, FC Bayern München 0. Ciro Immobile - Lazio - converts the penalty with a shot with right foot to the right corner.
-56'	Goal! PSV Eindhoven 1, Borussia Dortmund 1. Luuk de Jong - PSV Eindhoven - converts the penalty with a shot with right foot to the left corner.
 120'	Penalty Shootout begins Arsenal 1, FC Porto 0.
 120'	Goal! Arsenal 1 - 1 - , FC Porto 0. Martin Ødegaard - Arsenal - converts the penalty with a shot with left foot to the right corner.
 120'	Goal! Arsenal 1 - 1 - , FC Porto 0 - 1 Pepê Aquino - FC Porto - converts the penalty with a shot with right foot to the left corner.

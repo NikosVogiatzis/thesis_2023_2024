@@ -1,636 +1,637 @@
-1' Assist - Harry Kane with a through ball.  - FC Bayern München. Attacking Attempt
-6' Assist - Leroy Sané.  - FC Bayern München. Attacking Attempt
-51' Assist - Jude Bellingham.  - Real Madrid. Attacking Attempt
-67' Assist - Joshua Kimmich with a cross.  - FC Bayern München. Attacking Attempt
-79' Assist - Luka Modric.  - Real Madrid. Attacking Attempt
-14' Assist - Julian Brandt.  - Borussia Dortmund. Attacking Attempt
-44' Assist - Niclas Füllkrug.  - Borussia Dortmund. Attacking Attempt
-45+5' Assist - Julian Brandt.  - Borussia Dortmund. Attacking Attempt
-54' Assist - Bradley Barcola.  - Paris Saint Germain. Attacking Attempt
-72' Assist - Kylian Mbappé with a through ball.  - Paris Saint Germain. Attacking Attempt
-3' Assist - Ian Maatsen with a cross.  - Borussia Dortmund. Attacking Attempt
-4' Assist - Achraf Hakimi with a cross.  - Paris Saint Germain. Attacking Attempt
-35' Assist - Julian Brandt.  - Borussia Dortmund. Attacking Attempt
-42' Assist - Nuno Mendes.  - Paris Saint Germain. Attacking Attempt
-80' Assist - Achraf Hakimi.  - Paris Saint Germain. Attacking Attempt
-86' Assist - Achraf Hakimi.  - Paris Saint Germain. Attacking Attempt
-13' Assist - Dani Carvajal.  - Real Madrid. Attacking Attempt
-60' Assist - Jude Bellingham.  - Real Madrid. Attacking Attempt
-66' Assist - Alphonso Davies.  - FC Bayern München. Attacking Attempt
-88' Assist - Jude Bellingham.  - Real Madrid. Attacking Attempt
-7' Assist - Josko Gvardiol.  - Manchester City. Attacking Attempt
-31' Assist - Dani Carvajal.  - Real Madrid. Attacking Attempt
-42' Assist - Rodrygo.  - Real Madrid. Attacking Attempt
-59' Assist - Bernardo Silva.  - Manchester City. Attacking Attempt
-60' Assist - Mateo Kovacic.  - Manchester City. Attacking Attempt
-16' Assist - Kai Havertz.  - Arsenal. Attacking Attempt
-22' Assist - Gabriel Martinelli with a cross.  - Arsenal. Attacking Attempt
-7' Assist - Ousmane Dembélé.  - Paris Saint Germain. Attacking Attempt
-11' Assist - Ousmane Dembélé.  - Paris Saint Germain. Attacking Attempt
-23' Assist - Sergi Roberto.  - Barcelona. Attacking Attempt
-28' Assist - Kylian Mbappé.  - Paris Saint Germain. Attacking Attempt
-55' Assist - Lee Kang-In.  - Paris Saint Germain. Attacking Attempt
-74' Assist - Raphinha.  - Barcelona. Attacking Attempt
-7' Assist - Antoine Griezmann with a cross.  - Atletico Madrid. Attacking Attempt
-13' Assist - Marcos Llorente.  - Atletico Madrid. Attacking Attempt
-43' Assist - Marcel Sabitzer.  - Borussia Dortmund. Attacking Attempt
-48' Assist - Jadon Sancho.  - Borussia Dortmund. Attacking Attempt
-53' Assist - Antoine Griezmann.  - Atletico Madrid. Attacking Attempt
-55' Assist - Antoine Griezmann with a cross.  - Atletico Madrid. Attacking Attempt
-75' Assist - Antoine Griezmann with a cross.  - Atletico Madrid. Attacking Attempt
-90+4' Assist - Ángel Correa.  - Atletico Madrid. Attacking Attempt
-6' Assist - Nahuel Molina.  - Atletico Madrid. Attacking Attempt
-16' Assist - Jadon Sancho.  - Borussia Dortmund. Attacking Attempt
-38' Assist - Ian Maatsen.  - Borussia Dortmund. Attacking Attempt
-64' Assist - Ángel Correa.  - Atletico Madrid. Attacking Attempt
-81' Assist - Nico Schlotterbeck.  - Borussia Dortmund. Attacking Attempt
-87' Assist - Emre Can with a head.  - Borussia Dortmund. Attacking Attempt
-28' Assist - Bradley Barcola.  - Paris Saint Germain. Attacking Attempt
-49' Assist - Marquinhos.  - Paris Saint Germain. Attacking Attempt
-58' Assist - João Cancelo with a cross.  - Barcelona. Attacking Attempt
-73' Assist - Raphinha.  - Barcelona. Attacking Attempt
-89' Assist - Achraf Hakimi.  - Paris Saint Germain. Attacking Attempt
-90+3' Assist - Achraf Hakimi.  - Paris Saint Germain. Attacking Attempt
-11' Assist - Dani Carvajal.  - Real Madrid. Attacking Attempt
-12' Assist - Vinícius Júnior.  - Real Madrid. Attacking Attempt
-27' Assist - Rodri.  - Manchester City. Attacking Attempt
-28' Assist - Rodri with a cross.  - Manchester City. Attacking Attempt
-70' Assist - Rodri.  - Manchester City. Attacking Attempt
-90+2' Assist - Jérémy Doku.  - Manchester City. Attacking Attempt
-120' Assist - Phil Foden.  - Manchester City. Attacking Attempt
-24' Assist - Noussair Mazraoui.  - FC Bayern München. Attacking Attempt
-29' Assist - Takehiro Tomiyasu.  - Arsenal. Attacking Attempt
-31' Assist - Martin Ødegaard.  - Arsenal. Attacking Attempt
-39' Assist - Declan Rice with a cross.  - Arsenal. Attacking Attempt
-90' Assist - Harry Kane.  - FC Bayern München. Attacking Attempt
-3' Assist - Xavi Simons with a through ball.  - RB Leipzig. Attacking Attempt
-9' Assist - Brahim Díaz.  - Real Madrid. Attacking Attempt
-10' Assist - Dani Olmo.  - RB Leipzig. Attacking Attempt
-15' Assist - Xavi Simons.  - RB Leipzig. Attacking Attempt
-51' Assist - Benjamin Henrichs.  - RB Leipzig. Attacking Attempt
-71' Assist - Benjamin Henrichs.  - RB Leipzig. Attacking Attempt
-81' Assist - Amadou Haidara.  - RB Leipzig. Attacking Attempt
-81' Assist - Amadou Haidara with a through ball.  - RB Leipzig. Attacking Attempt
-6' Assist - Bernardo Silva with a cross.  - Manchester City. Attacking Attempt
-54' Assist - Rodri.  - Manchester City. Attacking Attempt
-63' Assist - Kevin De Bruyne.  - Manchester City. Attacking Attempt
-69' Assist - Nathan Aké.  - Manchester City. Attacking Attempt
-90+2' Assist - Matheus Nunes.  - Manchester City. Attacking Attempt
-90+2' Assist - Matheus Nunes.  - Manchester City. Attacking Attempt
-6' Assist - Ousmane Dembélé.  - Paris Saint Germain. Attacking Attempt
-50' Assist - Achraf Hakimi.  - Paris Saint Germain. Attacking Attempt
-18' Assist - Luis Alberto with a cross.  - Lazio. Attacking Attempt
-48' Assist - Luis Alberto with a through ball.  - Lazio. Attacking Attempt
-90+2' Assist - Daichi Kamada.  - Lazio. Attacking Attempt
-15' Assist - Mats Hummels.  - Borussia Dortmund. Attacking Attempt
-17' Assist - Emre Can.  - Borussia Dortmund. Attacking Attempt
-39' Assist - Johan Bakayoko.  - PSV Eindhoven. Attacking Attempt
-72' Assist - Ian Maatsen with a cross.  - Borussia Dortmund. Attacking Attempt
-75' Assist - Luuk de Jong with a head.  - PSV Eindhoven. Attacking Attempt
-81' Assist - Ricardo Pepi.  - PSV Eindhoven. Attacking Attempt
-37' Assist - Nicolò Barella with a cross.  - Inter Milan. Attacking Attempt
-43' Assist - Nicolò Barella.  - Inter Milan. Attacking Attempt
-77' Assist - Hakan Çalhanoglu with a cross.  - Inter Milan. Attacking Attempt
-79' Assist - Davide Frattesi.  - Inter Milan. Attacking Attempt
-40' Assist - Pepê Aquino.  - FC Porto. Attacking Attempt
-8' Assist - Ilkay Gündogan.  - Barcelona. Attacking Attempt
-22' Assist - João Cancelo.  - Barcelona. Attacking Attempt
-22' Assist - Frenkie de Jong.  - Barcelona. Attacking Attempt
-49' Assist - Lamine Yamal.  - Barcelona. Attacking Attempt
-8' Assist - Mikel Merino with a cross.  - Real Sociedad. Attacking Attempt
-10' Assist - Kylian Mbappé.  - Paris Saint Germain. Attacking Attempt
-15' Assist - Lucas Hernández.  - Paris Saint Germain. Attacking Attempt
-29' Assist - Bradley Barcola.  - Paris Saint Germain. Attacking Attempt
-68' Assist - Warren Zaïre-Emery.  - Paris Saint Germain. Attacking Attempt
-82' Assist - Javi Galán.  - Real Sociedad. Attacking Attempt
-89' Assist - Takefusa Kubo.  - Real Sociedad. Attacking Attempt
-90+2' Assist - Kylian Mbappé.  - Paris Saint Germain. Attacking Attempt
-6' Assist - Thomas Müller.  - FC Bayern München. Attacking Attempt
-14' Assist - Joshua Kimmich.  - FC Bayern München. Attacking Attempt
-66' Assist - Thomas Müller.  - FC Bayern München. Attacking Attempt
-71' Assist - Jamal Musiala.  - FC Bayern München. Attacking Attempt
-41' Assist - David Raum.  - RB Leipzig. Attacking Attempt
-63' Assist - Dani Carvajal.  - Real Madrid. Attacking Attempt
-74' Assist - Loïs Openda.  - RB Leipzig. Attacking Attempt
-80' Assist - Amadou Haidara.  - RB Leipzig. Attacking Attempt
-89' Assist - Joselu.  - Real Madrid. Attacking Attempt
-66' Assist - Roony Bardghji.  - FC Copenhagen. Attacking Attempt
-4' Assist - Matteo Politano with a through ball.  - Napoli. Attacking Attempt
-34' Assist - Mário Rui.  - Napoli. Attacking Attempt
-37' Assist - Khvicha Kvaratskhelia.  - Napoli. Attacking Attempt
-55' Assist - João Cancelo.  - Barcelona. Attacking Attempt
-68' Assist - Ilkay Gündogan with a cross.  - Barcelona. Attacking Attempt
-68' Assist - Sergi Roberto.  - Barcelona. Attacking Attempt
-73' Assist - Sergi Roberto with a head.  - Barcelona. Attacking Attempt
-77' Assist - Robert Lewandowski.  - Barcelona. Attacking Attempt
-90+3' Assist - Ilkay Gündogan.  - Barcelona. Attacking Attempt
-13' Assist - Ben White.  - Arsenal. Attacking Attempt
-22' Assist - João Mário with a cross.  - FC Porto. Attacking Attempt
-70' Assist - Nico González.  - FC Porto. Attacking Attempt
-83' Assist - Bukayo Saka.  - Arsenal. Attacking Attempt
-85' Assist - Martin Ødegaard.  - Arsenal. Attacking Attempt
-16' Assist - Donyell Malen.  - Borussia Dortmund. Attacking Attempt
-31' Assist - Joey Veerman.  - PSV Eindhoven. Attacking Attempt
-34' Assist - Luuk de Jong.  - PSV Eindhoven. Attacking Attempt
-48' Assist - Jadon Sancho.  - Borussia Dortmund. Attacking Attempt
-49' Assist - Johan Bakayoko with a cross.  - PSV Eindhoven. Attacking Attempt
-56' Assist - Johan Bakayoko with a through ball.  - PSV Eindhoven. Attacking Attempt
-64' Assist - Donyell Malen.  - Borussia Dortmund. Attacking Attempt
-90+4' Assist - Sergiño Dest.  - PSV Eindhoven. Attacking Attempt
-4' Assist - Rodrigo De Paul.  - Atletico Madrid. Attacking Attempt
-5' Assist - Rodrigo De Paul.  - Atletico Madrid. Attacking Attempt
-13' Assist - Hakan Çalhanoglu.  - Inter Milan. Attacking Attempt
-18' Assist - Nicolò Barella.  - Inter Milan. Attacking Attempt
-28' Assist - Mario Hermoso with a cross.  - Atletico Madrid. Attacking Attempt
-52' Assist - Marcos Llorente.  - Atletico Madrid. Attacking Attempt
-81' Assist - Lautaro Martínez.  - Inter Milan. Attacking Attempt
-97' Assist - Rodrigo Riquelme.  - Atletico Madrid. Attacking Attempt
-105+2' Assist - Memphis Depay.  - Atletico Madrid. Attacking Attempt
-2' Assist - Xaver Schlager.  - RB Leipzig. Attacking Attempt
-48' Assist - Xaver Schlager.  - RB Leipzig. Attacking Attempt
-62' Assist - David Raum with a cross.  - RB Leipzig. Attacking Attempt
-72' Assist - Meschack Elia.  - Young Boys. Attacking Attempt
-73' Assist - Kevin Kampl.  - RB Leipzig. Attacking Attempt
-90+1' Assist - Noah Persson with a cross.  - Young Boys. Attacking Attempt
-4' Assist - Théo Hernández.  - AC Milan. Attacking Attempt
-13' Assist - Rade Krunic.  - AC Milan. Attacking Attempt
-13' Assist - Rafael Leão with a cross.  - AC Milan. Attacking Attempt
-19' Assist - Rade Krunic with a cross.  - AC Milan. Attacking Attempt
-64' Assist - Rade Krunic.  - AC Milan. Attacking Attempt
-88' Assist - Théo Hernández.  - AC Milan. Attacking Attempt
-90+5' Assist - Elliot Anderson.  - Newcastle United. Attacking Attempt
-7' Assist - Harry Kane following a fast break.  - FC Bayern München. Attacking Attempt
-9' Assist - Noussair Mazraoui following a fast break.  - FC Bayern München. Attacking Attempt
-12' Assist - Thomas Müller.  - FC Bayern München. Attacking Attempt
-16' Assist - Harry Kane.  - FC Bayern München. Attacking Attempt
-45' Assist - Toni Kroos with a cross after corner.  - Real Madrid. Attacking Attempt
-85' Assist - Joshua Kimmich.  - FC Bayern München. Attacking Attempt
-11' Assist - Kylian Mbappé.  - Paris Saint Germain. Attacking Attempt
-18' Assist - Achraf Hakimi.  - Paris Saint Germain. Attacking Attempt
-45' Assist - Kylian Mbappé.  - Paris Saint Germain. Attacking Attempt
-56' Assist - Marquinhos with a cross.  - Paris Saint Germain. Attacking Attempt
-59' Assist - Niclas Füllkrug with a head.  - Borussia Dortmund. Attacking Attempt
-60' Assist - Jadon Sancho.  - Borussia Dortmund. Attacking Attempt
-66' Assist - Ian Maatsen with a cross .  - Borussia Dortmund. Attacking Attempt
-80' Assist - Achraf Hakimi.  - Paris Saint Germain. Attacking Attempt
-82' Assist - Ousmane Dembélé.  - Paris Saint Germain. Attacking Attempt
-87' Assist - Vitinha.  - Paris Saint Germain. Attacking Attempt
-90' Assist - Fabián Ruiz with a cross.  - Paris Saint Germain. Attacking Attempt
-13' Assist - Vitinha.  - Paris Saint Germain. Attacking Attempt
-19' Assist - Niclas Füllkrug.  - Borussia Dortmund. Attacking Attempt
-27' Assist - Kylian Mbappé.  - Paris Saint Germain. Attacking Attempt
-31' Assist - Warren Zaïre-Emery.  - Paris Saint Germain. Attacking Attempt
-45' Assist - Kylian Mbappé.  - Paris Saint Germain. Attacking Attempt
-60' Assist - Vitinha.  - Paris Saint Germain. Attacking Attempt
-63' Assist - Nuno Mendes with a cross.  - Paris Saint Germain. Attacking Attempt
-74' Assist - Nuno Mendes.  - Paris Saint Germain. Attacking Attempt
-77' Assist - Julian Brandt with a cross after corner.  - Borussia Dortmund. Attacking Attempt
-82' Assist - Lee Kang-In with a cross .  - Paris Saint Germain. Attacking Attempt
-86' Assist - Ousmane Dembélé with a cross.  - Paris Saint Germain. Attacking Attempt
-15' Assist - Jude Bellingham.  - Real Madrid. Attacking Attempt
-47' Assist - Toni Kroos.  - Real Madrid. Attacking Attempt
-55' Assist - Vinícius Júnior.  - Real Madrid. Attacking Attempt
-65' Assist - Toni Kroos .  - Real Madrid. Attacking Attempt
-76' Assist - Jamal Musiala.  - FC Bayern München. Attacking Attempt
-83' Assist - Antonio Rüdiger.  - Real Madrid. Attacking Attempt
-90+9' Assist - Joshua Kimmich.  - FC Bayern München. Attacking Attempt
-12' Assist - Dani Carvajal.  - Real Madrid. Attacking Attempt
-26' Assist - Eduardo Camavinga.  - Real Madrid. Attacking Attempt
-33' Assist - Vinícius Júnior following a fast break.  - Real Madrid. Attacking Attempt
-49' Assist - Bernardo Silva.  - Manchester City. Attacking Attempt
-55' Assist - Jack Grealish with a cross .  - Manchester City. Attacking Attempt
-56' Assist - Rodrygo.  - Real Madrid. Attacking Attempt
-62' Assist - Vinícius Júnior.  - Real Madrid. Attacking Attempt
-90' Assist - Aurélien Tchouaméni after corner.  - Real Madrid. Attacking Attempt
-7' Assist - Martin Ødegaard.  - Arsenal. Attacking Attempt
-37' Assist - Declan Rice with a cross .  - Arsenal. Attacking Attempt
-57' Assist - Martin Ødegaard .  - Arsenal. Attacking Attempt
-57' Assist - Jamal Musiala.  - FC Bayern München. Attacking Attempt
-65' Assist - Leroy Sané following a fast break.  - FC Bayern München. Attacking Attempt
-81' Assist - Jamal Musiala.  - FC Bayern München. Attacking Attempt
-5' Assist - Nuno Mendes.  - Paris Saint Germain. Attacking Attempt
-21' Assist - Ronald Araujo after corner.  - Barcelona. Attacking Attempt
-26' Assist - Raphinha.  - Barcelona. Attacking Attempt
-45+1' Assist - Raphinha.  - Barcelona. Attacking Attempt
-47' Assist - Kylian Mbappé.  - Paris Saint Germain. Attacking Attempt
-52' Assist - Lamine Yamal with a cross.  - Barcelona. Attacking Attempt
-87' Assist - Bradley Barcola with a cross.  - Paris Saint Germain. Attacking Attempt
-20' Assist - José Giménez with a head after corner.  - Atletico Madrid. Attacking Attempt
-31' Assist - Jadon Sancho with a cross after corner.  - Borussia Dortmund. Attacking Attempt
-45+1' Assist - Niclas Füllkrug.  - Borussia Dortmund. Attacking Attempt
-5' Assist - Antoine Griezmann with a head following a fast break.  - Atletico Madrid. Attacking Attempt
-16' Assist - Julian Brandt with a cross after corner.  - Borussia Dortmund. Attacking Attempt
-27' Assist - Julian Brandt.  - Borussia Dortmund. Attacking Attempt
-49' Assist - Antoine Griezmann with a cross after corner.  - Atletico Madrid. Attacking Attempt
-57' Assist - Koke with a through ball.  - Atletico Madrid. Attacking Attempt
-67' Assist - Jadon Sancho with a cross.  - Borussia Dortmund. Attacking Attempt
-17' Assist - Achraf Hakimi with a cross after corner.  - Paris Saint Germain. Attacking Attempt
-43' Assist - Ousmane Dembélé.  - Paris Saint Germain. Attacking Attempt
-45' Assist - Kylian Mbappé.  - Paris Saint Germain. Attacking Attempt
-45+3' Assist - Nuno Mendes with a cross.  - Paris Saint Germain. Attacking Attempt
-52' Assist - Kylian Mbappé.  - Paris Saint Germain. Attacking Attempt
-78' Assist - Ferran Torres.  - Barcelona. Attacking Attempt
-17' Assist - Bernardo Silva with a cross.  - Manchester City. Attacking Attempt
-33' Assist - Phil Foden.  - Manchester City. Attacking Attempt
-50' Assist - Toni Kroos.  - Real Madrid. Attacking Attempt
-78' Assist - Manuel Akanji.  - Manchester City. Attacking Attempt
-82' Assist - Manuel Akanji with a cross.  - Manchester City. Attacking Attempt
-90+5' Assist - Kevin De Bruyne with a cross after corner.  - Manchester City. Attacking Attempt
-90+5' Assist - Manuel Akanji after corner.  - Manchester City. Attacking Attempt
-99' Assist - Bernardo Silva with a cross.  - Manchester City. Attacking Attempt
-105+2' Assist - Brahim Díaz with a cross.  - Real Madrid. Attacking Attempt
-6' Assist - Leon Goretzka.  - FC Bayern München. Attacking Attempt
-8' Assist - Kai Havertz.  - Arsenal. Attacking Attempt
-46' Assist - Gabriel Martinelli with a head.  - Arsenal. Attacking Attempt
-66' Assist - Noussair Mazraoui.  - FC Bayern München. Attacking Attempt
-69' Assist - Joshua Kimmich with a cross .  - FC Bayern München. Attacking Attempt
-72' Assist - Joshua Kimmich with a cross after corner.  - FC Bayern München. Attacking Attempt
-9' Assist - Toni Kroos with a cross after corner.  - Real Madrid. Attacking Attempt
-23' Assist - Vinícius Júnior following a fast break.  - Real Madrid. Attacking Attempt
-45' Assist - Brahim Díaz with a through ball.  - Real Madrid. Attacking Attempt
-46' Assist - David Raum with a cross after corner.  - RB Leipzig. Attacking Attempt
-62' Assist - Xavi Simons.  - RB Leipzig. Attacking Attempt
-64' Assist - Vinícius Júnior.  - Real Madrid. Attacking Attempt
-90+4' Assist - Eduardo Camavinga with a cross.  - Real Madrid. Attacking Attempt
-3' Assist - Nathan Aké with a cross.  - Manchester City. Attacking Attempt
-29' Assist - Jérémy Doku.  - Manchester City. Attacking Attempt
-30' Assist - Rodri.  - Manchester City. Attacking Attempt
-39' Assist - Elias Jelert.  - FC Copenhagen. Attacking Attempt
-50' Assist - Magnus Mattsson with a cross after corner.  - FC Copenhagen. Attacking Attempt
-68' Assist - Kyle Walker.  - Manchester City. Attacking Attempt
-18' Assist - André Silva.  - Real Sociedad. Attacking Attempt
-22' Assist - Takefusa Kubo with a cross.  - Real Sociedad. Attacking Attempt
-69' Assist - Fabián Ruiz.  - Paris Saint Germain. Attacking Attempt
-74' Assist - Fabián Ruiz with a through ball.  - Paris Saint Germain. Attacking Attempt
-82' Assist - Beñat Turrientes.  - Real Sociedad. Attacking Attempt
-87' Assist - Warren Zaïre-Emery following a fast break.  - Paris Saint Germain. Attacking Attempt
-89' Assist - Takefusa Kubo with a cross after corner.  - Real Sociedad. Attacking Attempt
-2' Assist - Leroy Sané.  - FC Bayern München. Attacking Attempt
-7' Assist - Thomas Müller.  - FC Bayern München. Attacking Attempt
-22' Assist - Danilo Cataldi.  - Lazio. Attacking Attempt
-29' Assist - Jamal Musiala.  - FC Bayern München. Attacking Attempt
-32' Assist - Thomas Müller .  - FC Bayern München. Attacking Attempt
-38' Assist - Luis Alberto.  - Lazio. Attacking Attempt
-40' Assist - Leon Goretzka.  - FC Bayern München. Attacking Attempt
-58' Assist - Thomas Müller with a cross.  - FC Bayern München. Attacking Attempt
-62' Assist - Thomas Müller with a cross.  - FC Bayern München. Attacking Attempt
-87' Assist - Mathys Tel with a cross.  - FC Bayern München. Attacking Attempt
-11' Assist - Jordan Teze.  - PSV Eindhoven. Attacking Attempt
-16' Assist - Luuk de Jong.  - PSV Eindhoven. Attacking Attempt
-20' Assist - Marco Reus with a cross after corner.  - Borussia Dortmund. Attacking Attempt
-37' Assist - Ismael Saibari with a cross.  - PSV Eindhoven. Attacking Attempt
-43' Assist - Joey Veerman with a cross .  - PSV Eindhoven. Attacking Attempt
-62' Assist - Jordan Teze.  - PSV Eindhoven. Attacking Attempt
-65' Assist - Luuk de Jong.  - PSV Eindhoven. Attacking Attempt
-3' Assist - Alessandro Bastoni with a cross .  - Inter Milan. Attacking Attempt
-12' Assist - Koke.  - Atletico Madrid. Attacking Attempt
-19' Assist - Marcos Llorente.  - Atletico Madrid. Attacking Attempt
-32' Assist - Marcus Thuram with a head.  - Inter Milan. Attacking Attempt
-49' Assist - Federico Dimarco with a cross.  - Inter Milan. Attacking Attempt
-52' Assist - Nicolò Barella.  - Inter Milan. Attacking Attempt
-56' Assist - Rodrigo De Paul.  - Atletico Madrid. Attacking Attempt
-60' Assist - Antoine Griezmann.  - Atletico Madrid. Attacking Attempt
-81' Assist - Rodrigo De Paul.  - Atletico Madrid. Attacking Attempt
-88' Assist - Ángel Correa with a cross.  - Atletico Madrid. Attacking Attempt
-33' Assist - Kai Havertz.  - Arsenal. Attacking Attempt
-35' Assist - Bukayo Saka with a cross after corner.  - Arsenal. Attacking Attempt
-45+1' Assist - Bukayo Saka with a cross after corner.  - Arsenal. Attacking Attempt
-90+2' Assist - Declan Rice with a cross .  - Arsenal. Attacking Attempt
-4' Assist - Ilkay Gündogan.  - Barcelona. Attacking Attempt
-14' Assist - Pedri.  - Barcelona. Attacking Attempt
-33' Assist - Ilkay Gündogan with a cross .  - Barcelona. Attacking Attempt
-46' Assist - Mathías Olivera with a cross.  - Napoli. Attacking Attempt
-51' Assist - Lamine Yamal with a through ball.  - Barcelona. Attacking Attempt
-90+5' Assist - Robert Lewandowski.  - Barcelona. Attacking Attempt
-5' Assist - Fabián Ruiz.  - Paris Saint Germain. Attacking Attempt
-45' Assist - Hamari Traoré.  - Real Sociedad. Attacking Attempt
-67' Assist - Javi Galán with a cross after corner.  - Real Sociedad. Attacking Attempt
-70' Assist - Mikel Oyarzabal.  - Real Sociedad. Attacking Attempt
-76' Assist - Takefusa Kubo with a cross after corner.  - Real Sociedad. Attacking Attempt
-76' Assist - Hamari Traoré with a cross after corner.  - Real Sociedad. Attacking Attempt
-5' Assist - Felipe Anderson.  - Lazio. Attacking Attempt
-8' Assist - Joshua Kimmich with a cross after corner.  - FC Bayern München. Attacking Attempt
-35' Assist - Joshua Kimmich with a cross.  - FC Bayern München. Attacking Attempt
-38' Assist - Thomas Müller with a head.  - FC Bayern München. Attacking Attempt
-40' Assist - Leroy Sané.  - FC Bayern München. Attacking Attempt
-59' Assist - Harry Kane.  - FC Bayern München. Attacking Attempt
-72' Assist - Jamal Musiala.  - FC Bayern München. Attacking Attempt
-75' Assist - Jamal Musiala.  - FC Bayern München. Attacking Attempt
-13' Assist - Xavi Simons.  - RB Leipzig. Attacking Attempt
-15' Assist - Xavi Simons with a cross .  - RB Leipzig. Attacking Attempt
-16' Assist - Dani Olmo following a fast break.  - RB Leipzig. Attacking Attempt
-42' Assist - Xavi Simons with a cross after corner.  - RB Leipzig. Attacking Attempt
-44' Assist - Aurélien Tchouaméni with a cross.  - Real Madrid. Attacking Attempt
-60' Assist - Federico Valverde.  - Real Madrid. Attacking Attempt
-67' Assist - David Raum with a cross after corner.  - RB Leipzig. Attacking Attempt
-68' Assist - Xaver Schlager with a cross after corner.  - RB Leipzig. Attacking Attempt
-71' Assist - Rodrygo after corner.  - Real Madrid. Attacking Attempt
-76' Assist - Amadou Haidara.  - RB Leipzig. Attacking Attempt
-82' Assist - David Raum with a cross after corner.  - RB Leipzig. Attacking Attempt
-76' Assist - Mohamed Elyounoussi with a head after corner.  - FC Copenhagen. Attacking Attempt
-79' Assist - Roony Bardghji after corner.  - FC Copenhagen. Attacking Attempt
-89' Assist - Roony Bardghji.  - FC Copenhagen. Attacking Attempt
-90+3' Assist - Birger Meling following a fast break.  - FC Copenhagen. Attacking Attempt
-1' Assist - Fermín López.  - Barcelona. Attacking Attempt
-13' Assist - Pau Cubarsí.  - Barcelona. Attacking Attempt
-25' Assist - Fermín López.  - Barcelona. Attacking Attempt
-35' Assist - Victor Osimhen after corner.  - Napoli. Attacking Attempt
-36' Assist - Jules Koundé.  - Barcelona. Attacking Attempt
-40' Assist - Lamine Yamal.  - Barcelona. Attacking Attempt
-47' Assist - Hamed Traorè.  - Napoli. Attacking Attempt
-51' Assist - Khvicha Kvaratskhelia with a cross after corner.  - Napoli. Attacking Attempt
-78' Assist - Ilkay Gündogan.  - Barcelona. Attacking Attempt
-80' Assist - Mathías Olivera with a cross.  - Napoli. Attacking Attempt
-90+3' Assist - Frank Anguissa.  - Napoli. Attacking Attempt
-11' Assist - Leandro Trossard.  - Arsenal. Attacking Attempt
-14' Assist - Bukayo Saka after corner.  - Arsenal. Attacking Attempt
-15' Assist - Leandro Trossard with a cross.  - Arsenal. Attacking Attempt
-27' Assist - Leandro Trossard with a cross.  - Arsenal. Attacking Attempt
-43' Assist - Pepê Aquino.  - FC Porto. Attacking Attempt
-74' Assist - Leandro Trossard with a cross .  - Arsenal. Attacking Attempt
-101' Assist - Jorge Sánchez.  - FC Porto. Attacking Attempt
-11' Assist - Donyell Malen.  - Borussia Dortmund. Attacking Attempt
-12' Assist - Niklas Süle with a cross.  - Borussia Dortmund. Attacking Attempt
-26' Assist - Marcel Sabitzer.  - Borussia Dortmund. Attacking Attempt
-27' Assist - Joey Veerman.  - PSV Eindhoven. Attacking Attempt
-40' Assist - Marcel Sabitzer.  - Borussia Dortmund. Attacking Attempt
-42' Assist - Johan Bakayoko.  - PSV Eindhoven. Attacking Attempt
-43' Assist - Mauro Júnior.  - PSV Eindhoven. Attacking Attempt
-62' Assist - Mauro Júnior.  - PSV Eindhoven. Attacking Attempt
-69' Assist - Joey Veerman with a cross.  - PSV Eindhoven. Attacking Attempt
-71' Assist - Jordan Teze with a cross after corner.  - PSV Eindhoven. Attacking Attempt
-90+4' Assist - Jordan Teze with a through ball.  - PSV Eindhoven. Attacking Attempt
-22' Assist - Koke.  - Atletico Madrid. Attacking Attempt
-30' Assist - Koke.  - Atletico Madrid. Attacking Attempt
-38' Assist - Antoine Griezmann .  - Atletico Madrid. Attacking Attempt
-60' Assist - Marcos Llorente with a cross.  - Atletico Madrid. Attacking Attempt
-76' Assist - Lautaro Martínez with a through ball following a fast break.  - Inter Milan. Attacking Attempt
-79' Assist - Pablo Barrios with a cross.  - Atletico Madrid. Attacking Attempt
-90+3' Assist - Antoine Griezmann.  - Atletico Madrid. Attacking Attempt
-94' Assist - Yann Bisseck with a cross.  - Inter Milan. Attacking Attempt
-103' Assist - Alexis Sánchez with a cross.  - Inter Milan. Attacking Attempt
-1' Assist - Xavi Simons.  - RB Leipzig. Attacking Attempt
-2' Assist - Loïs Openda.  - RB Leipzig. Attacking Attempt
-12' Assist - Xavi Simons with a cross after corner.  - RB Leipzig. Attacking Attempt
-13' Assist - Kevin Kampl following a fast break.  - RB Leipzig. Attacking Attempt
-20' Assist - Filip Ugrinic after corner.  - Young Boys. Attacking Attempt
-29' Assist - Xavi Simons.  - RB Leipzig. Attacking Attempt
-32' Assist - Saidy Janko.  - Young Boys. Attacking Attempt
-49' Assist - David Raum with a cross after corner.  - RB Leipzig. Attacking Attempt
-50' Assist - Kevin Kampl.  - RB Leipzig. Attacking Attempt
-14' Assist - Rade Krunic with a cross after corner.  - AC Milan. Attacking Attempt
-20' Assist - Rade Krunic with a cross after corner.  - AC Milan. Attacking Attempt
-20' Assist - Théo Hernández.  - AC Milan. Attacking Attempt
-32' Assist - Théo Hernández with a cross.  - AC Milan. Attacking Attempt
-34' Assist - Rade Krunic with a cross after corner.  - AC Milan. Attacking Attempt
-37' Assist - Rafael Leão with a head.  - AC Milan. Attacking Attempt
-41' Assist - Alexander Isak.  - Newcastle United. Attacking Attempt
-51' Assist - Anthony Gordon.  - Newcastle United. Attacking Attempt
-52' Assist - Rade Krunic.  - AC Milan. Attacking Attempt
-74' Assist - Alessandro Florenzi with a cross.  - AC Milan. Attacking Attempt
-78' Assist - Alessandro Florenzi with a cross.  - AC Milan. Attacking Attempt
-82' Assist - Kieran Trippier .  - Newcastle United. Attacking Attempt
-90+2' Assist - Fikayo Tomori.  - AC Milan. Attacking Attempt
-30' Assist - Jamal Musiala.  - FC Bayern München. Attacking Attempt
-62' Assist - Toni Kroos.  - Real Madrid. Attacking Attempt
-64' Assist - Aurélien Tchouaméni.  - Real Madrid. Attacking Attempt
-66' Assist - Noussair Mazraoui.  - FC Bayern München. Attacking Attempt
-71' Assist - Joshua Kimmich with a cross.  - FC Bayern München. Attacking Attempt
-73' Assist - Rodrygo.  - Real Madrid. Attacking Attempt
-29' Assist - Jadon Sancho.  - Borussia Dortmund. Attacking Attempt
-51' Assist - Julian Brandt with a cross.  - Borussia Dortmund. Attacking Attempt
-51' Assist - Achraf Hakimi.  - Paris Saint Germain. Attacking Attempt
-58' Assist - Jadon Sancho.  - Borussia Dortmund. Attacking Attempt
-75' Assist - Julian Ryerson.  - Borussia Dortmund. Attacking Attempt
-12' Assist - Niclas Füllkrug.  - Borussia Dortmund. Attacking Attempt
-33' Assist - Ousmane Dembélé with a cross.  - Paris Saint Germain. Attacking Attempt
-76' Assist - Marcel Sabitzer.  - Borussia Dortmund. Attacking Attempt
-79' Assist - Vitinha.  - Paris Saint Germain. Attacking Attempt
-79' Assist - Nuno Mendes.  - Paris Saint Germain. Attacking Attempt
-79' Assist - Marco Asensio.  - Paris Saint Germain. Attacking Attempt
-80' Assist - Marco Asensio.  - Paris Saint Germain. Attacking Attempt
-89' Assist - Bradley Barcola.  - Paris Saint Germain. Attacking Attempt
-17' Assist - Vinícius Júnior.  - Real Madrid. Attacking Attempt
-32' Assist - Toni Kroos.  - Real Madrid. Attacking Attempt
-36' Assist - Toni Kroos.  - Real Madrid. Attacking Attempt
-47' Assist - Harry Kane.  - FC Bayern München. Attacking Attempt
-7' Assist - Erling Haaland.  - Manchester City. Attacking Attempt
-33' Assist - Mateo Kovacic.  - Manchester City. Attacking Attempt
-68' Assist - Federico Valverde.  - Real Madrid. Attacking Attempt
-90' Assist - Luka Modric.  - Real Madrid. Attacking Attempt
-20' Assist - Martin Ødegaard.  - Arsenal. Attacking Attempt
-20' Assist - Martin Ødegaard.  - Arsenal. Attacking Attempt
-35' Assist - Bukayo Saka.  - Arsenal. Attacking Attempt
-62' Assist - Martin Ødegaard.  - Arsenal. Attacking Attempt
-68' Assist - Gabriel Jesus.  - Arsenal. Attacking Attempt
-68' Assist - Joshua Kimmich.  - FC Bayern München. Attacking Attempt
-9' Assist - Marquinhos.  - Paris Saint Germain. Attacking Attempt
-12' Assist - Marco Asensio.  - Paris Saint Germain. Attacking Attempt
-12' Assist - Lee Kang-In.  - Paris Saint Germain. Attacking Attempt
-19' Assist - Vitinha.  - Paris Saint Germain. Attacking Attempt
-20' Assist - Robert Lewandowski.  - Barcelona. Attacking Attempt
-20' Assist - Ilkay Gündogan with a cross.  - Barcelona. Attacking Attempt
-20' Assist - Ilkay Gündogan.  - Barcelona. Attacking Attempt
-34' Assist - Ilkay Gündogan with a cross.  - Barcelona. Attacking Attempt
-57' Assist - Lee Kang-In.  - Paris Saint Germain. Attacking Attempt
-71' Assist - Vitinha.  - Paris Saint Germain. Attacking Attempt
-83' Assist - Kylian Mbappé.  - Paris Saint Germain. Attacking Attempt
-90+2' Assist - Ousmane Dembélé.  - Paris Saint Germain. Attacking Attempt
-2' Assist - Antoine Griezmann.  - Atletico Madrid. Attacking Attempt
-10' Assist - Samuel Lino.  - Atletico Madrid. Attacking Attempt
-17' Assist - Koke.  - Atletico Madrid. Attacking Attempt
-56' Assist - Niclas Füllkrug.  - Borussia Dortmund. Attacking Attempt
-70' Assist - Rodrigo De Paul.  - Atletico Madrid. Attacking Attempt
-3' Assist - Karim Adeyemi.  - Borussia Dortmund. Attacking Attempt
-30' Assist - Antoine Griezmann.  - Atletico Madrid. Attacking Attempt
-45+2' Assist - Julian Brandt with a cross.  - Borussia Dortmund. Attacking Attempt
-48' Assist - Antoine Griezmann.  - Atletico Madrid. Attacking Attempt
-55' Assist - Karim Adeyemi.  - Borussia Dortmund. Attacking Attempt
-69' Assist - Emre Can.  - Borussia Dortmund. Attacking Attempt
-74' Assist - Julian Brandt.  - Borussia Dortmund. Attacking Attempt
-6' Assist - Bradley Barcola.  - Paris Saint Germain. Attacking Attempt
-27' Assist - Vitinha.  - Paris Saint Germain. Attacking Attempt
-49' Assist - Vitinha.  - Paris Saint Germain. Attacking Attempt
-79' Assist - Lee Kang-In.  - Paris Saint Germain. Attacking Attempt
-88' Assist - Ferran Torres.  - Barcelona. Attacking Attempt
-14' Assist - Jack Grealish.  - Manchester City. Attacking Attempt
-32' Assist - Rodri.  - Manchester City. Attacking Attempt
-36' Assist - Erling Haaland.  - Manchester City. Attacking Attempt
-58' Assist - Bernardo Silva.  - Manchester City. Attacking Attempt
-61' Assist - Erling Haaland.  - Manchester City. Attacking Attempt
-74' Assist - Rodri.  - Manchester City. Attacking Attempt
-87' Assist - Jérémy Doku.  - Manchester City. Attacking Attempt
-95' Assist - Kevin De Bruyne.  - Manchester City. Attacking Attempt
-101' Assist - Josko Gvardiol.  - Manchester City. Attacking Attempt
-108' Assist - Josko Gvardiol.  - Manchester City. Attacking Attempt
-113' Assist - Jérémy Doku.  - Manchester City. Attacking Attempt
-21' Assist - Gabriel Martinelli.  - Arsenal. Attacking Attempt
-34' Assist - Jamal Musiala.  - FC Bayern München. Attacking Attempt
-61' Assist - Jamal Musiala.  - FC Bayern München. Attacking Attempt
-71' Assist - Joshua Kimmich.  - FC Bayern München. Attacking Attempt
-76' Assist - Leon Goretzka.  - FC Bayern München. Attacking Attempt
-7' Assist - Brahim Díaz.  - Real Madrid. Attacking Attempt
-20' Assist - Dani Olmo.  - RB Leipzig. Attacking Attempt
-22' Assist - Vinícius Júnior.  - Real Madrid. Attacking Attempt
-27' Assist - Ferland Mendy.  - Real Madrid. Attacking Attempt
-55' Assist - Rodrygo.  - Real Madrid. Attacking Attempt
-68' Assist - Rodrygo.  - Real Madrid. Attacking Attempt
-74' Assist - Xaver Schlager.  - RB Leipzig. Attacking Attempt
-90+3' Assist - Eduardo Camavinga.  - Real Madrid. Attacking Attempt
-30' Assist - Rodri.  - Manchester City. Attacking Attempt
-44' Assist - Rodri.  - Manchester City. Attacking Attempt
-60' Assist - Phil Foden.  - Manchester City. Attacking Attempt
-66' Assist - Jérémy Doku.  - Manchester City. Attacking Attempt
-77' Assist - Bernardo Silva with a cross.  - Manchester City. Attacking Attempt
-56' Assist - Vitinha.  - Paris Saint Germain. Attacking Attempt
-76' Assist - Takefusa Kubo with a cross.  - Real Sociedad. Attacking Attempt
-76' Assist - André Silva.  - Real Sociedad. Attacking Attempt
-85' Assist - Achraf Hakimi.  - Paris Saint Germain. Attacking Attempt
-10' Assist - Raphaël Guerreiro.  - FC Bayern München. Attacking Attempt
-45' Assist - Gustav Isaksen.  - Lazio. Attacking Attempt
-50' Assist - Luis Alberto with a cross.  - Lazio. Attacking Attempt
-52' Assist - Noussair Mazraoui with a cross.  - FC Bayern München. Attacking Attempt
-67' Assist - Ciro Immobile.  - Lazio. Attacking Attempt
-72' Assist - Thomas Müller with a through ball.  - FC Bayern München. Attacking Attempt
-82' Assist - Eric Choupo-Moting.  - FC Bayern München. Attacking Attempt
-90' Assist - Valentín Castellanos.  - Lazio. Attacking Attempt
-33' Assist - Malik Tillman.  - PSV Eindhoven. Attacking Attempt
-49' Assist - Malik Tillman.  - PSV Eindhoven. Attacking Attempt
-38' Assist - Marcus Thuram.  - Inter Milan. Attacking Attempt
-47' Assist - Nicolò Barella.  - Inter Milan. Attacking Attempt
-73' Assist - Hakan Çalhanoglu.  - Inter Milan. Attacking Attempt
-84' Assist - Davide Frattesi.  - Inter Milan. Attacking Attempt
-90' Assist - Rodrigo De Paul.  - Atletico Madrid. Attacking Attempt
-90+2' Assist - Hakan Çalhanoglu with a cross.  - Inter Milan. Attacking Attempt
-21' Assist - Francisco Conceição with a cross.  - FC Porto. Attacking Attempt
-45' Assist - Leandro Trossard.  - Arsenal. Attacking Attempt
-67' Assist - Pepê Aquino.  - FC Porto. Attacking Attempt
-84' Assist - Hamed Traorè with a through ball.  - Napoli. Attacking Attempt
-48' Assist - Beraldo.  - Paris Saint Germain. Attacking Attempt
-89' Assist - Takefusa Kubo.  - Real Sociedad. Attacking Attempt
-8' Assist - Leroy Sané.  - FC Bayern München. Attacking Attempt
-10' Assist - Mattia Zaccagni.  - Lazio. Attacking Attempt
-12' Assist - Jamal Musiala.  - FC Bayern München. Attacking Attempt
-17' Assist - Leroy Sané.  - FC Bayern München. Attacking Attempt
-18' Assist - Joshua Kimmich with a cross.  - FC Bayern München. Attacking Attempt
-24' Assist - Thomas Müller.  - FC Bayern München. Attacking Attempt
-38' Assist - Leon Goretzka.  - FC Bayern München. Attacking Attempt
-52' Assist - Adam Marusic with a cross.  - Lazio. Attacking Attempt
-54' Assist - Raphaël Guerreiro.  - FC Bayern München. Attacking Attempt
-15' Assist - Federico Valverde.  - Real Madrid. Attacking Attempt
-26' Assist - Federico Valverde.  - Real Madrid. Attacking Attempt
-39' Assist - Benjamin Henrichs.  - RB Leipzig. Attacking Attempt
-51' Assist - Vinícius Júnior.  - Real Madrid. Attacking Attempt
-52' Assist - Jude Bellingham.  - Real Madrid. Attacking Attempt
-74' Assist - Willi Orbán with a head.  - RB Leipzig. Attacking Attempt
-77' Assist - Benjamin Henrichs.  - RB Leipzig. Attacking Attempt
-87' Assist - Rodrygo with a cross.  - Real Madrid. Attacking Attempt
-90+3' Assist - Xavi Simons with a cross.  - RB Leipzig. Attacking Attempt
-9' Assist - Josko Gvardiol.  - Manchester City. Attacking Attempt
-20' Assist - Oscar Bobb.  - Manchester City. Attacking Attempt
-32' Assist - Peter Ankersen.  - FC Copenhagen. Attacking Attempt
-34' Assist - Erling Haaland.  - Manchester City. Attacking Attempt
-40' Assist - Erling Haaland.  - Manchester City. Attacking Attempt
-50' Assist - Mateo Kovacic.  - Manchester City. Attacking Attempt
-78' Assist - Andreas Cornelius.  - FC Copenhagen. Attacking Attempt
-83' Assist - Andreas Cornelius.  - FC Copenhagen. Attacking Attempt
-90+1' Assist - Julián Álvarez.  - Manchester City. Attacking Attempt
-90+2' Assist - Julián Álvarez.  - Manchester City. Attacking Attempt
-45+4' Assist - Ronald Araujo with a head.  - Barcelona. Attacking Attempt
-49' Assist - Hamed Traorè.  - Napoli. Attacking Attempt
-63' Assist - Victor Osimhen.  - Napoli. Attacking Attempt
-69' Assist - Raphinha.  - Barcelona. Attacking Attempt
-23' Assist - Nico González.  - FC Porto. Attacking Attempt
-23' Assist - Francisco Conceição.  - FC Porto. Attacking Attempt
-58' Assist - Kai Havertz.  - Arsenal. Attacking Attempt
-110' Assist - Eddie Nketiah.  - Arsenal. Attacking Attempt
-2' Assist - Julian Brandt with a cross.  - Borussia Dortmund. Attacking Attempt
-7' Assist - Jadon Sancho with a cross.  - Borussia Dortmund. Attacking Attempt
-68' Assist - Jordan Teze.  - PSV Eindhoven. Attacking Attempt
-80' Assist - Karim Adeyemi.  - Borussia Dortmund. Attacking Attempt
-43' Assist - Marcos Llorente.  - Atletico Madrid. Attacking Attempt
-50' Assist - Nicolò Barella.  - Inter Milan. Attacking Attempt
-58' Assist - Antoine Griezmann.  - Atletico Madrid. Attacking Attempt
-75' Assist - Marcos Llorente.  - Atletico Madrid. Attacking Attempt
-109' Assist - Benjamin Pavard.  - Inter Milan. Attacking Attempt
-117' Assist - Alexis Sánchez.  - Inter Milan. Attacking Attempt
-120' Assist - Memphis Depay.  - Atletico Madrid. Attacking Attempt
-38' Assist - Sandro Lauper.  - Young Boys. Attacking Attempt
-60' Assist - Xaver Schlager.  - RB Leipzig. Attacking Attempt
-65' Assist - Meschack Elia with a cross.  - Young Boys. Attacking Attempt
-72' Assist - Emil Forsberg.  - RB Leipzig. Attacking Attempt
-75' Assist - Xavi Simons.  - RB Leipzig. Attacking Attempt
-34' Assist - Samuel Chukwueze.  - AC Milan. Attacking Attempt
-38' Assist - Sean Longstaff.  - Newcastle United. Attacking Attempt
-47' Assist - Anthony Gordon.  - Newcastle United. Attacking Attempt
-51' Assist - Bradley Barcola.  - Paris Saint Germain. Attacking Attempt
-47' Assist - Gonçalo Ramos after corner.  - Paris Saint Germain. Attacking Attempt
-88' Assist - Ousmane Dembélé.  - Paris Saint Germain. Attacking Attempt
-90' Assist - Jamal Musiala.  - FC Bayern München. Attacking Attempt
-75' Assist - Vitinha with a through ball.  - Paris Saint Germain. Attacking Attempt
-90+6' Assist - Julian Ryerson with a cross.  - Borussia Dortmund. Attacking Attempt
-56' Assist - Robert Lewandowski.  - Barcelona. Attacking Attempt
-19' Assist - Bernardo Silva with a head.  - Manchester City. Attacking Attempt
-47' Assist - Joshua Kimmich.  - FC Bayern München. Attacking Attempt
-72' Assist - Brahim Díaz following a fast break.  - Real Madrid. Attacking Attempt
-45' Assist - Brais Méndez.  - Real Sociedad. Attacking Attempt
-90+2' Assist - Christoph Baumgartner with a head.  - RB Leipzig. Attacking Attempt
-9' Assist - Julián Álvarez with a cross after corner.  - Manchester City. Attacking Attempt
-17' Assist - Lamine Yamal following a fast break.  - Barcelona. Attacking Attempt
-89' Assist - Khvicha Kvaratskhelia.  - Napoli. Attacking Attempt
-53' Assist - Sergiño Dest.  - PSV Eindhoven. Attacking Attempt
-85' Assist - Koke.  - Atletico Madrid. Attacking Attempt
-98' Assist - Hakan Çalhanoglu with a cross after corner.  - Inter Milan. Attacking Attempt
-24' Assist - Toni Kroos with a through ball.  - Real Madrid. Goal
-53' Assist - Konrad Laimer.  - FC Bayern München. Goal
-36' Assist - Nico Schlotterbeck with a through ball.  - Borussia Dortmund. Goal
-50' Assist - Julian Brandt with a cross after corner.  - Borussia Dortmund. Goal
-68' Assist - Harry Kane following a fast break.  - FC Bayern München. Goal
-14' Assist - Vinícius Júnior following a fast break.  - Real Madrid. Goal
-66' Assist - John Stones.  - Manchester City. Goal
-71' Assist - Jack Grealish.  - Manchester City. Goal
-79' Assist - Vinícius Júnior with a cross.  - Real Madrid. Goal
-12' Assist - Ben White.  - Arsenal. Goal
-18' Assist - Leon Goretzka with a through ball.  - FC Bayern München. Goal
-76' Assist - Gabriel Jesus.  - Arsenal. Goal
-50' Assist - Fabián Ruiz with a through ball.  - Paris Saint Germain. Goal
-62' Assist - Pedri with a through ball.  - Barcelona. Goal
-77' Assist - Ilkay Gündogan with a cross after corner.  - Barcelona. Goal
-32' Assist - Antoine Griezmann.  - Atletico Madrid. Goal
-34' Assist - Mats Hummels.  - Borussia Dortmund. Goal
-39' Assist - Marcel Sabitzer.  - Borussia Dortmund. Goal
-71' Assist - Marcel Sabitzer with a cross.  - Borussia Dortmund. Goal
-74' Assist - Niclas Füllkrug.  - Borussia Dortmund. Goal
-12' Assist - Lamine Yamal.  - Barcelona. Goal
-40' Assist - Bradley Barcola with a cross.  - Paris Saint Germain. Goal
-54' Assist - Achraf Hakimi after corner.  - Paris Saint Germain. Goal
-63' Assist - Raphaël Guerreiro with a cross.  - FC Bayern München. Goal
-48' Assist - Dani Carvajal.  - Real Madrid. Goal
-10' Assist - Phil Foden with a through ball.  - Manchester City. Goal
-45' Assist - Kevin De Bruyne.  - Manchester City. Goal
-70' Assist - Fabián Ruiz.  - Paris Saint Germain. Goal
-24' Assist - Marcel Sabitzer.  - Borussia Dortmund. Goal
-90+4' Assist - Otávio.  - FC Porto. Goal
-60' Assist - Pedri.  - Barcelona. Goal
-75' Assist - Frank Anguissa.  - Napoli. Goal
-15' Assist - Ousmane Dembélé with a through ball.  - Paris Saint Germain. Goal
-56' Assist - Lee Kang-In.  - Paris Saint Germain. Goal
-38' Assist - Raphaël Guerreiro.  - FC Bayern München. Goal
-45+2' Assist - Matthijs de Ligt after corner.  - FC Bayern München. Goal
-65' Assist - Jude Bellingham following a fast break.  - Real Madrid. Goal
-68' Assist - David Raum with a cross.  - RB Leipzig. Goal
-5' Assist - Julián Álvarez with a cross after corner.  - Manchester City. Goal
-29' Assist - Orri Óskarsson following a fast break.  - FC Copenhagen. Goal
-45+3' Assist - Rodri.  - Manchester City. Goal
-15' Assist - Raphinha.  - Barcelona. Goal
-30' Assist - Matteo Politano.  - Napoli. Goal
-83' Assist - Sergi Roberto.  - Barcelona. Goal
-41' Assist - Martin Ødegaard with a through ball.  - Arsenal. Goal
-3' Assist - Julian Brandt.  - Borussia Dortmund. Goal
-90+5' Assist - Niclas Füllkrug with a head.  - Borussia Dortmund. Goal
-33' Assist - Nicolò Barella.  - Inter Milan. Goal
-87' Assist - Koke with a through ball.  - Atletico Madrid. Goal
-3' Assist - David Raum with a cross after corner.  - RB Leipzig. Goal
-33' Assist - Filip Ugrinic.  - Young Boys. Goal
-73' Assist - Kevin Kampl after corner.  - RB Leipzig. Goal
-90+2' Assist - Benjamin Henrichs with a through ball following a fast break.  - RB Leipzig. Goal
+ Assist - Toni Kroos with a through ball. Goal_Scored1
+ Assist - Konrad Laimer. Goal_Scored2
+ Assist - Nico Schlotterbeck with a through ball. Goal_Scored5
+ Assist - Julian Brandt with a cross after corner. Goal_Scored6
+ Assist - Harry Kane following a fast break. Goal_Scored7
+ Assist - Antonio Rüdiger with a cross after corner.Goal awarded following VAR Review. Goal_Scored9
+ Assist - Vinícius Júnior following a fast break. Goal_Scored11
+ Assist - John Stones. Goal_Scored12
+ Assist - Jack Grealish. Goal_Scored13
+ Assist - Vinícius Júnior with a cross. Goal_Scored14
+ Assist - Ben White. Goal_Scored15
+ Assist - Leon Goretzka with a through ball. Goal_Scored16
+ Assist - Gabriel Jesus. Goal_Scored18
+ Assist - Fabián Ruiz with a through ball. Goal_Scored21
+ Assist - Pedri with a through ball. Goal_Scored22
+ Assist - Ilkay Gündogan with a cross after corner. Goal_Scored23
+ Assist - Antoine Griezmann. Goal_Scored25
+ Assist - Mats Hummels. Goal_Scored27
+ Assist - Marcel Sabitzer. Goal_Scored28
+ Assist - Marcel Sabitzer with a cross. Goal_Scored30
+ Assist - Niclas Füllkrug. Goal_Scored31
+ Assist - Lamine Yamal. Goal_Scored32
+ Assist - Bradley Barcola with a cross. Goal_Scored33
+ Assist - Achraf Hakimi after corner. Goal_Scored34
+ Assist - Raphaël Guerreiro with a cross. Goal_Scored39
+ Assist - Dani Carvajal. Goal_Scored40
+ Assist - Phil Foden with a through ball. Goal_Scored41
+ Assist - Kevin De Bruyne. Goal_Scored43
+ Assist - Fabián Ruiz. Goal_Scored46
+ Assist - Marcel Sabitzer. Goal_Scored48
+ Assist - Otávio. Goal_Scored51
+ Assist - Pedri. Goal_Scored52
+ Assist - Frank Anguissa. Goal_Scored53
+ Assist - Ousmane Dembélé with a through ball. Goal_Scored54
+ Assist - Lee Kang-In. Goal_Scored55
+ Assist - Raphaël Guerreiro. Goal_Scored57
+ Assist - Matthijs de Ligt after corner. Goal_Scored58
+ Assist - Jude Bellingham following a fast break. Goal_Scored60
+ Assist - David Raum with a cross. Goal_Scored61
+ Assist - Julián Álvarez with a cross after corner. Goal_Scored62
+ Assist - Orri Óskarsson following a fast break. Goal_Scored64
+ Assist - Rodri. Goal_Scored65
+ Assist - Raphinha. Goal_Scored66
+ Assist - Matteo Politano. Goal_Scored68
+ Assist - Sergi Roberto. Goal_Scored69
+ Assist - Martin Ødegaard with a through ball. Goal_Scored70
+ Assist - Julian Brandt. Goal_Scored71
+ Assist - Niclas Füllkrug with a head. Goal_Scored72
+ Assist - Nicolò Barella. Goal_Scored73
+ Assist - Koke with a through ball. Goal_Scored75
+ Assist - David Raum with a cross after corner. Goal_Scored76
+ Assist - Filip Ugrinic. Goal_Scored77
+ Assist - Kevin Kampl after corner. Goal_Scored78
+ Assist - Benjamin Henrichs with a through ball following a fast break. Goal_Scored79
+ Assist - Harry Kane with a through ball. Attacking_Attempt1
+ Assist - Leroy Sané. Attacking_Attempt2
+ Assist - Harry Kane following a fast break. Attacking_Attempt3
+ Assist - Noussair Mazraoui following a fast break. Attacking_Attempt4
+ Assist - Thomas Müller. Attacking_Attempt5
+ Assist - Harry Kane. Attacking_Attempt6
+ Assist - Jamal Musiala. Attacking_Attempt7
+ Assist - Toni Kroos with a cross after corner. Attacking_Attempt10
+ Assist - Jude Bellingham. Attacking_Attempt11
+ Assist - Toni Kroos. Attacking_Attempt12
+ Assist - Aurélien Tchouaméni. Attacking_Attempt13
+ Assist - Noussair Mazraoui. Attacking_Attempt14
+ Assist - Joshua Kimmich with a cross. Attacking_Attempt15
+ Assist - Joshua Kimmich with a cross. Attacking_Attempt16
+ Assist - Rodrygo. Attacking_Attempt17
+ Assist - Luka Modric. Attacking_Attempt18
+ Assist - Joshua Kimmich. Attacking_Attempt20
+ Assist - Kylian Mbappé. Attacking_Attempt21
+ Assist - Julian Brandt. Attacking_Attempt22
+ Assist - Achraf Hakimi. Attacking_Attempt23
+ Assist - Jadon Sancho. Attacking_Attempt24
+ Assist - Niclas Füllkrug. Attacking_Attempt25
+ Assist - Kylian Mbappé. Attacking_Attempt26
+ Assist - Julian Brandt. Attacking_Attempt27
+ Assist - Julian Brandt with a cross. Attacking_Attempt29
+ Assist - Achraf Hakimi. Attacking_Attempt30
+ Assist - Bradley Barcola. Attacking_Attempt32
+ Assist - Bradley Barcola. Attacking_Attempt33
+ Assist - Marquinhos with a cross. Attacking_Attempt34
+ Assist - Jadon Sancho. Attacking_Attempt35
+ Assist - Niclas Füllkrug with a head. Attacking_Attempt36
+ Assist - Jadon Sancho. Attacking_Attempt37
+ Assist - Ian Maatsen with a cross . Attacking_Attempt38
+ Assist - Kylian Mbappé with a through ball. Attacking_Attempt39
+ Assist - Julian Ryerson. Attacking_Attempt40
+ Assist - Achraf Hakimi. Attacking_Attempt41
+ Assist - Ousmane Dembélé. Attacking_Attempt42
+ Assist - Vitinha. Attacking_Attempt45
+ Assist - Fabián Ruiz with a cross. Attacking_Attempt46
+ Assist - Ian Maatsen with a cross. Attacking_Attempt47
+ Assist - Achraf Hakimi with a cross. Attacking_Attempt48
+ Assist - Niclas Füllkrug. Attacking_Attempt50
+ Assist - Vitinha. Attacking_Attempt51
+ Assist - Niclas Füllkrug. Attacking_Attempt52
+ Assist - Kylian Mbappé. Attacking_Attempt53
+ Assist - Warren Zaïre-Emery. Attacking_Attempt54
+ Assist - Ousmane Dembélé with a cross. Attacking_Attempt55
+ Assist - Julian Brandt. Attacking_Attempt56
+ Assist - Nuno Mendes. Attacking_Attempt57
+ Assist - Kylian Mbappé. Attacking_Attempt58
+ Assist - Gonçalo Ramos after corner. Attacking_Attempt60
+ Assist - Vitinha. Attacking_Attempt61
+ Assist - Nuno Mendes with a cross. Attacking_Attempt63
+ Assist - Nuno Mendes. Attacking_Attempt65
+ Assist - Marcel Sabitzer. Attacking_Attempt66
+ Assist - Julian Brandt with a cross after corner. Attacking_Attempt67
+ Assist - Vitinha. Attacking_Attempt68
+ Assist - Nuno Mendes. Attacking_Attempt69
+ Assist - Marco Asensio. Attacking_Attempt70
+ Assist - Marco Asensio. Attacking_Attempt72
+ Assist - Achraf Hakimi. Attacking_Attempt74
+ Assist - Lee Kang-In with a cross . Attacking_Attempt75
+ Assist - Ousmane Dembélé with a cross. Attacking_Attempt76
+ Assist - Achraf Hakimi. Attacking_Attempt77
+ Assist - Ousmane Dembélé. Attacking_Attempt79
+ Assist - Bradley Barcola. Attacking_Attempt80
+ Assist - Dani Carvajal. Attacking_Attempt83
+ Assist - Jude Bellingham. Attacking_Attempt85
+ Assist - Vinícius Júnior. Attacking_Attempt86
+ Assist - Toni Kroos. Attacking_Attempt88
+ Assist - Toni Kroos. Attacking_Attempt89
+ Assist - Toni Kroos. Attacking_Attempt93
+ Assist - Harry Kane. Attacking_Attempt94
+ Assist - Vinícius Júnior. Attacking_Attempt97
+ Assist - Jude Bellingham. Attacking_Attempt99
+ Assist - Toni Kroos . Attacking_Attempt100
+ Assist - Alphonso Davies. Attacking_Attempt101
+ Assist - Jamal Musiala. Attacking_Attempt102
+ Assist - Antonio Rüdiger. Attacking_Attempt103
+ Assist - Jude Bellingham. Attacking_Attempt104
+ Assist - Joshua Kimmich. Attacking_Attempt106
+ Assist - Josko Gvardiol. Attacking_Attempt107
+ Assist - Erling Haaland. Attacking_Attempt108
+ Assist - Dani Carvajal. Attacking_Attempt109
+ Assist - Eduardo Camavinga. Attacking_Attempt111
+ Assist - Dani Carvajal. Attacking_Attempt112
+ Assist - Mateo Kovacic. Attacking_Attempt113
+ Assist - Vinícius Júnior following a fast break. Attacking_Attempt114
+ Assist - Rodrygo. Attacking_Attempt115
+ Assist - Bernardo Silva. Attacking_Attempt116
+ Assist - Jack Grealish with a cross . Attacking_Attempt119
+ Assist - Rodrygo. Attacking_Attempt120
+ Assist - Bernardo Silva. Attacking_Attempt121
+ Assist - Mateo Kovacic. Attacking_Attempt122
+ Assist - Vinícius Júnior. Attacking_Attempt123
+ Assist - Federico Valverde. Attacking_Attempt125
+ Assist - Luka Modric. Attacking_Attempt126
+ Assist - Aurélien Tchouaméni after corner. Attacking_Attempt127
+ Assist - Martin Ødegaard. Attacking_Attempt128
+ Assist - Kai Havertz. Attacking_Attempt129
+ Assist - Martin Ødegaard. Attacking_Attempt130
+ Assist - Martin Ødegaard. Attacking_Attempt131
+ Assist - Gabriel Martinelli with a cross. Attacking_Attempt132
+ Assist - Bukayo Saka. Attacking_Attempt134
+ Assist - Declan Rice with a cross . Attacking_Attempt135
+ Assist - Martin Ødegaard . Attacking_Attempt136
+ Assist - Jamal Musiala. Attacking_Attempt137
+ Assist - Martin Ødegaard. Attacking_Attempt139
+ Assist - Leroy Sané following a fast break. Attacking_Attempt140
+ Assist - Gabriel Jesus. Attacking_Attempt141
+ Assist - Joshua Kimmich. Attacking_Attempt142
+ Assist - Jamal Musiala. Attacking_Attempt143
+ Assist - Jamal Musiala. Attacking_Attempt144
+ Assist - Nuno Mendes. Attacking_Attempt145
+ Assist - Ousmane Dembélé. Attacking_Attempt146
+ Assist - Marquinhos. Attacking_Attempt147
+ Assist - Ousmane Dembélé. Attacking_Attempt148
+ Assist - Marco Asensio. Attacking_Attempt149
+ Assist - Lee Kang-In. Attacking_Attempt150
+ Assist - Vitinha. Attacking_Attempt151
+ Assist - Robert Lewandowski. Attacking_Attempt152
+ Assist - Ilkay Gündogan with a cross. Attacking_Attempt153
+ Assist - Ilkay Gündogan. Attacking_Attempt154
+ Assist - Ronald Araujo after corner. Attacking_Attempt155
+ Assist - Sergi Roberto. Attacking_Attempt156
+ Assist - Raphinha. Attacking_Attempt157
+ Assist - Kylian Mbappé. Attacking_Attempt158
+ Assist - Ilkay Gündogan with a cross. Attacking_Attempt159
+ Assist - Raphinha. Attacking_Attempt161
+ Assist - Kylian Mbappé. Attacking_Attempt162
+ Assist - Lamine Yamal with a cross. Attacking_Attempt163
+ Assist - Lee Kang-In. Attacking_Attempt164
+ Assist - Lee Kang-In. Attacking_Attempt165
+ Assist - Vitinha. Attacking_Attempt167
+ Assist - Raphinha. Attacking_Attempt168
+ Assist - Vitinha with a through ball. Attacking_Attempt169
+ Assist - Kylian Mbappé. Attacking_Attempt170
+ Assist - Bradley Barcola with a cross. Attacking_Attempt171
+ Assist - Ousmane Dembélé. Attacking_Attempt172
+ Assist - Antoine Griezmann. Attacking_Attempt173
+ Assist - Antoine Griezmann with a cross. Attacking_Attempt174
+ Assist - Samuel Lino. Attacking_Attempt175
+ Assist - Marcos Llorente. Attacking_Attempt176
+ Assist - Koke. Attacking_Attempt177
+ Assist - José Giménez with a head after corner. Attacking_Attempt178
+ Assist - Jadon Sancho with a cross after corner. Attacking_Attempt179
+ Assist - Marcel Sabitzer. Attacking_Attempt182
+ Assist - Niclas Füllkrug. Attacking_Attempt183
+ Assist - Jadon Sancho. Attacking_Attempt184
+ Assist - Antoine Griezmann. Attacking_Attempt186
+ Assist - Antoine Griezmann with a cross. Attacking_Attempt187
+ Assist - Niclas Füllkrug. Attacking_Attempt188
+ Assist - Rodrigo De Paul. Attacking_Attempt189
+ Assist - Antoine Griezmann with a cross. Attacking_Attempt191
+ Assist - Ángel Correa. Attacking_Attempt194
+ Assist - Julian Ryerson with a cross. Attacking_Attempt195
+ Assist - Karim Adeyemi. Attacking_Attempt196
+ Assist - Antoine Griezmann with a head following a fast break. Attacking_Attempt198
+ Assist - Nahuel Molina. Attacking_Attempt199
+ Assist - Julian Brandt with a cross after corner. Attacking_Attempt200
+ Assist - Jadon Sancho. Attacking_Attempt201
+ Assist - Julian Brandt. Attacking_Attempt203
+ Assist - Antoine Griezmann. Attacking_Attempt204
+ Assist - Ian Maatsen. Attacking_Attempt205
+ Assist - Julian Brandt with a cross. Attacking_Attempt206
+ Assist - Antoine Griezmann. Attacking_Attempt208
+ Assist - Antoine Griezmann with a cross after corner. Attacking_Attempt209
+ Assist - Karim Adeyemi. Attacking_Attempt210
+ Assist - Koke with a through ball. Attacking_Attempt211
+ Assist - Ángel Correa. Attacking_Attempt213
+ Assist - Jadon Sancho with a cross. Attacking_Attempt215
+ Assist - Emre Can. Attacking_Attempt216
+ Assist - Julian Brandt. Attacking_Attempt217
+ Assist - Nico Schlotterbeck. Attacking_Attempt218
+ Assist - Emre Can with a head. Attacking_Attempt219
+ Assist - Bradley Barcola. Attacking_Attempt221
+ Assist - Achraf Hakimi with a cross after corner. Attacking_Attempt222
+ Assist - Vitinha. Attacking_Attempt224
+ Assist - Bradley Barcola. Attacking_Attempt225
+ Assist - Ousmane Dembélé. Attacking_Attempt228
+ Assist - Kylian Mbappé. Attacking_Attempt229
+ Assist - Nuno Mendes with a cross. Attacking_Attempt230
+ Assist - Marquinhos. Attacking_Attempt231
+ Assist - Vitinha. Attacking_Attempt232
+ Assist - Kylian Mbappé. Attacking_Attempt233
+ Assist - Robert Lewandowski. Attacking_Attempt234
+ Assist - João Cancelo with a cross. Attacking_Attempt235
+ Assist - Raphinha. Attacking_Attempt236
+ Assist - Ferran Torres. Attacking_Attempt237
+ Assist - Lee Kang-In. Attacking_Attempt238
+ Assist - Ferran Torres. Attacking_Attempt239
+ Assist - Achraf Hakimi. Attacking_Attempt240
+ Assist - Achraf Hakimi. Attacking_Attempt242
+ Assist - Dani Carvajal. Attacking_Attempt243
+ Assist - Vinícius Júnior. Attacking_Attempt244
+ Assist - Jack Grealish. Attacking_Attempt245
+ Assist - Bernardo Silva with a cross. Attacking_Attempt246
+ Assist - Bernardo Silva with a head. Attacking_Attempt247
+ Assist - Rodri. Attacking_Attempt252
+ Assist - Rodri with a cross. Attacking_Attempt253
+ Assist - Rodri. Attacking_Attempt254
+ Assist - Phil Foden. Attacking_Attempt255
+ Assist - Erling Haaland. Attacking_Attempt256
+ Assist - Toni Kroos. Attacking_Attempt259
+ Assist - Bernardo Silva. Attacking_Attempt262
+ Assist - Erling Haaland. Attacking_Attempt263
+ Assist - Rodri. Attacking_Attempt264
+ Assist - Rodri. Attacking_Attempt265
+ Assist - Manuel Akanji. Attacking_Attempt266
+ Assist - Manuel Akanji with a cross. Attacking_Attempt267
+ Assist - Jérémy Doku. Attacking_Attempt268
+ Assist - Jérémy Doku. Attacking_Attempt270
+ Assist - Kevin De Bruyne with a cross after corner. Attacking_Attempt271
+ Assist - Manuel Akanji after corner. Attacking_Attempt272
+ Assist - Kevin De Bruyne. Attacking_Attempt273
+ Assist - Bernardo Silva with a cross. Attacking_Attempt275
+ Assist - Josko Gvardiol. Attacking_Attempt276
+ Assist - Brahim Díaz with a cross. Attacking_Attempt277
+ Assist - Josko Gvardiol. Attacking_Attempt278
+ Assist - Jérémy Doku. Attacking_Attempt280
+ Assist - Phil Foden. Attacking_Attempt281
+ Assist - Leon Goretzka. Attacking_Attempt283
+ Assist - Kai Havertz. Attacking_Attempt284
+ Assist - Gabriel Martinelli. Attacking_Attempt285
+ Assist - Noussair Mazraoui. Attacking_Attempt286
+ Assist - Takehiro Tomiyasu. Attacking_Attempt287
+ Assist - Martin Ødegaard. Attacking_Attempt288
+ Assist - Jamal Musiala. Attacking_Attempt289
+ Assist - Declan Rice with a cross. Attacking_Attempt290
+ Assist - Gabriel Martinelli with a head. Attacking_Attempt292
+ Assist - Joshua Kimmich. Attacking_Attempt293
+ Assist - Jamal Musiala. Attacking_Attempt295
+ Assist - Noussair Mazraoui. Attacking_Attempt296
+ Assist - Joshua Kimmich with a cross . Attacking_Attempt297
+ Assist - Joshua Kimmich. Attacking_Attempt298
+ Assist - Joshua Kimmich with a cross after corner. Attacking_Attempt300
+ Assist - Leon Goretzka. Attacking_Attempt301
+ Assist - Harry Kane. Attacking_Attempt303
+ Assist - Xavi Simons with a through ball. Attacking_Attempt304
+ Assist - Brahim Díaz. Attacking_Attempt305
+ Assist - Toni Kroos with a cross after corner. Attacking_Attempt306
+ Assist - Brahim Díaz. Attacking_Attempt307
+ Assist - Dani Olmo. Attacking_Attempt308
+ Assist - Xavi Simons. Attacking_Attempt309
+ Assist - Dani Olmo. Attacking_Attempt311
+ Assist - Vinícius Júnior. Attacking_Attempt312
+ Assist - Vinícius Júnior following a fast break. Attacking_Attempt313
+ Assist - Ferland Mendy. Attacking_Attempt314
+ Assist - Brahim Díaz with a through ball. Attacking_Attempt315
+ Assist - David Raum with a cross after corner. Attacking_Attempt316
+ Assist - Benjamin Henrichs. Attacking_Attempt317
+ Assist - Rodrygo. Attacking_Attempt319
+ Assist - Xavi Simons. Attacking_Attempt320
+ Assist - Vinícius Júnior. Attacking_Attempt321
+ Assist - Rodrygo. Attacking_Attempt322
+ Assist - Benjamin Henrichs. Attacking_Attempt323
+ Assist - Brahim Díaz following a fast break. Attacking_Attempt324
+ Assist - Xaver Schlager. Attacking_Attempt325
+ Assist - Amadou Haidara. Attacking_Attempt326
+ Assist - Amadou Haidara with a through ball. Attacking_Attempt327
+ Assist - Eduardo Camavinga. Attacking_Attempt330
+ Assist - Eduardo Camavinga with a cross. Attacking_Attempt331
+ Assist - Nathan Aké with a cross. Attacking_Attempt332
+ Assist - Bernardo Silva with a cross. Attacking_Attempt333
+ Assist - Jérémy Doku. Attacking_Attempt337
+ Assist - Rodri. Attacking_Attempt338
+ Assist - Rodri. Attacking_Attempt340
+ Assist - Elias Jelert. Attacking_Attempt342
+ Assist - Rodri. Attacking_Attempt343
+ Assist - Magnus Mattsson with a cross after corner. Attacking_Attempt344
+ Assist - Rodri. Attacking_Attempt345
+ Assist - Phil Foden. Attacking_Attempt347
+ Assist - Kevin De Bruyne. Attacking_Attempt348
+ Assist - Jérémy Doku. Attacking_Attempt349
+ Assist - Kyle Walker. Attacking_Attempt350
+ Assist - Nathan Aké. Attacking_Attempt351
+ Assist - Bernardo Silva with a cross. Attacking_Attempt353
+ Assist - Matheus Nunes. Attacking_Attempt356
+ Assist - Matheus Nunes. Attacking_Attempt358
+ Assist - Ousmane Dembélé. Attacking_Attempt361
+ Assist - André Silva. Attacking_Attempt362
+ Assist - Takefusa Kubo with a cross. Attacking_Attempt363
+ Assist - Brais Méndez. Attacking_Attempt367
+ Assist - Achraf Hakimi. Attacking_Attempt368
+ Assist - Vitinha. Attacking_Attempt369
+ Assist - Fabián Ruiz. Attacking_Attempt371
+ Assist - Fabián Ruiz with a through ball. Attacking_Attempt372
+ Assist - Takefusa Kubo with a cross. Attacking_Attempt373
+ Assist - André Silva. Attacking_Attempt374
+ Assist - Beñat Turrientes. Attacking_Attempt375
+ Assist - Achraf Hakimi. Attacking_Attempt376
+ Assist - Warren Zaïre-Emery following a fast break. Attacking_Attempt378
+ Assist - Takefusa Kubo with a cross after corner. Attacking_Attempt379
+ Assist - Leroy Sané. Attacking_Attempt380
+ Assist - Thomas Müller. Attacking_Attempt382
+ Assist - Raphaël Guerreiro. Attacking_Attempt383
+ Assist - Luis Alberto with a cross. Attacking_Attempt385
+ Assist - Danilo Cataldi. Attacking_Attempt386
+ Assist - Jamal Musiala. Attacking_Attempt387
+ Assist - Thomas Müller . Attacking_Attempt388
+ Assist - Luis Alberto. Attacking_Attempt389
+ Assist - Leon Goretzka. Attacking_Attempt390
+ Assist - Gustav Isaksen. Attacking_Attempt391
+ Assist - Luis Alberto with a through ball. Attacking_Attempt392
+ Assist - Luis Alberto with a cross. Attacking_Attempt393
+ Assist - Noussair Mazraoui with a cross. Attacking_Attempt394
+ Assist - Thomas Müller with a cross. Attacking_Attempt396
+ Assist - Thomas Müller with a cross. Attacking_Attempt397
+ Assist - Ciro Immobile. Attacking_Attempt398
+ Assist - Thomas Müller with a through ball. Attacking_Attempt399
+ Assist - Eric Choupo-Moting. Attacking_Attempt401
+ Assist - Mathys Tel with a cross. Attacking_Attempt404
+ Assist - Valentín Castellanos. Attacking_Attempt405
+ Assist - Daichi Kamada. Attacking_Attempt406
+ Assist - Jordan Teze. Attacking_Attempt407
+ Assist - Mats Hummels. Attacking_Attempt408
+ Assist - Luuk de Jong. Attacking_Attempt409
+ Assist - Emre Can. Attacking_Attempt410
+ Assist - Marco Reus with a cross after corner. Attacking_Attempt412
+ Assist - Malik Tillman. Attacking_Attempt414
+ Assist - Ismael Saibari with a cross. Attacking_Attempt415
+ Assist - Johan Bakayoko. Attacking_Attempt416
+ Assist - Joey Veerman with a cross . Attacking_Attempt417
+ Assist - Malik Tillman. Attacking_Attempt418
+ Assist - Jordan Teze. Attacking_Attempt421
+ Assist - Luuk de Jong. Attacking_Attempt422
+ Assist - Ian Maatsen with a cross. Attacking_Attempt423
+ Assist - Luuk de Jong with a head. Attacking_Attempt424
+ Assist - Ricardo Pepi. Attacking_Attempt425
+ Assist - Alessandro Bastoni with a cross . Attacking_Attempt427
+ Assist - Koke. Attacking_Attempt429
+ Assist - Marcos Llorente. Attacking_Attempt431
+ Assist - Marcus Thuram with a head. Attacking_Attempt433
+ Assist - Nicolò Barella with a cross. Attacking_Attempt434
+ Assist - Marcus Thuram. Attacking_Attempt435
+ Assist - Nicolò Barella. Attacking_Attempt436
+ Assist - Nicolò Barella. Attacking_Attempt437
+ Assist - Federico Dimarco with a cross. Attacking_Attempt438
+ Assist - Nicolò Barella. Attacking_Attempt439
+ Assist - Rodrigo De Paul. Attacking_Attempt440
+ Assist - Antoine Griezmann. Attacking_Attempt441
+ Assist - Hakan Çalhanoglu. Attacking_Attempt443
+ Assist - Hakan Çalhanoglu with a cross. Attacking_Attempt445
+ Assist - Davide Frattesi. Attacking_Attempt446
+ Assist - Rodrigo De Paul. Attacking_Attempt447
+ Assist - Davide Frattesi. Attacking_Attempt448
+ Assist - Ángel Correa with a cross. Attacking_Attempt449
+ Assist - Rodrigo De Paul. Attacking_Attempt450
+ Assist - Hakan Çalhanoglu with a cross. Attacking_Attempt451
+ Assist - Francisco Conceição with a cross. Attacking_Attempt452
+ Assist - Kai Havertz. Attacking_Attempt455
+ Assist - Bukayo Saka with a cross after corner. Attacking_Attempt456
+ Assist - Pepê Aquino. Attacking_Attempt458
+ Assist - Leandro Trossard. Attacking_Attempt459
+ Assist - Bukayo Saka with a cross after corner. Attacking_Attempt460
+ Assist - Pepê Aquino. Attacking_Attempt462
+ Assist - Declan Rice with a cross . Attacking_Attempt464
+ Assist - Ilkay Gündogan. Attacking_Attempt466
+ Assist - Ilkay Gündogan. Attacking_Attempt468
+ Assist - Pedri. Attacking_Attempt469
+ Assist - João Cancelo. Attacking_Attempt470
+ Assist - Frenkie de Jong. Attacking_Attempt471
+ Assist - Ilkay Gündogan with a cross . Attacking_Attempt472
+ Assist - Mathías Olivera with a cross. Attacking_Attempt473
+ Assist - Lamine Yamal. Attacking_Attempt474
+ Assist - Lamine Yamal with a through ball. Attacking_Attempt475
+ Assist - Hamed Traorè with a through ball. Attacking_Attempt478
+ Assist - Robert Lewandowski. Attacking_Attempt481
+ Assist - Fabián Ruiz. Attacking_Attempt482
+ Assist - Mikel Merino with a cross. Attacking_Attempt483
+ Assist - Kylian Mbappé. Attacking_Attempt484
+ Assist - Lucas Hernández. Attacking_Attempt485
+ Assist - Bradley Barcola. Attacking_Attempt486
+ Assist - Hamari Traoré. Attacking_Attempt488
+ Assist - Beraldo. Attacking_Attempt489
+ Assist - Javi Galán with a cross after corner. Attacking_Attempt491
+ Assist - Warren Zaïre-Emery. Attacking_Attempt492
+ Assist - Mikel Oyarzabal. Attacking_Attempt493
+ Assist - Takefusa Kubo with a cross after corner. Attacking_Attempt495
+ Assist - Hamari Traoré with a cross after corner. Attacking_Attempt496
+ Assist - Javi Galán. Attacking_Attempt498
+ Assist - Takefusa Kubo. Attacking_Attempt499
+ Assist - Takefusa Kubo. Attacking_Attempt500
+ Assist - Kylian Mbappé. Attacking_Attempt502
+ Assist - Felipe Anderson. Attacking_Attempt503
+ Assist - Thomas Müller. Attacking_Attempt504
+ Assist - Leroy Sané. Attacking_Attempt505
+ Assist - Joshua Kimmich with a cross after corner. Attacking_Attempt506
+ Assist - Mattia Zaccagni. Attacking_Attempt507
+ Assist - Jamal Musiala. Attacking_Attempt508
+ Assist - Joshua Kimmich. Attacking_Attempt509
+ Assist - Leroy Sané. Attacking_Attempt511
+ Assist - Joshua Kimmich with a cross. Attacking_Attempt512
+ Assist - Thomas Müller. Attacking_Attempt513
+ Assist - Joshua Kimmich with a cross. Attacking_Attempt515
+ Assist - Leon Goretzka. Attacking_Attempt517
+ Assist - Thomas Müller with a head. Attacking_Attempt518
+ Assist - Leroy Sané. Attacking_Attempt519
+ Assist - Adam Marusic with a cross. Attacking_Attempt521
+ Assist - Raphaël Guerreiro. Attacking_Attempt522
+ Assist - Harry Kane. Attacking_Attempt523
+ Assist - Thomas Müller. Attacking_Attempt524
+ Assist - Jamal Musiala. Attacking_Attempt525
+ Assist - Jamal Musiala. Attacking_Attempt526
+ Assist - Jamal Musiala. Attacking_Attempt528
+ Assist - Xavi Simons. Attacking_Attempt529
+ Assist - Xavi Simons with a cross . Attacking_Attempt530
+ Assist - Federico Valverde. Attacking_Attempt531
+ Assist - Dani Olmo following a fast break. Attacking_Attempt532
+ Assist - Federico Valverde. Attacking_Attempt533
+ Assist - Benjamin Henrichs. Attacking_Attempt534
+ Assist - David Raum. Attacking_Attempt535
+ Assist - Xavi Simons with a cross after corner. Attacking_Attempt536
+ Assist - Aurélien Tchouaméni with a cross. Attacking_Attempt537
+ Assist - Vinícius Júnior. Attacking_Attempt539
+ Assist - Jude Bellingham. Attacking_Attempt540
+ Assist - Federico Valverde. Attacking_Attempt541
+ Assist - Dani Carvajal. Attacking_Attempt542
+ Assist - David Raum with a cross after corner. Attacking_Attempt544
+ Assist - Xaver Schlager with a cross after corner. Attacking_Attempt545
+ Assist - Rodrygo after corner. Attacking_Attempt546
+ Assist - Willi Orbán with a head. Attacking_Attempt547
+ Assist - Loïs Openda. Attacking_Attempt548
+ Assist - Amadou Haidara. Attacking_Attempt549
+ Assist - Benjamin Henrichs. Attacking_Attempt550
+ Assist - Amadou Haidara. Attacking_Attempt552
+ Assist - David Raum with a cross after corner. Attacking_Attempt553
+ Assist - Rodrygo with a cross. Attacking_Attempt554
+ Assist - Joselu. Attacking_Attempt555
+ Assist - Christoph Baumgartner with a head. Attacking_Attempt556
+ Assist - Xavi Simons with a cross. Attacking_Attempt557
+ Assist - Josko Gvardiol. Attacking_Attempt558
+ Assist - Julián Álvarez with a cross after corner. Attacking_Attempt559
+ Assist - Oscar Bobb. Attacking_Attempt561
+ Assist - Peter Ankersen. Attacking_Attempt562
+ Assist - Erling Haaland. Attacking_Attempt564
+ Assist - Erling Haaland. Attacking_Attempt565
+ Assist - Mateo Kovacic. Attacking_Attempt566
+ Assist - Roony Bardghji. Attacking_Attempt568
+ Assist - Mohamed Elyounoussi with a head after corner. Attacking_Attempt569
+ Assist - Andreas Cornelius. Attacking_Attempt570
+ Assist - Roony Bardghji after corner. Attacking_Attempt571
+ Assist - Andreas Cornelius. Attacking_Attempt572
+ Assist - Roony Bardghji. Attacking_Attempt573
+ Assist - Julián Álvarez. Attacking_Attempt574
+ Assist - Julián Álvarez. Attacking_Attempt575
+ Assist - Birger Meling following a fast break. Attacking_Attempt576
+ Assist - Fermín López. Attacking_Attempt577
+ Assist - Matteo Politano with a through ball. Attacking_Attempt578
+ Assist - Pau Cubarsí. Attacking_Attempt580
+ Assist - Lamine Yamal following a fast break. Attacking_Attempt582
+ Assist - Fermín López. Attacking_Attempt583
+ Assist - Mário Rui. Attacking_Attempt585
+ Assist - Victor Osimhen after corner. Attacking_Attempt586
+ Assist - Jules Koundé. Attacking_Attempt587
+ Assist - Khvicha Kvaratskhelia. Attacking_Attempt588
+ Assist - Lamine Yamal. Attacking_Attempt589
+ Assist - Ronald Araujo with a head. Attacking_Attempt590
+ Assist - Hamed Traorè. Attacking_Attempt592
+ Assist - Hamed Traorè. Attacking_Attempt593
+ Assist - Khvicha Kvaratskhelia with a cross after corner. Attacking_Attempt594
+ Assist - João Cancelo. Attacking_Attempt595
+ Assist - Victor Osimhen. Attacking_Attempt596
+ Assist - Ilkay Gündogan with a cross. Attacking_Attempt598
+ Assist - Sergi Roberto. Attacking_Attempt600
+ Assist - Raphinha. Attacking_Attempt601
+ Assist - Sergi Roberto with a head. Attacking_Attempt603
+ Assist - Robert Lewandowski. Attacking_Attempt604
+ Assist - Ilkay Gündogan. Attacking_Attempt605
+ Assist - Mathías Olivera with a cross. Attacking_Attempt606
+ Assist - Khvicha Kvaratskhelia. Attacking_Attempt607
+ Assist - Ilkay Gündogan. Attacking_Attempt609
+ Assist - Frank Anguissa. Attacking_Attempt610
+ Assist - Leandro Trossard. Attacking_Attempt612
+ Assist - Ben White. Attacking_Attempt613
+ Assist - Bukayo Saka after corner. Attacking_Attempt614
+ Assist - Leandro Trossard with a cross. Attacking_Attempt615
+ Assist - João Mário with a cross. Attacking_Attempt617
+ Assist - Nico González. Attacking_Attempt618
+ Assist - Francisco Conceição. Attacking_Attempt619
+ Assist - Leandro Trossard with a cross. Attacking_Attempt620
+ Assist - Pepê Aquino. Attacking_Attempt621
+ Assist - Kai Havertz. Attacking_Attempt623
+ Assist - Nico González. Attacking_Attempt625
+ Assist - Leandro Trossard with a cross . Attacking_Attempt626
+ Assist - Bukayo Saka. Attacking_Attempt627
+ Assist - Martin Ødegaard. Attacking_Attempt628
+ Assist - Jorge Sánchez. Attacking_Attempt630
+ Assist - Eddie Nketiah. Attacking_Attempt631
+ Assist - Julian Brandt with a cross. Attacking_Attempt634
+ Assist - Jadon Sancho with a cross. Attacking_Attempt635
+ Assist - Donyell Malen. Attacking_Attempt636
+ Assist - Niklas Süle with a cross. Attacking_Attempt637
+ Assist - Donyell Malen. Attacking_Attempt638
+ Assist - Marcel Sabitzer. Attacking_Attempt640
+ Assist - Joey Veerman. Attacking_Attempt641
+ Assist - Joey Veerman. Attacking_Attempt642
+ Assist - Luuk de Jong. Attacking_Attempt643
+ Assist - Marcel Sabitzer. Attacking_Attempt644
+ Assist - Johan Bakayoko. Attacking_Attempt645
+ Assist - Mauro Júnior. Attacking_Attempt646
+ Assist - Jadon Sancho. Attacking_Attempt647
+ Assist - Johan Bakayoko with a cross. Attacking_Attempt648
+ Assist - Sergiño Dest. Attacking_Attempt649
+ Assist - Johan Bakayoko with a through ball. Attacking_Attempt650
+ Assist - Mauro Júnior. Attacking_Attempt651
+ Assist - Donyell Malen. Attacking_Attempt652
+ Assist - Jordan Teze. Attacking_Attempt653
+ Assist - Joey Veerman with a cross. Attacking_Attempt654
+ Assist - Jordan Teze with a cross after corner. Attacking_Attempt656
+ Assist - Karim Adeyemi. Attacking_Attempt657
+ Assist - Sergiño Dest. Attacking_Attempt661
+ Assist - Jordan Teze with a through ball. Attacking_Attempt662
+ Assist - Rodrigo De Paul. Attacking_Attempt663
+ Assist - Rodrigo De Paul. Attacking_Attempt664
+ Assist - Hakan Çalhanoglu. Attacking_Attempt665
+ Assist - Nicolò Barella. Attacking_Attempt667
+ Assist - Koke. Attacking_Attempt668
+ Assist - Mario Hermoso with a cross. Attacking_Attempt669
+ Assist - Koke. Attacking_Attempt670
+ Assist - Antoine Griezmann . Attacking_Attempt671
+ Assist - Marcos Llorente. Attacking_Attempt672
+ Assist - Nicolò Barella. Attacking_Attempt673
+ Assist - Marcos Llorente. Attacking_Attempt674
+ Assist - Antoine Griezmann. Attacking_Attempt677
+ Assist - Marcos Llorente with a cross. Attacking_Attempt678
+ Assist - Marcos Llorente. Attacking_Attempt679
+ Assist - Lautaro Martínez with a through ball following a fast break. Attacking_Attempt680
+ Assist - Pablo Barrios with a cross. Attacking_Attempt681
+ Assist - Lautaro Martínez. Attacking_Attempt683
+ Assist - Koke. Attacking_Attempt684
+ Assist - Antoine Griezmann. Attacking_Attempt686
+ Assist - Yann Bisseck with a cross. Attacking_Attempt687
+ Assist - Rodrigo Riquelme. Attacking_Attempt688
+ Assist - Hakan Çalhanoglu with a cross after corner. Attacking_Attempt689
+ Assist - Alexis Sánchez with a cross. Attacking_Attempt690
+ Assist - Memphis Depay. Attacking_Attempt692
+ Assist - Benjamin Pavard. Attacking_Attempt693
+ Assist - Alexis Sánchez. Attacking_Attempt696
+ Assist - Memphis Depay. Attacking_Attempt697
+ Assist - Xavi Simons. Attacking_Attempt698
+ Assist - Loïs Openda. Attacking_Attempt699
+ Assist - Xaver Schlager. Attacking_Attempt700
+ Assist - Xavi Simons with a cross after corner. Attacking_Attempt701
+ Assist - Kevin Kampl following a fast break. Attacking_Attempt702
+ Assist - Filip Ugrinic after corner. Attacking_Attempt704
+ Assist - Xavi Simons. Attacking_Attempt705
+ Assist - Saidy Janko. Attacking_Attempt706
+ Assist - Sandro Lauper. Attacking_Attempt707
+ Assist - Xaver Schlager. Attacking_Attempt708
+ Assist - David Raum with a cross after corner. Attacking_Attempt711
+ Assist - Kevin Kampl. Attacking_Attempt712
+ Assist - Xaver Schlager. Attacking_Attempt713
+ Assist - David Raum with a cross. Attacking_Attempt714
+ Assist - Meschack Elia with a cross. Attacking_Attempt715
+ Assist - Emil Forsberg. Attacking_Attempt717
+ Assist - Meschack Elia. Attacking_Attempt718
+ Assist - Kevin Kampl. Attacking_Attempt719
+ Assist - Xavi Simons. Attacking_Attempt720
+ Assist - Noah Persson with a cross. Attacking_Attempt722
+ Assist - Théo Hernández. Attacking_Attempt723
+ Assist - Rade Krunic. Attacking_Attempt724
+ Assist - Rafael Leão with a cross. Attacking_Attempt725
+ Assist - Rade Krunic with a cross after corner. Attacking_Attempt727
+ Assist - Rade Krunic with a cross. Attacking_Attempt729
+ Assist - Rade Krunic with a cross after corner. Attacking_Attempt730
+ Assist - Théo Hernández. Attacking_Attempt731
+ Assist - Théo Hernández with a cross. Attacking_Attempt732
+ Assist - Samuel Chukwueze. Attacking_Attempt733
+ Assist - Rade Krunic with a cross after corner. Attacking_Attempt736
+ Assist - Rafael Leão with a head. Attacking_Attempt737
+ Assist - Sean Longstaff. Attacking_Attempt738
+ Assist - Alexander Isak. Attacking_Attempt739
+ Assist - Anthony Gordon. Attacking_Attempt740
+ Assist - Anthony Gordon. Attacking_Attempt741
+ Assist - Rade Krunic. Attacking_Attempt742
+ Assist - Rade Krunic. Attacking_Attempt743
+ Assist - Alessandro Florenzi with a cross. Attacking_Attempt745
+ Assist - Alessandro Florenzi with a cross. Attacking_Attempt748
+ Assist - Kieran Trippier . Attacking_Attempt749
+ Assist - Théo Hernández. Attacking_Attempt751
+ Assist - Fikayo Tomori. Attacking_Attempt752
+ Assist - Elliot Anderson. Attacking_Attempt753

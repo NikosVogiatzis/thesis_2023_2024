@@ -12,6 +12,12 @@
 #    Object Properties
 #################################################################
 
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/assist_made_by
+:assist_made_by rdf:type owl:ObjectProperty ;
+                rdfs:domain :Assist ;
+                rdfs:range :Player .
+
+
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/assisted_by
 :assisted_by rdf:type owl:ObjectProperty ;
              rdfs:domain :Attacking_Attempt ;
@@ -43,7 +49,6 @@
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/counts_for
 :counts_for rdf:type owl:ObjectProperty ;
-            rdfs:domain :Goal ;
             rdfs:range :Team .
 
 
@@ -63,6 +68,18 @@
 :fouled_by rdf:type owl:ObjectProperty ;
            rdfs:domain :Foul ;
            rdfs:range :Player .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/missed_by
+:missed_by rdf:type owl:ObjectProperty ;
+           rdfs:domain :Penalty_No_Goal ;
+           rdfs:range :Player .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/missed_for
+:missed_for rdf:type owl:ObjectProperty ;
+            rdfs:domain :Penalty_No_Goal ;
+            rdfs:range :Team .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/noted_by
@@ -122,9 +139,13 @@
              rdfs:range :Player .
 
 
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/refers_to
+:refers_to rdf:type owl:ObjectProperty ,
+                    owl:SymmetricProperty .
+
+
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/scored_by
 :scored_by rdf:type owl:ObjectProperty ;
-           rdfs:domain :Goal ;
            rdfs:range :Player .
 
 
@@ -166,18 +187,22 @@ owl:topObjectProperty rdfs:domain :Delay .
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53#ended_at
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/caused
+:caused rdf:type owl:DatatypeProperty ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/decision_made
+:decision_made rdf:type owl:DatatypeProperty ;
+               rdfs:domain :VAR .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/ended_at
 :ended_at rdf:type owl:DatatypeProperty .
 
 
-###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53#ended_with_score
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/ended_with_score
 :ended_with_score rdf:type owl:DatatypeProperty .
-
-
-###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/caused
-:caused rdf:type owl:DatatypeProperty ;
-        rdfs:domain :Injury ;
-        rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/happened_at
@@ -186,10 +211,36 @@ owl:topObjectProperty rdfs:domain :Delay .
              rdfs:range xsd:string .
 
 
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/makes_score
+:makes_score rdf:type owl:DatatypeProperty ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/missed_with
+:missed_with rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Penalty_No_Goal ;
+             rdfs:range xsd:string .
+
+
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/penalised_for
 :penalised_for rdf:type owl:DatatypeProperty ;
                rdfs:domain :Cards ;
                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/scored_with
+:scored_with rdf:type owl:DatatypeProperty ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/started_at
+:started_at rdf:type owl:DatatypeProperty ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/started_with_score
+:started_with_score rdf:type owl:DatatypeProperty ;
+                    rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/way_of_attempt
@@ -207,11 +258,6 @@ owl:topObjectProperty rdfs:domain :Delay .
 #################################################################
 #    Classes
 #################################################################
-
-###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53#End_Game
-:End_Game rdf:type owl:Class ;
-          rdfs:subClassOf :Match_Period .
-
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Assist
 :Assist rdf:type owl:Class ;
@@ -238,15 +284,14 @@ owl:topObjectProperty rdfs:domain :Delay .
                 rdfs:subClassOf :Violation .
 
 
-###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Decision
-:Decision rdf:type owl:Class ;
-          rdfs:subClassOf :Match_Event ;
-          rdfs:label "This class refers to referee decisions take place during match and/or VAR decisions (as its the video assistant referee)" .
-
-
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Delay
 :Delay rdf:type owl:Class ;
        rdfs:subClassOf :Match_Event .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/End_Game
+:End_Game rdf:type owl:Class ;
+          rdfs:subClassOf :Match_Period .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Extra_Time
@@ -279,14 +324,14 @@ owl:topObjectProperty rdfs:domain :Delay .
       rdfs:subClassOf :Match_Event .
 
 
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Goal_Scored
+:Goal_Scored rdf:type owl:Class ;
+             rdfs:subClassOf :Goal .
+
+
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Hand_Ball
 :Hand_Ball rdf:type owl:Class ;
            rdfs:subClassOf :Violation .
-
-
-###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Injury
-:Injury rdf:type owl:Class ;
-        rdfs:subClassOf :Match_Event .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Match_Event
@@ -302,9 +347,9 @@ owl:topObjectProperty rdfs:domain :Delay .
          rdfs:subClassOf :Violation .
 
 
-###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Pass
-:Pass rdf:type owl:Class ;
-      rdfs:subClassOf :Match_Event .
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Own_Goal
+:Own_Goal rdf:type owl:Class ;
+          rdfs:subClassOf :Goal .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Penalty
@@ -312,9 +357,19 @@ owl:topObjectProperty rdfs:domain :Delay .
          rdfs:subClassOf :Violation .
 
 
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Penalty_No_Goal
+:Penalty_No_Goal rdf:type owl:Class ;
+                 rdfs:subClassOf :Goal .
+
+
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Penalty_Procedure
 :Penalty_Procedure rdf:type owl:Class ;
                    rdfs:subClassOf :Match_Period .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Penalty_Scored_Goal
+:Penalty_Scored_Goal rdf:type owl:Class ;
+                     rdfs:subClassOf :Goal .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Person
@@ -329,11 +384,6 @@ owl:topObjectProperty rdfs:domain :Delay .
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Red_Card
 :Red_Card rdf:type owl:Class ;
           rdfs:subClassOf :Cards .
-
-
-###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Referee
-:Referee rdf:type owl:Class ;
-         rdfs:subClassOf :Person .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Second_Half
@@ -353,6 +403,11 @@ owl:topObjectProperty rdfs:domain :Delay .
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team
 :Team rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/VAR
+:VAR rdf:type owl:Class ;
+     rdfs:subClassOf :Person .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Violation
