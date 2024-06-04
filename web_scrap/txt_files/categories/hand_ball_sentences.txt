@@ -1,24 +1,23 @@
-64'	Hand ball by Joshua Kimmich - FC Bayern München
-10'	Hand ball by Karim Adeyemi - Borussia Dortmund
-23'	Hand ball by Karim Adeyemi - Borussia Dortmund
-68'	Hand ball by Rodrigo Riquelme - Atletico Madrid
-90+6'	Hand ball by Randal Kolo Muani - Paris Saint Germain
-98'	Hand ball by Brahim Díaz - Real Madrid
-22'	Hand ball by Rodri - Manchester City
-86'	Hand ball by Scott McKenna - FC Copenhagen
-2'	Hand ball by Igor Zubeldia - Real Sociedad
-14'	Hand ball by Bradley Barcola - Paris Saint Germain
-49'	Hand ball by André Silva - Real Sociedad
-84'	Hand ball by Luuk de Jong - PSV Eindhoven
-3'	Hand ball by Rodrigo De Paul - Atletico Madrid
-41'	Hand ball by Hakan Çalhanoglu - Inter Milan
-43'	Hand ball by Leroy Sané - FC Bayern München
-90+3'	Hand ball by David Raum - RB Leipzig
-7'	Hand ball by Kai Havertz - Arsenal
-61'	Hand ball by Salih Özcan - Borussia Dortmund
-3'	Hand ball by Lautaro Martínez - Inter Milan
-27'	Hand ball by Stefan Savic - Atletico Madrid
-46'	Hand ball by Yussuf Poulsen - RB Leipzig
-62'	Hand ball by Castello Lukeba - RB Leipzig
-65'	Hand ball by Loïs Openda - RB Leipzig
-1'	Hand ball by Kieran Trippier - Newcastle United
+MATCH_4: 64'	Hand ball by Joshua Kimmich - FC Bayern München
+MATCH_9: 10'	Hand ball by Karim Adeyemi - Borussia Dortmund
+MATCH_9: 23'	Hand ball by Karim Adeyemi - Borussia Dortmund
+MATCH_9: 68'	Hand ball by Rodrigo Riquelme - Atletico Madrid
+MATCH_10: 90+6'	Hand ball by Randal Kolo Muani - Paris Saint Germain
+MATCH_11: 98'	Hand ball by Brahim Díaz - Real Madrid
+MATCH_14: 22'	Hand ball by Rodri - Manchester City
+MATCH_14: 86'	Hand ball by Scott McKenna - FC Copenhagen
+MATCH_15: 2'	Hand ball by Igor Zubeldia - Real Sociedad
+MATCH_15: 14'	Hand ball by Bradley Barcola - Paris Saint Germain
+MATCH_15: 49'	Hand ball by André Silva - Real Sociedad
+MATCH_17: 84'	Hand ball by Luuk de Jong - PSV Eindhoven
+MATCH_18: 3'	Hand ball by Rodrigo De Paul - Atletico Madrid
+MATCH_18: 41'	Hand ball by Hakan Çalhanoglu - Inter Milan
+MATCH_22: 43'	Hand ball by Leroy Sané - FC Bayern München
+MATCH_23: 90+3'	Hand ball by David Raum - RB Leipzig
+MATCH_26: 7'	Hand ball by Kai Havertz - Arsenal
+MATCH_27: 61'	Hand ball by Salih Özcan - Borussia Dortmund
+MATCH_28: 3'	Hand ball by Lautaro Martínez - Inter Milan
+MATCH_28: 27'	Hand ball by Stefan Savic - Atletico Madrid
+MATCH_29: 46'	Hand ball by Yussuf Poulsen - RB Leipzig
+MATCH_29: 62'	Hand ball by Castello Lukeba - RB Leipzig
+MATCH_29: 65'	Hand ball by Loïs Openda - RB Leipzig

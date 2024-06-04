@@ -3,8 +3,8 @@
     that will match the desired text to get annotated as entity. This is implemented mainly based on regular expression, because most of the sentences have a certain 
     format. All NER for each category happens in a seperate function for each category/entity of ontology.
     We are using spacy and entityRuler to make our custom entities.
-
 """
+
 from rdflib.plugins.sparql import prepareQuery
 from owlready2 import get_ontology
 from rdflib import Graph, URIRef, Literal, Namespace, RDF, RDFS, OWL
@@ -15,16 +15,30 @@ from rdflib.namespace import RDF, RDFS
 from spacy.pipeline.entityruler import EntityRuler
 import re
 import urllib.parse
-from collections import Counter
+
+pattern_match_game = r"MATCH_+\d+"
+
+all_games_list = []
+
+with open("web_scrap/txt_files/matches.txt", "r", encoding="utf-8") as file:
+    text = file.read()
+game_sentences = text.split('\n')
+for sentence in game_sentences:
+    all_games_list.append(sentence.strip())
+
+   
+g = Graph()
+    
+ex = Namespace("http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/")
+g.bind("ex", ex)
+g.parse("web_scrap/football.ttl")
 
 def corner_ner():
-
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
     ruler = nlp.add_pipe("entity_ruler")
 
     with open("web_scrap/txt_files/categories/corner_sentences.txt", 'r', encoding='utf-8') as f:
         text = f.read()
-
     sentences = text.split('\n')
 
     # Define the regex pattern 
@@ -36,6 +50,7 @@ def corner_ner():
     matches_teams = re.findall(pattern_teams, text)
     matches_players = re.findall(pattern_players, text)
     matches_time = re.findall(pattern_time, text)
+    matches_game = re.findall(pattern_match_game, text)
 
     # EntityRuler patterns
     patterns = [   
@@ -44,6 +59,8 @@ def corner_ner():
         {"label": "TEAM", "pattern": team} for team in matches_teams
     ] + [
         {"label": "PLAYER", "pattern": player} for player in matches_players
+    ] + [
+        {"label": "GAME", "pattern": game} for game in matches_game    
     ]
 
     # Add patterns to the EntityRuler
@@ -51,22 +68,35 @@ def corner_ner():
     doc = nlp(text)
 
     # Define list for each entity in its category
-    
     TEAM = [ent.text for ent in doc.ents if ent.label_ == "TEAM"]
     PLAYER = [ent.text for ent in doc.ents if ent.label_ == "PLAYER"]
     TIME_STAMP = [ent.text for ent in doc.ents if ent.label_ == "TIME"]
     LABELS = []
+    GAME_LABELS = [ent.text for ent in doc.ents if ent.label_ == "GAME"]
     for i in range(len(sentences)-1):
         LABELS.append(sentences[i])
 
-    print(len(LABELS))
-    print(len(TEAM))
-    print(len(PLAYER))
-    print(len(TIME_STAMP))
-    print("\n\n")
+    for i in range(len(LABELS)):
+        corner_uri = URIRef(ex+f"/Corner{str(i+1)}")
+        team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
+        player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
+        time_uri = Literal(TIME_STAMP[i])
+        labels = Literal(LABELS[i].replace("MATCH_\d:", "").strip())
+        game = (GAME_LABELS[i])
 
-    return LABELS, TEAM, PLAYER, TIME_STAMP
+        g.add((corner_uri, RDF.type, ex.Corner))
+        g.add((team_uri, RDF.type, ex.Team))
+        g.add((player_uri, RDF.type, ex.Player))
+        g.add((corner_uri, RDFS.comment, labels))
+        g.add((corner_uri, ex.corner_won_for, team_uri))
+        g.add((corner_uri, ex.conceded_by, player_uri))
+        g.add((corner_uri, ex.happened_at, time_uri))
 
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((game, RDF.type, ex.Match))
+        g.add((corner_uri, ex.at_game, game))
 
 
 def substitution_ner():
@@ -75,14 +105,12 @@ def substitution_ner():
 
     with open("web_scrap/txt_files/categories/substitution_sentences.txt", 'r', encoding='utf-8') as f:
         text = f.read()
-
     sentences = text.split('\n')
+
     # Define the regex pattern 
     pattern_time = r"\d+\+?\d*'"
     pattern_teams = r"Substitution - (.*?)\."
     pattern_substitution = r"\.\s*([\w'\-]+(?:\s+[\w'\-]+)*)\s+for\s+([\w'\ - ]+(?:\s+[\w'\ - ]+)*)(?=\s*[\.-]|\s*$)"
-
-
 
     # Find matches in each sentence based on regexes above.
     matches_teams = re.findall(pattern_teams, text)
@@ -90,23 +118,24 @@ def substitution_ner():
     matches_players_in = [player_in.split(' - ')[0] for _, player_in in matches_substitutions]
     matches_players_out = [player_out.split(' - ')[0]+" for" for player_out, _ in matches_substitutions]
     matches_time = re.findall(pattern_time, text)
+    matches_game = re.findall(pattern_match_game, text)
 
     # Define EntityRuler patterns
     patterns = [
         {"label": "PLAYER_OUT", "pattern": player_out} for player_out in matches_players_out
-
     ] + [    
         {"label": "TIME", "pattern": time} for time in matches_time
     ] + [
         {"label": "PLAYER_IN", "pattern": player_in} for player_in in matches_players_in
     ] + [
         {"label": "TEAM", "pattern": team} for team in matches_teams   
+    ] + [
+        {"label": "GAME", "pattern": game} for game in matches_game        
     ]
 
     # Add patterns to the EntityRuler
     ruler.add_patterns(patterns)
     doc = nlp(text)
-
 
     TEAM = [ent.text for ent in doc.ents if ent.label_ == "TEAM"]
     PLAYER = [ent.text for ent in doc.ents if ent.label_ == "PLAYER"]
@@ -114,21 +143,40 @@ def substitution_ner():
     PLAYER_IN = [ent.text for ent in doc.ents if ent.label_ == "PLAYER_IN"]
     PLAYER_OUT = [ent.text for ent in doc.ents if ent.label_ == "PLAYER_OUT"]
     PLAYER_OUT = [player[:-4] if player.endswith(" for") else player for player in PLAYER_OUT]
-
+    GAME_LABELS = [ent.text for ent in doc.ents if ent.label_ == "GAME"]
+    
     LABELS = []
     for i in range(len(sentences)-1):
         LABELS.append(sentences[i])
 
-    print(len(TEAM))
-    print(len(PLAYER_IN))
-    print(len(TIME_STAMP))
-    print(len(PLAYER_OUT))
-    print(len(LABELS))
-    print("\n\n")
-      
-    return LABELS, TEAM, PLAYER_IN, PLAYER_OUT,TIME_STAMP
+    for i in range(len(LABELS)):
+        substitution_uri = URIRef(ex+f"/Substitution{str(i+1)}")
+        team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
+        player_in_uri = URIRef(ex+f"/{PLAYER_IN[i].replace(' ', '_')}")
+        player_out_uri = URIRef(ex+f"/{PLAYER_OUT[i].replace(' ', '_')}")
+        time_uri = Literal(TIME_STAMP[i])
+        labels = Literal(LABELS[i])
+        game = Literal(GAME_LABELS[i])
 
+        g.add((substitution_uri, RDF.type, ex.Substitution))
+        g.add((team_uri, RDF.type, ex.Team))
+        g.add((player_in_uri, RDF.type, ex.Player))
+        g.add((player_out_uri, RDF.type, ex.Player))
+        g.add((substitution_uri, RDFS.comment, labels))
+        g.add((substitution_uri, ex.sub_for, team_uri))
+        g.add((substitution_uri, ex.happened_at, time_uri))
+        g.add((substitution_uri, ex.sub_player_in, player_in_uri))
+        g.add((substitution_uri, ex.sub_player_out, player_out_uri))
+        g.add((player_in_uri, ex.playsFor, team_uri))
+        g.add((player_out_uri, ex.playsFor, team_uri))
 
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((substitution_uri, ex.at_game, game))
+        
 
 def hand_ball_ner():
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
@@ -136,8 +184,8 @@ def hand_ball_ner():
 
     with open("web_scrap/txt_files/categories/hand_ball_sentences.txt", 'r', encoding='utf-8') as f:
         text = f.read()
-
     sentences = text.split('\n')
+
     # Define the regex pattern 
     pattern_teams = r"- (.*)\n"
     pattern_players = r"by\s+(.*?)\s+-"
@@ -147,7 +195,8 @@ def hand_ball_ner():
     matches_teams = re.findall(pattern_teams, text)
     matches_players = re.findall(pattern_players, text)
     matches_time = re.findall(pattern_time, text)
-
+    matches_game = re.findall(pattern_match_game, text)
+    
     # Define EntityRuler patterns
     patterns = [
         {"label": "TIME", "pattern": time} for time in matches_time
@@ -155,6 +204,8 @@ def hand_ball_ner():
         {"label": "TEAM", "pattern": team} for team in matches_teams
     ] + [
         {"label": "PLAYER", "pattern": player} for player in matches_players
+    ] + [
+        {"label": "GAME", "pattern": game} for game in matches_game        
     ]
 
     # Add patterns to the EntityRuler
@@ -164,18 +215,33 @@ def hand_ball_ner():
     TEAM = [ent.text for ent in doc.ents if ent.label_ == "TEAM"]
     PLAYER = [ent.text for ent in doc.ents if ent.label_ == "PLAYER"]
     TIME_STAMP = [ent.text for ent in doc.ents if ent.label_ == "TIME"]
+    GAME_LABELS = [ent.text for ent in doc.ents if ent.label_ == "GAME"]
     LABELS = []
     for i in range(len(sentences)-1):
         LABELS.append(sentences[i])
 
+    for i in range(len(LABELS)):
+        handball_uri = URIRef(ex+f"/Hand_Ball{str(i+1)}")
+        team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
+        player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
+        time_uri = Literal(TIME_STAMP[i])
+        labels = Literal(LABELS[i])
+        game = Literal(GAME_LABELS[i])
 
-    print(len(TEAM))
-    print(len(PLAYER))
-    print(len(TIME_STAMP))
-    print("\n\n")
-
-    return LABELS, TEAM, PLAYER, TIME_STAMP
-
+        g.add((handball_uri, RDF.type, ex.Hand_Ball))
+        g.add((team_uri, RDF.type, ex.Team))
+        g.add((player_uri, RDF.type, ex.Player)) 
+        g.add((handball_uri, RDFS.comment, labels))
+        g.add((handball_uri, ex.conceded_by, player_uri))
+        g.add((handball_uri, ex.happened_at, time_uri))
+        g.add((player_uri, ex.playsFor, team_uri))
+        
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((handball_uri, ex.at_game, game))
 
 def offside_ner():
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
@@ -183,8 +249,8 @@ def offside_ner():
 
     with open("web_scrap/txt_files/categories/offside_sentences.txt", 'r', encoding='utf-8') as f:
         text = f.read()
-
     sentences = text.split('\n')
+
     # Define the regex pattern
     pattern_teams = r"- (.*?)\."
     pattern_players = r'(?:(?:.*?\.\s*([^.,]+?)\s*is in offside)|(?:,\s*(?:however\s+)?([^.,]+?)\s*is in offside))'
@@ -194,9 +260,8 @@ def offside_ner():
     matches_teams = re.findall(pattern_teams, text)
     matches_players = re.findall(pattern_players, text)
     matches_players = [player+" is" for match in matches_players for player in match if player]
-
     matches_time = re.findall(pattern_time, text)
-    print("sasasa -> ", matches_players)
+    matches_game = re.findall(pattern_match_game, text)
     # Define EntityRuler patterns
     patterns = [
         {"label": "TIME", "pattern": time} for time in matches_time
@@ -204,6 +269,8 @@ def offside_ner():
         {"label": "TEAM", "pattern": team} for team in matches_teams
     ] + [
         {"label": "PLAYER", "pattern": player} for player in matches_players
+    ] + [
+        {"label": "GAME", "pattern": game} for game in matches_game        
     ]
  
     # Add patterns to the EntityRuler
@@ -214,15 +281,33 @@ def offside_ner():
     PLAYER = [ent.text for ent in doc.ents if ent.label_ == "PLAYER"]
     PLAYER = [player.replace("is", "").rstrip() for player in PLAYER]
     TIME_STAMP = [ent.text for ent in doc.ents if ent.label_ == "TIME"]
-    
+    GAME_LABELS = [ent.text for ent in doc.ents if ent.label_ == "GAME"]
     LABELS = []
     for i in range(len(sentences)-1):
         LABELS.append(sentences[i])
-    print(len(TEAM))
-    print(len(PLAYER))
-    print(len(TIME_STAMP))
-    print("\n\n")
-    return LABELS, PLAYER, TEAM, TIME_STAMP
+
+    for i in range(len(LABELS)):
+        offside_uri = URIRef(ex+f"/Offside{str(i+1)}")
+        team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
+        player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
+        time_uri = Literal(TIME_STAMP[i])
+        labels = Literal(LABELS[i])
+        game = Literal(GAME_LABELS[i])
+
+        g.add((offside_uri, RDF.type, ex.Offside))
+        g.add((team_uri, RDF.type, ex.Team))
+        g.add((player_uri, RDF.type, ex.Player))
+        g.add((offside_uri, RDFS.comment, labels))
+        g.add((offside_uri, ex.offside_for, team_uri))
+        g.add((offside_uri, ex.offside_caused_by, player_uri))
+        g.add((offside_uri, ex.happened_at, time_uri))
+        g.add((player_uri, ex.playsFor, team_uri))
+    
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((offside_uri, ex.at_game, game))
 
 
 def free_kick_ner():
@@ -232,6 +317,7 @@ def free_kick_ner():
     with open("web_scrap/txt_files/categories/free kick_sentences.txt", 'r', encoding='utf-8') as f:
         text = f.read()
     sentences = text.split('\n')
+
     # Define the regex pattern
     pattern_players = r"'\s+(.*?)\s+-\s+"
     pattern_teams = r"-\s+([^-.]+-)"
@@ -243,7 +329,7 @@ def free_kick_ner():
     matches_teams = re.findall(pattern_teams, text)
     matches_places = re.findall(pattern_places, text)
     matches_time = re.findall(pattern_time, text)    
-
+    matches_game = re.findall(pattern_match_game, text)
     # Define EntityRuler patterns
     patterns = [
         {"label": "TIME", "pattern": time} for time in matches_time
@@ -253,51 +339,69 @@ def free_kick_ner():
         {"label": "PLAYER", "pattern": player} for player in matches_players
     ] + [
         {"label": "AT_PLACE", "pattern": place} for place in matches_places    
+    ] + [
+        {"label": "GAME", "pattern": game} for game in matches_game        
     ]
 
     # Add patterns to the EntityRuler
     ruler.add_patterns(patterns)
     doc = nlp(text)
 
-
     TEAM = [ent.text for ent in doc.ents if ent.label_ == "TEAM"]
     TEAM = [team.replace(" -", "").rstrip() for team in TEAM] 
     PLAYER = [ent.text for ent in doc.ents if ent.label_ == "PLAYER"]
     TIME_STAMP = [ent.text for ent in doc.ents if ent.label_ == "TIME"]
     AT_PLACE = [ent.text for ent in doc.ents if ent.label_ == "AT_PLACE"]
-    
-    LABELS = []
+    GAME_LABELS = [ent.text for ent in doc.ents if ent.label_ == "GAME"]
+    LABELS = []     
     for i in range(len(sentences)-1):
         LABELS.append(sentences[i])
 
-    print((TEAM))
-    print((PLAYER))
-    print((TIME_STAMP))
-    print((AT_PLACE))
-    print("\n\n")
+    for i in range(len(LABELS)):
+        free_kick_uri = URIRef(ex+f"/Free_Kick{str(i+1)}")
+        team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
+        player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
+        at_place_uri = Literal(AT_PLACE[i].replace(' ', '_'))
+        time_uri = Literal(TIME_STAMP[i])
+        labels = Literal(LABELS[i])
+        game = Literal(GAME_LABELS[i])
 
-    return LABELS, PLAYER, TEAM, AT_PLACE, TIME_STAMP
 
+        g.add((free_kick_uri, RDF.type, ex.Free_Kick))
+        g.add((team_uri, RDF.type, ex.Team))
+        g.add((player_uri, RDF.type, ex.Player))
+        g.add((free_kick_uri, RDFS.comment, labels))
+        g.add((free_kick_uri, ex.won_for, team_uri))
+        g.add((free_kick_uri, ex.won_at_place, at_place_uri))
+        g.add((free_kick_uri, ex.won_by, player_uri))
+        g.add((free_kick_uri, ex.happened_at, time_uri))
+        g.add((player_uri, ex.playsFor, team_uri))
+
+
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((free_kick_uri, ex.at_game, game))
 
 def foul_ner():
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
     ruler = nlp.add_pipe("entity_ruler")
 
-    
     with open("web_scrap/txt_files/categories/foul_sentences.txt", 'r', encoding='utf-8') as f:
         text = f.read()
-    
     sentences = text.split('\n')
+
     # Define the regex pattern
     pattern_players = r"by\s+(.*?)\s+-"
-    pattern_teams = r"-\s+([A-Za-z\s]+)\s"
+    pattern_teams = r"-\s+(.*)"
     pattern_time = r"\d+\+?\d*'"
 
     # Find matches in each sentence based on regexes above.
     matches_players = re.findall(pattern_players, text)
     matches_teams = re.findall(pattern_teams, text)
     matches_time = re.findall(pattern_time, text)
-
+    matches_game = re.findall(pattern_match_game, text)
     # Define EntityRuler patterns
     patterns = [
         {"label": "TIME", "pattern": time} for time in matches_time
@@ -305,6 +409,8 @@ def foul_ner():
         {"label": "TEAM", "pattern": team} for team in matches_teams
     ] + [
         {"label": "PLAYER", "pattern": player} for player in matches_players   
+    ] + [
+        {"label": "GAME", "pattern": game} for game in matches_game        
     ]
 
     # Add patterns to the EntityRuler
@@ -314,27 +420,42 @@ def foul_ner():
     TEAM = [ent.text for ent in doc.ents if ent.label_ == "TEAM"]
     PLAYER = [ent.text for ent in doc.ents if ent.label_ == "PLAYER"]
     TIME_STAMP = [ent.text for ent in doc.ents if ent.label_ == "TIME"]
-    
+    GAME_LABELS = [ent.text for ent in doc.ents if ent.label_ == "GAME"]
     LABELS = []
     for i in range(len(sentences)-1):
         LABELS.append(sentences[i])
-    print(len(TEAM))
-    print(len(PLAYER))
-    print(len(TIME_STAMP))
-    print("\n\n")
 
-    return LABELS, PLAYER, TEAM,  TIME_STAMP
+    for i in range(len(LABELS)):
+        foul_uri = URIRef(ex+f"/Foul{str(i+1)}")
+        team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
+        player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
+        time_uri = Literal(TIME_STAMP[i])
+        labels = Literal(LABELS[i])
+        game = Literal(GAME_LABELS[i])
 
+        g.add((foul_uri, RDF.type, ex.Foul))
+        g.add((team_uri, RDF.type, ex.Team))
+        g.add((player_uri, RDF.type, ex.Player))
+        g.add((foul_uri, RDFS.comment, labels))
+        g.add((foul_uri, ex.foul_from, team_uri))
+        g.add((foul_uri, ex.fouled_by, player_uri))
+        g.add((foul_uri, ex.happened_at, time_uri))
+        g.add((player_uri, ex.playsFor, team_uri))
+
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((foul_uri, ex.at_game, game))
 
 def dangerous_play_ner():
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
     ruler = nlp.add_pipe("entity_ruler")
 
-
     with open("web_scrap/txt_files/categories/dangerous_play_sentences.txt", 'r', encoding='utf-8') as f:
         text = f.read()
-
     sentences = text.split('\n')
+
     # Define the regex pattern
     pattern_players = r"by\s(.*?)\s-"
     pattern_teams = r"\-\s(.*)"
@@ -344,7 +465,7 @@ def dangerous_play_ner():
     matches_players = re.findall(pattern_players, text)
     matches_teams = re.findall(pattern_teams, text)
     matches_time = re.findall(pattern_time, text)
-
+    matches_game = re.findall(pattern_match_game, text)
     # Define EntityRuler patterns
     patterns = [
         {"label": "TIME", "pattern": time} for time in matches_time
@@ -352,6 +473,8 @@ def dangerous_play_ner():
         {"label": "TEAM", "pattern": team} for team in matches_teams
     ] + [
         {"label": "PLAYER", "pattern": player} for player in matches_players   
+    ] + [
+        {"label": "GAME", "pattern": game} for game in matches_game        
     ]
 
     # Add patterns to the EntityRuler
@@ -361,17 +484,34 @@ def dangerous_play_ner():
     TEAM = [ent.text for ent in doc.ents if ent.label_ == "TEAM"]
     PLAYER = [ent.text for ent in doc.ents if ent.label_ == "PLAYER"]
     TIME_STAMP = [ent.text for ent in doc.ents if ent.label_ == "TIME"]
+    GAME_LABELS = [ent.text for ent in doc.ents if ent.label_ == "GAME"]
+
     LABELS = []
     for i in range(len(sentences)-1):
         LABELS.append(sentences[i])
 
-    print(len(TEAM))
-    print(len(PLAYER))
-    print(len(TIME_STAMP))
-    # print(len(DANGEROUS_PLAY))
-    print("\n\n")
+    for i in range(len(LABELS)):
+        dangerous_play_uri = URIRef(ex+f"/Dangerous_Play{str(i+1)}")
+        team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
+        player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
+        time_uri = Literal(TIME_STAMP[i])
+        labels = Literal(LABELS[i])
+        game = Literal(GAME_LABELS[i])
 
-    return LABELS, PLAYER, TEAM,  TIME_STAMP
+        g.add((dangerous_play_uri, RDF.type, ex.Dangerous_Play))
+        g.add((team_uri, RDF.type, ex.Team))
+        g.add((player_uri, RDF.type, ex.Player))
+        g.add((dangerous_play_uri, RDFS.comment, labels))
+        g.add((dangerous_play_uri, ex.conceded_by, player_uri))
+        g.add((dangerous_play_uri, ex.happened_at, time_uri))
+        g.add((player_uri, ex.playsFor, team_uri))
+
+ 
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((dangerous_play_uri, ex.at_game, game))
 
 def penalty_ner():
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
@@ -385,8 +525,6 @@ def penalty_ner():
                 sentences_conceded.append(line.strip())
             else:
                 sentences_simple.append(line.strip())
-
-    print(len(sentences_simple))
 
 
     pattern_time = r"\d+\+?\d*'"
@@ -404,32 +542,32 @@ def penalty_ner():
     matches_teams_simple = []
     matches_teams_conceded = []
 
+    matches_game = []
+    # matches_game = re.findall(pattern_match_game, text)
+
     for sentence in sentences_simple:
         match_player = re.search(pattern_players_simple, sentence)
         match_team = re.search(pattern_teams_simple, sentence)
         match_time = re.search(pattern_time, sentence)
-        if match_team:
+        match_game = re.search(pattern_match_game, sentence)
+        if match_team and match_player and match_time:
             matches_teams_simple.append(match_team.group(1))
-                
-        if match_player: 
-            matches_players_simple.append(match_player.group(1))
-
-        if match_time:
-            matches_time.append(match_time.group(0))
+            matches_players_simple.append(match_player.group(1))    
+            matches_time.append(match_time.group(0)) 
+            matches_game.append(match_game.group(0))
 
     for sentence in sentences_conceded:
         match_player = re.search(pattern_players_conceded, sentence)
         match_team = re.search(pattern_teams_conceded, sentence)
         match_time = re.search(pattern_time, sentence)
-        if match_team:
+        match_game = re.search(pattern_match_game, sentence)
+        if match_team and match_player and match_time:
             matches_teams_conceded.append(match_team.group(1))
-                
-        if match_player: 
-            matches_players_conceded.append(match_player.group(1))
-
-        if match_time:
-            matches_time.append(match_time.group(0))
-
+            matches_players_conceded.append(match_player.group(1))      
+            matches_time.append(match_time.group(0))  
+            matches_game.append(match_game.group(0))
+       
+           
 
     patterns = [
         {"label": "TIME", "pattern": time} for time in matches_time
@@ -437,36 +575,54 @@ def penalty_ner():
         {"label": "TEAM", "pattern": team} for team in matches_teams_conceded + matches_teams_simple
     ] + [
         {"label": "PLAYER", "pattern": player} for player in matches_players_conceded + matches_players_simple
+    ] + [
+        {"label": "GAME", "pattern": game} for game in matches_game    
     ]
 
-    # Add patterns to the EntityRuler
-    ruler.add_patterns(patterns)
     with open('web_scrap/txt_files/categories/penalty_sentences.txt', 'r', encoding='utf-8') as file:
         text = file.read()
+    sentences = text.split('\n') 
 
-    sentences = text.split('\n')    
+    ruler.add_patterns(patterns)
     doc = nlp(text)
 
     TEAM = [ent.text for ent in doc.ents if ent.label_ == "TEAM"]
     PLAYER = [ent.text for ent in doc.ents if ent.label_ == "PLAYER"]
     TIME_STAMP = [ent.text for ent in doc.ents if ent.label_ == "TIME"]
+    GAME_LABELS = [ent.text for ent in doc.ents if ent.label_ == "GAME"]
+
     LABELS = []
     for i in range(len(sentences)-1):
         LABELS.append(sentences[i])
 
-    print("Number of TEAM entities:", len(TEAM))
-    print("Number of PLAYER entities:", len(PLAYER))
-    print("Number of TIME entities:", len(TIME_STAMP))
-    print("\n\n")
 
-    return LABELS, PLAYER, TEAM,  TIME_STAMP
+    for i in range(len(LABELS)):
+        penalty_uri = URIRef(ex+f"/Penalty{str(i+1)}")
+        team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
+        player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
+        time_uri = Literal(TIME_STAMP[i])
+        labels = Literal(LABELS[i])
+        game = Literal(GAME_LABELS[i])
+        
+        g.add((penalty_uri, RDF.type, ex.Penalty))
+        g.add((team_uri, RDF.type, ex.Team))
+        g.add((player_uri, RDF.type, ex.Player))
+        g.add((penalty_uri, RDFS.comment, labels))
+        g.add((penalty_uri, ex.penalty_caused_by, player_uri))
+        g.add((penalty_uri, ex.happened_at, time_uri))
+        g.add((player_uri, ex.playsFor, team_uri))  
 
+        
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((penalty_uri, ex.at_game, game))
 
 
 def attacking_attempt_ner():
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
     ruler = nlp.add_pipe("entity_ruler")
-
 
     sentences_new_attacking_attempt = [] # 1'	New attacking attempt. Leroy Sané - FC Bayern München - shot with left foot from a diffucult position on the left is saved by goalkeeper in the centre of the goal. Assist - Harry Kane with a through ball.
     sentences_missed_chance = [] # 7'	Missed chance. Leroy Sané - FC Bayern München - shot with left foot from the left side of the box goes high. Assist - Harry Kane following a fast break.
@@ -491,52 +647,46 @@ def attacking_attempt_ner():
     matches_time_list_missed_chance = []
     matches_team_list_missed_chance = []
 
-
     matches_time_list_shot_blocked = []
     matches_team_list_shot_blocked = []
 
     matches_time_list_hits_bar = []
     matches_team_list_hits_bar = []
 
-
-    matches_assist_list = []
-
-
     pattern_time = r"\d+\+?\d*'" # for all sentences 
     pattern_team = r"- ([^-]+) -" # for NEW_ATTACKING_ATTEMPT and MISSED_CHANCE 
 
     pattern_assist = r'\. Assist - (.+?)\.$'
 
-
     # -----------------> NEW ATTACKING ATTEMPT <----------------------------
+
+    matches_game_list = []
 
     for sentence in sentences_new_attacking_attempt:
         matches_team = re.findall(pattern_team, sentence)
         matches_time = re.findall(pattern_time, sentence)
+        matches_game = re.search(pattern_match_game, sentence)
         if matches_team and matches_time:
             desired_time = matches_time[0]
             desired_team = matches_team[0]
+            desired_game = matches_game[0]
             matches_time_list_new_attacking_attempt.append(desired_time)
             matches_team_list_new_attacking_attempt.append(desired_team)
-
-
-
-    # -----------------> NEW ATTACKING ATTEMPT <----------------------------
+            matches_game_list.append(desired_game)
 
     # ----------------> MISSED CHANCE <------------------------------
 
     for sentence in sentences_missed_chance:
         matches_team = re.findall(pattern_team, sentence)
         matches_time = re.findall(pattern_time, sentence)
+        matches_game = re.search(pattern_match_game, sentence)
         if matches_team and matches_time:
             desired_time = matches_time[0]
             desired_team = matches_team[0]
+            desired_game = matches_game[0]
             matches_time_list_missed_chance.append(desired_time)
             matches_team_list_missed_chance.append(desired_team)
-
-
-
-    # ----------------> MISSED CHANCE <------------------------------
+            matches_game_list.append(desired_game)
 
 
     # ---------------> SHOT BLOCKED <----------------------------------
@@ -544,36 +694,34 @@ def attacking_attempt_ner():
     for sentence in sentences_shot_blocked:
         matches_team = re.findall(pattern_team, sentence)
         matches_time = re.findall(pattern_time, sentence)
+        matches_game = re.search(pattern_match_game, sentence)
         if matches_team and matches_time:
             desired_time = matches_time[0]
             desired_team = matches_team[0]
+            desired_game = matches_game[0]
             matches_time_list_shot_blocked.append(desired_time)
             matches_team_list_shot_blocked.append(desired_team)
-
-
-    # ---------------> SHOT BLOCKED <----------------------------------
-
-
+            matches_game_list.append(desired_game)
 
     # ----------------> HITS BAR <---------------------------------------
 
     for sentence in sentences_hits_bar:
         matches_team = re.findall(pattern_team, sentence)
         matches_time = re.findall(pattern_time, sentence)
+        matches_game = re.search(pattern_match_game, sentence)
         if matches_team and matches_time:
             desired_time = matches_time[0]
             desired_team = matches_team[0]
+            desired_game = matches_game[0]
             matches_time_list_hits_bar.append(desired_time)
             matches_team_list_hits_bar.append(desired_team)
-
-    # ----------------> HITS BAR <---------------------------------------
-
+            matches_game_list.append(desired_game)
 
     # --------------> Από εδώ και κάτω γίνεται το NER για τα Attacking Attempts.         
     with open('web_scrap/txt_files/categories/attacking_attempt_sentences.txt', 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
-    # Process each line to remove the "Assist - [Player Name]" part
+    # remove Assist part from sentences
     processed_lines = []
     for line in lines:
         cleaned_line = re.sub(r' Assist - [\w\s]+\.?', '', line)
@@ -590,7 +738,6 @@ def attacking_attempt_ner():
     matches_time_list = re.findall(pattern_time, text)
 
     text_without_hits_bar = sentences_missed_chance + sentences_new_attacking_attempt + sentences_shot_blocked
-
 
     for ind in (text_without_hits_bar):
         matches = re.findall(pattern_player, ind)
@@ -628,7 +775,8 @@ def attacking_attempt_ner():
         {"label": "PLAYER", "pattern": player} for player in matches_players_hits_bar +   matches_player_no_hits_bar
     ] + [
         {"label": "WAY_OF_ATTEMPT", "pattern": way} for way in matches_way_of_attempt_list        
-
+    ] + [
+        {"label": "GAME", "pattern": game} for game in matches_game_list
     ]
 
     ruler.add_patterns(patterns)
@@ -638,18 +786,36 @@ def attacking_attempt_ner():
     TEAM = [ent.text for ent in doc.ents if ent.label_ == "TEAM"]
     PLAYER = [ent.text for ent in doc.ents if ent.label_ == "PLAYER"]
     WAY_OF_ATTEMPT = [ent.text for ent in doc.ents if ent.label_ == "WAY_OF_ATTEMPT"]
+    GAME_LABELS = [ent.text for ent in doc.ents if ent.label_ == "GAME"]
     LABELS = []
     for i in range(len(sentences)-1):
         LABELS.append(sentences[i])
-    print("sssss")
-    print(len(TIME))
-    print(len(TEAM))
-    print(len(PLAYER))
-    print(len(WAY_OF_ATTEMPT))
-    print("\n\n")
 
+    for i in range(len(LABELS)):
+        attacking_attempt_uri = URIRef(ex+f"/Attacking_Attempt{str(i+1)}")
+        team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
+        player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
+        way_of_attempt = Literal(WAY_OF_ATTEMPT[i].replace(' ', '_'))
+        time_uri = Literal(TIME[i].replace(' ', '_'))
+        labels = Literal(LABELS[i])
+        game = Literal(GAME_LABELS[i])
 
-    return LABELS, PLAYER, TEAM,  TIME, WAY_OF_ATTEMPT
+        g.add((attacking_attempt_uri, RDF.type, ex.Attacking_Attempt))
+        g.add((team_uri, RDF.type, ex.Team))
+        g.add((player_uri, RDF.type, ex.Player))
+        g.add((attacking_attempt_uri, RDFS.comment, labels))
+        g.add((attacking_attempt_uri, ex.counts_for, team_uri))
+        g.add((attacking_attempt_uri, ex.way_of_attempt, way_of_attempt))
+        g.add((attacking_attempt_uri, ex.noted_by, player_uri))
+        g.add((attacking_attempt_uri, ex.happened_at, time_uri))
+        g.add((player_uri, ex.playsFor, team_uri))
+
+       
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((attacking_attempt_uri, ex.at_game, game))
 
 
 def card_ner(card_type):
@@ -674,7 +840,7 @@ def card_ner(card_type):
     matches_teams = re.findall(pattern_teams, text)
     matches_players = re.findall(pattern_players, text)
     matches_time = re.findall(pattern_time, text)
-
+    matches_game = re.findall(pattern_match_game, text)
     # Define EntityRuler patterns
     patterns = [
         {"label": "TIME", "pattern": time} for time in matches_time
@@ -682,6 +848,8 @@ def card_ner(card_type):
         {"label": "TEAM", "pattern": team} for team in matches_teams
     ] + [
         {"label": "PLAYER", "pattern": player} for player in matches_players
+    ] + [
+        {"label": "GAME", "pattern": game} for game in matches_game        
     ]
 
     # Add patterns to the EntityRuler
@@ -691,6 +859,7 @@ def card_ner(card_type):
     TEAM = [ent.text for ent in doc.ents if ent.label_ == "TEAM"]
     PLAYER = [ent.text.strip() for ent in doc.ents if ent.label_ == "PLAYER"]
     TIME_STAMP = [ent.text for ent in doc.ents if ent.label_ == "TIME"]
+    GAME_LABELS = [ent.text for ent in doc.ents if ent.label_ == "GAME"]
     if card_type == "yellow":
         YELLOW_CARD = ["YELLOW_CARD" + str(i+1) for i in range(len(TEAM))] 
     elif card_type == "red":
@@ -698,25 +867,60 @@ def card_ner(card_type):
 
 
     if card_type == "yellow":
-        print(len(TEAM))
-        print((PLAYER))
-        print(len(TIME_STAMP))
-        print("\n\n")
         LABELS = []
         for i in range(len(sentences)-1):
             LABELS.append(sentences[i])
-        return LABELS, TEAM, PLAYER, TIME_STAMP
-    elif card_type == "red":
-        print(len(TEAM))
-        print((PLAYER))
-        print(len(TIME_STAMP))
-        print("\n\n")
-        LABELS = []
-        for i in range(len(sentences)-1):
-            LABELS.append(sentences[i])
-        return LABELS, TEAM, PLAYER, TIME_STAMP
+
+        for i in range(len(LABELS)):
+            yellow_card_uri = URIRef(ex+f"/Yellow_Card{str(i+1)}")
+            team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
+            player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
+            time_uri = Literal(TIME_STAMP[i])
+            labels = Literal(LABELS[i])
+            game = Literal(GAME_LABELS[i])
+
+            g.add((yellow_card_uri, RDF.type, ex.Yellow_Card))
+            g.add((team_uri, RDF.type, ex.Team))
+            g.add((player_uri, RDF.type, ex.Player))
+            g.add((yellow_card_uri, RDFS.comment, labels))
+            g.add((yellow_card_uri, ex.card_counts_for, team_uri))
+            g.add((yellow_card_uri, ex.recieved_by, player_uri))
+            g.add((yellow_card_uri, ex.happened_at, time_uri))
+            g.add((player_uri, ex.playsFor, team_uri))
 
     
+            index_games_list = game.replace("MATCH_", "").strip()
+            game = URIRef(ex+f"/{game.replace(' ', '_')}")
+            g.add((game, RDF.type, ex.Match))
+            g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+            g.add((yellow_card_uri, ex.at_game, game))
+    elif card_type == "red":
+        LABELS = []
+        for i in range(len(sentences)-1):
+            LABELS.append(sentences[i])
+        
+        for i in range(len(LABELS)):
+            red_card_uri = URIRef(ex+f"/Red_Card{str(i+1)}")
+            team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
+            player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
+            time_uri = Literal(TIME_STAMP[i])
+            labels = Literal(LABELS[i])
+            game = Literal(GAME_LABELS[i])
+
+            g.add((red_card_uri, RDF.type, ex.Red_Card))
+            g.add((team_uri, RDF.type, ex.Team))
+            g.add((player_uri, RDF.type, ex.Player))
+            g.add((red_card_uri, RDFS.comment, labels))
+            g.add((red_card_uri, ex.card_counts_for, team_uri))
+            g.add((red_card_uri, ex.recieved_by, player_uri))
+            g.add((red_card_uri, ex.happened_at, time_uri))
+            g.add((player_uri, ex.playsFor, team_uri))
+
+            index_games_list = game.replace("MATCH_", "").strip()
+            game = URIRef(ex+f"/{game.replace(' ', '_')}")
+            g.add((game, RDF.type, ex.Match))
+            g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+            g.add((red_card_uri, ex.at_game, game))
 
 def delay_ner():
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
@@ -748,28 +952,29 @@ def delay_ner():
     match_team_injury = []
 
     match_player_injury = []
-
+    matches_game_list = []
     for sentence in sentences_no_injury:
             match_team = re.search(pattern_team_no_injury, sentence)
             match_time = re.search(pattern_time, sentence)
-            if match_team:
+            match_game = re.search(pattern_match_game, sentence)
+
+            if match_team and match_time:
                 match_team_no_injury.append(match_team.group(1))
-            
-            if match_time: 
                 match_time_no_injury.append(match_time.group(0))
+                matches_game_list.append(match_game.group(0))
 
 
     for sentence in sentences_injury:
             match_team = re.search(pattern_team_injury, sentence)
             match_time = re.search(pattern_time, sentence)
             match_player = re.search(pattern_player_injury, sentence)
-            if match_player:
-                match_player_injury.append(match_player.group(1))
-            if match_team:
-                match_team_injury.append(match_team.group(1))
+            match_game = re.search(pattern_match_game, sentence)
 
-            if match_time: 
+            if match_player and match_team and match_time:
+                match_player_injury.append(match_player.group(1))
+                match_team_injury.append(match_team.group(1))
                 match_time_injury.append(match_time.group(0))
+                matches_game_list.append(match_game.group(0))
 
     for sentence in sentences_over:
         match_time = re.search(pattern_time, sentence)
@@ -782,6 +987,8 @@ def delay_ner():
         {"label": "TEAM", "pattern": team} for team in match_team_injury + match_team_no_injury
     ] + [
         {"label": "PLAYER", "pattern": player} for player in match_player_injury 
+    ] + [
+        {"label": "GAME", "pattern": game} for game in matches_game_list
     ]
 
     ruler.add_patterns(patterns)
@@ -804,6 +1011,9 @@ def delay_ner():
 
     PLAYER_INJURY = [ent.text for ent in doc2.ents if ent.label_ == "PLAYER"]
 
+    GAME_LABELS_1 = [ent.text for ent in doc1.ents if ent.label_ == "GAME"]
+    GAME_LABELS_2 = [ent.text for ent in doc2.ents if ent.label_ == "GAME"]
+    GAME_LABELS_3 = [ent.text for ent in doc3.ents if ent.label_ == "GAME"]
     LABELS_1 = []
     for i in range(len(sentences_no_injury)):
         LABELS_1.append(sentences_no_injury[i])
@@ -816,22 +1026,70 @@ def delay_ner():
     LABELS_3 = []
     for i in range(len(sentences_over)):
         LABELS_3.append(sentences_over[i])        
-    print(len(TIME_IN_MATCH))
-    print(len(TEAM_IN_MATCH))
-    print("-----------------------")
-
-    print(len(TIME_INJURY))
-    print(len(TEAM_INJURY))
-    print((PLAYER_INJURY))
-
-
-    print("-----------------------")
-
-    print(len(TIME_OVER))
-
-    return LABELS_1, TIME_IN_MATCH, TIME_INJURY, TIME_OVER, TEAM_IN_MATCH, TEAM_INJURY, PLAYER_INJURY, \
-        LABELS_2, LABELS_3
     
+    ind = 0
+    for i in range(len(TIME_IN_MATCH)):
+        delay_uri = URIRef(ex+f"/Delay{str(ind+1)}")
+        team_uri = URIRef(ex+f"/{TEAM_IN_MATCH[i].replace(' ', '_')}")
+        time_uri = Literal(TIME_IN_MATCH[i])
+        labels = Literal(LABELS_1[i])
+        game = Literal(GAME_LABELS_1[i])
+            
+        g.add((delay_uri, RDF.type, ex.Delay))
+        g.add((team_uri, RDF.type, ex.Team))
+        g.add((delay_uri, RDFS.comment, labels))
+        g.add((delay_uri, ex.happened_at, time_uri))  
+        g.add((delay_uri, ex.delay_caused_from, team_uri))   
+
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((delay_uri, ex.at_game, game))
+
+        ind += 1
+    for i in range(len(TIME_INJURY)):
+        delay_uri = URIRef(ex+f"/Delay{str(ind+1)}")
+        team_uri = URIRef(ex+f"/{TEAM_INJURY[i].replace(' ', '_')}")
+        player_uri = URIRef(ex+f"/{PLAYER_INJURY[i].replace(' ', '_')}")
+        time_uri = Literal(TIME_INJURY[i])
+        labels = Literal(LABELS_2[i])
+        game = Literal(GAME_LABELS_2[i])
+
+        g.add((delay_uri, RDF.type, ex.Delay))
+        g.add((team_uri, RDF.type, ex.Team))
+        g.add((player_uri, RDF.type, ex.Player))
+        g.add((delay_uri, RDFS.comment, labels))
+        g.add((delay_uri, ex.player_injured, player_uri))
+        g.add((delay_uri, ex.happened_at, time_uri))
+        g.add((delay_uri, ex.delay_caused_from, team_uri)) 
+        g.add((player_uri, ex.playsFor, team_uri))
+
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((delay_uri, ex.at_game, game))
+
+        ind += 1
+    for i in range(len(TIME_OVER)):
+        delay_uri = URIRef(ex+f"/Delay{str(ind+1)}")
+        time_uri = Literal(TIME_OVER[i])
+        labels = Literal(LABELS_3[i])
+        game = Literal(GAME_LABELS_3[i])
+
+        
+        g.add((delay_uri, RDF.type, ex.Delay))
+        g.add((delay_uri, RDFS.comment, labels))
+        g.add((delay_uri, ex.happened_at, time_uri))  
+
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((delay_uri, ex.at_game, game))
+
+        ind += 1 
 
 def first_half_end_ner():
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
@@ -839,9 +1097,8 @@ def first_half_end_ner():
 
     with open("web_scrap/txt_files/categories/first_half_sentences.txt", 'r', encoding='utf-8') as f:
         text = f.read()
-
     sentences = text.split('\n')
-    # print(sentences)
+
     # Define the regex pattern 
     pattern_score = r"ended\s*-\s*(.+)"
     pattern_time = r"\d+\+?\d*'"
@@ -849,11 +1106,14 @@ def first_half_end_ner():
     # Find matches in each sentence based on regexes above.
     matches_score = re.findall(pattern_score, text)
     matches_time = re.findall(pattern_time, text)
+    matches_game = re.findall(pattern_match_game, text)
     # Define EntityRuler patterns
     patterns = [
         {"label": "TIME", "pattern": time} for time in matches_time
     ] + [
-        {"label": "SCORE", "pattern": score} for score in matches_score
+        {"label": "SCORE", "pattern": score} for score in matches_score\
+    ] + [
+        {"label": "GAME", "pattern": game} for game in matches_game            
     ]
 
     # Add patterns to the EntityRuler
@@ -862,16 +1122,31 @@ def first_half_end_ner():
 
     SCORE = [ent.text for ent in doc.ents if ent.label_ == "SCORE"]
     TIME_STAMP = [ent.text for ent in doc.ents if ent.label_ == "TIME"]
+    GAME_LABELS_temp =  [ent.text for ent in doc.ents if ent.label_ == "GAME"]
     LABELS = []
+    GAME_LABELS = []
     for i in range(1,len(sentences),2):
         LABELS.append(sentences[i])
-    print(len(SCORE))
-    print(len(TIME_STAMP))
-    print(len(LABELS))
-    print("\n\n")
+        GAME_LABELS.append(GAME_LABELS_temp[i])
 
-    return LABELS, SCORE, TIME_STAMP
+    for i in range(len(LABELS)):
+        first_half_uri = URIRef(ex+f"/First_Half{str(i+1)}")
+        score_uri = Literal(SCORE[i])
+        time_uri = Literal(TIME_STAMP[i])
+        labels = Literal(LABELS[i])
+        game = Literal(GAME_LABELS[i])
+            
 
+        g.add((first_half_uri, RDF.type, ex.First_Half))
+        g.add((first_half_uri, RDFS.comment, labels))
+        g.add((first_half_uri, ex.ended_at, time_uri))
+        g.add((first_half_uri, ex.ended_with_score, score_uri))
+
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((first_half_uri, ex.at_game, game))
 def second_half_sentences_ner():
     sentences_begin = []
     sentences_end = []
@@ -882,37 +1157,38 @@ def second_half_sentences_ner():
             elif "ended" in line:
                 sentences_end.append(line.strip())
             
-
     # Define regex patterns
     pattern_start_score = r"starts\s*(.*)"
     pattern_end_score = r"ended -\s*(.*)"
     pattern_time_begin = r"\d+\+?\d*'"
     pattern_time_end = r"\d+\+?\d*'"
 
-    # Initialize lists to store matches
+
     matches_score_begin = []
     matches_time_begin = []
     matches_score_end = []
     matches_time_end = []
 
-    # Extract matches for "starts" sentences
+    matches_all_games_list_list = []
+
     for sentence in sentences_begin:
         match_score = re.search(pattern_start_score, sentence)
         match_time = re.search(pattern_time_begin, sentence)
-        if match_score:
+        match_game = re.search(pattern_match_game, sentence)
+        if match_score and match_time and match_game:
             matches_score_begin.append(match_score.group(1))
-        if match_time:
             matches_time_begin.append(match_time.group(0))
+            matches_all_games_list_list.append(match_game.group(0))
 
-    # Extract matches for "ended" sentences
+
     for sentence in sentences_end:
         match_score = re.search(pattern_end_score, sentence)
         match_time = re.search(pattern_time_end, sentence)
-        if match_score:
+        match_game = re.search(pattern_match_game, sentence)
+        if match_score and match_time and match_game:
             matches_score_end.append(match_score.group(1))
-        if match_time:
             matches_time_end.append(match_time.group(0))
-
+            matches_all_games_list_list.append(match_game.group(0))
 
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
     ruler = nlp.add_pipe("entity_ruler")
@@ -921,6 +1197,8 @@ def second_half_sentences_ner():
             {"label": "TIME", "pattern": time} for time in matches_time_end + matches_time_begin
         ] + [
             {"label": "SCORE", "pattern": team} for team in matches_score_begin + matches_score_end
+        ] + [
+            {"label": "GAME", "pattern": game} for game in matches_all_games_list_list    
     ]
 
     ruler.add_patterns(patterns)
@@ -933,6 +1211,10 @@ def second_half_sentences_ner():
 
     TIME_BEGIN = [ent.text for ent in doc1.ents if ent.label_ == "TIME"]
     TIME_END = [ent.text for ent in doc2.ents if ent.label_ == "TIME"]
+
+    GAME_LABELS_1 = [ent.text for ent in doc1.ents if ent.label_ == "GAME"]
+    GAME_LABELS_2 = [ent.text for ent in doc2.ents if ent.label_ == "GAME"]
+
     LABELS_1 = []
     for i in range(0,len(sentences_begin)):
         LABELS_1.append(sentences_begin[i])
@@ -943,19 +1225,47 @@ def second_half_sentences_ner():
     for i in range(0,len(sentences_end)):
         LABELS_2.append(sentences_end[i])
 
-    print(len(LABELS_1))
-    print(len(TIME_BEGIN))
-    print(len(SCORE_BEGIN))
-    print("-----------------------")
-    print(len(LABELS_2))
-    print(len(TIME_END))
-    print(len(SCORE_END))
+    for i in range(len(LABELS_1)):
+        second_half_uri = URIRef(ex+f"/Second_Half{str(i+1)}")
+        score_uri = Literal(SCORE_BEGIN[i])
+        time_uri = Literal(TIME_BEGIN[i])
+        labels = Literal(LABELS_1[i])
+        game = Literal(GAME_LABELS_1[i])
 
-    return LABELS_1, TIME_BEGIN, SCORE_BEGIN, LABELS_2, TIME_END, SCORE_END
+        g.add((second_half_uri, RDF.type, ex.Second_Half))
+        g.add((second_half_uri, RDFS.comment, labels))
+        g.add((second_half_uri, ex.started_at, time_uri))
+        g.add((second_half_uri, ex.started_with_score, score_uri))   
+        
+        
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((second_half_uri, ex.at_game, game))
 
+    for i in range(len(LABELS_2)):
+        second_half_uri = URIRef(ex+f"/Second_Half{str(i+1)}")
+        score_uri = Literal(SCORE_END[i])
+        time_uri = Literal(TIME_END[i])
+        labels = Literal(LABELS_2[i])
+        game = Literal(GAME_LABELS_2[i])
+
+        g.add((second_half_uri, RDF.type, ex.Second_Half))
+        g.add((second_half_uri, RDFS.comment, labels))
+        g.add((second_half_uri, ex.ended_at, time_uri))
+        g.add((second_half_uri, ex.ended_with_score, score_uri))
+
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((second_half_uri, ex.at_game, game))
+   
 def extra_time_first_half_ner():
     sentences_begin = []
     sentences_end = []
+
     with open('web_scrap/txt_files/categories/extra_time_first_half_sentences.txt', 'r', encoding='utf-8') as file:
         for line in file:
             if "begins" in line:
@@ -969,38 +1279,49 @@ def extra_time_first_half_ner():
     pattern_time_begin = r"\d+\+?\d*'"
     pattern_time_end = r"\d+\+?\d*'"
 
-    # Initialize lists to store matches
     matches_score_begin = []
     matches_time_begin = []
     matches_score_end = []
     matches_time_end = []
 
-    # Extract matches for "starts" sentences
+    matches_all_games_list_list = []
+
     for sentence in sentences_begin:
         match_score = re.search(pattern_start_score, sentence)
         match_time = re.search(pattern_time_begin, sentence)
+        match_game = re.search(pattern_match_game, sentence)
         if match_score:
             matches_score_begin.append(match_score.group(1))
         if match_time:
             matches_time_begin.append(match_time.group(0))
+        if match_game:
+            matches_all_games_list_list.append(match_game.group(0))
+         
 
     # Extract matches for "ended" sentences
     for sentence in sentences_end:
         match_score = re.search(pattern_end_score, sentence)
         match_time = re.search(pattern_time_end, sentence)
+        match_game = re.search(pattern_match_game, sentence)
+
         if match_score:
             matches_score_end.append(match_score.group(1))
         if match_time:
             matches_time_end.append(match_time.group(0))
+        if match_game:
+            matches_all_games_list_list.append(match_game.group(0))
 
 
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
     ruler = nlp.add_pipe("entity_ruler")
+
     # Define EntityRuler patterns
     patterns = [
             {"label": "TIME", "pattern": time} for time in matches_time_end + matches_time_begin
         ] + [
             {"label": "SCORE", "pattern": team} for team in matches_score_begin + matches_score_end
+        ] + [
+            {"label": "GAME", "pattern": game} for game in matches_all_games_list_list    
     ]
 
     ruler.add_patterns(patterns)
@@ -1013,29 +1334,68 @@ def extra_time_first_half_ner():
 
     TIME_BEGIN = [ent.text for ent in doc1.ents if ent.label_ == "TIME"]
     TIME_END = [ent.text for ent in doc2.ents if ent.label_ == "TIME"]
+    
+
     LABELS_1 = []
     for i in range(0,len(sentences_begin)):
         LABELS_1.append(sentences_begin[i])
 
     SCORE_BEGIN = [ent.text for ent in doc1.ents if ent.label_ == "SCORE"]
     SCORE_END = [ent.text for ent in doc2.ents if ent.label_ == "SCORE"]
+
+    GAME_LABELS_1 = [ent.text for ent in doc1.ents if ent.label_ == "GAME"]
+    GAME_LABELS_2 = [ent.text for ent in doc2.ents if ent.label_ == "GAME"]
+
     LABELS_2 = []
     for i in range(0,len(sentences_end)):
         LABELS_2.append(sentences_end[i])
 
-    print(len(LABELS_1))
-    print(len(TIME_BEGIN))
-    print(len(SCORE_BEGIN))
-    print("-----------------------")
-    print(len(LABELS_2))
-    print(len(TIME_END))
-    print(len(SCORE_END))
 
-    return LABELS_1, TIME_BEGIN, SCORE_BEGIN, LABELS_2, TIME_END, SCORE_END
+    for i in range(len(LABELS_1)):
+        extra_time_first_half_uri = URIRef(ex+f"/First_Half_Extra_Time{str(i+1)}")
+        score_uri = Literal(SCORE_BEGIN[i])
+        time_uri = Literal(TIME_BEGIN[i])
+        labels = Literal(LABELS_1[i])
+        game = Literal(GAME_LABELS_1[i])
+
+        g.add((extra_time_first_half_uri, RDF.type, ex.First_Half_Extra_Time))
+        g.add((extra_time_first_half_uri, RDFS.comment, labels))
+        g.add((extra_time_first_half_uri, ex.started_at, time_uri))
+        g.add((extra_time_first_half_uri, ex.started_with_score, score_uri))   
+
+        
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((extra_time_first_half_uri, ex.at_game, game))
+
+    for i in range(len(LABELS_2)):
+        extra_time_first_half_uri = URIRef(ex+f"/First_Half_Extra_Time{str(i+1)}")
+        score_uri = Literal(SCORE_END[i])
+        time_uri = Literal(TIME_END[i])
+        labels = Literal(LABELS_2[i])
+        game = Literal(GAME_LABELS_2[i])
+
+        g.add((extra_time_first_half_uri, RDF.type, ex.First_Half_Extra_Time))
+        g.add((extra_time_first_half_uri, RDFS.comment, labels))
+        g.add((extra_time_first_half_uri, ex.ended_at, time_uri))
+        g.add((extra_time_first_half_uri, ex.ended_with_score, score_uri))
+
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((extra_time_first_half_uri, ex.at_game, game))
+
 
 def extra_time_second_half_ner():
+    nlp = spacy.load("en_core_web_lg", disable=["ner"])
+    ruler = nlp.add_pipe("entity_ruler")
+
     sentences_begin = []
     sentences_end = []
+
     with open('web_scrap/txt_files/categories/extra_time_second_half_sentences.txt', 'r', encoding='utf-8') as file:
         for line in file:
             if "begins" in line:
@@ -1049,38 +1409,45 @@ def extra_time_second_half_ner():
     pattern_time_begin = r"\d+\+?\d*'"
     pattern_time_end = r"\d+\+?\d*'"
 
-    # Initialize lists to store matches
     matches_score_begin = []
     matches_time_begin = []
     matches_score_end = []
     matches_time_end = []
+    
+    matches_all_games_list_list = []
 
-    # Extract matches for "starts" sentences
     for sentence in sentences_begin:
         match_score = re.search(pattern_start_score, sentence)
         match_time = re.search(pattern_time_begin, sentence)
+        match_game = re.search(pattern_match_game, sentence)
         if match_score:
             matches_score_begin.append(match_score.group(1))
         if match_time:
             matches_time_begin.append(match_time.group(0))
+        if match_game:
+            matches_all_games_list_list.append(match_game.group(0))
+
 
     # Extract matches for "ended" sentences
     for sentence in sentences_end:
         match_score = re.search(pattern_end_score, sentence)
         match_time = re.search(pattern_time_end, sentence)
+        match_game = re.search(pattern_match_game, sentence)
         if match_score:
             matches_score_end.append(match_score.group(1))
         if match_time:
             matches_time_end.append(match_time.group(0))
+        if match_game:
+            matches_all_games_list_list.append(match_game.group(0))
 
 
-    nlp = spacy.load("en_core_web_lg", disable=["ner"])
-    ruler = nlp.add_pipe("entity_ruler")
     # Define EntityRuler patterns
     patterns = [
             {"label": "TIME", "pattern": time} for time in matches_time_end + matches_time_begin
         ] + [
             {"label": "SCORE", "pattern": team} for team in matches_score_begin + matches_score_end
+        ] + [
+            {"label": "GAME", "pattern": game} for game in matches_all_games_list_list
     ]
 
     ruler.add_patterns(patterns)
@@ -1103,14 +1470,46 @@ def extra_time_second_half_ner():
     for i in range(0,len(sentences_end)):
         LABELS_2.append(sentences_end[i])
 
+    GAME_LABELS_1 = [ent.text for ent in doc1.ents if ent.label_ == "GAME"]
+    GAME_LABELS_2 = [ent.text for ent in doc2.ents if ent.label_ == "GAME"]
 
-    print(len(TIME_BEGIN))
-    print(len(SCORE_BEGIN))
-    print("-----------------------")
-    print(len(TIME_END))
-    print(len(SCORE_END))
+    for i in range(len(LABELS_1)):
+        second_half_extra_time_uri = URIRef(ex+f"/Second_Half_Extra_Time{str(i+1)}")
+        score_uri = Literal(SCORE_BEGIN[i])
+        time_uri = Literal(TIME_BEGIN[i])
+        labels = Literal(LABELS_1[i])
+        game = Literal(GAME_LABELS_1[i])
 
-    return LABELS_1, TIME_BEGIN, SCORE_BEGIN, LABELS_2, TIME_END, SCORE_END
+        g.add((second_half_extra_time_uri, RDF.type, ex.Second_Half_Extra_Time))
+        g.add((second_half_extra_time_uri, RDFS.comment, labels))
+        g.add((second_half_extra_time_uri, ex.started_at, time_uri))
+        g.add((second_half_extra_time_uri, ex.started_with_score, score_uri))   
+
+
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((second_half_extra_time_uri, ex.at_game, game))
+
+    for i in range(len(LABELS_2)):
+        second_half_extra_time_uri = URIRef(ex+f"/Second_Half_Extra_Time{str(i+1)}")
+        score_uri = Literal(SCORE_END[i])
+        time_uri = Literal(TIME_END[i])
+        labels = Literal(LABELS_2[i])
+        game = Literal(GAME_LABELS_1[i])
+
+        g.add((second_half_extra_time_uri, RDF.type, ex.Second_Half_Extra_Time))
+        g.add((second_half_extra_time_uri, RDFS.comment, labels))
+        g.add((second_half_extra_time_uri, ex.ended_at, time_uri))
+        g.add((second_half_extra_time_uri, ex.ended_with_score, score_uri)) 
+
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((second_half_extra_time_uri, ex.at_game, game))
+
 
 def end_game_ner():
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
@@ -1118,45 +1517,55 @@ def end_game_ner():
 
     with open('web_scrap/txt_files/categories/end_game_sentences.txt', 'r', encoding='utf-8') as file:
         text = file.read()
-
     sentences = text.split('\n')
+
     pattern_score = r" - \s*(.*)"
     matches_score = re.findall(pattern_score, text)
-
+    matches_game = re.findall(pattern_match_game, text)
     # Define EntityRuler patterns
     patterns = [
-            {"label": "SCORE", "pattern": team} for team in matches_score
+        {"label": "SCORE", "pattern": team} for team in matches_score
+    ] + [
+        {"label": "GAME", "pattern": game} for game in matches_game        
     ]
 
     ruler.add_patterns(patterns)
     doc = nlp(text)
 
     SCORE = [ent.text for ent in doc.ents if ent.label_ == "SCORE"]
+    GAME_LABELS = [ent.text for ent in doc.ents if ent.label_ == "GAME"]
     LABELS = []
     for i in range(1,len(sentences),2):
         LABELS.append(sentences[i])
-    print(len(SCORE))
 
-    return LABELS, SCORE
+    for i in range(len(LABELS)):
+        end_game_uri = URIRef(ex+f"/End_Game{str(i+1)}")
+        score_uri = Literal(SCORE[i])
+        labels = Literal(LABELS[i])
+        game = Literal(GAME_LABELS[i])
+
+        g.add((end_game_uri, RDF.type, ex.End_Game))
+        g.add((end_game_uri, RDFS.comment, labels))
+        g.add((end_game_uri, ex.ended_with_score, score_uri))
+
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((end_game_uri, ex.at_game, game))
 
 def goal_ner():
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
     ruler = nlp.add_pipe("entity_ruler")
 
-    matches_assist_list = []
     goal_sentences = []
     own_goal_sentences = []
     with open('web_scrap/txt_files/categories/goal_sentences.txt', 'r', encoding='utf-8') as file:
             for line in file:
                 if "Goal!" in line:
                     goal_sentences.append(line.strip())
-
                 else:
                     own_goal_sentences.append(line.strip())
-
-    # print(own_goal_sentences)
-    # print((goal_sentences))
-
 
     pattern_time = r"\d+\+?\d*'" # for all sentences 
     pattern_team = r" - (.+?) - " # for NEW_ATTACKING_ATTEMPT and MISSED_CHANCE 
@@ -1169,15 +1578,15 @@ def goal_ner():
     matches_player_list_goal = []
     matches_score_list_goal = []
     matches_way_of_scoring = []
-
+    matches_all_games_list_list = []
     for sentence in goal_sentences:
         matches_team = re.findall(pattern_team, sentence)
         matches_time = re.findall(pattern_time, sentence)
         matches_player = re.findall(pattern_player, sentence)
         matches_score = re.findall(pattern_score, sentence)
         matches_way = re.findall(pattern_way_of_scoring, sentence)
-
-        if matches_team and matches_time and matches_player and matches_score and matches_way:
+        match_game = re.search(pattern_match_game, sentence)
+        if matches_team and matches_time and matches_player and matches_score and matches_way and match_game:
             desired_time = matches_time[0]
             desired_team = matches_team[0]
             desired_player = matches_player[0]
@@ -1189,16 +1598,10 @@ def goal_ner():
             matches_player_list_goal.append(desired_player.strip())
             matches_score_list_goal.append(desired_score.strip())
             matches_way_of_scoring.append(desired_way.strip())
+            matches_all_games_list_list.append(match_game.group(0))
 
     matches_player_list_goal = [player + ' -' for player in matches_player_list_goal]
     matches_team_list_goal = [team + ' -' for team in matches_team_list_goal]
-
-
-    print(len(matches_way_of_scoring)) # Perfect
-    print(len(matches_score_list_goal)) # Perfect
-    print(len(matches_time_list_goal)) # Perfect  
-    print((matches_team_list_goal)) # Perfect  
-    print((matches_player_list_goal)) # Perfect  
 
     pattern_player_own_goal = r"by ([^,]+),"
     pattern_team_own_goal = r"\,\s([^..]+)"
@@ -1209,12 +1612,15 @@ def goal_ner():
     matches_score_list_own_goal = []
     matches_time_list_own_goal = []
 
+
+
     for sentence in own_goal_sentences:
         matches_player = re.findall(pattern_player_own_goal, sentence)
         matches_team = re.findall(pattern_team_own_goal, sentence)
         matches_score = re.findall(pattern_score_own_goal, sentence)
         matches_time = re.findall(pattern_time, sentence)
-        if matches_player and matches_team and matches_score and matches_time:
+        match_game = re.search(pattern_match_game, sentence)
+        if matches_player and matches_team and matches_score and matches_time and match_game:
             desired_player = matches_player[0]
             desired_team = matches_team[0]
             desired_score = matches_score[0]
@@ -1224,17 +1630,10 @@ def goal_ner():
             matches_team_list_own_goal.append(desired_team.strip())
             matches_score_list_own_goal.append(desired_score.strip())
             matches_time_list_own_goal.append(desired_time.strip())
+            matches_all_games_list_list.append(match_game.group(0))
 
     matches_player_list_own_goal = [player + ',' for player in matches_player_list_own_goal]
     matches_team_list_own_goal = [team + '.' for team in matches_team_list_own_goal]
-
-    # print("-----------------")
-    print(matches_player_list_own_goal)  # Perfect
-    print(matches_team_list_own_goal) # Perfect
-    print(matches_score_list_own_goal)      # Perfect 
-    print(matches_time_list_own_goal) # Perfect
-    # print("-----------------")
-
 
     patterns = [
         {"label": "TIME", "pattern": time} for time in matches_time_list_goal + matches_time_list_own_goal
@@ -1245,7 +1644,9 @@ def goal_ner():
     ] + [    
         {"label": "SCORE", "pattern": score} for score in matches_score_list_goal + matches_score_list_own_goal
     ] + [    
-        {"label": "WAY_OF_SCORING", "pattern": way} for way in matches_way_of_scoring    
+        {"label": "WAY_OF_SCORING", "pattern": way} for way in matches_way_of_scoring 
+    ] + [    
+        {"label": "GAME", "pattern": game} for game in matches_all_games_list_list        
     ]
 
 
@@ -1278,6 +1679,9 @@ def goal_ner():
     PLAYER_OWN_GOAL = [player.replace(",", "").rstrip() for player in PLAYER_OWN_GOAL]
     TEAM_OWN_GOAL = [team.replace(".", "").rstrip() for team in TEAM_OWN_GOAL]
 
+    GAME_LABELS_1 = [ent.text for ent in doc1.ents if ent.label_ == "GAME"]
+    GAME_LABELS_2 = [ent.text for ent in doc2.ents if ent.label_ == "GAME"]
+
     LABELS_1 = []
     for i in range(len(goal_sentences)):
         LABELS_1.append(goal_sentences[i])
@@ -1286,21 +1690,57 @@ def goal_ner():
     for i in range(len(own_goal_sentences)):
         LABELS_2.append(own_goal_sentences[i])
     
+    for i in range(len(LABELS_1)):
+        goal_uri = URIRef(ex+f"/Goal_Scored{str(i+1)}")
+        team_uri = URIRef(ex+f"/{TEAM_GOAL[i].replace(' ', '_')}")
+        player_uri = URIRef(ex+f"/{PLAYER_GOAL[i].replace(' ', '_')}")
+        labels = Literal(LABELS_1[i])
+        game = Literal(GAME_LABELS_1[i])
+        score_uri = Literal(SCORE_GOAL[i])
+        way_of_scoring_uri = Literal(WAY_OF_SCORING[i])
+        time_uri = Literal(TIME_STAMP_GOAL[i])
 
-    print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
-    print(len(TIME_STAMP_GOAL))
-    print(len(TEAM_GOAL))
-    print(len(PLAYER_GOAL))
-    print(len(SCORE_GOAL))
-    print(len(WAY_OF_SCORING))
-    print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
-    print(len(TIME_STAMP_OWN_GOAL))
-    print(len(TEAM_OWN_GOAL))
-    print(len(PLAYER_OWN_GOAL))
-    print(len(SCORE_OWN_GOAL))
+        g.add((goal_uri, RDF.type, ex.Goal_Scored))
+        g.add((team_uri, RDF.type, ex.Team))
+        g.add((player_uri, RDF.type, ex.Player))
+        g.add((goal_uri, RDFS.comment, labels))
+        g.add((goal_uri, ex.scored_by, player_uri))
+        g.add((goal_uri, ex.counts_for, team_uri))
+        g.add((goal_uri, ex.scored_with, way_of_scoring_uri)) 
+        g.add((goal_uri, ex.makes_score, score_uri))
+        g.add((goal_uri, ex.happened_at, time_uri))  
 
-    return LABELS_1, TIME_STAMP_GOAL, TEAM_GOAL, PLAYER_GOAL, SCORE_GOAL, WAY_OF_SCORING, LABELS_2, TIME_STAMP_OWN_GOAL, TEAM_OWN_GOAL, PLAYER_OWN_GOAL, SCORE_OWN_GOAL
+        
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((goal_uri, ex.at_game, game))
 
+
+    for j in range(len(LABELS_2)):
+        own_goal_uri = URIRef(ex+f"/Own_Goal{str(j+1)}")
+        team_uri = URIRef(ex+f"/{TEAM_OWN_GOAL[j].replace(' ', '_')}")
+        player_uri = URIRef(ex+f"/{PLAYER_OWN_GOAL[j].replace(' ', '_')}")
+        labels = Literal(LABELS_2[j])
+        score_uri = Literal(SCORE_OWN_GOAL[j])
+        time_uri = Literal(TIME_STAMP_OWN_GOAL[j])
+        game = Literal(GAME_LABELS_2[j])
+
+        g.add((own_goal_uri, RDF.type, ex.Own_Goal))
+        g.add((team_uri, RDF.type, ex.Team))
+        g.add((player_uri, RDF.type, ex.Player))
+        g.add((own_goal_uri, RDFS.comment, labels))
+        g.add((own_goal_uri, ex.scored_by, player_uri))
+        g.add((own_goal_uri, ex.makes_score, score_uri))
+        g.add((player_uri, ex.playsFor, team_uri))
+        g.add((own_goal_uri, ex.happened_at, time_uri))
+
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((own_goal_uri, ex.at_game, game))
     
 def assist_ner():
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
@@ -1308,15 +1748,15 @@ def assist_ner():
 
     with open("web_scrap/txt_files/categories/assist_sentences.txt", 'r', encoding='utf-8') as file:
         text = file.read()
-
     sentences = text.split('\n')
 
     pattern_assisted_event = r"(Attacking_Attempt|Goal_Scored)(\d+)"
     pattern_player  = r"-\s(.*?)(?=\swith|\sfollowing|\safter|\.\s)"
 
     matches_assisted_event = []
-
+    matches_game = re.findall(pattern_match_game, text)
     matches_players = re.findall(pattern_player, text)
+    matches_all_games_list_list = re.findall(pattern_match_game, text)
 
     matches_ = re.findall(pattern_assisted_event, text)
 
@@ -1324,13 +1764,13 @@ def assist_ner():
         extracted_match = match[0] + match[1]
         matches_assisted_event.append(extracted_match)
 
-    # print(len(matches_attacking_attempt))
-    # print(len(matches_players))
-
     patterns = [
         {"label": "PLAYER", "pattern": player} for player in matches_players
     ] + [
-        {"label": "ASSISTED", "pattern": assisted} for assisted in matches_assisted_event   
+        {"label": "ASSISTED", "pattern": assisted} for assisted in matches_assisted_event
+    ] + [
+        {"label": "GAME", "pattern": game} for game in matches_all_games_list_list       
+        
     ]
 
     ruler.add_patterns(patterns)
@@ -1338,15 +1778,32 @@ def assist_ner():
 
     PLAYER = [ent.text for ent in doc.ents if ent.label_ == "PLAYER"]
     ASSISTED_EVENT = [ent.text for ent in doc.ents if ent.label_ == "ASSISTED"]
+    GAME_LABELS = [ent.text for ent in doc.ents if ent.label_ == "GAME"]
+
+
     LABELS = []
     for i in range(len(sentences)-1):
         LABELS.append(sentences[i])
 
-    #print(len(ASSIST))
-    print(len(PLAYER))
-    print(len(ASSISTED_EVENT ))
 
-    return LABELS, PLAYER, ASSISTED_EVENT
+    for i in range(len(LABELS)):
+        assist_uri = URIRef(ex+f"/Assist{str(i+1)}")
+        player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
+        assisted_event_uri = URIRef(ex + ASSISTED_EVENT[i])
+        game = Literal(GAME_LABELS[i])
+        labels = Literal(LABELS[i])
+        
+        g.add((assist_uri, RDF.type, ex.Assist))
+        g.add((assist_uri, ex.assist_made_by, player_uri))
+        g.add((assist_uri, RDFS.comment, labels))  
+        g.add((assist_uri, ex.refers_to, assisted_event_uri))
+
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((assist_uri, ex.at_game, game))
+
 
 def var_decision_ner():
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
@@ -1354,18 +1811,20 @@ def var_decision_ner():
 
     with open("web_scrap/txt_files/categories/var_decision_sentences.txt", 'r', encoding='utf-8') as file:
         text = file.read()
-
     sentences = text.split('\n')
+
     pattern_time = r"\d+\+?\d*'"
     pattern_var_decision = r"VAR Decision:\s*(.*)|BY VAR:\s*(.*)"
     matches_var = re.findall(pattern_var_decision, text)
     matche_var_decision = [item for sublist in matches_var for item in sublist if item]
     matches_time = re.findall(pattern_time, text)
-
+    matches_game = re.findall(pattern_match_game, text)
     patterns = [
         {"label": "TIME", "pattern": time} for time in matches_time
     ] + [
         {"label": "DECISION", "pattern": dec} for dec in matche_var_decision
+    ] + [
+        {"label": "GAME", "pattern": game} for game in matches_game        
     ]
 
     ruler.add_patterns(patterns)
@@ -1373,17 +1832,28 @@ def var_decision_ner():
 
     TIME = [ent.text for ent in doc.ents if ent.label_ == "TIME"]
     DECISION = [ent.text for ent in doc.ents if ent.label_ == "DECISION"]
+    GAME_LABELS = [ent.text for ent in doc.ents if ent.label_ == "GAME"]
+  
     LABELS = []
-
     for i in range(len(sentences)-1):
         LABELS.append(sentences[i])
 
-    print(TIME)
-    print(DECISION)
-    # print(VAR)
-
-    return LABELS, TIME, DECISION
-
+    for i in range(len(LABELS)):
+        var_uri = URIRef(ex+f"/VAR{str(i+1)}")
+        time_uri = Literal(TIME[i])
+        decision_uri = Literal(DECISION[i])
+        labels = Literal(LABELS[i])
+        game = Literal(GAME_LABELS[i])
+        g.add((var_uri, RDF.type, ex.VAR))
+        g.add((var_uri, RDFS.comment, labels)) 
+        g.add((var_uri, ex.happened_at, time_uri))
+        g.add((var_uri, ex.decision_made, decision_uri))
+        
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((var_uri, ex.at_game, game))
 
 def penalty_procedure_ner():
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
@@ -1394,6 +1864,7 @@ def penalty_procedure_ner():
     pentalty_shootout_ends_sentences = []
     pentalty_saved_sentences = []
     penalty_missed_sentences = []
+    matches_all_games_list_list = []
 
     with open("web_scrap/txt_files/categories/penalty_procedure_sentences.txt", 'r', encoding='utf-8') as file:
         for line in file:
@@ -1434,40 +1905,47 @@ def penalty_procedure_ner():
     for sentence in penalty_shootout_begins_sentences:
         match_time = re.findall(pattern_time, sentence)
         match_score = re.findall(pattern_score_begins, sentence)
+        match_game = re.search(pattern_match_game, sentence)
         if match_score and match_time:
             desired_time = match_time[0]
             desired_score = match_score[0]
 
             matches_time_begins.append(desired_time)
             matches_score_begins.append(desired_score)
+            matches_all_games_list_list.append(match_game.group(0))
 
     for sentence in pentalty_shootout_ends_sentences:
         match_time = re.findall(pattern_time, sentence)
         match_score = re.findall(pattern_score_ends, sentence)
+        match_game = re.findall(pattern_match_game, sentence)
         if match_score and match_time:
             desired_time = match_time[0]
             desired_score = match_score[0]
+            desired_game= match_game[0]
 
             matches_time_ends.append(desired_time)
             matches_score_ends.append(desired_score)
+            matches_all_games_list_list.append(desired_game)
+
     for sentence in pentalty_saved_sentences:
         match_time = re.findall(pattern_time, sentence)
         match_player = re.findall(pattern_player_saved, sentence)
         match_team = re.findall(pattern_team_saved, sentence)
         match_way = re.findall(pattern_way_saved, sentence)
-
+        match_game = re.findall(pattern_match_game, sentence)
         if match_time and match_player and match_team and match_way:
             desired_time = match_time[0]
             desired_player = match_player[0]
             desired_team = match_team[0]
             desired_way = match_way[0]
-
+            desired_game= match_game[0]
 
             matches_time_saved.append(desired_time)
             matches_player_saved.append(desired_player)
             matches_team_saved.append(desired_team)
             matches_way_saved.append(desired_way)
-            
+            matches_all_games_list_list.append(desired_game)
+
     matches_team_saved = [team+" -" for team in matches_team_saved]
 
     pattern_player_missed = r"missed\.\s(.*?)\s-\s"
@@ -1483,6 +1961,7 @@ def penalty_procedure_ner():
         match_player = re.findall(pattern_player_missed, sentence)
         match_team = re.findall(pattern_team_saved, sentence)
         match_way = re.findall(pattern_way_saved, sentence)
+        match_game = re.search(pattern_match_game, sentence)
 
         if match_time and match_player and match_team and match_way:
             desired_time = match_time[0]
@@ -1494,6 +1973,7 @@ def penalty_procedure_ner():
             matches_player_missed.append(desired_player)
             matches_team_missed.append(desired_team)
             matches_way_missed.append(desired_way)
+            matches_all_games_list_list.append(match_game.group(0))
 
     matches_team_missed = [team+" -" for team in matches_team_missed]
 
@@ -1508,6 +1988,9 @@ def penalty_procedure_ner():
     matches_way_goal = []
 
     for sentence in penalty_goal_sentences:
+        match_game = re.search(pattern_match_game, sentence)
+        if match_game:
+            matches_all_games_list_list.append(match_game.group(0))
         timestamp_match = re.search(r'\d+\+?\d*', sentence)
         if timestamp_match:
             timestamp = timestamp_match.group(0)
@@ -1519,10 +2002,7 @@ def penalty_procedure_ner():
 
         player_name_match = re.search(r'((\d+\s-\s\d+\s-\s)|([A-Za-z\s]+\d)), ([A-Za-z\s])+ \d+(\s|[.]?)([\s(\d)]?)+\s(.*?)(?=\s-\s[A-Za-z\s]+-\s)', sentence)
         if player_name_match:
-            # Extract the full matched string
             full_match = player_name_match.group(0).strip()
-            print(full_match)
-            # Split by the last numeric sequence
             parts = re.split(r'\d+,|([\s]-\s]?),\s', full_match)
             if len(parts) > 1:
                 player_part = parts[-1]
@@ -1553,8 +2033,9 @@ def penalty_procedure_ner():
         {"label": "PLAYER", "pattern": player} for player in matches_player_goal + matches_player_missed + matches_player_saved
     ] + [
         {"label": "WAY", "pattern": way} for way in matches_way_goal + matches_way_missed + matches_way_saved     
+    ] + [
+        {"label": "GAME", "pattern": game} for game in matches_all_games_list_list
     ]
-    # print(patterns)
     ruler.add_patterns(patterns)
 
     text1 = '\n'.join(penalty_goal_sentences)
@@ -1598,6 +2079,14 @@ def penalty_procedure_ner():
     WAY_SAVED = [ent.text for ent in doc4.ents if ent.label_ == "WAY"]
     WAY_MISSED = [ent.text for ent in doc5.ents if ent.label_ == "WAY"]
 
+    GAME_LABELS_1 = [ent.text for ent in doc1.ents if ent.label_ == "GAME"]
+    GAME_LABELS_2 = [ent.text for ent in doc2.ents if ent.label_ == "GAME"]
+    GAME_LABELS_3 = [ent.text for ent in doc3.ents if ent.label_ == "GAME"]
+    GAME_LABELS_4 = [ent.text for ent in doc4.ents if ent.label_ == "GAME"]
+    GAME_LABELS_5 = [ent.text for ent in doc5.ents if ent.label_ == "GAME"]
+
+    print(len(GAME_LABELS_3))
+    print(len(TEAM_SAVED))
     LABELS_1 = []
     for i in range(0,len(penalty_shootout_begins_sentences)):
         LABELS_1.append(penalty_shootout_begins_sentences[i])
@@ -1618,681 +2107,143 @@ def penalty_procedure_ner():
     for i in range(0,len(penalty_goal_sentences)):
         LABELS_5.append(penalty_goal_sentences[i])
 
-    print(len(TIME_BEGINS))
-    print(len(TIME_ENDS))
-    print(len(TIME_SAVED))
-    print(len(TIME_MISSED))
-    print(len(TIME_GOAL))
-    print("-----------")
-    print(len(SCORE_BEGINS))
-    print(len(SCORE_ENDS))
-    print(len(SCORE_GOAL))
+    for i in range(len(TIME_BEGINS)):
+        penalty_procedure_uri = URIRef(ex+f"/Penalty_Procedure{str(i+1)}")
+        score_uri = Literal(SCORE_BEGINS[i])
+        time_uri = Literal(TIME_BEGINS[i])
+        labels = Literal(LABELS_1[i])
+        game = Literal(GAME_LABELS_2[i])
 
-    print("-----------")
-    print(len(TEAM_SAVED))
-    print(len(TEAM_MISSED))
-    print(len(TEAM_GOAL))
+        g.add((penalty_procedure_uri, RDF.type, ex.Penalty_Procedure))
+        g.add((penalty_procedure_uri, RDFS.comment, labels))   
+        g.add((penalty_procedure_uri, ex.happened_at, time_uri))
+        g.add((penalty_procedure_uri, ex.started_with_score, score_uri))
 
-    print("-----------")
-    print(len(PLAYER_GOAL))
-    print(len(PLAYER_SAVED))
-    print(len(PLAYER_MISSED))
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((penalty_procedure_uri, ex.at_game, game))
 
+    for i in range(len(TIME_ENDS)):
+        penalty_procedure_uri = URIRef(ex+f"/Penalty_Procedure{str(i+1)}")
+        score_uri = Literal(SCORE_ENDS[i])
+        time_uri = Literal(TIME_ENDS[i])
+        labels = Literal(LABELS_2[i])
+        game = Literal(GAME_LABELS_3[i])
 
-    print("-----------")
-    print(len(WAY_GOAL))
-    print(len(WAY_SAVED))
-    print(len(WAY_MISSED))
+        g.add((penalty_procedure_uri, RDF.type, ex.Penalty_Procedure))
+        g.add((penalty_procedure_uri, RDFS.comment, labels))    
+        g.add((penalty_procedure_uri, ex.ended_with_score, score_uri))
 
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((penalty_procedure_uri, ex.at_game, game))
 
-    return TIME_BEGINS, SCORE_BEGINS, TIME_ENDS, SCORE_ENDS, TIME_SAVED, TEAM_SAVED, PLAYER_SAVED, WAY_SAVED, \
-        TIME_MISSED, TEAM_MISSED, PLAYER_MISSED, WAY_MISSED, TIME_GOAL, SCORE_GOAL, TEAM_GOAL, PLAYER_GOAL, WAY_GOAL, \
-        LABELS_1, LABELS_2, LABELS_3, LABELS_4, LABELS_5     
+    ind = 0
+    for i in range(len(TIME_SAVED)):
+        penalty_no_goal = URIRef(ex+f"/Penalty_No_Goal{str(ind+1)}")
+        team_uri = URIRef(ex+f"/{TEAM_SAVED[i].replace(' ', '_')}")
+        player_uri = URIRef(ex+f"/{PLAYER_SAVED[i].replace(' ', '_')}")
+        way_uri = Literal(WAY_SAVED[i])
+        time_uri = Literal(TIME_SAVED[i])
+        labels = Literal(LABELS_3[i])
+        game = Literal(GAME_LABELS_4[i])
+   
+       
+
+        g.add((penalty_no_goal, RDF.type, ex.Penalty_No_Goal))
+        g.add((penalty_no_goal, RDFS.comment, labels))  
+        g.add((penalty_no_goal, ex.happened_at, time_uri))
+        g.add((penalty_no_goal, ex.missed_by, player_uri))
+        g.add((penalty_no_goal, ex.missed_with, way_uri))
+        g.add((penalty_no_goal, ex.missed_for, team_uri))
+        g.add((player_uri, ex.playsFor, team_uri))
+
     
-def create_rdf_graph(events):
-    g = Graph()
-    # Define namespaces
-    ex = Namespace("http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/")
-    g.bind("ex", ex)
-    
-    # Add ontology to the graph
-    g.parse("web_scrap/football.ttl")
-    print(g)
-    for event in events:
-        event_type, entities = event[0], event[1:]
-        event_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/{event_type.replace(' ', '_')}")
-
-        if event_type == "CORNER":
-            for i in range(len(entities[0])):
-                corner_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Corner{str(i+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[1][i].replace(' ', '_')}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[2][i].replace(' ', '_')}")
-                time_uri = Literal(entities[3][i])
-                labels = Literal(entities[0][i])
-
-                g.add((corner_uri, RDF.type, ex.Corner))
-                g.add((team_uri, RDF.type, ex.Team))
-                g.add((player_uri, RDF.type, ex.Player))
-
-                g.add((corner_uri, RDFS.label, labels))
-
-                g.add((corner_uri, ex.corner_won_for, team_uri))
-                g.add((corner_uri, ex.conceded_by, player_uri))
-                g.add((corner_uri, ex.happened_at, time_uri))
-
-        if event_type == "HANDBALL":
-            for i in range(len(entities[0])):
-                handball_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Hand_Ball{str(i+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[1][i].replace(' ', '_')}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[2][i].replace(' ', '_')}")
-                time_uri = Literal(entities[3][i])
-                labels = Literal(entities[0][i])
-
-                g.add((handball_uri, RDF.type, ex.Hand_Ball))
-                g.add((team_uri, RDF.type, ex.Team))
-                g.add((player_uri, RDF.type, ex.Player))
-                
-                g.add((handball_uri, RDFS.label, labels))
-                g.add((handball_uri, ex.conceded_by, player_uri))
-                g.add((handball_uri, ex.happened_at, time_uri))
-                g.add((player_uri, ex.playsFor, team_uri))
-
-        if event_type == "OFFSIDE":
-            for i in range(len(entities[0])):
-                offside_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Offside{str(i+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[2][i].replace(' ', '_')}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[1][i].replace(' ', '_')}")
-                time_uri = Literal(entities[3][i])
-                labels = Literal(entities[0][i])
-
-                g.add((offside_uri, RDF.type, ex.Offside))
-                g.add((team_uri, RDF.type, ex.Team))
-                g.add((player_uri, RDF.type, ex.Player))
-
-                
-                g.add((offside_uri, RDFS.label, labels))
-
-                g.add((offside_uri, ex.offside_for, team_uri))
-                g.add((offside_uri, ex.offside_caused_by, player_uri))
-                g.add((offside_uri, ex.happened_at, time_uri))
-                g.add((player_uri, ex.playsFor, team_uri))
-
-        if event_type == "FOUL":
-            for i in range(len(entities[0])):
-                foul_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Foul{str(i+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[2][i].replace(' ', '_')}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[1][i].replace(' ', '_')}")
-                time_uri = Literal(entities[3][i])
-                labels = Literal(entities[0][i])
-
-
-                g.add((foul_uri, RDF.type, ex.Foul))
-                g.add((team_uri, RDF.type, ex.Team))
-                g.add((player_uri, RDF.type, ex.Player))
-
-                g.add((foul_uri, RDFS.label, labels))
-
-                g.add((foul_uri, ex.foul_from, team_uri))
-                g.add((foul_uri, ex.fouled_by, player_uri))
-                g.add((foul_uri, ex.happened_at, time_uri))
-                g.add((player_uri, ex.playsFor, team_uri))
-
-        if event_type == "DANGEROUS_PLAY":
-            for i in range(len(entities[0])):
-                dangerous_play_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Dangerous_Play{str(i+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[2][i].replace(' ', '_')}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[1][i].replace(' ', '_')}")
-                time_uri = Literal(entities[3][i])
-                labels = Literal(entities[0][i])
-
-                g.add((dangerous_play_uri, RDF.type, ex.Dangerous_Play))
-                g.add((team_uri, RDF.type, ex.Team))
-                g.add((player_uri, RDF.type, ex.Player))
-
-                g.add((dangerous_play_uri, RDFS.label, labels))
-
-
-                g.add((dangerous_play_uri, ex.conceded_by, player_uri))
-                g.add((dangerous_play_uri, ex.happened_at, time_uri))
-                g.add((player_uri, ex.playsFor, team_uri))
-
-        if event_type == "YELLOW_CARD":
-            for i in range(len(entities[0])):
-                yellow_card_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Yellow_Card{str(i+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[1][i].replace(' ', '_')}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[2][i].replace(' ', '_')}")
-                time_uri = Literal(entities[3][i])
-                labels = Literal(entities[0][i])
-
-                g.add((yellow_card_uri, RDF.type, ex.Yellow_Card))
-                g.add((team_uri, RDF.type, ex.Team))
-                g.add((player_uri, RDF.type, ex.Player))
-
-                g.add((yellow_card_uri, RDFS.label, labels))
-
-                g.add((yellow_card_uri, ex.card_counts_for, team_uri))
-                g.add((yellow_card_uri, ex.recieved_by, player_uri))
-                g.add((yellow_card_uri, ex.happened_at, time_uri))
-                g.add((player_uri, ex.playsFor, team_uri))
-
-        if event_type == "RED_CARD":
-            for i in range(len(entities[0])):
-                red_card_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Red_Card{str(i+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[1][i].replace(' ', '_')}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[2][i].replace(' ', '_')}")
-                time_uri = Literal(entities[3][i])
-                labels = Literal(entities[0][i])
-
-                g.add((red_card_uri, RDF.type, ex.Red_Card))
-                g.add((team_uri, RDF.type, ex.Team))
-                g.add((player_uri, RDF.type, ex.Player))
-
-                g.add((red_card_uri, RDFS.label, labels))
-
-                g.add((red_card_uri, ex.card_counts_for, team_uri))
-                g.add((red_card_uri, ex.recieved_by, player_uri))
-                g.add((red_card_uri, ex.happened_at, time_uri))
-                g.add((player_uri, ex.playsFor, team_uri))
-
-        if event_type == "FREEKICK":
-            for i in range(len(entities[0])):
-                free_kick_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Free_Kick{str(i+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[2][i].replace(' ', '_')}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[1][i].replace(' ', '_')}")
-                at_place_uri = Literal(entities[3][i].replace(' ', '_'))
-                time_uri = Literal(entities[4][i])
-                labels = Literal(entities[0][i])
-
-                g.add((free_kick_uri, RDF.type, ex.Free_Kick))
-                g.add((team_uri, RDF.type, ex.Team))
-                g.add((player_uri, RDF.type, ex.Player))
-
-                g.add((free_kick_uri, RDFS.label, labels))
-
-                g.add((free_kick_uri, ex.won_for, team_uri))
-                g.add((free_kick_uri, ex.won_at_place, at_place_uri))
-                g.add((free_kick_uri, ex.won_by, player_uri))
-                g.add((free_kick_uri, ex.happened_at, time_uri))
-                g.add((player_uri, ex.playsFor, team_uri))
-
-
-        if event_type == "ATTACKING_ATTEMPT":
-            for i in range(len(entities[0])):
-                attacking_attempt_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Attacking_Attempt{str(i+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[2][i].replace(' ', '_')}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[1][i].replace(' ', '_')}")
-                way_of_attempt = Literal(entities[4][i].replace(' ', '_'))
-                time_uri = Literal(entities[3][i].replace(' ', '_'))
-                labels = Literal(entities[0][i])
-
-                g.add((attacking_attempt_uri, RDF.type, ex.Attacking_Attempt))
-                g.add((team_uri, RDF.type, ex.Team))
-                g.add((player_uri, RDF.type, ex.Player))
-
-
-                g.add((attacking_attempt_uri, RDFS.label, labels))
-
-                g.add((attacking_attempt_uri, ex.counts_for, team_uri))
-                g.add((attacking_attempt_uri, ex.way_of_attempt, way_of_attempt))
-                g.add((attacking_attempt_uri, ex.noted_by, player_uri))
-                g.add((attacking_attempt_uri, ex.happened_at, time_uri))
-                g.add((player_uri, ex.playsFor, team_uri))
-
-        if event_type == "SUBSTITUTION":
-            for i in range(len(entities[0])):
-                substitution_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Substitution{str(i+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[1][i].replace(' ', '_')}")
-                player_in_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[2][i].replace(' ', '_')}")
-                player_out_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[3][i].replace(' ', '_')}")
-                time_uri = Literal(entities[4][i])
-                labels = Literal(entities[0][i])
-
-                g.add((substitution_uri, RDF.type, ex.Substitution))
-                g.add((team_uri, RDF.type, ex.Team))
-                g.add((player_uri, RDF.type, ex.Player))
-
-                g.add((substitution_uri, RDFS.label, labels))
-
-                g.add((substitution_uri, ex.sub_for, team_uri))
-                g.add((substitution_uri, ex.happened_at, time_uri))
-                g.add((substitution_uri, ex.sub_player_in, player_in_uri))
-                g.add((substitution_uri, ex.sub_player_out, player_out_uri))
-                g.add((player_in_uri, ex.playsFor, team_uri))
-                g.add((player_out_uri, ex.playsFor, team_uri))
-
-        if event_type == "PENALTY":
-            for i in range(len(entities[0])):
-                penalty_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Penalty{str(i+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[2][i].replace(' ', '_')}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[1][i].replace(' ', '_')}")
-                time_uri = Literal(entities[3][i])
-                labels = Literal(entities[0][i])
-
-                g.add((penalty_uri, RDF.type, ex.Penalty))
-                g.add((team_uri, RDF.type, ex.Team))
-                g.add((player_uri, RDF.type, ex.Player))
-
-                g.add((penalty_uri, RDFS.label, labels))
-
-                g.add((penalty_uri, ex.penalty_caused_by, player_uri))
-                g.add((penalty_uri, ex.happened_at, time_uri))
-                g.add((player_uri, ex.playsFor, team_uri))        
-                                                                
-                                                        
-        if event_type == "DELAY":
-            ind = 0
-            for i in range(len(entities[1])):
-                delay_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Delay{str(ind+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[4][i].replace(' ', '_')}")
-                time_uri = Literal(entities[1][i])
-                labels = Literal(entities[0][i])
-
-                g.add((delay_uri, RDF.type, ex.Delay))
-                g.add((team_uri, RDF.type, ex.Team))
-
-                g.add((delay_uri, RDFS.label, labels))
-
-                g.add((delay_uri, ex.happened_at, time_uri))  
-                g.add((delay_uri, ex.delay_caused_from, team_uri))   
-
-                ind += 1
-            for i in range(len(entities[2])):
-                delay_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Delay{str(ind+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[5][i].replace(' ', '_')}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[6][i].replace(' ', '_')}")
-                time_uri = Literal(entities[2][i])
-                labels = Literal(entities[7][i])
-
-                g.add((delay_uri, RDF.type, ex.Delay))
-                g.add((team_uri, RDF.type, ex.Team))
-                g.add((player_uri, RDF.type, ex.Player))
-
-                g.add((delay_uri, RDFS.label, labels))
-
-                g.add((delay_uri, ex.player_injured, player_uri))
-                g.add((delay_uri, ex.happened_at, time_uri))
-                g.add((delay_uri, ex.delay_caused_from, team_uri)) 
-                g.add((player_uri, ex.playsFor, team_uri))
-
-                ind += 1
-            for i in range(len(entities[3])):
-                delay_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Delay{str(ind+1)}")
-                time_uri = Literal(entities[3][i])
-                labels = Literal(entities[8][i])
-
-                g.add((delay_uri, RDF.type, ex.Delay))
-
-                g.add((delay_uri, RDFS.label, labels))
-
-                g.add((delay_uri, ex.happened_at, time_uri))  
-
-                ind += 1 
-
-
-        if event_type == "FIRST_HALF_ENDED":
-            for i in range(len(entities[0])):
-                first_half_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/First_Half{str(i+1)}")
-                score_uri = Literal(entities[1][i])
-                time_uri = Literal(entities[2][i])
-                labels = Literal(entities[0][i])
-
-
-                g.add((first_half_uri, RDF.type, ex.First_Half))
-
-                g.add((first_half_uri, RDFS.label, labels))
-
-                g.add((first_half_uri, ex.ended_at, time_uri))
-                g.add((first_half_uri, ex.ended_with_score, score_uri)) 
-
-
-        if event_type == "SECOND_HALF":
-            for i in range(len(entities[0])):
-                second_half_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Second_Half{str(i+1)}")
-                score_uri = Literal(entities[2][i])
-                time_uri = Literal(entities[1][i])
-                labels = Literal(entities[0][i])
-
-                g.add((second_half_uri, RDF.type, ex.Second_Half))
-
-                g.add((second_half_uri, RDFS.label, labels))
-
-                g.add((second_half_uri, ex.started_at, time_uri))
-                g.add((second_half_uri, ex.started_with_score, score_uri))   
-                
-
-            for i in range(len(entities[3])):
-                second_half_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Second_Half{str(i+1)}")
-                score_uri = Literal(entities[5][i])
-                time_uri = Literal(entities[4][i])
-                labels = Literal(entities[3][i])
-
-                g.add((second_half_uri, RDF.type, ex.Second_Half))
-
-                g.add((second_half_uri, RDFS.label, labels))
-
-                g.add((second_half_uri, ex.ended_at, time_uri))
-                g.add((second_half_uri, ex.ended_with_score, score_uri))  
-                                               
-
-        if event_type == "EXTRA_FIRST":
-            for i in range(len(entities[0])):
-                extra_time_first_half_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/First_Half_Extra_Time{str(i+1)}")
-                score_uri = Literal(entities[2][i])
-                time_uri = Literal(entities[1][i])
-                labels = Literal(entities[0][i])
-
-                g.add((extra_time_first_half_uri, RDF.type, ex.First_Half_Extra_Time))
-
-                g.add((extra_time_first_half_uri, RDFS.label, labels))
-
-                g.add((extra_time_first_half_uri, ex.started_at, time_uri))
-                g.add((extra_time_first_half_uri, ex.started_with_score, score_uri))   
-
-            for i in range(len(entities[3])):
-                extra_time_first_half_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/First_Half_Extra_Time{str(i+1)}")
-                score_uri = Literal(entities[5][i])
-                time_uri = Literal(entities[4][i])
-                labels = Literal(entities[3][i])
-
-                g.add((extra_time_first_half_uri, RDF.type, ex.First_Half_Extra_Time))
-
-                g.add((extra_time_first_half_uri, RDFS.label, labels))
-
-                g.add((extra_time_first_half_uri, ex.ended_at, time_uri))
-                g.add((extra_time_first_half_uri, ex.ended_with_score, score_uri))  
-
-
-        if event_type == "EXTRA_SECOND":
-            for i in range(len(entities[0])):
-                second_half_extra_time_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Second_Half_Extra_Time{str(i+1)}")
-                score_uri = Literal(entities[2][i])
-                time_uri = Literal(entities[1][i])
-                labels = Literal(entities[0][i])
-
-                g.add((second_half_extra_time_uri, RDF.type, ex.Second_Half_Extra_Time))
-
-                g.add((second_half_extra_time_uri, RDFS.label, labels))
-
-                g.add((second_half_extra_time_uri, ex.started_at, time_uri))
-                g.add((second_half_extra_time_uri, ex.started_with_score, score_uri))   
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((penalty_no_goal, ex.at_game, game))
+
+        ind += 1
+
+    for i in range(len(TIME_MISSED)):     
+        penalty_no_goal = URIRef(ex+f"/Penalty_No_Goal{str(ind+1)}")
+        team_uri = URIRef(ex+f"/{TEAM_MISSED[i].replace(' ', '_')}")
+        player_uri = URIRef(ex+f"/{PLAYER_MISSED[i].replace(' ', '_')}")
+        way_uri = Literal(WAY_MISSED[i])
+        time_uri = Literal(TIME_MISSED[i])
+        labels = Literal(LABELS_4[i])
+        game = Literal(GAME_LABELS_5[i])
+
+        g.add((penalty_no_goal, RDF.type, ex.Penalty_No_Goal))
+        g.add((penalty_no_goal, RDFS.comment, labels))  
+        g.add((penalty_no_goal, ex.happened_at, time_uri))
+        g.add((penalty_no_goal, ex.missed_by, player_uri))
+        g.add((penalty_no_goal, ex.missed_with, way_uri))
+        g.add((penalty_no_goal, ex.missed_for, team_uri))
+        g.add((player_uri, ex.playsFor, team_uri))
+
+       
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((penalty_no_goal, ex.at_game, game))
+
+        ind += 1
+
+    for i in range(len(TIME_GOAL)):
+        penalty_goal = URIRef(ex+f"/Penalty_Scored_Goal{str(i+1)}")
+        team_uri = URIRef(ex+f"/{TEAM_GOAL[i].replace(' ', '_')}")
+        player_uri = URIRef(ex+f"/{PLAYER_GOAL[i].replace(' ', '_')}")
+        score_uri = Literal(SCORE_GOAL[i])
+        way_uri = Literal(WAY_GOAL[i])
+        time_uri = Literal(TIME_GOAL[i])
+        labels = Literal(LABELS_5[i])
+        game = Literal(GAME_LABELS_1[i])
+        
+        g.add((penalty_goal, RDF.type, ex.Penalty_Scored_Goal))
+        g.add((penalty_goal, RDFS.comment, labels))
+        g.add((penalty_goal, ex.makes_score, score_uri))
+        g.add((penalty_goal, ex.happened_at, time_uri))
+        g.add((penalty_goal, ex.scored_by, player_uri))
+        g.add((penalty_goal, ex.scored_with, way_uri))
+        g.add((penalty_goal, ex.counts_for, team_uri))
+        g.add((player_uri, ex.playsFor, team_uri)) 
 
         
-
-            for i in range(len(entities[3])):
-                second_half_extra_time_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Second_Half_Extra_Time{str(i+1)}")
-                score_uri = Literal(entities[5][i])
-                time_uri = Literal(entities[4][i])
-                labels = Literal(entities[3][i])
-
-                g.add((second_half_extra_time_uri, RDF.type, ex.Second_Half_Extra_Time))
-
-                g.add((second_half_extra_time_uri, RDFS.label, labels))
-
-                g.add((second_half_extra_time_uri, ex.ended_at, time_uri))
-                g.add((second_half_extra_time_uri, ex.ended_with_score, score_uri))  
+        index_games_list = game.replace("MATCH_", "").strip()
+        game = URIRef(ex+f"/{game.replace(' ', '_')}")
+        g.add((game, RDF.type, ex.Match))
+        g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
+        g.add((penalty_goal, ex.at_game, game))
 
 
-        if event_type == "END_GAME":
-            for i in range(len(entities[0])):
-                end_game_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/End_Game{str(i+1)}")
-                score_uri = Literal(entities[1][i])
-                labels = Literal(entities[0][i])
+corner_ner()
+hand_ball_ner()
+offside_ner()
+foul_ner()
+dangerous_play_ner()
+card_ner("yellow")
+card_ner("red")
+free_kick_ner()
+substitution_ner()
+penalty_ner()
+delay_ner()
+first_half_end_ner()
+second_half_sentences_ner()   
+extra_time_first_half_ner()
+extra_time_second_half_ner()
+end_game_ner()
+var_decision_ner()
+penalty_procedure_ner()
+goal_ner()
+attacking_attempt_ner()
+assist_ner()
 
-                g.add((end_game_uri, RDF.type, ex.End_Game))
-
-                g.add((end_game_uri, RDFS.label, labels))
-
-                g.add((end_game_uri, ex.ended_with_score, score_uri)) 
-
-
-
-        if event_type == "GOAL":
-            index_goal = 0
-            for i in range(len(entities[0])):
-                goal_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Goal_Scored{str(index_goal+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[2][i].replace(' ', '_')}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[3][i].replace(' ', '_')}")
-                labels = Literal(entities[0][i])
-
-                score_uri = Literal(entities[4][i])
-                way_of_scoring_uri = Literal(entities[5][i])
-                time_uri = Literal(entities[1][i])
-
-                g.add((goal_uri, RDF.type, ex.Goal_Scored))
-                g.add((team_uri, RDF.type, ex.Team))
-                g.add((player_uri, RDF.type, ex.Player))
-
-                g.add((goal_uri, RDFS.label, labels))
-
-                g.add((goal_uri, ex.scored_by, player_uri))
-                g.add((goal_uri, ex.counts_for, team_uri))
-                g.add((goal_uri, ex.scored_with, way_of_scoring_uri)) 
-                g.add((goal_uri, ex.makes_score, score_uri))
-            
-                g.add((goal_uri, ex.happened_at, time_uri))  
-                index_goal += 1
-            for j in range(len(entities[6])):
-                own_goal_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Own_Goal{str(j+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[8][j].replace(' ', '_')}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[9][j].replace(' ', '_')}")
-                labels = Literal(entities[6][j])
-                score_uri = Literal(entities[10][j])
-                time_uri = Literal(entities[7][j])
-
-                g.add((own_goal_uri, RDF.type, ex.Own_Goal))
-                g.add((team_uri, RDF.type, ex.Team))
-                g.add((player_uri, RDF.type, ex.Player))
-
-                g.add((own_goal_uri, RDFS.label, labels))
-
-
-                g.add((own_goal_uri, ex.scored_by, player_uri))
-                g.add((own_goal_uri, ex.makes_score, score_uri))
-                g.add((player_uri, ex.playsFor, team_uri))
-                g.add((own_goal_uri, ex.happened_at, time_uri))  
-
-
-        if event_type == "ASSIST":
-  
-            assisted_event_uri = []
-            happened_at_predicate = ex.happened_at  
-            for i in range(len(entities[0])):
-                assist_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Assist{str(i+1)}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[1][i].replace(' ', '_')}")
-                assisted_event_uri = Literal(entities[2][i])
-                labels = Literal(entities[0][i])
-                g.add((assist_uri, RDF.type, ex.Assist))
-                g.add((assist_uri, ex.assist_made_by, player_uri))
-                
-                g.add((assist_uri, RDFS.label, labels))  
-
-                local_name_event = assisted_event_uri.split("/")[-1]
-                full_assisted_event_uri = ex[local_name_event]
-                
-                query_string = f'''
-                    PREFIX ex: <http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/>
-                    SELECT ?value ?team 
-                    WHERE {{
-                        <{full_assisted_event_uri}> <{happened_at_predicate}> ?value .
-                        <{full_assisted_event_uri}> <{ex.counts_for}> ?team .
-
-                    }}
-                '''
-                query = prepareQuery(query_string)
-                
-                for row in g.query(query):
-                    value = row.value
-                    team = row.team
-                
-                    team_local_name = team.split("/")[-1]
-                    team_uri = ex[team_local_name]
-                    g.add((assist_uri, ex.happened_at, value))
-                    g.add((player_uri, ex.playsFor, team_uri))
-                    g.add((assist_uri, ex.refers_to, full_assisted_event_uri))
-
-        if event_type == "VAR":
-            for i in range(len(entities[0])):
-                var_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/VAR{str(i+1)}")
-                time_uri = Literal(entities[1][i])
-                decision_uri = Literal(entities[2][i])
-                labels = Literal(entities[0][i])
-
-                g.add((var_uri, RDF.type, ex.VAR))
-
-                g.add((var_uri, RDFS.label, labels)) 
-
-                g.add((var_uri, ex.happened_at, time_uri))
-                g.add((var_uri, ex.decision_made, decision_uri))  
-
-        if event_type == "PENALTY_PROCEDURE":
-            for i in range(len(entities[0])):
-                penalty_procedure_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Penalty_Procedure{str(i+1)}")
-                score_uri = Literal(entities[1][i])
-                time_uri = Literal(entities[0][i])
-                labels = Literal(entities[17][i])
-                g.add((penalty_procedure_uri, RDF.type, ex.Penalty_Procedure))
-
-
-                g.add((penalty_procedure_uri, RDFS.label, labels))   
-
-                g.add((penalty_procedure_uri, ex.happened_at, time_uri))
-                g.add((penalty_procedure_uri, ex.started_with_score, score_uri))
-
-            for i in range(len(entities[2])):
-                penalty_procedure_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Penalty_Procedure{str(i+1)}")
-                score_uri = Literal(entities[3][i])
-                time_uri = Literal(entities[2][i])
-                labels = Literal(entities[18][i])
-                g.add((penalty_procedure_uri, RDF.type, ex.Penalty_Procedure))
-                
-                g.add((penalty_procedure_uri, RDFS.label, labels))   
-                 
-                
-                g.add((penalty_procedure_uri, ex.ended_with_score, score_uri))
-            ind = 0
-            for i in range(len(entities[4])):
-                penalty_no_goal = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Penalty_No_Goal{str(ind+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[5][i].replace(' ', '_')}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[6][i].replace(' ', '_')}")
-                way_uri = Literal(entities[7][i])
-                time_uri = Literal(entities[4][i])
-                labels = Literal(entities[19][i])
-                g.add((penalty_no_goal, RDF.type, ex.Penalty_No_Goal))
-                
-                g.add((penalty_no_goal, RDFS.label, labels))  
-
-                g.add((penalty_no_goal, ex.happened_at, time_uri))
-                g.add((penalty_no_goal, ex.missed_by, player_uri))
-                g.add((penalty_no_goal, ex.missed_with, way_uri))
-                g.add((penalty_no_goal, ex.missed_for, team_uri))
-                g.add((player_uri, ex.playsFor, team_uri))
-
-                ind += 1
-
-            for i in range(len(entities[8])):     
-                penalty_no_goal = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Penalty_No_Goal{str(ind+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[9][i].replace(' ', '_')}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[10][i].replace(' ', '_')}")
-                way_uri = Literal(entities[11][i])
-                time_uri = Literal(entities[8][i])
-                labels = Literal(entities[20][i])
-                g.add((penalty_no_goal, RDF.type, ex.Penalty_No_Goal))
-                
-                g.add((penalty_no_goal, RDFS.label, labels))  
-
-                g.add((penalty_no_goal, ex.happened_at, time_uri))
-                g.add((penalty_no_goal, ex.missed_by, player_uri))
-                g.add((penalty_no_goal, ex.missed_with, way_uri))
-                g.add((penalty_no_goal, ex.missed_for, team_uri))
-                g.add((player_uri, ex.playsFor, team_uri))
-
-                ind += 1
-
-            for i in range(len(entities[12])):
-                penalty_goal = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Penalty_Scored_Goal{str(i+1)}")
-                team_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Team{entities[14][i].replace(' ', '_')}")
-                player_uri = URIRef(f"http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Player{entities[15][i].replace(' ', '_')}")
-                score_uri = Literal(entities[13][i])
-                way_uri = Literal(entities[16][i])
-                time_uri = Literal(entities[12][i])
-                labels = Literal(entities[21][i])
-
-                g.add((penalty_goal, RDF.type, ex.Penalty_Scored_Goal))
-                
-                g.add((penalty_goal, RDFS.label, labels))  
-
-                g.add((penalty_goal, ex.makes_score, score_uri))
-                g.add((penalty_goal, ex.happened_at, time_uri))
-                g.add((penalty_goal, ex.scored_by, player_uri))
-                g.add((penalty_goal, ex.scored_with, way_uri))
-                g.add((penalty_goal, ex.counts_for, team_uri))
-                g.add((player_uri, ex.playsFor, team_uri))        
-    return g
-
-
-events = [
-        ("CORNER", *corner_ner()),
-        ("HANDBALL", *hand_ball_ner()),
-        ("OFFSIDE", *offside_ner()),
-        ("FOUL", *foul_ner()),
-        ("DANGEROUS_PLAY", *dangerous_play_ner()),
-        ("YELLOW_CARD", *card_ner("yellow")),
-        ("RED_CARD", *card_ner("red")),
-        ("FREEKICK", *free_kick_ner()),
-        ("ATTACKING_ATTEMPT", *attacking_attempt_ner()),
-        ("SUBSTITUTION", *substitution_ner()),
-        ("PENALTY", *penalty_ner()),
-        ("DELAY", *delay_ner()),
-        ("FIRST_HALF_ENDED", *first_half_end_ner()),
-        ("SECOND_HALF", *second_half_sentences_ner()),        
-        ("EXTRA_FIRST", *extra_time_first_half_ner()),
-        ("EXTRA_SECOND", *extra_time_second_half_ner()),
-        ("END_GAME", *end_game_ner()),
-        ("GOAL", *goal_ner()),
-        ("ASSIST", *assist_ner()),
-        ("VAR", *var_decision_ner()),
-        ("PENALTY_PROCEDURE", *penalty_procedure_ner()),
-    ]
-
-rdf_graph = create_rdf_graph(events)
-rdf_graph.serialize("output_graph.rdf", format="turtle")
-
-
-
-# CORNER, TEAM, PLAYER, TIME_STAMP = corner_ner() # Perfect
-# print("corner")
-# HANDBALL, PLAYER, TEAM, TIME_STAMP = hand_ball_ner() # Perfect
-# print("HANDBALL")
-# OFFSIDE, PLAYER, TEAM, TIME_STAMP = offside_ner() # Perfect
-# print("OFFSIDE")
-# FOUL, PLAYER, TEAM, TIME_STAMP = foul_ner() # Perfect
-# print("FOUL")
-# DANEROUS_PLAY, PLAYER, TEAM, TIME_SAMP = dangerous_play_ner() # Perfect
-# print("DANEROUS_PLAY")
-# YELLOW_CARD, PLAYER, TEAM,  TIME_STAMP = card_ner("yellow") # Perfect
-# print("YELLOW_CARD")
-# RED_CARD, PLAYER, TEAM, TIME_STAMP = card_ner("red") # Perfect
-# print("RED_CARD")
-# SUBSTITUTION, TEAM, PLAYER_IN, PLAYER_OUT, TIME_STAMP = substitution_ner() # Perfect
-# print("substitution")
-# PENALTY, PLAYER, TEAM, TIME_STAMP = penalty_ner() # Perfect
-# print("penalty")
-# ATTACKING_ATTEMPT, PLAYER, TEAM, WAY, TIME_STAMP = attacking_attempt_ner() #Perfect
-# print("Attacking Attempt")
-# DELAY, TIME_IN_MATCH, TIME_INJURY, TIME_OVER, TEAM_IN_MATCH, TEAM_INJURY, PLAYER_INJURY = delay_ner() # Perfect
-# print("Delay")
-# FIRST_HALF_ENDED, SCORE, TIME_STAMP = first_half_end_ner() # Perfect
-# print("FIRST_HALF_ENDED")
-# SECOND_HALF_STARTS, TIME_BEGIN, SCORE_BEGIN, SECOND_HALF_ENDS, TIME_END, SCORE_END = second_half_sentences_ner() # Perfect
-# print("second_half_sentences_ner")
-# a,b,c,d,e,r = extra_time_first_half_ner() # Perfect
-# print("extra_time_first_half_ner")
-# extra_time_second_half_ner() # Perfect
-# print("extra_time_second_half_ner")
-# END_GAME, SCORE = end_game_ner() # Perfect
-# print("END_GAME")
-# print("delay_ner")
-# VAR, TIME, DECISION = var_decision_ner()
-# a,b,c,b,e = free_kick_ner()
-#a,b,c = assist_ner()
-# a,b,c,q,w,e,r,t,y,u,i,o,p,l = penalty_procedure_ner()
+g.serialize("output_graph.ttl", format="turtle")

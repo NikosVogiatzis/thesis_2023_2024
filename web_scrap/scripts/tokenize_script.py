@@ -4,6 +4,8 @@
 import spacy
 import re
 
+pattern_match_game = r"MATCH_+\d+"
+
 with open('web_scrap/txt_files/commentary.txt', 'r', encoding='utf-8') as file:
     text = file.read()
 
@@ -73,15 +75,14 @@ def assist_making_sentences():
     for ind in range(len(goal_sentences)):
         if "Assist" in goal_sentences[ind]:
             matches_assist = re.findall(pattern_assist, goal_sentences[ind])
-            if matches_assist:  # Check if matches_assist is not empty
-                assist_text = matches_assist[0]  # Access the first element of the list
-                string_to_append = " Assist - " + assist_text + ". Goal_Scored" + str(ind+1)
-                print(assist_text)
+            match_game = re.findall(pattern_match_game, goal_sentences[ind])
+            if matches_assist:  
+                assist_text = matches_assist[0]  
+                game = match_game[0]
+                string_to_append = game + " " + " Assist - " + assist_text + ". Goal_Scored" + str(ind+1)
                 matches_assist_list.append(string_to_append)
 
                 
-
-
 
     print(len(matches_assist_list)) # Perfect           
     attacking_attempt_sentences = []
@@ -92,9 +93,11 @@ def assist_making_sentences():
     for ind in range(len(attacking_attempt_sentences)):
         if "Assist" in attacking_attempt_sentences[ind]:
             matches_assist = re.findall(pattern_assist, attacking_attempt_sentences[ind])
-            if matches_assist:  # Check if matches_assist is not empty
-                assist_text = matches_assist[0]  # Access the first element of the list
-                string_to_append = " Assist - " + assist_text +  ". Attacking_Attempt" + str(ind+1)
+            match_game = re.findall(pattern_match_game, attacking_attempt_sentences[ind])
+            if matches_assist: 
+                assist_text = matches_assist[0]  
+                game = match_game[0]
+                string_to_append = game+ " " + " Assist - " + assist_text +  ". Attacking_Attempt" + str(ind+1)
                 matches_assist_list.append(string_to_append)
   
                         

@@ -18,6 +18,8 @@ with open(file_path, 'r') as file:
 all_time_stamps = []
 all_commentaries = []
 
+index = 0
+
 for url in urls_from_file:
 
     page = requests.get(url)
@@ -36,7 +38,7 @@ for url in urls_from_file:
             span_element = time_element.find('span', class_=['bold vertical pl8', 'bold vertical pl4'])
             # Extract the text from the <span> element
             time_text = span_element.text.strip()
-            trimmed_time.append(time_text)
+            trimmed_time.append("MATCH_" + str(index) + ": " + time_text)
 
         commentary_element = element.find(class_=['lc_text_x odd', 'lc_text_x even'])
         if commentary_element:
@@ -48,8 +50,21 @@ for url in urls_from_file:
     all_time_stamps.append(trimmed_time)
     all_commentaries.append(trimmed_commentary)
 
+    index += 1
+
 with open('web_scrap/txt_files/commentary.txt', 'w', encoding='utf-8') as file:
         for times, commentaries in zip(all_time_stamps, all_commentaries):
             for time, commentary in zip(times, commentaries):
                 file.write(f"{time}\t{commentary}\n")
 
+# list_a = []
+
+# # Example loop
+# for i in range(5):
+#     # Example content for 'whatever', assuming it's a list
+#     whatever = ["item1", "item2", "item3"]
+    
+#     # Convert 'whatever' to a string before concatenating
+#     list_a.append("ITSME" + str(i) + ": " + str(whatever))
+
+# print(list_a)

@@ -12,6 +12,16 @@
 #    Object Properties
 #################################################################
 
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53#associated_event
+:associated_event rdf:type owl:ObjectProperty ;
+                  owl:inverseOf :at_game .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53#at_game
+:at_game rdf:type owl:ObjectProperty ;
+         rdfs:range :Match .
+
+
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/assist_made_by
 :assist_made_by rdf:type owl:ObjectProperty ;
                 rdfs:domain :Assist ;
@@ -66,8 +76,15 @@
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/fouled_by
 :fouled_by rdf:type owl:ObjectProperty ;
+           owl:inverseOf :made_foul ;
            rdfs:domain :Foul ;
            rdfs:range :Player .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/made_foul
+:made_foul rdf:type owl:ObjectProperty ;
+           rdfs:domain :Player ;
+           rdfs:range :Foul .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/missed_by
@@ -80,6 +97,13 @@
 :missed_for rdf:type owl:ObjectProperty ;
             rdfs:domain :Penalty_No_Goal ;
             rdfs:range :Team .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/noted_attacking_attempt
+:noted_attacking_attempt rdf:type owl:ObjectProperty ;
+                         owl:inverseOf :noted_by ;
+                         rdfs:domain :Player ;
+                         rdfs:range :Attacking_Attempt .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/noted_by
@@ -98,14 +122,6 @@
 :offside_for rdf:type owl:ObjectProperty ;
              rdfs:domain :Offside ;
              rdfs:range :Team .
-
-
-###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/pass_from
-:pass_from rdf:type owl:ObjectProperty .
-
-
-###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/pass_to
-:pass_to rdf:type owl:ObjectProperty .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/penalty_caused_by
@@ -133,6 +149,13 @@
           rdfs:range :Team .
 
 
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/received
+:received rdf:type owl:ObjectProperty ;
+          owl:inverseOf :recieved_by ;
+          rdfs:domain :Player ;
+          rdfs:range :Cards .
+
+
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/recieved_by
 :recieved_by rdf:type owl:ObjectProperty ;
              rdfs:domain :Cards ;
@@ -142,6 +165,13 @@
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/refers_to
 :refers_to rdf:type owl:ObjectProperty ,
                     owl:SymmetricProperty .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/scored
+:scored rdf:type owl:ObjectProperty ;
+        owl:inverseOf :scored_by ;
+        rdfs:domain :Player ;
+        rdfs:range :Goal .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/scored_by
@@ -258,6 +288,10 @@ owl:topObjectProperty rdfs:domain :Delay .
 #################################################################
 #    Classes
 #################################################################
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53#Match
+:Match rdf:type owl:Class .
+
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Assist
 :Assist rdf:type owl:Class ;

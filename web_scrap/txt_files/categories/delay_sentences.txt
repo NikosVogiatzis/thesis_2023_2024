@@ -1,139 +1,141 @@
-4'	Delay in match - Paris Saint Germain
-5'	Delay over. They are ready to continue.
-36'	Delay in match - injury Lucas Hernández - Paris Saint Germain
-38'	Delay over. They are ready to continue.
-41'	Delay in match - injury Lucas Hernández - Paris Saint Germain
-42'	Delay over. They are ready to continue.
-86'	Delay in match - injury Julian Ryerson - Borussia Dortmund
-86'	Delay over. They are ready to continue.
-38'	Delay in match - injury Niclas Füllkrug - Borussia Dortmund
-39'	Delay over. They are ready to continue.
-26'	Delay in match - injury Serge Gnabry - FC Bayern München
-27'	Delay over. They are ready to continue.
-72'	Delay in match - injury Joshua Kimmich - FC Bayern München
-73'	Delay over. They are ready to continue.
-86'	Delay in match - injury Aleksandar Pavlovic - FC Bayern München
-87'	Delay over. They are ready to continue.
-40'	Delay in match - injury Rodrygo - Real Madrid
-40'	Delay over. They are ready to continue.
-86'	Delay in match - injury Phil Foden - Manchester City
-87'	Delay over. They are ready to continue.
-56'	Delay in match - injury Gabriel Magalhães - Arsenal
-56'	Delay over. They are ready to continue.
-69'	Delay in match - injury Serge Gnabry - FC Bayern München
-70'	Delay over. They are ready to continue.
-73'	Delay in match - injury Eric Dier - FC Bayern München
-74'	Delay over. They are ready to continue.
-13'	Delay in match - injury Raphinha - Barcelona
-14'	Delay over. They are ready to continue.
-44'	Delay in match - injury Álvaro Morata - Atletico Madrid
-45'	Delay over. They are ready to continue.
-54'	Delay in match - injury Marcos Llorente - Atletico Madrid
-55'	Delay over. They are ready to continue.
-65'	Delay in match - Borussia Dortmund
-65'	Delay over. They are ready to continue.
-18'	Delay in match - injury Axel Witsel - Atletico Madrid
-18'	Delay in match - injury Niclas Füllkrug - Borussia Dortmund
-19'	Delay over. They are ready to continue.
-47'	Delay in match - injury Niclas Füllkrug - Borussia Dortmund
-48'	Delay over. They are ready to continue.
-45+1'	Delay in match - injury Pedri - Barcelona
-45+2'	Delay over. They are ready to continue.
-42'	Delay in match - injury Rodrygo - Real Madrid
-43'	Delay over. They are ready to continue.
-50'	Delay in match - Manchester City
-50'	Delay over. They are ready to continue.
-63'	Delay in match - Manchester City
-64'	Delay over. They are ready to continue.
-91'	Delay in match - injury Jude Bellingham - Real Madrid
-92'	Delay over. They are ready to continue.
-109'	Delay in match - injury Dani Carvajal - Real Madrid
-111'	Delay over. They are ready to continue.
-50'	Delay in match - injury Takehiro Tomiyasu - Arsenal
-51'	Delay over. They are ready to continue.
-29'	Delay in match - injury Xavi Simons - RB Leipzig
-31'	Delay over. They are ready to continue.
-82'	Delay in match - injury Brahim Díaz - Real Madrid
-82'	Delay over. They are ready to continue.
-18'	Delay in match - injury Jack Grealish - Manchester City
-19'	Delay over. They are ready to continue.
-26'	Delay in match - injury Phil Foden - Manchester City
-27'	Delay over. They are ready to continue.
-36'	Delay in match - injury Mikel Merino - Real Sociedad
-38'	Delay over. They are ready to continue.
-56'	Delay in match - injury Hamari Traoré - Real Sociedad
-57'	Delay over. They are ready to continue.
-80'	Delay in match - injury Takefusa Kubo - Real Sociedad
-80'	Delay over. They are ready to continue.
-59'	Delay in match - injury Elseid Hysaj - Lazio
-60'	Delay over. They are ready to continue.
-80'	Delay in match - injury Mario Gila - Lazio
-81'	Delay over. They are ready to continue.
-2'	Delay in match - injury Niclas Füllkrug - Borussia Dortmund
-3'	Delay over. They are ready to continue.
-33'	Delay in match - injury Marcel Sabitzer - Borussia Dortmund
-35'	Delay over. They are ready to continue.
-82'	Delay in match - injury Ismael Saibari - PSV Eindhoven
-83'	Delay over. They are ready to continue.
-89'	Delay in match - injury Olivier Boscagli - PSV Eindhoven
-90'	Delay over. They are ready to continue.
-44'	Delay in match - injury Marcus Thuram - Inter Milan
-45'	Delay over. They are ready to continue.
-54'	Delay in match - injury Nicolò Barella - Inter Milan
-55'	Delay over. They are ready to continue.
-58'	Delay in match - injury Yann Sommer - Inter Milan
-58'	Delay over. They are ready to continue.
-63'	Delay in match - injury Axel Witsel - Atletico Madrid
-65'	Delay over. They are ready to continue.
-64'	Delay in match - injury Francisco Conceição - FC Porto
-64'	Delay over. They are ready to continue.
-62'	Delay in match - injury Ronald Araújo - Barcelona
-64'	Delay over. They are ready to continue.
-3'	Delay in match - injury Hamari Traoré - Real Sociedad
-4'	Delay over. They are ready to continue.
-16'	Delay in match - Paris Saint Germain
-19'	Delay over. They are ready to continue.
-33'	Delay in match - FC Bayern München
-34'	Delay over. They are ready to continue.
-52'	Delay in match - injury Ciro Immobile - Lazio
-54'	Delay over. They are ready to continue.
-70'	Delay in match - injury Ferland Mendy - Real Madrid
-70'	Delay over. They are ready to continue.
-13'	Delay in match - injury Mateo Kovacic - Manchester City
-13'	Delay over. They are ready to continue.
-64'	Delay in match - Manchester City
-64'	Delay over. They are ready to continue.
-72'	Delay in match - injury Matheus Nunes - Manchester City
-74'	Delay over. They are ready to continue.
-19'	Delay in match - injury Stanislav Lobotka - Napoli
-21'	Delay over. They are ready to continue.
-60'	Delay in match - injury Frank Anguissa - Napoli
-61'	Delay over. They are ready to continue.
-45+1'	Delay in match - injury Pepê Aquino - FC Porto
-45+3'	Delay over. They are ready to continue.
-49'	Delay in match - injury Evanilson - FC Porto
-50'	Delay over. They are ready to continue.
-75'	Delay in match - injury Gabriel Magalhães - Arsenal
-75'	Delay over. They are ready to continue.
-90+4'	Delay in match - injury Alan Varela - FC Porto
-90+7'	Delay over. They are ready to continue.
-8'	Delay in match - Borussia Dortmund
-8'	Delay over. They are ready to continue.
-10'	Delay in match - Borussia Dortmund
-10'	Delay over. They are ready to continue.
-73'	Delay in match - injury Jadon Sancho - Borussia Dortmund
-74'	Delay over. They are ready to continue.
-101'	Delay in match - injury Hakan Çalhanoglu - Inter Milan
-103'	Delay over. They are ready to continue.
-105'	Delay in match - injury Stefan de Vrij - Inter Milan
-105+1'	Delay over. They are ready to continue.
-115'	Delay in match - Inter Milan
-115'	Delay over. They are ready to continue.
-27'	Delay in match - injury Loïs Openda - RB Leipzig
-28'	Delay over. They are ready to continue.
-45'	Delay in match - injury Xavi Simons - RB Leipzig
-45+1'	Delay over. They are ready to continue.
-71'	Delay in match - injury Ruben Loftus-Cheek - AC Milan
-72'	Delay over. They are ready to continue.
-79'	Delay in match - injury Mike Maignan - AC Milan
-81'	Delay over. They are ready to continue.
+MATCH_0: 1'	Delay in match - Borussia Dortmund
+MATCH_0: 3'	Delay over. They are ready to continue.
+MATCH_0: 25'	Delay in match - injury Emre Can - Borussia Dortmund
+MATCH_0: 26'	Delay over. They are ready to continue.
+MATCH_0: 56'	Delay in match - injury Dani Carvajal - Real Madrid
+MATCH_0: 57'	Delay over. They are ready to continue.
+MATCH_2: 4'	Delay in match - Paris Saint Germain
+MATCH_2: 5'	Delay over. They are ready to continue.
+MATCH_2: 36'	Delay in match - injury Lucas Hernández - Paris Saint Germain
+MATCH_2: 38'	Delay over. They are ready to continue.
+MATCH_2: 41'	Delay in match - injury Lucas Hernández - Paris Saint Germain
+MATCH_2: 42'	Delay over. They are ready to continue.
+MATCH_2: 86'	Delay in match - injury Julian Ryerson - Borussia Dortmund
+MATCH_2: 86'	Delay over. They are ready to continue.
+MATCH_3: 38'	Delay in match - injury Niclas Füllkrug - Borussia Dortmund
+MATCH_3: 39'	Delay over. They are ready to continue.
+MATCH_4: 26'	Delay in match - injury Serge Gnabry - FC Bayern München
+MATCH_4: 27'	Delay over. They are ready to continue.
+MATCH_4: 72'	Delay in match - injury Joshua Kimmich - FC Bayern München
+MATCH_4: 73'	Delay over. They are ready to continue.
+MATCH_4: 86'	Delay in match - injury Aleksandar Pavlovic - FC Bayern München
+MATCH_4: 87'	Delay over. They are ready to continue.
+MATCH_5: 40'	Delay in match - injury Rodrygo - Real Madrid
+MATCH_5: 40'	Delay over. They are ready to continue.
+MATCH_5: 86'	Delay in match - injury Phil Foden - Manchester City
+MATCH_5: 87'	Delay over. They are ready to continue.
+MATCH_6: 56'	Delay in match - injury Gabriel Magalhães - Arsenal
+MATCH_6: 56'	Delay over. They are ready to continue.
+MATCH_6: 69'	Delay in match - injury Serge Gnabry - FC Bayern München
+MATCH_6: 70'	Delay over. They are ready to continue.
+MATCH_6: 73'	Delay in match - injury Eric Dier - FC Bayern München
+MATCH_6: 74'	Delay over. They are ready to continue.
+MATCH_7: 13'	Delay in match - injury Raphinha - Barcelona
+MATCH_7: 14'	Delay over. They are ready to continue.
+MATCH_8: 44'	Delay in match - injury Álvaro Morata - Atletico Madrid
+MATCH_8: 45'	Delay over. They are ready to continue.
+MATCH_8: 54'	Delay in match - injury Marcos Llorente - Atletico Madrid
+MATCH_8: 55'	Delay over. They are ready to continue.
+MATCH_8: 65'	Delay in match - Borussia Dortmund
+MATCH_8: 65'	Delay over. They are ready to continue.
+MATCH_9: 18'	Delay in match - injury Axel Witsel - Atletico Madrid
+MATCH_9: 18'	Delay in match - injury Niclas Füllkrug - Borussia Dortmund
+MATCH_9: 19'	Delay over. They are ready to continue.
+MATCH_9: 47'	Delay in match - injury Niclas Füllkrug - Borussia Dortmund
+MATCH_9: 48'	Delay over. They are ready to continue.
+MATCH_10: 45+1'	Delay in match - injury Pedri - Barcelona
+MATCH_10: 45+2'	Delay over. They are ready to continue.
+MATCH_11: 42'	Delay in match - injury Rodrygo - Real Madrid
+MATCH_11: 43'	Delay over. They are ready to continue.
+MATCH_11: 50'	Delay in match - Manchester City
+MATCH_11: 50'	Delay over. They are ready to continue.
+MATCH_11: 63'	Delay in match - Manchester City
+MATCH_11: 64'	Delay over. They are ready to continue.
+MATCH_11: 91'	Delay in match - injury Jude Bellingham - Real Madrid
+MATCH_11: 92'	Delay over. They are ready to continue.
+MATCH_11: 109'	Delay in match - injury Dani Carvajal - Real Madrid
+MATCH_11: 111'	Delay over. They are ready to continue.
+MATCH_12: 50'	Delay in match - injury Takehiro Tomiyasu - Arsenal
+MATCH_12: 51'	Delay over. They are ready to continue.
+MATCH_13: 29'	Delay in match - injury Xavi Simons - RB Leipzig
+MATCH_13: 31'	Delay over. They are ready to continue.
+MATCH_13: 82'	Delay in match - injury Brahim Díaz - Real Madrid
+MATCH_13: 82'	Delay over. They are ready to continue.
+MATCH_14: 18'	Delay in match - injury Jack Grealish - Manchester City
+MATCH_14: 19'	Delay over. They are ready to continue.
+MATCH_14: 26'	Delay in match - injury Phil Foden - Manchester City
+MATCH_14: 27'	Delay over. They are ready to continue.
+MATCH_15: 36'	Delay in match - injury Mikel Merino - Real Sociedad
+MATCH_15: 38'	Delay over. They are ready to continue.
+MATCH_15: 56'	Delay in match - injury Hamari Traoré - Real Sociedad
+MATCH_15: 57'	Delay over. They are ready to continue.
+MATCH_15: 80'	Delay in match - injury Takefusa Kubo - Real Sociedad
+MATCH_15: 80'	Delay over. They are ready to continue.
+MATCH_16: 59'	Delay in match - injury Elseid Hysaj - Lazio
+MATCH_16: 60'	Delay over. They are ready to continue.
+MATCH_16: 80'	Delay in match - injury Mario Gila - Lazio
+MATCH_16: 81'	Delay over. They are ready to continue.
+MATCH_17: 2'	Delay in match - injury Niclas Füllkrug - Borussia Dortmund
+MATCH_17: 3'	Delay over. They are ready to continue.
+MATCH_17: 33'	Delay in match - injury Marcel Sabitzer - Borussia Dortmund
+MATCH_17: 35'	Delay over. They are ready to continue.
+MATCH_17: 82'	Delay in match - injury Ismael Saibari - PSV Eindhoven
+MATCH_17: 83'	Delay over. They are ready to continue.
+MATCH_17: 89'	Delay in match - injury Olivier Boscagli - PSV Eindhoven
+MATCH_17: 90'	Delay over. They are ready to continue.
+MATCH_18: 44'	Delay in match - injury Marcus Thuram - Inter Milan
+MATCH_18: 45'	Delay over. They are ready to continue.
+MATCH_18: 54'	Delay in match - injury Nicolò Barella - Inter Milan
+MATCH_18: 55'	Delay over. They are ready to continue.
+MATCH_18: 58'	Delay in match - injury Yann Sommer - Inter Milan
+MATCH_18: 58'	Delay over. They are ready to continue.
+MATCH_18: 63'	Delay in match - injury Axel Witsel - Atletico Madrid
+MATCH_18: 65'	Delay over. They are ready to continue.
+MATCH_19: 64'	Delay in match - injury Francisco Conceição - FC Porto
+MATCH_19: 64'	Delay over. They are ready to continue.
+MATCH_20: 62'	Delay in match - injury Ronald Araújo - Barcelona
+MATCH_20: 64'	Delay over. They are ready to continue.
+MATCH_21: 3'	Delay in match - injury Hamari Traoré - Real Sociedad
+MATCH_21: 4'	Delay over. They are ready to continue.
+MATCH_21: 16'	Delay in match - Paris Saint Germain
+MATCH_21: 19'	Delay over. They are ready to continue.
+MATCH_22: 33'	Delay in match - FC Bayern München
+MATCH_22: 34'	Delay over. They are ready to continue.
+MATCH_22: 52'	Delay in match - injury Ciro Immobile - Lazio
+MATCH_22: 54'	Delay over. They are ready to continue.
+MATCH_23: 70'	Delay in match - injury Ferland Mendy - Real Madrid
+MATCH_23: 70'	Delay over. They are ready to continue.
+MATCH_24: 13'	Delay in match - injury Mateo Kovacic - Manchester City
+MATCH_24: 13'	Delay over. They are ready to continue.
+MATCH_24: 64'	Delay in match - Manchester City
+MATCH_24: 64'	Delay over. They are ready to continue.
+MATCH_24: 72'	Delay in match - injury Matheus Nunes - Manchester City
+MATCH_24: 74'	Delay over. They are ready to continue.
+MATCH_25: 19'	Delay in match - injury Stanislav Lobotka - Napoli
+MATCH_25: 21'	Delay over. They are ready to continue.
+MATCH_25: 60'	Delay in match - injury Frank Anguissa - Napoli
+MATCH_25: 61'	Delay over. They are ready to continue.
+MATCH_26: 45+1'	Delay in match - injury Pepê Aquino - FC Porto
+MATCH_26: 45+3'	Delay over. They are ready to continue.
+MATCH_26: 49'	Delay in match - injury Evanilson - FC Porto
+MATCH_26: 50'	Delay over. They are ready to continue.
+MATCH_26: 75'	Delay in match - injury Gabriel Magalhães - Arsenal
+MATCH_26: 75'	Delay over. They are ready to continue.
+MATCH_26: 90+4'	Delay in match - injury Alan Varela - FC Porto
+MATCH_26: 90+7'	Delay over. They are ready to continue.
+MATCH_27: 8'	Delay in match - Borussia Dortmund
+MATCH_27: 8'	Delay over. They are ready to continue.
+MATCH_27: 10'	Delay in match - Borussia Dortmund
+MATCH_27: 10'	Delay over. They are ready to continue.
+MATCH_27: 73'	Delay in match - injury Jadon Sancho - Borussia Dortmund
+MATCH_27: 74'	Delay over. They are ready to continue.
+MATCH_28: 101'	Delay in match - injury Hakan Çalhanoglu - Inter Milan
+MATCH_28: 103'	Delay over. They are ready to continue.
+MATCH_28: 105'	Delay in match - injury Stefan de Vrij - Inter Milan
+MATCH_28: 105+1'	Delay over. They are ready to continue.
+MATCH_28: 115'	Delay in match - Inter Milan
+MATCH_28: 115'	Delay over. They are ready to continue.
+MATCH_29: 27'	Delay in match - injury Loïs Openda - RB Leipzig
+MATCH_29: 28'	Delay over. They are ready to continue.
+MATCH_29: 45'	Delay in match - injury Xavi Simons - RB Leipzig
+MATCH_29: 45+1'	Delay over. They are ready to continue.

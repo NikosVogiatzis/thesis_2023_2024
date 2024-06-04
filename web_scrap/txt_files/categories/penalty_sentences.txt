@@ -1,12 +1,12 @@
-56'	Penalty FC Bayern München. Jamal Musiala draws a foul in the penalty area.
-56'	Penalty conceded by Lucas Vázquez - Real Madrid - after a foul in the penalty area.
-82'	Penalty Real Madrid. Rodrygo draws a foul in the penalty area.
-82'	Penalty conceded by Kim Min-Jae - FC Bayern München - after a foul in the penalty area.
-30'	Penalty FC Bayern München. Leroy Sané draws a foul in the penalty area.
-30'	Penalty conceded by William Saliba - Arsenal - after a foul in the penalty area.
-59'	Penalty Paris Saint Germain. Ousmane Dembélé draws a foul in the penalty area.
-59'	Penalty conceded by João Cancelo - Barcelona - after a foul in the penalty area.
-67'	Penalty Lazio. Gustav Isaksen draws a foul in the penalty area.
-67'	Penalty conceded by Dayot Upamecano - FC Bayern München - after a foul in the penalty area.
-54'	Penalty PSV Eindhoven. Malik Tillman draws a foul in the penalty area.
-54'	Penalty conceded by Mats Hummels - Borussia Dortmund - after a foul in the penalty area.
+MATCH_1: 56'	Penalty FC Bayern München. Jamal Musiala draws a foul in the penalty area.
+MATCH_1: 56'	Penalty conceded by Lucas Vázquez - Real Madrid - after a foul in the penalty area.
+MATCH_1: 82'	Penalty Real Madrid. Rodrygo draws a foul in the penalty area.
+MATCH_1: 82'	Penalty conceded by Kim Min-Jae - FC Bayern München - after a foul in the penalty area.
+MATCH_6: 30'	Penalty FC Bayern München. Leroy Sané draws a foul in the penalty area.
+MATCH_6: 30'	Penalty conceded by William Saliba - Arsenal - after a foul in the penalty area.
+MATCH_10: 59'	Penalty Paris Saint Germain. Ousmane Dembélé draws a foul in the penalty area.
+MATCH_10: 59'	Penalty conceded by João Cancelo - Barcelona - after a foul in the penalty area.
+MATCH_16: 67'	Penalty Lazio. Gustav Isaksen draws a foul in the penalty area.
+MATCH_16: 67'	Penalty conceded by Dayot Upamecano - FC Bayern München - after a foul in the penalty area.
+MATCH_17: 54'	Penalty PSV Eindhoven. Malik Tillman draws a foul in the penalty area.
+MATCH_17: 54'	Penalty conceded by Mats Hummels - Borussia Dortmund - after a foul in the penalty area.

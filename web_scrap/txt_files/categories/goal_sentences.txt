@@ -1,82 +1,84 @@
-24'	Goal! FC Bayern München 0, Real Madrid 1. Vinícius Júnior - Real Madrid - shot with right foot from the centre of the box to the centre of the goal. Assist - Toni Kroos with a through ball.
-53'	Goal! FC Bayern München 1, Real Madrid 1. Leroy Sané - FC Bayern München - shot with left foot from the right side of the box to the right corner. Assist - Konrad Laimer.
-57'	Goal! FC Bayern München 2, Real Madrid 1. Harry Kane - FC Bayern München - converts the penalty with a shot with right foot to the left corner.
-83'	Goal! FC Bayern München 2, Real Madrid 2. Vinícius Júnior - Real Madrid - converts the penalty with a shot with right foot to the centre of the goal.
-36'	Goal! Borussia Dortmund 1, Paris Saint Germain 0. Niclas Füllkrug - Borussia Dortmund - shot with left foot from the centre of the box to the left corner. Assist - Nico Schlotterbeck with a through ball.
-50'	Goal! Paris Saint Germain 0, Borussia Dortmund 1. Mats Hummels - Borussia Dortmund - shot with the head from few metres to the right corner. Assist - Julian Brandt with a cross after corner.
-68'	Goal! Real Madrid 0, FC Bayern München 1. Alphonso Davies - FC Bayern München - shot with right foot from the left side of the box to the top right corner. Assist - Harry Kane following a fast break.
-71'	Own Goal by Alphonso Davies, FC Bayern München. Real Madrid 0, FC Bayern München 1.
-88'	Goal! Real Madrid 1, FC Bayern München 1. Joselu - Real Madrid - shot with right foot from few metres to the left corner.
-90+1'	Goal! Real Madrid 2, FC Bayern München 1. Joselu - Real Madrid - shot with right foot from few metres to the centre of the goal. Assist - Antonio Rüdiger with a cross after corner.Goal awarded following VAR Review.
-2'	Goal! Real Madrid 0, Manchester City 1. Bernardo Silva - Manchester City - from a free kick with a shot with left foot to the left corner.
-12'	Own Goal by Rúben Dias, Manchester City. Real Madrid 1, Manchester City 1.
-14'	Goal! Real Madrid 2, Manchester City 1. Rodrygo - Real Madrid - shot with right foot from the centre of the box to the right corner. Assist - Vinícius Júnior following a fast break.
-66'	Goal! Real Madrid 2, Manchester City 2. Phil Foden - Manchester City - shot with left foot from outside the box to the top left corner. Assist - John Stones.
-71'	Goal! Real Madrid 2, Manchester City 3. Josko Gvardiol - Manchester City - shot with right foot from outside the box to the right corner. Assist - Jack Grealish.
-79'	Goal! Real Madrid 3, Manchester City 3. Federico Valverde - Real Madrid - shot with right foot from the right side of the box to the left corner. Assist - Vinícius Júnior with a cross.
-12'	Goal! Arsenal 1, FC Bayern München 0. Bukayo Saka - Arsenal - shot with left foot from the right side of the box to the left corner. Assist - Ben White.
-18'	Goal! Arsenal 1, FC Bayern München 1. Serge Gnabry - FC Bayern München - shot with right foot from the centre of the box to the top left corner. Assist - Leon Goretzka with a through ball.
-32'	Goal! Arsenal 1, FC Bayern München 2. Harry Kane - FC Bayern München - converts the penalty with a shot with right foot to the right corner.
-76'	Goal! Arsenal 2, FC Bayern München 2. Leandro Trossard - Arsenal - shot with right foot from the centre of the box to the left corner. Assist - Gabriel Jesus.
-37'	Goal! Paris Saint Germain 0, Barcelona 1. Raphinha - Barcelona - shot with right foot from the centre of the box to the high centre of the goal.
-48'	Goal! Paris Saint Germain 1, Barcelona 1. Ousmane Dembélé - Paris Saint Germain - shot with left foot from the left side of the box to the top left corner.
-50'	Goal! Paris Saint Germain 2, Barcelona 1. Vitinha - Paris Saint Germain - shot with right foot from the right side of the box to the left corner. Assist - Fabián Ruiz with a through ball.
-62'	Goal! Paris Saint Germain 2, Barcelona 2. Raphinha - Barcelona - shot with left foot from the centre of the box to the left corner. Assist - Pedri with a through ball.
-77'	Goal! Paris Saint Germain 2, Barcelona 3. Andreas Christensen - Barcelona - shot with the head from few metres to the centre of the goal. Assist - Ilkay Gündogan with a cross after corner.
-4'	Goal! Atletico Madrid 1, Borussia Dortmund 0. Rodrigo De Paul - Atletico Madrid - shot with right foot from the centre of the box to the right corner.
-32'	Goal! Atletico Madrid 2, Borussia Dortmund 0. Samuel Lino - Atletico Madrid - shot with right foot from the centre of the box to the right corner. Assist - Antoine Griezmann.
-81'	Goal! Atletico Madrid 2, Borussia Dortmund 1. Sébastien Haller - Borussia Dortmund - shot with right foot from the centre of the box to the left corner.
-34'	Goal! Borussia Dortmund 1, Atletico Madrid 0. Julian Brandt - Borussia Dortmund - shot with left foot from a diffucult position on the left to the centre of the goal. Assist - Mats Hummels.
-39'	Goal! Borussia Dortmund 2, Atletico Madrid 0. Ian Maatsen - Borussia Dortmund - shot with left foot from the left side of the box to the right corner. Assist - Marcel Sabitzer.
-49'	Own Goal by Mats Hummels, Borussia Dortmund. Borussia Dortmund 2, Atletico Madrid 1.
-64'	Goal! Borussia Dortmund 2, Atletico Madrid 2. Ángel Correa - Atletico Madrid - shot with right foot from the centre of the box to the high centre of the goal.
-71'	Goal! Borussia Dortmund 3, Atletico Madrid 2. Niclas Füllkrug - Borussia Dortmund - shot with the head from the centre of the box to the right corner. Assist - Marcel Sabitzer with a cross.
-74'	Goal! Borussia Dortmund 4, Atletico Madrid 2. Marcel Sabitzer - Borussia Dortmund - shot with left foot from the centre of the box to the right corner. Assist - Niclas Füllkrug.
-12'	Goal! Barcelona 1, Paris Saint Germain 0. Raphinha - Barcelona - shot with left foot from few metres to the right corner. Assist - Lamine Yamal.
-40'	Goal! Barcelona 1, Paris Saint Germain 1. Ousmane Dembélé - Paris Saint Germain - shot with right foot from the right side of the six yard box to the top right corner. Assist - Bradley Barcola with a cross.
-54'	Goal! Barcelona 1, Paris Saint Germain 2. Vitinha - Paris Saint Germain - shot with right foot from outside the box to the left corner. Assist - Achraf Hakimi after corner.
-61'	Goal! Barcelona 1, Paris Saint Germain 3. Kylian Mbappé - Paris Saint Germain - converts the penalty with a shot with right foot to the top left corner.
-89'	Goal! Barcelona 1, Paris Saint Germain 4. Kylian Mbappé - Paris Saint Germain - shot with left foot from the centre of the box to the right corner following a fast break.
-12'	Goal! Manchester City 0, Real Madrid 1. Rodrygo - Real Madrid - shot with right foot from the centre of the box to the left corner.
-76'	Goal! Manchester City 1, Real Madrid 1. Kevin De Bruyne - Manchester City - shot with right foot inside of six yard box - left side to the top left corner.
-63'	Goal! FC Bayern München 1, Arsenal 0. Joshua Kimmich - FC Bayern München - shot with the head from the centre of the box to the high centre of the goal. Assist - Raphaël Guerreiro with a cross.
-48'	Goal! RB Leipzig 0, Real Madrid 1. Brahim Díaz - Real Madrid - shot with left foot from the centre of the box to the top left corner. Assist - Dani Carvajal.
-10'	Goal! FC Copenhagen 0, Manchester City 1. Kevin De Bruyne - Manchester City - shot with right foot from the right side of the box to the left corner. Assist - Phil Foden with a through ball.
-34'	Goal! FC Copenhagen 1, Manchester City 1. Magnus Mattsson - FC Copenhagen - shot with right foot from outside the box to the right corner.
-45'	Goal! FC Copenhagen 1, Manchester City 2. Bernardo Silva - Manchester City - shot with left foot from the right side of the six yard box to the left corner. Assist - Kevin De Bruyne.
-90+2'	Goal! FC Copenhagen 1, Manchester City 3. Phil Foden - Manchester City - shot with left foot from the centre of the box to the centre of the goal.
-58'	Goal! Paris Saint Germain 1, Real Sociedad 0. Kylian Mbappé - Paris Saint Germain - shot with right foot inside of six yard box - left side to the top left corner after corner.
-70'	Goal! Paris Saint Germain 2, Real Sociedad 0. Bradley Barcola - Paris Saint Germain - shot with left foot from the left side of the box to the centre of the goal. Assist - Fabián Ruiz.
-69'	Goal! Lazio 1, FC Bayern München 0. Ciro Immobile - Lazio - converts the penalty with a shot with right foot to the right corner.
-24'	Goal! PSV Eindhoven 0, Borussia Dortmund 1. Donyell Malen - Borussia Dortmund - shot with right foot from the right side of the box to the top right corner. Assist - Marcel Sabitzer.
-56'	Goal! PSV Eindhoven 1, Borussia Dortmund 1. Luuk de Jong - PSV Eindhoven - converts the penalty with a shot with right foot to the left corner.
-79'	Goal! Inter Milan 1, Atletico Madrid 0. Marko Arnautovic - Inter Milan - shot with left foot from a diffucult position on the left to the left corner.
-90+4'	Goal! FC Porto 1, Arsenal 0. Galeno - FC Porto - shot with right foot from outside the box to the right corner. Assist - Otávio.
-60'	Goal! Napoli 0, Barcelona 1. Robert Lewandowski - Barcelona - shot with right foot from the centre of the box to the left corner. Assist - Pedri.
-75'	Goal! Napoli 1, Barcelona 1. Victor Osimhen - Napoli - shot with right foot from the centre of the box to the left corner. Assist - Frank Anguissa.
-15'	Goal! Real Sociedad 0, Paris Saint Germain 1. Kylian Mbappé - Paris Saint Germain - shot with right foot from the left side of the box to the right corner. Assist - Ousmane Dembélé with a through ball.
-56'	Goal! Real Sociedad 0, Paris Saint Germain 2. Kylian Mbappé - Paris Saint Germain - shot with right foot from the left side of the box to the left corner. Assist - Lee Kang-In.
-89'	Goal! Real Sociedad 1, Paris Saint Germain 2. Mikel Merino - Real Sociedad - shot with left foot from the centre of the box to the left corner after corner.
-38'	Goal! FC Bayern München 1, Lazio 0. Harry Kane - FC Bayern München - shot with the head from the centre of the box to the left corner. Assist - Raphaël Guerreiro.
-45+2'	Goal! FC Bayern München 2, Lazio 0. Thomas Müller - FC Bayern München - shot with the head from few metres to the centre of the goal. Assist - Matthijs de Ligt after corner.
-66'	Goal! FC Bayern München 3, Lazio 0. Harry Kane - FC Bayern München - shot with left foot from the centre of the box to the left corner.
-65'	Goal! Real Madrid 1, RB Leipzig 0. Vinícius Júnior - Real Madrid - shot with right foot from the centre of the box to the top left corner. Assist - Jude Bellingham following a fast break.
-68'	Goal! Real Madrid 1, RB Leipzig 1. Willi Orbán - RB Leipzig - shot with the head from the centre of the box to the right corner. Assist - David Raum with a cross.
-5'	Goal! Manchester City 1, FC Copenhagen 0. Manuel Akanji - Manchester City - shot with right foot from the centre of the box to the top right corner. Assist - Julián Álvarez with a cross after corner.
-9'	Goal! Manchester City 2, FC Copenhagen 0. Julián Álvarez - Manchester City - shot with right foot from a diffucult position and long distance on the left to the top left corner after corner.
-29'	Goal! Manchester City 2, FC Copenhagen 1. Mohamed Elyounoussi - FC Copenhagen - shot with right foot from the centre of the box to the right corner. Assist - Orri Óskarsson following a fast break.
-45+3'	Goal! Manchester City 3, FC Copenhagen 1. Erling Haaland - Manchester City - shot with left foot from the centre of the box to the right corner. Assist - Rodri.
-15'	Goal! Barcelona 1, Napoli 0. Fermín López - Barcelona - shot with right foot from the centre of the box to the left corner. Assist - Raphinha.
-17'	Goal! Barcelona 2, Napoli 0. João Cancelo - Barcelona - shot with right foot from the left side of the box to the centre of the goal following a fast break.
-30'	Goal! Barcelona 2, Napoli 1. Amir Rrahmani - Napoli - shot with left foot from the centre of the box to the left corner. Assist - Matteo Politano.
-83'	Goal! Barcelona 3, Napoli 1. Robert Lewandowski - Barcelona - shot with left foot from the centre of the box to the right corner. Assist - Sergi Roberto.
-41'	Goal! Arsenal 1, FC Porto 0. Leandro Trossard - Arsenal - shot with right foot from the left side of the box to the right corner. Assist - Martin Ødegaard with a through ball.
-3'	Goal! Borussia Dortmund 1, PSV Eindhoven 0. Jadon Sancho - Borussia Dortmund - shot with right foot from outside the box to the left corner. Assist - Julian Brandt.
-90+5'	Goal! Borussia Dortmund 2, PSV Eindhoven 0. Marco Reus - Borussia Dortmund - shot with right foot from the centre of the box to the left corner. Assist - Niclas Füllkrug with a head.
-33'	Goal! Atletico Madrid 0, Inter Milan 1. Federico Dimarco - Inter Milan - shot with right foot from the centre of the box to the centre of the goal. Assist - Nicolò Barella.
-35'	Goal! Atletico Madrid 1, Inter Milan 1. Antoine Griezmann - Atletico Madrid - shot with left foot from the centre of the box to the left corner.
-87'	Goal! Atletico Madrid 2, Inter Milan 1. Memphis Depay - Atletico Madrid - shot with right foot from the centre of the box to the left corner. Assist - Koke with a through ball.
-3'	Goal! Young Boys 0, RB Leipzig 1. Mohamed Simakan - RB Leipzig - shot with the head from few metres to the right corner. Assist - David Raum with a cross after corner.
-33'	Goal! Young Boys 1, RB Leipzig 1. Meschack Elia - Young Boys - shot with right foot from the centre of the box to the right corner. Assist - Filip Ugrinic.
-73'	Goal! Young Boys 1, RB Leipzig 2. Xaver Schlager - RB Leipzig - shot with left foot from outside the box to the right corner. Assist - Kevin Kampl after corner.
-90+2'	Goal! Young Boys 1, RB Leipzig 3. Benjamin Sesko - RB Leipzig - shot with right foot from the centre of the box to the right corner. Assist - Benjamin Henrichs with a through ball following a fast break.
+MATCH_0: 74'	Goal! Borussia Dortmund 0, Real Madrid 1. Dani Carvajal - Real Madrid - header inside of six yard box - left side to the top right corner. Assist - Toni Kroos with a cross after corner.
+MATCH_0: 83'	Goal! Borussia Dortmund 0, Real Madrid 2. Vinícius Júnior - Real Madrid - shot with left foot from the centre of the box to the right corner. Assist - Jude Bellingham.
+MATCH_1: 24'	Goal! FC Bayern München 0, Real Madrid 1. Vinícius Júnior - Real Madrid - shot with right foot from the centre of the box to the centre of the goal. Assist - Toni Kroos with a through ball.
+MATCH_1: 53'	Goal! FC Bayern München 1, Real Madrid 1. Leroy Sané - FC Bayern München - shot with left foot from the right side of the box to the right corner. Assist - Konrad Laimer.
+MATCH_1: 57'	Goal! FC Bayern München 2, Real Madrid 1. Harry Kane - FC Bayern München - converts the penalty with a shot with right foot to the left corner.
+MATCH_1: 83'	Goal! FC Bayern München 2, Real Madrid 2. Vinícius Júnior - Real Madrid - converts the penalty with a shot with right foot to the centre of the goal.
+MATCH_2: 36'	Goal! Borussia Dortmund 1, Paris Saint Germain 0. Niclas Füllkrug - Borussia Dortmund - shot with left foot from the centre of the box to the left corner. Assist - Nico Schlotterbeck with a through ball.
+MATCH_3: 50'	Goal! Paris Saint Germain 0, Borussia Dortmund 1. Mats Hummels - Borussia Dortmund - shot with the head from few metres to the right corner. Assist - Julian Brandt with a cross after corner.
+MATCH_4: 68'	Goal! Real Madrid 0, FC Bayern München 1. Alphonso Davies - FC Bayern München - shot with right foot from the left side of the box to the top right corner. Assist - Harry Kane following a fast break.
+MATCH_4: 71'	Own Goal by Alphonso Davies, FC Bayern München. Real Madrid 0, FC Bayern München 1.
+MATCH_4: 88'	Goal! Real Madrid 1, FC Bayern München 1. Joselu - Real Madrid - shot with right foot from few metres to the left corner.
+MATCH_4: 90+1'	Goal! Real Madrid 2, FC Bayern München 1. Joselu - Real Madrid - shot with right foot from few metres to the centre of the goal. Assist - Antonio Rüdiger with a cross after corner.Goal awarded following VAR Review.
+MATCH_5: 2'	Goal! Real Madrid 0, Manchester City 1. Bernardo Silva - Manchester City - from a free kick with a shot with left foot to the left corner.
+MATCH_5: 12'	Own Goal by Rúben Dias, Manchester City. Real Madrid 1, Manchester City 1.
+MATCH_5: 14'	Goal! Real Madrid 2, Manchester City 1. Rodrygo - Real Madrid - shot with right foot from the centre of the box to the right corner. Assist - Vinícius Júnior following a fast break.
+MATCH_5: 66'	Goal! Real Madrid 2, Manchester City 2. Phil Foden - Manchester City - shot with left foot from outside the box to the top left corner. Assist - John Stones.
+MATCH_5: 71'	Goal! Real Madrid 2, Manchester City 3. Josko Gvardiol - Manchester City - shot with right foot from outside the box to the right corner. Assist - Jack Grealish.
+MATCH_5: 79'	Goal! Real Madrid 3, Manchester City 3. Federico Valverde - Real Madrid - shot with right foot from the right side of the box to the left corner. Assist - Vinícius Júnior with a cross.
+MATCH_6: 12'	Goal! Arsenal 1, FC Bayern München 0. Bukayo Saka - Arsenal - shot with left foot from the right side of the box to the left corner. Assist - Ben White.
+MATCH_6: 18'	Goal! Arsenal 1, FC Bayern München 1. Serge Gnabry - FC Bayern München - shot with right foot from the centre of the box to the top left corner. Assist - Leon Goretzka with a through ball.
+MATCH_6: 32'	Goal! Arsenal 1, FC Bayern München 2. Harry Kane - FC Bayern München - converts the penalty with a shot with right foot to the right corner.
+MATCH_6: 76'	Goal! Arsenal 2, FC Bayern München 2. Leandro Trossard - Arsenal - shot with right foot from the centre of the box to the left corner. Assist - Gabriel Jesus.
+MATCH_7: 37'	Goal! Paris Saint Germain 0, Barcelona 1. Raphinha - Barcelona - shot with right foot from the centre of the box to the high centre of the goal.
+MATCH_7: 48'	Goal! Paris Saint Germain 1, Barcelona 1. Ousmane Dembélé - Paris Saint Germain - shot with left foot from the left side of the box to the top left corner.
+MATCH_7: 50'	Goal! Paris Saint Germain 2, Barcelona 1. Vitinha - Paris Saint Germain - shot with right foot from the right side of the box to the left corner. Assist - Fabián Ruiz with a through ball.
+MATCH_7: 62'	Goal! Paris Saint Germain 2, Barcelona 2. Raphinha - Barcelona - shot with left foot from the centre of the box to the left corner. Assist - Pedri with a through ball.
+MATCH_7: 77'	Goal! Paris Saint Germain 2, Barcelona 3. Andreas Christensen - Barcelona - shot with the head from few metres to the centre of the goal. Assist - Ilkay Gündogan with a cross after corner.
+MATCH_8: 4'	Goal! Atletico Madrid 1, Borussia Dortmund 0. Rodrigo De Paul - Atletico Madrid - shot with right foot from the centre of the box to the right corner.
+MATCH_8: 32'	Goal! Atletico Madrid 2, Borussia Dortmund 0. Samuel Lino - Atletico Madrid - shot with right foot from the centre of the box to the right corner. Assist - Antoine Griezmann.
+MATCH_8: 81'	Goal! Atletico Madrid 2, Borussia Dortmund 1. Sébastien Haller - Borussia Dortmund - shot with right foot from the centre of the box to the left corner.
+MATCH_9: 34'	Goal! Borussia Dortmund 1, Atletico Madrid 0. Julian Brandt - Borussia Dortmund - shot with left foot from a diffucult position on the left to the centre of the goal. Assist - Mats Hummels.
+MATCH_9: 39'	Goal! Borussia Dortmund 2, Atletico Madrid 0. Ian Maatsen - Borussia Dortmund - shot with left foot from the left side of the box to the right corner. Assist - Marcel Sabitzer.
+MATCH_9: 49'	Own Goal by Mats Hummels, Borussia Dortmund. Borussia Dortmund 2, Atletico Madrid 1.
+MATCH_9: 64'	Goal! Borussia Dortmund 2, Atletico Madrid 2. Ángel Correa - Atletico Madrid - shot with right foot from the centre of the box to the high centre of the goal.
+MATCH_9: 71'	Goal! Borussia Dortmund 3, Atletico Madrid 2. Niclas Füllkrug - Borussia Dortmund - shot with the head from the centre of the box to the right corner. Assist - Marcel Sabitzer with a cross.
+MATCH_9: 74'	Goal! Borussia Dortmund 4, Atletico Madrid 2. Marcel Sabitzer - Borussia Dortmund - shot with left foot from the centre of the box to the right corner. Assist - Niclas Füllkrug.
+MATCH_10: 12'	Goal! Barcelona 1, Paris Saint Germain 0. Raphinha - Barcelona - shot with left foot from few metres to the right corner. Assist - Lamine Yamal.
+MATCH_10: 40'	Goal! Barcelona 1, Paris Saint Germain 1. Ousmane Dembélé - Paris Saint Germain - shot with right foot from the right side of the six yard box to the top right corner. Assist - Bradley Barcola with a cross.
+MATCH_10: 54'	Goal! Barcelona 1, Paris Saint Germain 2. Vitinha - Paris Saint Germain - shot with right foot from outside the box to the left corner. Assist - Achraf Hakimi after corner.
+MATCH_10: 61'	Goal! Barcelona 1, Paris Saint Germain 3. Kylian Mbappé - Paris Saint Germain - converts the penalty with a shot with right foot to the top left corner.
+MATCH_10: 89'	Goal! Barcelona 1, Paris Saint Germain 4. Kylian Mbappé - Paris Saint Germain - shot with left foot from the centre of the box to the right corner following a fast break.
+MATCH_11: 12'	Goal! Manchester City 0, Real Madrid 1. Rodrygo - Real Madrid - shot with right foot from the centre of the box to the left corner.
+MATCH_11: 76'	Goal! Manchester City 1, Real Madrid 1. Kevin De Bruyne - Manchester City - shot with right foot inside of six yard box - left side to the top left corner.
+MATCH_12: 63'	Goal! FC Bayern München 1, Arsenal 0. Joshua Kimmich - FC Bayern München - shot with the head from the centre of the box to the high centre of the goal. Assist - Raphaël Guerreiro with a cross.
+MATCH_13: 48'	Goal! RB Leipzig 0, Real Madrid 1. Brahim Díaz - Real Madrid - shot with left foot from the centre of the box to the top left corner. Assist - Dani Carvajal.
+MATCH_14: 10'	Goal! FC Copenhagen 0, Manchester City 1. Kevin De Bruyne - Manchester City - shot with right foot from the right side of the box to the left corner. Assist - Phil Foden with a through ball.
+MATCH_14: 34'	Goal! FC Copenhagen 1, Manchester City 1. Magnus Mattsson - FC Copenhagen - shot with right foot from outside the box to the right corner.
+MATCH_14: 45'	Goal! FC Copenhagen 1, Manchester City 2. Bernardo Silva - Manchester City - shot with left foot from the right side of the six yard box to the left corner. Assist - Kevin De Bruyne.
+MATCH_14: 90+2'	Goal! FC Copenhagen 1, Manchester City 3. Phil Foden - Manchester City - shot with left foot from the centre of the box to the centre of the goal.
+MATCH_15: 58'	Goal! Paris Saint Germain 1, Real Sociedad 0. Kylian Mbappé - Paris Saint Germain - shot with right foot inside of six yard box - left side to the top left corner after corner.
+MATCH_15: 70'	Goal! Paris Saint Germain 2, Real Sociedad 0. Bradley Barcola - Paris Saint Germain - shot with left foot from the left side of the box to the centre of the goal. Assist - Fabián Ruiz.
+MATCH_16: 69'	Goal! Lazio 1, FC Bayern München 0. Ciro Immobile - Lazio - converts the penalty with a shot with right foot to the right corner.
+MATCH_17: 24'	Goal! PSV Eindhoven 0, Borussia Dortmund 1. Donyell Malen - Borussia Dortmund - shot with right foot from the right side of the box to the top right corner. Assist - Marcel Sabitzer.
+MATCH_17: 56'	Goal! PSV Eindhoven 1, Borussia Dortmund 1. Luuk de Jong - PSV Eindhoven - converts the penalty with a shot with right foot to the left corner.
+MATCH_18: 79'	Goal! Inter Milan 1, Atletico Madrid 0. Marko Arnautovic - Inter Milan - shot with left foot from a diffucult position on the left to the left corner.
+MATCH_19: 90+4'	Goal! FC Porto 1, Arsenal 0. Galeno - FC Porto - shot with right foot from outside the box to the right corner. Assist - Otávio.
+MATCH_20: 60'	Goal! Napoli 0, Barcelona 1. Robert Lewandowski - Barcelona - shot with right foot from the centre of the box to the left corner. Assist - Pedri.
+MATCH_20: 75'	Goal! Napoli 1, Barcelona 1. Victor Osimhen - Napoli - shot with right foot from the centre of the box to the left corner. Assist - Frank Anguissa.
+MATCH_21: 15'	Goal! Real Sociedad 0, Paris Saint Germain 1. Kylian Mbappé - Paris Saint Germain - shot with right foot from the left side of the box to the right corner. Assist - Ousmane Dembélé with a through ball.
+MATCH_21: 56'	Goal! Real Sociedad 0, Paris Saint Germain 2. Kylian Mbappé - Paris Saint Germain - shot with right foot from the left side of the box to the left corner. Assist - Lee Kang-In.
+MATCH_21: 89'	Goal! Real Sociedad 1, Paris Saint Germain 2. Mikel Merino - Real Sociedad - shot with left foot from the centre of the box to the left corner after corner.
+MATCH_22: 38'	Goal! FC Bayern München 1, Lazio 0. Harry Kane - FC Bayern München - shot with the head from the centre of the box to the left corner. Assist - Raphaël Guerreiro.
+MATCH_22: 45+2'	Goal! FC Bayern München 2, Lazio 0. Thomas Müller - FC Bayern München - shot with the head from few metres to the centre of the goal. Assist - Matthijs de Ligt after corner.
+MATCH_22: 66'	Goal! FC Bayern München 3, Lazio 0. Harry Kane - FC Bayern München - shot with left foot from the centre of the box to the left corner.
+MATCH_23: 65'	Goal! Real Madrid 1, RB Leipzig 0. Vinícius Júnior - Real Madrid - shot with right foot from the centre of the box to the top left corner. Assist - Jude Bellingham following a fast break.
+MATCH_23: 68'	Goal! Real Madrid 1, RB Leipzig 1. Willi Orbán - RB Leipzig - shot with the head from the centre of the box to the right corner. Assist - David Raum with a cross.
+MATCH_24: 5'	Goal! Manchester City 1, FC Copenhagen 0. Manuel Akanji - Manchester City - shot with right foot from the centre of the box to the top right corner. Assist - Julián Álvarez with a cross after corner.
+MATCH_24: 9'	Goal! Manchester City 2, FC Copenhagen 0. Julián Álvarez - Manchester City - shot with right foot from a diffucult position and long distance on the left to the top left corner after corner.
+MATCH_24: 29'	Goal! Manchester City 2, FC Copenhagen 1. Mohamed Elyounoussi - FC Copenhagen - shot with right foot from the centre of the box to the right corner. Assist - Orri Óskarsson following a fast break.
+MATCH_24: 45+3'	Goal! Manchester City 3, FC Copenhagen 1. Erling Haaland - Manchester City - shot with left foot from the centre of the box to the right corner. Assist - Rodri.
+MATCH_25: 15'	Goal! Barcelona 1, Napoli 0. Fermín López - Barcelona - shot with right foot from the centre of the box to the left corner. Assist - Raphinha.
+MATCH_25: 17'	Goal! Barcelona 2, Napoli 0. João Cancelo - Barcelona - shot with right foot from the left side of the box to the centre of the goal following a fast break.
+MATCH_25: 30'	Goal! Barcelona 2, Napoli 1. Amir Rrahmani - Napoli - shot with left foot from the centre of the box to the left corner. Assist - Matteo Politano.
+MATCH_25: 83'	Goal! Barcelona 3, Napoli 1. Robert Lewandowski - Barcelona - shot with left foot from the centre of the box to the right corner. Assist - Sergi Roberto.
+MATCH_26: 41'	Goal! Arsenal 1, FC Porto 0. Leandro Trossard - Arsenal - shot with right foot from the left side of the box to the right corner. Assist - Martin Ødegaard with a through ball.
+MATCH_27: 3'	Goal! Borussia Dortmund 1, PSV Eindhoven 0. Jadon Sancho - Borussia Dortmund - shot with right foot from outside the box to the left corner. Assist - Julian Brandt.
+MATCH_27: 90+5'	Goal! Borussia Dortmund 2, PSV Eindhoven 0. Marco Reus - Borussia Dortmund - shot with right foot from the centre of the box to the left corner. Assist - Niclas Füllkrug with a head.
+MATCH_28: 33'	Goal! Atletico Madrid 0, Inter Milan 1. Federico Dimarco - Inter Milan - shot with right foot from the centre of the box to the centre of the goal. Assist - Nicolò Barella.
+MATCH_28: 35'	Goal! Atletico Madrid 1, Inter Milan 1. Antoine Griezmann - Atletico Madrid - shot with left foot from the centre of the box to the left corner.
+MATCH_28: 87'	Goal! Atletico Madrid 2, Inter Milan 1. Memphis Depay - Atletico Madrid - shot with right foot from the centre of the box to the left corner. Assist - Koke with a through ball.
+MATCH_29: 3'	Goal! Young Boys 0, RB Leipzig 1. Mohamed Simakan - RB Leipzig - shot with the head from few metres to the right corner. Assist - David Raum with a cross after corner.
+MATCH_29: 33'	Goal! Young Boys 1, RB Leipzig 1. Meschack Elia - Young Boys - shot with right foot from the centre of the box to the right corner. Assist - Filip Ugrinic.
+MATCH_29: 73'	Goal! Young Boys 1, RB Leipzig 2. Xaver Schlager - RB Leipzig - shot with left foot from outside the box to the right corner. Assist - Kevin Kampl after corner.
+MATCH_29: 90+2'	Goal! Young Boys 1, RB Leipzig 3. Benjamin Sesko - RB Leipzig - shot with right foot from the centre of the box to the right corner. Assist - Benjamin Henrichs with a through ball following a fast break.

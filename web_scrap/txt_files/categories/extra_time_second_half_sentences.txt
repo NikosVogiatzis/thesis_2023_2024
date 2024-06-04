@@ -1,6 +1,6 @@
-105'	Second Half Extra Time begins Manchester City 1, Real Madrid 1.
-120+2'	Second Half Extra Time ends, Manchester City 1, Real Madrid 1.
-105'	Second Half Extra Time begins Arsenal 1, FC Porto 0.
-120'	Second Half Extra Time ends, Arsenal 1, FC Porto 0.
-105'	Second Half Extra Time begins Atletico Madrid 2, Inter Milan 1.
-120'	Second Half Extra Time ends, Atletico Madrid 2, Inter Milan 1.
+MATCH_11: 105'	Second Half Extra Time begins Manchester City 1, Real Madrid 1.
+MATCH_11: 120+2'	Second Half Extra Time ends, Manchester City 1, Real Madrid 1.
+MATCH_26: 105'	Second Half Extra Time begins Arsenal 1, FC Porto 0.
+MATCH_26: 120'	Second Half Extra Time ends, Arsenal 1, FC Porto 0.
+MATCH_28: 105'	Second Half Extra Time begins Atletico Madrid 2, Inter Milan 1.
+MATCH_28: 120'	Second Half Extra Time ends, Atletico Madrid 2, Inter Milan 1.
