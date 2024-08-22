@@ -6,38 +6,6 @@ import re
 
 pattern_match_game = r"MATCH_+\d+"
 
-with open('web_scrap/txt_files/commentary.txt', 'r', encoding='utf-8') as file:
-    text = file.read()
-
-# Tokenize the text into sentences
-sentences = text.split('\n')
-
-categories = {
-    'corner' : ['corner -'],
-    'penalty_procedure': ['penalty shootout', 'penalty saved', 'penalty missed', "120'\tGoal!"],
-    'attacking_attempt' : ['Missed chance', 'attacking attempt', 'shot blocked', 'hits'],
-    'goal': ['own goal', 'goal!'],
-    'var_decision' : ['VAR '],
-    'yellow card': ['yellow card'],
-    'red card': ['red card'],
-    'penalty' : ['penalty'],
-    'substitution' : ['substitution'],
-    'offside' : ['offside'],
-    'foul' : ['fouled'],
-    'free kick' : ['free kick'],
-    'extra_time_first_half' : ['first half extra time'],
-    'extra_time_second_half' : ['second half extra time'],
-    'first_half' : ['first half'],
-    'second_half' : ['second half'],
-    'delay' : ['delay'],
-    'hand_ball' : ['hand ball'],
-    'end_game' : ['game finished'],
-    'dangerous_play' : ['dangerous play'],
-    'Other': [] 
-}
-
-# dictionary to store categorized sentences
-categorized_sentences = {category: [] for category in categories}
 
 # Function to categorize sentences
 def categorize_sentence(sentence):
@@ -47,19 +15,7 @@ def categorize_sentence(sentence):
                 return category
     return 'Other'
 
-# Categorize each sentence
-for sentence in sentences:
-    category = categorize_sentence(sentence)
-    categorized_sentences[category].append(sentence)
-
-
-# Write the results to a file for each category
-for category, sentences in categorized_sentences.items():
-    with open(f'web_scrap/txt_files/categories/{category}_sentences.txt', 'w', encoding='utf-8') as output_file:
-        for sentence in sentences:
-            output_file.write(f"{sentence}\n")
-
-
+# function to recognize and create assist sentences, Assist can refer to either Goal or AttackingAttempt
 def assist_making_sentences():
     
     pattern_assist = r'\. Assist - (.+?)\.$'
@@ -105,5 +61,55 @@ def assist_making_sentences():
     with open("web_scrap/txt_files/categories/assist_sentences.txt", 'w', encoding='utf-8') as file:
         for ind in range(len(matches_assist_list)):
             file.write(matches_assist_list[ind] + "\n")
+    
+with open('web_scrap/txt_files/commentary.txt', 'r', encoding='utf-8') as file:
+    text = file.read()
 
+# Tokenize the text into sentences
+sentences = text.split('\n')
+
+# all match event categories based on the sentence format
+categories = {
+    'corner' : ['corner -'],
+    'penalty_procedure': ['penalty shootout', 'penalty saved', 'penalty missed', "120'\tGoal!"],
+    'attacking_attempt' : ['Missed chance', 'attacking attempt', 'shot blocked', 'hits'],
+    'goal': ['own goal', 'goal!'],
+    'var_decision' : ['VAR '],
+    'yellow card': ['yellow card'],
+    'red card': ['red card'],
+    'penalty' : ['penalty'],
+    'substitution' : ['substitution'],
+    'offside' : ['offside'],
+    'foul' : ['fouled'],
+    'free kick' : ['free kick'],
+    'extra_time_first_half' : ['first half extra time'],
+    'extra_time_second_half' : ['second half extra time'],
+    'first_half' : ['first half'],
+    'second_half' : ['second half'],
+    'delay' : ['delay'],
+    'hand_ball' : ['hand ball'],
+    'end_game' : ['game finished'],
+    'dangerous_play' : ['dangerous play'],
+    'Other': [] 
+}
+
+# dictionary to store categorized sentences
+categorized_sentences = {category: [] for category in categories}
+
+
+
+# Categorize each sentence
+for sentence in sentences:
+    category = categorize_sentence(sentence)
+    categorized_sentences[category].append(sentence)
+
+
+# Write the results to a file for each category
+for category, sentences in categorized_sentences.items():
+    with open(f'web_scrap/txt_files/categories/{category}_sentences.txt', 'w', encoding='utf-8') as output_file:
+        for sentence in sentences:
+            output_file.write(f"{sentence}\n")
+
+
+# Recognize assist sentences
 assist_making_sentences()

@@ -1,2 +1,2 @@
-MATCH_8: 67'	Dangerous play by Nico Schlotterbeck - Borussia Dortmund
-MATCH_18: 17'	Dangerous play by Henrikh Mkhitaryan - Inter Milan
+MATCH_8 67'	Dangerous play by Nico Schlotterbeck - Borussia Dortmund
+MATCH_18 17'	Dangerous play by Henrikh Mkhitaryan - Inter Milan

@@ -1,5 +1,5 @@
-MATCH_6: 64'	Harry Kane - FC Bayern München
-MATCH_18: 68'	Álvaro Morata - Atletico Madrid
-MATCH_28: 45+1'	Denzel Dumfries - Inter Milan
-MATCH_29: 53'	Xavi Simons - RB Leipzig - has gone down, but the referee deems it simulation.
+MATCH_6 64'	Harry Kane - FC Bayern München
+MATCH_18 68'	Álvaro Morata - Atletico Madrid
+MATCH_28 45+1'	Denzel Dumfries - Inter Milan
+MATCH_29 53'	Xavi Simons - RB Leipzig - has gone down, but the referee deems it simulation.
 

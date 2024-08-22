@@ -1,60 +1,60 @@
-MATCH_0: 	First Half starts.
-MATCH_0: 45+5'	First Half ended - Borussia Dortmund 0, Real Madrid 0.
-MATCH_1: 	First Half starts.
-MATCH_1: 45+1'	First Half ended - FC Bayern München 0, Real Madrid 1.
-MATCH_2: 	First Half starts.
-MATCH_2: 45+5'	First Half ended - Borussia Dortmund 1, Paris Saint Germain 0.
-MATCH_3: 	First Half starts.
-MATCH_3: 45+1'	First Half ended - Paris Saint Germain 0, Borussia Dortmund 0.
-MATCH_4: 	First Half starts.
-MATCH_4: 45+1'	First Half ended - Real Madrid 0, FC Bayern München 0.
-MATCH_5: 	First Half starts.
-MATCH_5: 45+3'	First Half ended - Real Madrid 2, Manchester City 1.
-MATCH_6: 	First Half starts.
-MATCH_6: 45+1'	First Half ended - Arsenal 1, FC Bayern München 2.
-MATCH_7: 	First Half starts.
-MATCH_7: 45+3'	First Half ended - Paris Saint Germain 0, Barcelona 1.
-MATCH_8: 	First Half starts.
-MATCH_8: 45+1'	First Half ended - Atletico Madrid 2, Borussia Dortmund 0.
-MATCH_9: 	First Half starts.
-MATCH_9: 45+3'	First Half ended - Borussia Dortmund 2, Atletico Madrid 0.
-MATCH_10: 	First Half starts.
-MATCH_10: 45+5'	First Half ended - Barcelona 1, Paris Saint Germain 1.
-MATCH_11: 	First Half starts.
-MATCH_11: 45+3'	First Half ended - Manchester City 0, Real Madrid 1.
-MATCH_12: 	First Half starts.
-MATCH_12: 45+1'	First Half ended - FC Bayern München 0, Arsenal 0.
-MATCH_13: 	First Half starts.
-MATCH_13: 45+2'	First Half ended - RB Leipzig 0, Real Madrid 0.
-MATCH_14: 	First Half starts.
-MATCH_14: 45+4'	First Half ended - FC Copenhagen 1, Manchester City 2.
-MATCH_15: 	First Half starts.
-MATCH_15: 45+2'	First Half ended - Paris Saint Germain 0, Real Sociedad 0.
-MATCH_16: 	First Half starts.
-MATCH_16: 45+1'	First Half ended - Lazio 0, FC Bayern München 0.
-MATCH_17: 	First Half starts.
-MATCH_17: 45+3'	First Half ended - PSV Eindhoven 0, Borussia Dortmund 1.
-MATCH_18: 	First Half starts.
-MATCH_18: 45+1'	First Half ended - Inter Milan 0, Atletico Madrid 0.
-MATCH_19: 	First Half starts.
-MATCH_19: 45+2'	First Half ended - FC Porto 0, Arsenal 0.
-MATCH_20: 	First Half starts.
-MATCH_20: 45'	First Half ended - Napoli 0, Barcelona 0.
-MATCH_21: 	First Half starts.
-MATCH_21: 45+5'	First Half ended - Real Sociedad 0, Paris Saint Germain 1.
-MATCH_22: 	First Half starts.
-MATCH_22: 45+3'	First Half ended - FC Bayern München 2, Lazio 0.
-MATCH_23: 	First Half starts.
-MATCH_23: 45+1'	First Half ended - Real Madrid 0, RB Leipzig 0.
-MATCH_24: 	First Half starts.
-MATCH_24: 45+3'	First Half ended - Manchester City 3, FC Copenhagen 1.
-MATCH_25: 	First Half starts.
-MATCH_25: 45+4'	First Half ended - Barcelona 2, Napoli 1.
-MATCH_26: 	First Half starts.
-MATCH_26: 45+4'	First Half ended - Arsenal 1, FC Porto 0.
-MATCH_27: 	First Half starts.
-MATCH_27: 45+1'	First Half ended - Borussia Dortmund 1, PSV Eindhoven 0.
-MATCH_28: 	First Half starts.
-MATCH_28: 45+1'	First Half ended - Atletico Madrid 1, Inter Milan 1.
-MATCH_29: 	First Half starts.
-MATCH_29: 45+3'	First Half ended - Young Boys 1, RB Leipzig 1.
+MATCH_0 	First Half starts.
+MATCH_0 45+5'	First Half ended - Borussia Dortmund 0, Real Madrid 0.
+MATCH_1 	First Half starts.
+MATCH_1 45+1'	First Half ended - FC Bayern München 0, Real Madrid 1.
+MATCH_2 	First Half starts.
+MATCH_2 45+5'	First Half ended - Borussia Dortmund 1, Paris Saint Germain 0.
+MATCH_3 	First Half starts.
+MATCH_3 45+1'	First Half ended - Paris Saint Germain 0, Borussia Dortmund 0.
+MATCH_4 	First Half starts.
+MATCH_4 45+1'	First Half ended - Real Madrid 0, FC Bayern München 0.
+MATCH_5 	First Half starts.
+MATCH_5 45+3'	First Half ended - Real Madrid 2, Manchester City 1.
+MATCH_6 	First Half starts.
+MATCH_6 45+1'	First Half ended - Arsenal 1, FC Bayern München 2.
+MATCH_7 	First Half starts.
+MATCH_7 45+3'	First Half ended - Paris Saint Germain 0, Barcelona 1.
+MATCH_8 	First Half starts.
+MATCH_8 45+1'	First Half ended - Atletico Madrid 2, Borussia Dortmund 0.
+MATCH_9 	First Half starts.
+MATCH_9 45+3'	First Half ended - Borussia Dortmund 2, Atletico Madrid 0.
+MATCH_10 	First Half starts.
+MATCH_10 45+5'	First Half ended - Barcelona 1, Paris Saint Germain 1.
+MATCH_11 	First Half starts.
+MATCH_11 45+3'	First Half ended - Manchester City 0, Real Madrid 1.
+MATCH_12 	First Half starts.
+MATCH_12 45+1'	First Half ended - FC Bayern München 0, Arsenal 0.
+MATCH_13 	First Half starts.
+MATCH_13 45+2'	First Half ended - RB Leipzig 0, Real Madrid 0.
+MATCH_14 	First Half starts.
+MATCH_14 45+4'	First Half ended - FC Copenhagen 1, Manchester City 2.
+MATCH_15 	First Half starts.
+MATCH_15 45+2'	First Half ended - Paris Saint Germain 0, Real Sociedad 0.
+MATCH_16 	First Half starts.
+MATCH_16 45+1'	First Half ended - Lazio 0, FC Bayern München 0.
+MATCH_17 	First Half starts.
+MATCH_17 45+3'	First Half ended - PSV Eindhoven 0, Borussia Dortmund 1.
+MATCH_18 	First Half starts.
+MATCH_18 45+1'	First Half ended - Inter Milan 0, Atletico Madrid 0.
+MATCH_19 	First Half starts.
+MATCH_19 45+2'	First Half ended - FC Porto 0, Arsenal 0.
+MATCH_20 	First Half starts.
+MATCH_20 45'	First Half ended - Napoli 0, Barcelona 0.
+MATCH_21 	First Half starts.
+MATCH_21 45+5'	First Half ended - Real Sociedad 0, Paris Saint Germain 1.
+MATCH_22 	First Half starts.
+MATCH_22 45+3'	First Half ended - FC Bayern München 2, Lazio 0.
+MATCH_23 	First Half starts.
+MATCH_23 45+1'	First Half ended - Real Madrid 0, RB Leipzig 0.
+MATCH_24 	First Half starts.
+MATCH_24 45+3'	First Half ended - Manchester City 3, FC Copenhagen 1.
+MATCH_25 	First Half starts.
+MATCH_25 45+4'	First Half ended - Barcelona 2, Napoli 1.
+MATCH_26 	First Half starts.
+MATCH_26 45+4'	First Half ended - Arsenal 1, FC Porto 0.
+MATCH_27 	First Half starts.
+MATCH_27 45+1'	First Half ended - Borussia Dortmund 1, PSV Eindhoven 0.
+MATCH_28 	First Half starts.
+MATCH_28 45+1'	First Half ended - Atletico Madrid 1, Inter Milan 1.
+MATCH_29 	First Half starts.
+MATCH_29 45+3'	First Half ended - Young Boys 1, RB Leipzig 1.

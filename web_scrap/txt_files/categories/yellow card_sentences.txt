@@ -1,120 +1,120 @@
-MATCH_0: 35'	Vinícius Júnior - Real Madrid - receive yellow card for a foul.
-MATCH_0: 40'	Nico Schlotterbeck - Borussia Dortmund - receive yellow card.
-MATCH_0: 43'	Marcel Sabitzer - Borussia Dortmund - receive yellow card.
-MATCH_0: 79'	Mats Hummels - Borussia Dortmund - receive yellow card for a foul.
-MATCH_1: 43'	Noussair Mazraoui - FC Bayern München - receive yellow card for a foul.
-MATCH_1: 64'	Toni Kroos - Real Madrid - receive yellow card for a foul.
-MATCH_1: 82'	Kim Min-Jae - FC Bayern München - receive yellow card for a foul.
-MATCH_1: 90+1'	Lucas Vázquez - Real Madrid - receive yellow card for a foul.
-MATCH_2: 19'	Ian Maatsen - Borussia Dortmund - receive yellow card for a foul.
-MATCH_2: 53'	Fabián Ruiz - Paris Saint Germain - receive yellow card for a foul.
-MATCH_2: 73'	Nico Schlotterbeck - Borussia Dortmund - receive yellow card for a foul.
-MATCH_3: 64'	Marcel Sabitzer - Borussia Dortmund - receive yellow card for a foul.
-MATCH_3: 65'	Mats Hummels - Borussia Dortmund - receive yellow card for a foul.
-MATCH_3: 75'	Ousmane Dembélé - Paris Saint Germain - receive yellow card for a foul.
-MATCH_3: 84'	Achraf Hakimi - Paris Saint Germain - receive yellow card.
-MATCH_4: 90+11'	Eduardo Camavinga - Real Madrid - receive yellow card.
-MATCH_5: 1'	Aurélien Tchouaméni - Real Madrid - receive yellow card for a foul.
-MATCH_5: 37'	Manuel Akanji - Manchester City - receive yellow card for a foul.
-MATCH_5: 81'	Dani Carvajal - Real Madrid - receive yellow card.
-MATCH_5: 88'	Bernardo Silva - Manchester City - receive yellow card for a foul.
-MATCH_6: 9'	Alphonso Davies - FC Bayern München - receive yellow card for a foul.
-MATCH_6: 55'	Harry Kane - FC Bayern München - receive yellow card for a foul.
-MATCH_6: 89'	Thomas Partey - Arsenal - receive yellow card for a foul.
-MATCH_7: 34'	Sergi Roberto - Barcelona - receive yellow card for a foul.
-MATCH_7: 65'	Vitinha - Paris Saint Germain - receive yellow card for a foul.
-MATCH_7: 82'	Pau Cubarsí - Barcelona - receive yellow card for a foul.
-MATCH_7: 88'	Andreas Christensen - Barcelona - receive yellow card for a foul.
-MATCH_7: 89'	Fermín López - Barcelona - receive yellow card.
-MATCH_7: 89'	Beraldo - Paris Saint Germain - receive yellow card for a foul.
-MATCH_8: 24'	Emre Can - Borussia Dortmund - receive yellow card for a foul.
-MATCH_8: 27'	Samuel Lino - Atletico Madrid - receive yellow card for a foul.
-MATCH_8: 28'	Marcos Llorente - Atletico Madrid - receive yellow card.
-MATCH_8: 53'	Ian Maatsen - Borussia Dortmund - receive yellow card for a foul.
-MATCH_8: 75'	José Giménez - Atletico Madrid - receive yellow card for a foul.
-MATCH_9: 30'	César Azpilicueta - Atletico Madrid - receive yellow card for a foul.
-MATCH_9: 43'	Julian Ryerson - Borussia Dortmund - receive yellow card for a foul.
-MATCH_9: 45+1'	Mario Hermoso - Atletico Madrid - receive yellow card for a foul.
-MATCH_10: 40'	Iñigo Martínez - Barcelona - receive yellow card.
-MATCH_10: 40'	Kylian Mbappé - Paris Saint Germain - receive yellow card.
-MATCH_10: 45+1'	Fabián Ruiz - Paris Saint Germain - receive yellow card for a foul.
-MATCH_10: 50'	Robert Lewandowski - Barcelona - receive yellow card for a foul.
-MATCH_10: 62'	Marquinhos - Paris Saint Germain - receive yellow card for a foul.
-MATCH_10: 65'	Ilkay Gündogan - Barcelona - receive yellow card.
-MATCH_10: 87'	Gianluigi Donnarumma - Paris Saint Germain - receive yellow card.
-MATCH_10: 90+7'	Raphinha - Barcelona - receive yellow card.
-MATCH_10: 90+7'	Fermín López - Barcelona - receive yellow card for a foul.
-MATCH_11: 38'	Dani Carvajal - Real Madrid - receive yellow card for a foul.
-MATCH_11: 59'	Jack Grealish - Manchester City - receive yellow card for a foul.
-MATCH_11: 61'	Josko Gvardiol - Manchester City - receive yellow card for a foul.
-MATCH_11: 90'	Rodri - Manchester City - receive yellow card for a foul.
-MATCH_11: 90+4'	Ferland Mendy - Real Madrid - receive yellow card for a foul.
-MATCH_12: 54'	Konrad Laimer - FC Bayern München - receive yellow card for a foul.
-MATCH_12: 84'	Ben White - Arsenal - receive yellow card for a foul.
-MATCH_12: 90+2'	Joshua Kimmich - FC Bayern München - receive yellow card for a foul.
-MATCH_12: 90+3'	Gabriel Jesus - Arsenal - receive yellow card.
-MATCH_13: 53'	Mohamed Simakan - RB Leipzig - receive yellow card.
-MATCH_13: 66'	Dani Carvajal - Real Madrid - receive yellow card for a foul.
-MATCH_13: 77'	Yussuf Poulsen - RB Leipzig - receive yellow card for a foul.
-MATCH_13: 85'	Vinícius Júnior - Real Madrid - receive yellow card.
-MATCH_13: 85'	Benjamin Sesko - RB Leipzig - receive yellow card for a foul.
-MATCH_14: 71'	Rasmus Falk - FC Copenhagen - receive yellow card.
-MATCH_14: 74'	Kevin Diks - FC Copenhagen - receive yellow card for a foul.
-MATCH_15: 36'	Robin Le Normand - Real Sociedad - receive yellow card for a foul.
-MATCH_15: 90+2'	Hamari Traoré - Real Sociedad - receive yellow card for a foul.
-MATCH_16: 68'	Joshua Kimmich - FC Bayern München - receive yellow card.
-MATCH_17: 22'	Hirving Lozano - PSV Eindhoven - receive yellow card for a foul.
-MATCH_17: 42'	Ian Maatsen - Borussia Dortmund - receive yellow card for a foul.
-MATCH_17: 45+1'	Nico Schlotterbeck - Borussia Dortmund - receive yellow card for a foul.
-MATCH_18: 53'	Mario Hermoso - Atletico Madrid - receive yellow card for a foul.
-MATCH_18: 82'	Stefan Savic - Atletico Madrid - receive yellow card.
-MATCH_18: 84'	Álvaro Morata - Atletico Madrid - receive yellow card for a foul.
-MATCH_18: 86'	Davide Frattesi - Inter Milan - receive yellow card for a foul.
-MATCH_18: 90+2'	Koke - Atletico Madrid - receive yellow card.
-MATCH_18: 90+4'	Carlos Augusto - Inter Milan - receive yellow card for a foul.
-MATCH_19: 2'	Declan Rice - Arsenal - receive yellow card for a foul.
-MATCH_19: 52'	Francisco Conceição - FC Porto - receive yellow card for a foul.
-MATCH_19: 57'	Jakub Kiwior - Arsenal - receive yellow card for a foul.
-MATCH_19: 60'	Kai Havertz - Arsenal - receive yellow card for a foul.
-MATCH_19: 62'	Nico González - FC Porto - receive yellow card for a foul.
-MATCH_20: 16'	Frenkie de Jong - Barcelona - receive yellow card for a foul.
-MATCH_20: 76'	Íñigo Martínez - Barcelona - receive yellow card.
-MATCH_20: 78'	Andreas Christensen - Barcelona - receive yellow card for a foul.
-MATCH_21: 28'	Nuno Mendes - Paris Saint Germain - receive yellow card for a foul.
-MATCH_21: 41'	Achraf Hakimi - Paris Saint Germain - receive yellow card for a foul.
-MATCH_21: 42'	Takefusa Kubo - Real Sociedad - receive yellow card for a foul.
-MATCH_21: 45+4'	Ousmane Dembélé - Paris Saint Germain - receive yellow card for a foul.
-MATCH_21: 54'	Igor Zubeldia - Real Sociedad - receive yellow card for a foul.
-MATCH_22: 80'	Alessio Romagnoli - Lazio - receive yellow card for a foul.
-MATCH_22: 89'	Danilo Cataldi - Lazio - receive yellow card for a foul.
-MATCH_22: 90+2'	Luca Pellegrini - Lazio - receive yellow card for a foul.
-MATCH_23: 20'	Xaver Schlager - RB Leipzig - receive yellow card for a foul.
-MATCH_23: 50'	David Raum - RB Leipzig - receive yellow card for a foul.
-MATCH_23: 54'	Vinícius Júnior - Real Madrid - receive yellow card.
-MATCH_23: 71'	Willi Orbán - RB Leipzig - receive yellow card for a foul.
-MATCH_23: 73'	Aurélien Tchouaméni - Real Madrid - receive yellow card for a foul.
-MATCH_23: 75'	Toni Kroos - Real Madrid - receive yellow card for a foul.
-MATCH_24: 84'	Andreas Cornelius - FC Copenhagen - receive yellow card for a foul.
-MATCH_24: 90'	Magnus Mattsson - FC Copenhagen - receive yellow card for a foul.
-MATCH_25: 19'	Andreas Christensen - Barcelona - receive yellow card for a foul.
-MATCH_25: 44'	Lamine Yamal - Barcelona - receive yellow card for a foul.
-MATCH_25: 45+2'	Juan Jesus - Napoli - receive yellow card for a foul.
-MATCH_25: 63'	Hamed Traorè - Napoli - receive yellow card for a foul.
-MATCH_25: 67'	Mathías Olivera - Napoli - receive yellow card for a foul.
-MATCH_26: 39'	William Saliba - Arsenal - receive yellow card for a foul.
-MATCH_26: 73'	Pepe - FC Porto - receive yellow card for a foul.
-MATCH_26: 116'	Kai Havertz - Arsenal - receive yellow card for a foul.
-MATCH_27: 88'	Niklas Süle - Borussia Dortmund - receive yellow card for a foul.
-MATCH_27: 89'	Felix Nmecha - Borussia Dortmund - receive yellow card for a foul.
-MATCH_28: 41'	Mario Hermoso - Atletico Madrid - receive yellow card for a foul.
-MATCH_28: 90'	Koke - Atletico Madrid - receive yellow card for a foul.
-MATCH_28: 104'	Hakan Çalhanoglu - Inter Milan - receive yellow card for a foul.
-MATCH_28: 105+2'	Francesco Acerbi - Inter Milan - receive yellow card for a foul.
-MATCH_28: 118'	Yann Bisseck - Inter Milan - receive yellow card for a foul.
-MATCH_29: 45'	Loris Benito - Young Boys - receive yellow card for a foul.
-MATCH_29: 55'	Kevin Kampl - RB Leipzig - receive yellow card.
-MATCH_29: 61'	Sandro Lauper - Young Boys - receive yellow card for a foul.
-MATCH_29: 67'	Xavi Simons - RB Leipzig - receive yellow card.
-MATCH_29: 77'	Lewin Blum - Young Boys - receive yellow card for a foul.
-MATCH_29: 80'	Emil Forsberg - RB Leipzig - receive yellow card.
-MATCH_29: 90'	Mohamed Simakan - RB Leipzig - receive yellow card for a foul.
+MATCH_0 35'	Vinícius Júnior - Real Madrid - receive yellow card for a foul.
+MATCH_0 40'	Nico Schlotterbeck - Borussia Dortmund - receive yellow card.
+MATCH_0 43'	Marcel Sabitzer - Borussia Dortmund - receive yellow card.
+MATCH_0 79'	Mats Hummels - Borussia Dortmund - receive yellow card for a foul.
+MATCH_1 43'	Noussair Mazraoui - FC Bayern München - receive yellow card for a foul.
+MATCH_1 64'	Toni Kroos - Real Madrid - receive yellow card for a foul.
+MATCH_1 82'	Kim Min-Jae - FC Bayern München - receive yellow card for a foul.
+MATCH_1 90+1'	Lucas Vázquez - Real Madrid - receive yellow card for a foul.
+MATCH_2 19'	Ian Maatsen - Borussia Dortmund - receive yellow card for a foul.
+MATCH_2 53'	Fabián Ruiz - Paris Saint Germain - receive yellow card for a foul.
+MATCH_2 73'	Nico Schlotterbeck - Borussia Dortmund - receive yellow card for a foul.
+MATCH_3 64'	Marcel Sabitzer - Borussia Dortmund - receive yellow card for a foul.
+MATCH_3 65'	Mats Hummels - Borussia Dortmund - receive yellow card for a foul.
+MATCH_3 75'	Ousmane Dembélé - Paris Saint Germain - receive yellow card for a foul.
+MATCH_3 84'	Achraf Hakimi - Paris Saint Germain - receive yellow card.
+MATCH_4 90+11'	Eduardo Camavinga - Real Madrid - receive yellow card.
+MATCH_5 1'	Aurélien Tchouaméni - Real Madrid - receive yellow card for a foul.
+MATCH_5 37'	Manuel Akanji - Manchester City - receive yellow card for a foul.
+MATCH_5 81'	Dani Carvajal - Real Madrid - receive yellow card.
+MATCH_5 88'	Bernardo Silva - Manchester City - receive yellow card for a foul.
+MATCH_6 9'	Alphonso Davies - FC Bayern München - receive yellow card for a foul.
+MATCH_6 55'	Harry Kane - FC Bayern München - receive yellow card for a foul.
+MATCH_6 89'	Thomas Partey - Arsenal - receive yellow card for a foul.
+MATCH_7 34'	Sergi Roberto - Barcelona - receive yellow card for a foul.
+MATCH_7 65'	Vitinha - Paris Saint Germain - receive yellow card for a foul.
+MATCH_7 82'	Pau Cubarsí - Barcelona - receive yellow card for a foul.
+MATCH_7 88'	Andreas Christensen - Barcelona - receive yellow card for a foul.
+MATCH_7 89'	Fermín López - Barcelona - receive yellow card.
+MATCH_7 89'	Beraldo - Paris Saint Germain - receive yellow card for a foul.
+MATCH_8 24'	Emre Can - Borussia Dortmund - receive yellow card for a foul.
+MATCH_8 27'	Samuel Lino - Atletico Madrid - receive yellow card for a foul.
+MATCH_8 28'	Marcos Llorente - Atletico Madrid - receive yellow card.
+MATCH_8 53'	Ian Maatsen - Borussia Dortmund - receive yellow card for a foul.
+MATCH_8 75'	José Giménez - Atletico Madrid - receive yellow card for a foul.
+MATCH_9 30'	César Azpilicueta - Atletico Madrid - receive yellow card for a foul.
+MATCH_9 43'	Julian Ryerson - Borussia Dortmund - receive yellow card for a foul.
+MATCH_9 45+1'	Mario Hermoso - Atletico Madrid - receive yellow card for a foul.
+MATCH_10 40'	Iñigo Martínez - Barcelona - receive yellow card.
+MATCH_10 40'	Kylian Mbappé - Paris Saint Germain - receive yellow card.
+MATCH_10 45+1'	Fabián Ruiz - Paris Saint Germain - receive yellow card for a foul.
+MATCH_10 50'	Robert Lewandowski - Barcelona - receive yellow card for a foul.
+MATCH_10 62'	Marquinhos - Paris Saint Germain - receive yellow card for a foul.
+MATCH_10 65'	Ilkay Gündogan - Barcelona - receive yellow card.
+MATCH_10 87'	Gianluigi Donnarumma - Paris Saint Germain - receive yellow card.
+MATCH_10 90+7'	Raphinha - Barcelona - receive yellow card.
+MATCH_10 90+7'	Fermín López - Barcelona - receive yellow card for a foul.
+MATCH_11 38'	Dani Carvajal - Real Madrid - receive yellow card for a foul.
+MATCH_11 59'	Jack Grealish - Manchester City - receive yellow card for a foul.
+MATCH_11 61'	Josko Gvardiol - Manchester City - receive yellow card for a foul.
+MATCH_11 90'	Rodri - Manchester City - receive yellow card for a foul.
+MATCH_11 90+4'	Ferland Mendy - Real Madrid - receive yellow card for a foul.
+MATCH_12 54'	Konrad Laimer - FC Bayern München - receive yellow card for a foul.
+MATCH_12 84'	Ben White - Arsenal - receive yellow card for a foul.
+MATCH_12 90+2'	Joshua Kimmich - FC Bayern München - receive yellow card for a foul.
+MATCH_12 90+3'	Gabriel Jesus - Arsenal - receive yellow card.
+MATCH_13 53'	Mohamed Simakan - RB Leipzig - receive yellow card.
+MATCH_13 66'	Dani Carvajal - Real Madrid - receive yellow card for a foul.
+MATCH_13 77'	Yussuf Poulsen - RB Leipzig - receive yellow card for a foul.
+MATCH_13 85'	Vinícius Júnior - Real Madrid - receive yellow card.
+MATCH_13 85'	Benjamin Sesko - RB Leipzig - receive yellow card for a foul.
+MATCH_14 71'	Rasmus Falk - FC Copenhagen - receive yellow card.
+MATCH_14 74'	Kevin Diks - FC Copenhagen - receive yellow card for a foul.
+MATCH_15 36'	Robin Le Normand - Real Sociedad - receive yellow card for a foul.
+MATCH_15 90+2'	Hamari Traoré - Real Sociedad - receive yellow card for a foul.
+MATCH_16 68'	Joshua Kimmich - FC Bayern München - receive yellow card.
+MATCH_17 22'	Hirving Lozano - PSV Eindhoven - receive yellow card for a foul.
+MATCH_17 42'	Ian Maatsen - Borussia Dortmund - receive yellow card for a foul.
+MATCH_17 45+1'	Nico Schlotterbeck - Borussia Dortmund - receive yellow card for a foul.
+MATCH_18 53'	Mario Hermoso - Atletico Madrid - receive yellow card for a foul.
+MATCH_18 82'	Stefan Savic - Atletico Madrid - receive yellow card.
+MATCH_18 84'	Álvaro Morata - Atletico Madrid - receive yellow card for a foul.
+MATCH_18 86'	Davide Frattesi - Inter Milan - receive yellow card for a foul.
+MATCH_18 90+2'	Koke - Atletico Madrid - receive yellow card.
+MATCH_18 90+4'	Carlos Augusto - Inter Milan - receive yellow card for a foul.
+MATCH_19 2'	Declan Rice - Arsenal - receive yellow card for a foul.
+MATCH_19 52'	Francisco Conceição - FC Porto - receive yellow card for a foul.
+MATCH_19 57'	Jakub Kiwior - Arsenal - receive yellow card for a foul.
+MATCH_19 60'	Kai Havertz - Arsenal - receive yellow card for a foul.
+MATCH_19 62'	Nico González - FC Porto - receive yellow card for a foul.
+MATCH_20 16'	Frenkie de Jong - Barcelona - receive yellow card for a foul.
+MATCH_20 76'	Íñigo Martínez - Barcelona - receive yellow card.
+MATCH_20 78'	Andreas Christensen - Barcelona - receive yellow card for a foul.
+MATCH_21 28'	Nuno Mendes - Paris Saint Germain - receive yellow card for a foul.
+MATCH_21 41'	Achraf Hakimi - Paris Saint Germain - receive yellow card for a foul.
+MATCH_21 42'	Takefusa Kubo - Real Sociedad - receive yellow card for a foul.
+MATCH_21 45+4'	Ousmane Dembélé - Paris Saint Germain - receive yellow card for a foul.
+MATCH_21 54'	Igor Zubeldia - Real Sociedad - receive yellow card for a foul.
+MATCH_22 80'	Alessio Romagnoli - Lazio - receive yellow card for a foul.
+MATCH_22 89'	Danilo Cataldi - Lazio - receive yellow card for a foul.
+MATCH_22 90+2'	Luca Pellegrini - Lazio - receive yellow card for a foul.
+MATCH_23 20'	Xaver Schlager - RB Leipzig - receive yellow card for a foul.
+MATCH_23 50'	David Raum - RB Leipzig - receive yellow card for a foul.
+MATCH_23 54'	Vinícius Júnior - Real Madrid - receive yellow card.
+MATCH_23 71'	Willi Orbán - RB Leipzig - receive yellow card for a foul.
+MATCH_23 73'	Aurélien Tchouaméni - Real Madrid - receive yellow card for a foul.
+MATCH_23 75'	Toni Kroos - Real Madrid - receive yellow card for a foul.
+MATCH_24 84'	Andreas Cornelius - FC Copenhagen - receive yellow card for a foul.
+MATCH_24 90'	Magnus Mattsson - FC Copenhagen - receive yellow card for a foul.
+MATCH_25 19'	Andreas Christensen - Barcelona - receive yellow card for a foul.
+MATCH_25 44'	Lamine Yamal - Barcelona - receive yellow card for a foul.
+MATCH_25 45+2'	Juan Jesus - Napoli - receive yellow card for a foul.
+MATCH_25 63'	Hamed Traorè - Napoli - receive yellow card for a foul.
+MATCH_25 67'	Mathías Olivera - Napoli - receive yellow card for a foul.
+MATCH_26 39'	William Saliba - Arsenal - receive yellow card for a foul.
+MATCH_26 73'	Pepe - FC Porto - receive yellow card for a foul.
+MATCH_26 116'	Kai Havertz - Arsenal - receive yellow card for a foul.
+MATCH_27 88'	Niklas Süle - Borussia Dortmund - receive yellow card for a foul.
+MATCH_27 89'	Felix Nmecha - Borussia Dortmund - receive yellow card for a foul.
+MATCH_28 41'	Mario Hermoso - Atletico Madrid - receive yellow card for a foul.
+MATCH_28 90'	Koke - Atletico Madrid - receive yellow card for a foul.
+MATCH_28 104'	Hakan Çalhanoglu - Inter Milan - receive yellow card for a foul.
+MATCH_28 105+2'	Francesco Acerbi - Inter Milan - receive yellow card for a foul.
+MATCH_28 118'	Yann Bisseck - Inter Milan - receive yellow card for a foul.
+MATCH_29 45'	Loris Benito - Young Boys - receive yellow card for a foul.
+MATCH_29 55'	Kevin Kampl - RB Leipzig - receive yellow card.
+MATCH_29 61'	Sandro Lauper - Young Boys - receive yellow card for a foul.
+MATCH_29 67'	Xavi Simons - RB Leipzig - receive yellow card.
+MATCH_29 77'	Lewin Blum - Young Boys - receive yellow card for a foul.
+MATCH_29 80'	Emil Forsberg - RB Leipzig - receive yellow card.
+MATCH_29 90'	Mohamed Simakan - RB Leipzig - receive yellow card for a foul.

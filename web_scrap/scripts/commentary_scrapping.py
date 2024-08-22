@@ -10,6 +10,34 @@ urls_from_file = []
 file_path = 'web_scrap/txt_files/urls.txt'
 
 
+urls = []
+file_path = 'web_scrap/txt_files/urls.txt'
+
+
+with open(file_path, 'r', encoding="utf-8") as file:
+    for line in file:
+        urls.append(line.strip())
+
+matches = []
+
+for ur_l in urls:
+
+    url_1 = ur_l
+    page = requests.get(url_1)
+    soup1 = BeautifulSoup(page.content, 'html.parser')
+    element_text = soup1.title.string
+    if element_text != '':
+        text = element_text.replace("Live Text Updates:", "")
+        text = text.replace(" - Sports Mole", "").strip()
+        matches.append(text)
+    else:
+        print('Element not found')
+
+with open("web_scrap/txt_files/matches.txt", "w", encoding="utf-8") as file:
+    for match_ in matches:
+        file.write(match_ + "\n")
+
+
 with open(file_path, 'r') as file:
     for line in file:
         urls_from_file.append(line.strip())
@@ -38,7 +66,7 @@ for url in urls_from_file:
             span_element = time_element.find('span', class_=['bold vertical pl8', 'bold vertical pl4'])
             # Extract the text from the <span> element
             time_text = span_element.text.strip()
-            trimmed_time.append("MATCH_" + str(index) + ": " + time_text)
+            trimmed_time.append("MATCH_" + str(index) + " " + time_text)
 
         commentary_element = element.find(class_=['lc_text_x odd', 'lc_text_x even'])
         if commentary_element:
@@ -57,14 +85,3 @@ with open('web_scrap/txt_files/commentary.txt', 'w', encoding='utf-8') as file:
             for time, commentary in zip(times, commentaries):
                 file.write(f"{time}\t{commentary}\n")
 
-# list_a = []
-
-# # Example loop
-# for i in range(5):
-#     # Example content for 'whatever', assuming it's a list
-#     whatever = ["item1", "item2", "item3"]
-    
-#     # Convert 'whatever' to a string before concatenating
-#     list_a.append("ITSME" + str(i) + ": " + str(whatever))
-
-# print(list_a)

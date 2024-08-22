@@ -1,5 +1,5 @@
-MATCH_4: 73'	VAR Decision: No Goal Real Madrid 0-1 FC Bayern München.
-MATCH_4: 90+2'	VAR Decision: Goal Real Madrid 2-1 FC Bayern München - Joselu
-MATCH_27: 77'	GOAL OVERTURNED BY VAR: Niclas Füllkrug - Borussia Dortmund - scores but the goal is ruled out after a VAR review.
-MATCH_27: 78'	VAR Decision: No Goal Borussia Dortmund 1-0 PSV Eindhoven.
-MATCH_29: 54'	VAR Decision: No Penalty RB Leipzig.
+MATCH_4 73'	VAR Decision: No Goal Real Madrid 0-1 FC Bayern München.
+MATCH_4 90+2'	VAR Decision: Goal Real Madrid 2-1 FC Bayern München - Joselu
+MATCH_27 77'	GOAL OVERTURNED BY VAR: Niclas Füllkrug - Borussia Dortmund - scores but the goal is ruled out after a VAR review.
+MATCH_27 78'	VAR Decision: No Goal Borussia Dortmund 1-0 PSV Eindhoven.
+MATCH_29 54'	VAR Decision: No Penalty RB Leipzig.

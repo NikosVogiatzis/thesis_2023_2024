@@ -1,310 +1,310 @@
-MATCH_0: 6'	Corner - Borussia Dortmund. Conceded by Ferland Mendy.
-MATCH_0: 21'	Corner - Borussia Dortmund. Conceded by Dani Carvajal.
-MATCH_0: 29'	Corner - Real Madrid. Conceded by Karim Adeyemi.
-MATCH_0: 41'	Corner - Borussia Dortmund. Conceded by Thibaut Courtois.
-MATCH_0: 45+3'	Corner - Borussia Dortmund. Conceded by Ferland Mendy.
-MATCH_0: 45+4'	Corner - Borussia Dortmund. Conceded by Jude Bellingham.
-MATCH_0: 47'	Corner - Borussia Dortmund. Conceded by Jude Bellingham.
-MATCH_0: 49'	Corner - Real Madrid. Conceded by Gregor Kobel.
-MATCH_0: 51'	Corner - Borussia Dortmund. Conceded by Eduardo Camavinga.
-MATCH_0: 52'	Corner - Borussia Dortmund. Conceded by Ferland Mendy.
-MATCH_0: 64'	Corner - Real Madrid. Conceded by Julian Ryerson.
-MATCH_0: 65'	Corner - Real Madrid. Conceded by Nico Schlotterbeck.
-MATCH_0: 73'	Corner - Real Madrid. Conceded by Mats Hummels.
-MATCH_0: 73'	Corner - Real Madrid. Conceded by Ian Maatsen.
-MATCH_0: 77'	Corner - Real Madrid. Conceded by Nico Schlotterbeck.
-MATCH_0: 81'	Corner - Real Madrid. Conceded by Gregor Kobel.
-MATCH_0: 90+5'	Corner - Borussia Dortmund. Conceded by Éder Militão.
-MATCH_1: 5'	Corner - FC Bayern München. Conceded by Nacho.
-MATCH_1: 5'	Corner - FC Bayern München. Conceded by Federico Valverde.
-MATCH_1: 20'	Corner - Real Madrid. Conceded by Noussair Mazraoui.
-MATCH_1: 34'	Corner - Real Madrid. Conceded by Joshua Kimmich.
-MATCH_1: 38'	Corner - FC Bayern München. Conceded by Rodrygo.
-MATCH_1: 45'	Corner - Real Madrid. Conceded by Harry Kane.
-MATCH_1: 45'	Corner - Real Madrid. Conceded by Konrad Laimer.
-MATCH_1: 66'	Corner - FC Bayern München. Conceded by Antonio Rüdiger.
-MATCH_1: 70'	Corner - FC Bayern München. Conceded by Federico Valverde.
-MATCH_1: 71'	Corner - FC Bayern München. Conceded by Andriy Lunin.
-MATCH_1: 79'	Corner - Real Madrid. Conceded by Manuel Neuer.
-MATCH_2: 30'	Corner - Borussia Dortmund. Conceded by Achraf Hakimi.
-MATCH_2: 47'	Corner - Paris Saint Germain. Conceded by Nico Schlotterbeck.
-MATCH_2: 50'	Corner - Borussia Dortmund. Conceded by Warren Zaïre-Emery.
-MATCH_2: 52'	Corner - Paris Saint Germain. Conceded by Ian Maatsen.
-MATCH_2: 58'	Corner - Borussia Dortmund. Conceded by Marquinhos.
-MATCH_2: 78'	Corner - Paris Saint Germain. Conceded by Julian Ryerson.
-MATCH_2: 88'	Corner - Borussia Dortmund. Conceded by Beraldo.
-MATCH_3: 6'	Corner - Paris Saint Germain. Conceded by Karim Adeyemi.
-MATCH_3: 12'	Corner - Borussia Dortmund. Conceded by Beraldo.
-MATCH_3: 32'	Corner - Paris Saint Germain. Conceded by Nico Schlotterbeck.
-MATCH_3: 45'	Corner - Paris Saint Germain. Conceded by Nico Schlotterbeck.
-MATCH_3: 47'	Corner - Paris Saint Germain. Conceded by Julian Ryerson.
-MATCH_3: 49'	Corner - Borussia Dortmund. Conceded by Marquinhos.
-MATCH_3: 54'	Corner - Borussia Dortmund. Conceded by Kylian Mbappé.
-MATCH_3: 61'	Corner - Paris Saint Germain. Conceded by Ian Maatsen.
-MATCH_3: 62'	Corner - Paris Saint Germain. Conceded by Ian Maatsen.
-MATCH_3: 69'	Corner - Paris Saint Germain. Conceded by Ian Maatsen.
-MATCH_3: 76'	Corner - Borussia Dortmund. Conceded by Beraldo.
-MATCH_3: 79'	Corner - Paris Saint Germain. Conceded by Julian Ryerson.
-MATCH_3: 80'	Corner - Paris Saint Germain. Conceded by Julian Ryerson.
-MATCH_3: 80'	Corner - Paris Saint Germain. Conceded by Gregor Kobel.
-MATCH_3: 86'	Corner - Paris Saint Germain. Conceded by Gregor Kobel.
-MATCH_3: 90'	Corner - Paris Saint Germain. Conceded by Mats Hummels.
-MATCH_4: 1'	Corner - Real Madrid. Conceded by Joshua Kimmich.
-MATCH_4: 28'	Corner - FC Bayern München. Conceded by Andriy Lunin.
-MATCH_4: 40'	Corner - Real Madrid. Conceded by Manuel Neuer.
-MATCH_4: 40'	Corner - Real Madrid. Conceded by Noussair Mazraoui.
-MATCH_4: 47'	Corner - FC Bayern München. Conceded by Dani Carvajal.
-MATCH_4: 52'	Corner - Real Madrid. Conceded by Matthijs de Ligt.
-MATCH_4: 60'	Corner - Real Madrid. Conceded by Manuel Neuer.
-MATCH_4: 66'	Corner - FC Bayern München. Conceded by Andriy Lunin.
-MATCH_4: 71'	Corner - Real Madrid. Conceded by Eric Dier.
-MATCH_4: 81'	Corner - FC Bayern München. Conceded by Antonio Rüdiger.
-MATCH_4: 84'	Corner - Real Madrid. Conceded by Alphonso Davies.
-MATCH_4: 90'	Corner - Real Madrid. Conceded by Eric Dier.
-MATCH_5: 63'	Corner - Manchester City. Conceded by Dani Carvajal.
-MATCH_5: 72'	Corner - Real Madrid. Conceded by Manuel Akanji.
-MATCH_5: 73'	Corner - Real Madrid. Conceded by Stefan Ortega.
-MATCH_5: 75'	Corner - Manchester City. Conceded by Luka Modric.
-MATCH_5: 80'	Corner - Real Madrid. Conceded by John Stones.
-MATCH_5: 89'	Corner - Real Madrid. Conceded by John Stones.
-MATCH_6: 26'	Corner - Arsenal. Conceded by Serge Gnabry.
-MATCH_6: 42'	Corner - Arsenal. Conceded by Eric Dier.
-MATCH_6: 68'	Corner - FC Bayern München. Conceded by Declan Rice.
-MATCH_7: 2'	Corner - Paris Saint Germain. Conceded by Pau Cubarsí.
-MATCH_7: 9'	Corner - Paris Saint Germain. Conceded by Pau Cubarsí.
-MATCH_7: 16'	Corner - Paris Saint Germain. Conceded by Pau Cubarsí.
-MATCH_7: 20'	Corner - Barcelona. Conceded by Marquinhos.
-MATCH_7: 20'	Corner - Barcelona. Conceded by Marco Asensio.
-MATCH_7: 23'	Corner - Barcelona. Conceded by Gianluigi Donnarumma.
-MATCH_7: 33'	Corner - Barcelona. Conceded by Gianluigi Donnarumma.
-MATCH_7: 55'	Corner - Paris Saint Germain. Conceded by Marc-André ter Stegen.
-MATCH_7: 56'	Corner - Paris Saint Germain. Conceded by Raphinha.
-MATCH_7: 57'	Corner - Paris Saint Germain. Conceded by Ronald Araujo.
-MATCH_7: 76'	Corner - Barcelona. Conceded by Nuno Mendes.
-MATCH_7: 90+3'	Corner - Paris Saint Germain. Conceded by Ronald Araujo.
-MATCH_8: 2'	Corner - Atletico Madrid. Conceded by Ian Maatsen.
-MATCH_8: 7'	Corner - Atletico Madrid. Conceded by Mats Hummels.
-MATCH_8: 7'	Corner - Atletico Madrid. Conceded by Gregor Kobel.
-MATCH_8: 10'	Corner - Atletico Madrid. Conceded by Nico Schlotterbeck.
-MATCH_8: 17'	Corner - Atletico Madrid. Conceded by Nico Schlotterbeck.
-MATCH_8: 19'	Corner - Atletico Madrid. Conceded by Mats Hummels.
-MATCH_8: 24'	Corner - Atletico Madrid. Conceded by Jadon Sancho.
-MATCH_8: 31'	Corner - Borussia Dortmund. Conceded by José Giménez.
-MATCH_8: 35'	Corner - Borussia Dortmund. Conceded by Axel Witsel.
-MATCH_8: 36'	Corner - Borussia Dortmund. Conceded by Antoine Griezmann.
-MATCH_8: 45'	Corner - Atletico Madrid. Conceded by Mats Hummels.
-MATCH_8: 56'	Corner - Borussia Dortmund. Conceded by César Azpilicueta.
-MATCH_8: 71'	Corner - Borussia Dortmund. Conceded by Nahuel Molina.
-MATCH_8: 86'	Corner - Borussia Dortmund. Conceded by Axel Witsel.
-MATCH_8: 87'	Corner - Borussia Dortmund. Conceded by César Azpilicueta.
-MATCH_8: 88'	Corner - Borussia Dortmund. Conceded by Axel Witsel.
-MATCH_9: 4'	Corner - Borussia Dortmund. Conceded by César Azpilicueta.
-MATCH_9: 7'	Corner - Atletico Madrid. Conceded by Ian Maatsen.
-MATCH_9: 15'	Corner - Borussia Dortmund. Conceded by José Giménez.
-MATCH_9: 16'	Corner - Borussia Dortmund. Conceded by Nahuel Molina.
-MATCH_9: 49'	Corner - Atletico Madrid. Conceded by Nico Schlotterbeck.
-MATCH_9: 69'	Corner - Borussia Dortmund. Conceded by Koke.
-MATCH_9: 70'	Corner - Borussia Dortmund. Conceded by Rodrigo De Paul.
-MATCH_9: 87'	Corner - Borussia Dortmund. Conceded by Jan Oblak.
-MATCH_10: 7'	Corner - Paris Saint Germain. Conceded by João Cancelo.
-MATCH_10: 17'	Corner - Paris Saint Germain. Conceded by João Cancelo.
-MATCH_10: 25'	Corner - Paris Saint Germain. Conceded by Jules Koundé.
-MATCH_10: 28'	Corner - Paris Saint Germain. Conceded by Marc-André ter Stegen.
-MATCH_10: 45+5'	Corner - Paris Saint Germain. Conceded by Pau Cubarsí.
-MATCH_10: 49'	Corner - Paris Saint Germain. Conceded by Marc-André ter Stegen.
-MATCH_10: 54'	Corner - Paris Saint Germain. Conceded by Pedri.
-MATCH_10: 63'	Corner - Barcelona. Conceded by Bradley Barcola.
-MATCH_10: 69'	Corner - Paris Saint Germain. Conceded by João Cancelo.
-MATCH_10: 76'	Corner - Paris Saint Germain. Conceded by Raphinha.
-MATCH_10: 79'	Corner - Paris Saint Germain. Conceded by Jules Koundé.
-MATCH_10: 88'	Corner - Barcelona. Conceded by Marquinhos.
-MATCH_10: 89'	Corner - Barcelona. Conceded by Gianluigi Donnarumma.
-MATCH_11: 14'	Corner - Manchester City. Conceded by Antonio Rüdiger.
-MATCH_11: 15'	Corner - Manchester City. Conceded by Dani Carvajal.
-MATCH_11: 15'	Corner - Manchester City. Conceded by Andriy Lunin.
-MATCH_11: 27'	Corner - Manchester City. Conceded by Andriy Lunin.
-MATCH_11: 32'	Corner - Manchester City. Conceded by Dani Carvajal.
-MATCH_11: 34'	Corner - Manchester City. Conceded by Federico Valverde.
-MATCH_11: 36'	Corner - Manchester City. Conceded by Antonio Rüdiger.
-MATCH_11: 44'	Corner - Manchester City. Conceded by Dani Carvajal.
-MATCH_11: 45'	Corner - Manchester City. Conceded by Andriy Lunin.
-MATCH_11: 47'	Corner - Manchester City. Conceded by Ferland Mendy.
-MATCH_11: 51'	Corner - Manchester City. Conceded by Nacho.
-MATCH_11: 54'	Corner - Manchester City. Conceded by Federico Valverde.
-MATCH_11: 69'	Corner - Manchester City. Conceded by Dani Carvajal.
-MATCH_11: 87'	Corner - Manchester City. Conceded by Dani Carvajal.
-MATCH_11: 90+5'	Corner - Manchester City. Conceded by Nacho.
-MATCH_11: 95'	Corner - Manchester City. Conceded by Ferland Mendy.
-MATCH_11: 101'	Corner - Manchester City. Conceded by Antonio Rüdiger.
-MATCH_11: 105+1'	Corner - Real Madrid. Conceded by Rúben Dias.
-MATCH_11: 113'	Corner - Manchester City. Conceded by Antonio Rüdiger.
-MATCH_12: 16'	Corner - FC Bayern München. Conceded by Gabriel Magalhães.
-MATCH_12: 23'	Corner - FC Bayern München. Conceded by David Raya.
-MATCH_12: 34'	Corner - FC Bayern München. Conceded by Jorginho.
-MATCH_12: 47'	Corner - FC Bayern München. Conceded by William Saliba.
-MATCH_12: 57'	Corner - FC Bayern München. Conceded by Gabriel Magalhães.
-MATCH_12: 61'	Corner - FC Bayern München. Conceded by William Saliba.
-MATCH_12: 72'	Corner - FC Bayern München. Conceded by William Saliba.
-MATCH_12: 74'	Corner - Arsenal. Conceded by Eric Dier.
-MATCH_12: 74'	Corner - Arsenal. Conceded by Manuel Neuer.
-MATCH_12: 76'	Corner - FC Bayern München. Conceded by Declan Rice.
-MATCH_12: 90+5'	Corner - Arsenal. Conceded by Leon Goretzka.
-MATCH_13: 1'	Corner - RB Leipzig. Conceded by Dani Carvajal.
-MATCH_13: 8'	Corner - Real Madrid. Conceded by Lukas Klostermann.
-MATCH_13: 20'	Corner - RB Leipzig. Conceded by Aurélien Tchouaméni.
-MATCH_13: 42'	Corner - RB Leipzig. Conceded by Aurélien Tchouaméni.
-MATCH_13: 46'	Corner - RB Leipzig. Conceded by Dani Carvajal.
-MATCH_13: 51'	Corner - RB Leipzig. Conceded by Andriy Lunin.
-MATCH_13: 68'	Corner - Real Madrid. Conceded by David Raum.
-MATCH_13: 81'	Corner - RB Leipzig. Conceded by Andriy Lunin.
-MATCH_13: 84'	Corner - RB Leipzig. Conceded by Andriy Lunin.
-MATCH_13: 90+3'	Corner - Real Madrid. Conceded by Amadou Haidara.
-MATCH_14: 7'	Corner - Manchester City. Conceded by Elias Jelert.
-MATCH_14: 24'	Corner - FC Copenhagen. Conceded by Phil Foden.
-MATCH_14: 49'	Corner - FC Copenhagen. Conceded by Nathan Aké.
-MATCH_14: 54'	Corner - Manchester City. Conceded by Kamil Grabara.
-MATCH_14: 59'	Corner - Manchester City. Conceded by Elias Jelert.
-MATCH_14: 63'	Corner - Manchester City. Conceded by Elias Jelert.
-MATCH_14: 66'	Corner - Manchester City. Conceded by Scott McKenna.
-MATCH_14: 77'	Corner - Manchester City. Conceded by Scott McKenna.
-MATCH_15: 19'	Corner - Real Sociedad. Conceded by Beraldo.
-MATCH_15: 33'	Corner - Paris Saint Germain. Conceded by Robin Le Normand.
-MATCH_15: 34'	Corner - Paris Saint Germain. Conceded by Álex Remiro.
-MATCH_15: 38'	Corner - Paris Saint Germain. Conceded by André Silva.
-MATCH_15: 40'	Corner - Real Sociedad. Conceded by Fabián Ruiz.
-MATCH_15: 50'	Corner - Real Sociedad. Conceded by Danilo Pereira.
-MATCH_15: 51'	Corner - Real Sociedad. Conceded by Vitinha.
-MATCH_15: 53'	Corner - Real Sociedad. Conceded by Achraf Hakimi.
-MATCH_15: 55'	Corner - Paris Saint Germain. Conceded by Álex Remiro.
-MATCH_15: 56'	Corner - Paris Saint Germain. Conceded by Javi Galán.
-MATCH_15: 60'	Corner - Paris Saint Germain. Conceded by Brais Méndez.
-MATCH_15: 62'	Corner - Paris Saint Germain. Conceded by Martín Zubimendi.
-MATCH_15: 63'	Corner - Paris Saint Germain. Conceded by Álex Remiro.
-MATCH_15: 76'	Corner - Real Sociedad. Conceded by Lucas Hernández.
-MATCH_15: 84'	Corner - Paris Saint Germain. Conceded by Hamari Traoré.
-MATCH_15: 89'	Corner - Real Sociedad. Conceded by Marquinhos.
-MATCH_16: 10'	Corner - FC Bayern München. Conceded by Mario Gila.
-MATCH_16: 17'	Corner - Lazio. Conceded by Raphaël Guerreiro.
-MATCH_16: 49'	Corner - Lazio. Conceded by Kim Min-Jae.
-MATCH_16: 50'	Corner - Lazio. Conceded by Kim Min-Jae.
-MATCH_16: 52'	Corner - FC Bayern München. Conceded by Mario Gila.
-MATCH_16: 72'	Corner - FC Bayern München. Conceded by Alessio Romagnoli.
-MATCH_16: 86'	Corner - FC Bayern München. Conceded by Daichi Kamada.
-MATCH_16: 87'	Corner - FC Bayern München. Conceded by Manuel Lazzari.
-MATCH_17: 6'	Corner - PSV Eindhoven. Conceded by Mats Hummels.
-MATCH_17: 20'	Corner - Borussia Dortmund. Conceded by Jordan Teze.
-MATCH_17: 35'	Corner - PSV Eindhoven. Conceded by Ian Maatsen.
-MATCH_17: 40'	Corner - PSV Eindhoven. Conceded by Alexander Meyer.
-MATCH_17: 49'	Corner - PSV Eindhoven. Conceded by Marco Reus.
-MATCH_17: 52'	Corner - Borussia Dortmund. Conceded by Johan Bakayoko.
-MATCH_17: 59'	Corner - Borussia Dortmund. Conceded by Walter Benítez.
-MATCH_17: 60'	Corner - Borussia Dortmund. Conceded by Malik Tillman.
-MATCH_18: 38'	Corner - Inter Milan. Conceded by José Giménez.
-MATCH_18: 47'	Corner - Inter Milan. Conceded by Axel Witsel.
-MATCH_18: 57'	Corner - Atletico Madrid. Conceded by Stefan de Vrij.
-MATCH_18: 87'	Corner - Atletico Madrid. Conceded by Denzel Dumfries.
-MATCH_18: 90+1'	Corner - Inter Milan. Conceded by Reinildo.
-MATCH_19: 26'	Corner - Arsenal. Conceded by Alan Varela.
-MATCH_19: 34'	Corner - Arsenal. Conceded by Wendell.
-MATCH_19: 41'	Corner - Arsenal. Conceded by Wendell.
-MATCH_19: 42'	Corner - Arsenal. Conceded by João Mário.
-MATCH_19: 45'	Corner - Arsenal. Conceded by Wendell.
-MATCH_19: 55'	Corner - Arsenal. Conceded by Alan Varela.
-MATCH_19: 67'	Corner - FC Porto. Conceded by Declan Rice.
-MATCH_19: 71'	Corner - Arsenal. Conceded by Pepe.
-MATCH_19: 73'	Corner - Arsenal. Conceded by Wendell.
-MATCH_19: 79'	Corner - Arsenal. Conceded by Otávio.
-MATCH_19: 86'	Corner - Arsenal. Conceded by Otávio.
-MATCH_20: 5'	Corner - Barcelona. Conceded by Giovanni Di Lorenzo.
-MATCH_20: 18'	Corner - Napoli. Conceded by Ronald Araújo.
-MATCH_20: 22'	Corner - Barcelona. Conceded by Alex Meret.
-MATCH_20: 39'	Corner - Napoli. Conceded by Lamine Yamal.
-MATCH_20: 53'	Corner - Barcelona. Conceded by Juan Jesus.
-MATCH_20: 64'	Corner - Napoli. Conceded by Frenkie de Jong.
-MATCH_20: 66'	Corner - Barcelona. Conceded by Alex Meret.
-MATCH_20: 83'	Corner - Napoli. Conceded by Andreas Christensen.
-MATCH_20: 84'	Corner - Napoli. Conceded by Ronald Araújo.
-MATCH_20: 84'	Corner - Napoli. Conceded by Pedri.
-MATCH_20: 85'	Corner - Napoli. Conceded by Robert Lewandowski.
-MATCH_21: 7'	Corner - Real Sociedad. Conceded by Nuno Mendes.
-MATCH_21: 29'	Corner - Paris Saint Germain. Conceded by Álex Remiro.
-MATCH_21: 43'	Corner - Paris Saint Germain. Conceded by Igor Zubeldia.
-MATCH_21: 51'	Corner - Real Sociedad. Conceded by Nuno Mendes.
-MATCH_21: 55'	Corner - Paris Saint Germain. Conceded by Martín Zubimendi.
-MATCH_21: 66'	Corner - Real Sociedad. Conceded by Nordi Mukiele.
-MATCH_21: 75'	Corner - Real Sociedad. Conceded by Lee Kang-In.
-MATCH_21: 75'	Corner - Real Sociedad. Conceded by Beraldo.
-MATCH_21: 89'	Corner - Real Sociedad. Conceded by Nordi Mukiele.
-MATCH_21: 90+2'	Corner - Paris Saint Germain. Conceded by Jon Pacheco.
-MATCH_22: 8'	Corner - FC Bayern München. Conceded by Mario Gila.
-MATCH_22: 11'	Corner - Lazio. Conceded by Joshua Kimmich.
-MATCH_22: 13'	Corner - FC Bayern München. Conceded by Felipe Anderson.
-MATCH_22: 17'	Corner - FC Bayern München. Conceded by Mario Gila.
-MATCH_22: 34'	Corner - FC Bayern München. Conceded by Adam Marusic.
-MATCH_22: 45+1'	Corner - FC Bayern München. Conceded by Adam Marusic.
-MATCH_22: 55'	Corner - FC Bayern München. Conceded by Mattéo Guendouzi.
-MATCH_22: 72'	Corner - Lazio. Conceded by Aleksandar Pavlovic.
-MATCH_22: 79'	Corner - Lazio. Conceded by Aleksandar Pavlovic.
-MATCH_23: 5'	Corner - RB Leipzig. Conceded by Dani Carvajal.
-MATCH_23: 26'	Corner - Real Madrid. Conceded by Willi Orbán.
-MATCH_23: 39'	Corner - RB Leipzig. Conceded by Aurélien Tchouaméni.
-MATCH_23: 41'	Corner - RB Leipzig. Conceded by Ferland Mendy.
-MATCH_23: 63'	Corner - Real Madrid. Conceded by Péter Gulácsi.
-MATCH_23: 67'	Corner - RB Leipzig. Conceded by Antonio Rüdiger.
-MATCH_23: 67'	Corner - RB Leipzig. Conceded by Vinícius Júnior.
-MATCH_23: 70'	Corner - Real Madrid. Conceded by Amadou Haidara.
-MATCH_23: 82'	Corner - RB Leipzig. Conceded by Andriy Lunin.
-MATCH_23: 90+1'	Corner - RB Leipzig. Conceded by Ferland Mendy.
-MATCH_23: 90+3'	Corner - RB Leipzig. Conceded by Joselu.
-MATCH_24: 4'	Corner - Manchester City. Conceded by Elias Jelert.
-MATCH_24: 9'	Corner - Manchester City. Conceded by Denis Vavro.
-MATCH_24: 15'	Corner - FC Copenhagen. Conceded by Rodri.
-MATCH_24: 20'	Corner - Manchester City. Conceded by Kevin Diks.
-MATCH_24: 21'	Corner - Manchester City. Conceded by Victor Froholdt.
-MATCH_24: 68'	Corner - FC Copenhagen. Conceded by Rúben Dias.
-MATCH_24: 76'	Corner - FC Copenhagen. Conceded by Manuel Akanji.
-MATCH_24: 78'	Corner - FC Copenhagen. Conceded by John Stones.
-MATCH_25: 34'	Corner - Napoli. Conceded by Marc-André ter Stegen.
-MATCH_25: 45'	Corner - Barcelona. Conceded by Giovanni Di Lorenzo.
-MATCH_25: 45+3'	Corner - Barcelona. Conceded by Juan Jesus.
-MATCH_25: 50'	Corner - Napoli. Conceded by Pau Cubarsí.
-MATCH_25: 67'	Corner - Barcelona. Conceded by Alex Meret.
-MATCH_25: 74'	Corner - Barcelona. Conceded by Amir Rrahmani.
-MATCH_25: 86'	Corner - Barcelona. Conceded by Amir Rrahmani.
-MATCH_25: 86'	Corner - Barcelona. Conceded by Giovanni Di Lorenzo.
-MATCH_25: 87'	Corner - Barcelona. Conceded by Victor Osimhen.
-MATCH_26: 13'	Corner - Arsenal. Conceded by Otávio.
-MATCH_26: 29'	Corner - Arsenal. Conceded by Pepe.
-MATCH_26: 32'	Corner - Arsenal. Conceded by Wendell.
-MATCH_26: 57'	Corner - Arsenal. Conceded by Pepê Aquino.
-MATCH_26: 58'	Corner - Arsenal. Conceded by João Mário.
-MATCH_26: 83'	Corner - Arsenal. Conceded by Diogo Costa.
-MATCH_26: 87'	Corner - Arsenal. Conceded by Alan Varela.
-MATCH_26: 90+1'	Corner - Arsenal. Conceded by Alan Varela.
-MATCH_26: 97'	Corner - Arsenal. Conceded by Marko Grujic.
-MATCH_26: 108'	Corner - FC Porto. Conceded by Oleksandr Zinchenko.
-MATCH_27: 2'	Corner - Borussia Dortmund. Conceded by Walter Benítez.
-MATCH_27: 7'	Corner - Borussia Dortmund. Conceded by Olivier Boscagli.
-MATCH_27: 16'	Corner - Borussia Dortmund. Conceded by Walter Benítez.
-MATCH_27: 20'	Corner - Borussia Dortmund. Conceded by Johan Bakayoko.
-MATCH_27: 23'	Corner - PSV Eindhoven. Conceded by Niklas Süle.
-MATCH_27: 45'	Corner - PSV Eindhoven. Conceded by Niklas Süle.
-MATCH_27: 56'	Corner - PSV Eindhoven. Conceded by Gregor Kobel.
-MATCH_27: 71'	Corner - PSV Eindhoven. Conceded by Gregor Kobel.
-MATCH_27: 80'	Corner - Borussia Dortmund. Conceded by Jordan Teze.
-MATCH_28: 43'	Corner - Atletico Madrid. Conceded by Benjamin Pavard.
-MATCH_28: 75'	Corner - Atletico Madrid. Conceded by Benjamin Pavard.
-MATCH_28: 81'	Corner - Atletico Madrid. Conceded by Francesco Acerbi.
-MATCH_28: 82'	Corner - Atletico Madrid. Conceded by Benjamin Pavard.
-MATCH_28: 97'	Corner - Inter Milan. Conceded by Stefan Savic.
-MATCH_28: 120'	Corner - Atletico Madrid. Conceded by Yann Bisseck.
-MATCH_29: 2'	Corner - RB Leipzig. Conceded by Anthony Racioppi.
-MATCH_29: 8'	Corner - RB Leipzig. Conceded by Aurèle Amenda.
-MATCH_29: 11'	Corner - RB Leipzig. Conceded by Aurèle Amenda.
-MATCH_29: 19'	Corner - Young Boys. Conceded by Castello Lukeba.
-MATCH_29: 25'	Corner - RB Leipzig. Conceded by Filip Ugrinic.
-MATCH_29: 38'	Corner - Young Boys. Conceded by Xaver Schlager.
-MATCH_29: 48'	Corner - RB Leipzig. Conceded by Mohamed Ali Camara.
-MATCH_29: 60'	Corner - RB Leipzig. Conceded by Loris Benito.
-MATCH_29: 73'	Corner - RB Leipzig. Conceded by Anthony Racioppi.
-MATCH_29: 82'	Corner - Young Boys. Conceded by Mohamed Simakan.
+MATCH_0 6'	Corner - Borussia Dortmund. Conceded by Ferland Mendy.
+MATCH_0 21'	Corner - Borussia Dortmund. Conceded by Dani Carvajal.
+MATCH_0 29'	Corner - Real Madrid. Conceded by Karim Adeyemi.
+MATCH_0 41'	Corner - Borussia Dortmund. Conceded by Thibaut Courtois.
+MATCH_0 45+3'	Corner - Borussia Dortmund. Conceded by Ferland Mendy.
+MATCH_0 45+4'	Corner - Borussia Dortmund. Conceded by Jude Bellingham.
+MATCH_0 47'	Corner - Borussia Dortmund. Conceded by Jude Bellingham.
+MATCH_0 49'	Corner - Real Madrid. Conceded by Gregor Kobel.
+MATCH_0 51'	Corner - Borussia Dortmund. Conceded by Eduardo Camavinga.
+MATCH_0 52'	Corner - Borussia Dortmund. Conceded by Ferland Mendy.
+MATCH_0 64'	Corner - Real Madrid. Conceded by Julian Ryerson.
+MATCH_0 65'	Corner - Real Madrid. Conceded by Nico Schlotterbeck.
+MATCH_0 73'	Corner - Real Madrid. Conceded by Mats Hummels.
+MATCH_0 73'	Corner - Real Madrid. Conceded by Ian Maatsen.
+MATCH_0 77'	Corner - Real Madrid. Conceded by Nico Schlotterbeck.
+MATCH_0 81'	Corner - Real Madrid. Conceded by Gregor Kobel.
+MATCH_0 90+5'	Corner - Borussia Dortmund. Conceded by Éder Militão.
+MATCH_1 5'	Corner - FC Bayern München. Conceded by Nacho.
+MATCH_1 5'	Corner - FC Bayern München. Conceded by Federico Valverde.
+MATCH_1 20'	Corner - Real Madrid. Conceded by Noussair Mazraoui.
+MATCH_1 34'	Corner - Real Madrid. Conceded by Joshua Kimmich.
+MATCH_1 38'	Corner - FC Bayern München. Conceded by Rodrygo.
+MATCH_1 45'	Corner - Real Madrid. Conceded by Harry Kane.
+MATCH_1 45'	Corner - Real Madrid. Conceded by Konrad Laimer.
+MATCH_1 66'	Corner - FC Bayern München. Conceded by Antonio Rüdiger.
+MATCH_1 70'	Corner - FC Bayern München. Conceded by Federico Valverde.
+MATCH_1 71'	Corner - FC Bayern München. Conceded by Andriy Lunin.
+MATCH_1 79'	Corner - Real Madrid. Conceded by Manuel Neuer.
+MATCH_2 30'	Corner - Borussia Dortmund. Conceded by Achraf Hakimi.
+MATCH_2 47'	Corner - Paris Saint Germain. Conceded by Nico Schlotterbeck.
+MATCH_2 50'	Corner - Borussia Dortmund. Conceded by Warren Zaïre-Emery.
+MATCH_2 52'	Corner - Paris Saint Germain. Conceded by Ian Maatsen.
+MATCH_2 58'	Corner - Borussia Dortmund. Conceded by Marquinhos.
+MATCH_2 78'	Corner - Paris Saint Germain. Conceded by Julian Ryerson.
+MATCH_2 88'	Corner - Borussia Dortmund. Conceded by Beraldo.
+MATCH_3 6'	Corner - Paris Saint Germain. Conceded by Karim Adeyemi.
+MATCH_3 12'	Corner - Borussia Dortmund. Conceded by Beraldo.
+MATCH_3 32'	Corner - Paris Saint Germain. Conceded by Nico Schlotterbeck.
+MATCH_3 45'	Corner - Paris Saint Germain. Conceded by Nico Schlotterbeck.
+MATCH_3 47'	Corner - Paris Saint Germain. Conceded by Julian Ryerson.
+MATCH_3 49'	Corner - Borussia Dortmund. Conceded by Marquinhos.
+MATCH_3 54'	Corner - Borussia Dortmund. Conceded by Kylian Mbappé.
+MATCH_3 61'	Corner - Paris Saint Germain. Conceded by Ian Maatsen.
+MATCH_3 62'	Corner - Paris Saint Germain. Conceded by Ian Maatsen.
+MATCH_3 69'	Corner - Paris Saint Germain. Conceded by Ian Maatsen.
+MATCH_3 76'	Corner - Borussia Dortmund. Conceded by Beraldo.
+MATCH_3 79'	Corner - Paris Saint Germain. Conceded by Julian Ryerson.
+MATCH_3 80'	Corner - Paris Saint Germain. Conceded by Julian Ryerson.
+MATCH_3 80'	Corner - Paris Saint Germain. Conceded by Gregor Kobel.
+MATCH_3 86'	Corner - Paris Saint Germain. Conceded by Gregor Kobel.
+MATCH_3 90'	Corner - Paris Saint Germain. Conceded by Mats Hummels.
+MATCH_4 1'	Corner - Real Madrid. Conceded by Joshua Kimmich.
+MATCH_4 28'	Corner - FC Bayern München. Conceded by Andriy Lunin.
+MATCH_4 40'	Corner - Real Madrid. Conceded by Manuel Neuer.
+MATCH_4 40'	Corner - Real Madrid. Conceded by Noussair Mazraoui.
+MATCH_4 47'	Corner - FC Bayern München. Conceded by Dani Carvajal.
+MATCH_4 52'	Corner - Real Madrid. Conceded by Matthijs de Ligt.
+MATCH_4 60'	Corner - Real Madrid. Conceded by Manuel Neuer.
+MATCH_4 66'	Corner - FC Bayern München. Conceded by Andriy Lunin.
+MATCH_4 71'	Corner - Real Madrid. Conceded by Eric Dier.
+MATCH_4 81'	Corner - FC Bayern München. Conceded by Antonio Rüdiger.
+MATCH_4 84'	Corner - Real Madrid. Conceded by Alphonso Davies.
+MATCH_4 90'	Corner - Real Madrid. Conceded by Eric Dier.
+MATCH_5 63'	Corner - Manchester City. Conceded by Dani Carvajal.
+MATCH_5 72'	Corner - Real Madrid. Conceded by Manuel Akanji.
+MATCH_5 73'	Corner - Real Madrid. Conceded by Stefan Ortega.
+MATCH_5 75'	Corner - Manchester City. Conceded by Luka Modric.
+MATCH_5 80'	Corner - Real Madrid. Conceded by John Stones.
+MATCH_5 89'	Corner - Real Madrid. Conceded by John Stones.
+MATCH_6 26'	Corner - Arsenal. Conceded by Serge Gnabry.
+MATCH_6 42'	Corner - Arsenal. Conceded by Eric Dier.
+MATCH_6 68'	Corner - FC Bayern München. Conceded by Declan Rice.
+MATCH_7 2'	Corner - Paris Saint Germain. Conceded by Pau Cubarsí.
+MATCH_7 9'	Corner - Paris Saint Germain. Conceded by Pau Cubarsí.
+MATCH_7 16'	Corner - Paris Saint Germain. Conceded by Pau Cubarsí.
+MATCH_7 20'	Corner - Barcelona. Conceded by Marquinhos.
+MATCH_7 20'	Corner - Barcelona. Conceded by Marco Asensio.
+MATCH_7 23'	Corner - Barcelona. Conceded by Gianluigi Donnarumma.
+MATCH_7 33'	Corner - Barcelona. Conceded by Gianluigi Donnarumma.
+MATCH_7 55'	Corner - Paris Saint Germain. Conceded by Marc-André ter Stegen.
+MATCH_7 56'	Corner - Paris Saint Germain. Conceded by Raphinha.
+MATCH_7 57'	Corner - Paris Saint Germain. Conceded by Ronald Araujo.
+MATCH_7 76'	Corner - Barcelona. Conceded by Nuno Mendes.
+MATCH_7 90+3'	Corner - Paris Saint Germain. Conceded by Ronald Araujo.
+MATCH_8 2'	Corner - Atletico Madrid. Conceded by Ian Maatsen.
+MATCH_8 7'	Corner - Atletico Madrid. Conceded by Mats Hummels.
+MATCH_8 7'	Corner - Atletico Madrid. Conceded by Gregor Kobel.
+MATCH_8 10'	Corner - Atletico Madrid. Conceded by Nico Schlotterbeck.
+MATCH_8 17'	Corner - Atletico Madrid. Conceded by Nico Schlotterbeck.
+MATCH_8 19'	Corner - Atletico Madrid. Conceded by Mats Hummels.
+MATCH_8 24'	Corner - Atletico Madrid. Conceded by Jadon Sancho.
+MATCH_8 31'	Corner - Borussia Dortmund. Conceded by José Giménez.
+MATCH_8 35'	Corner - Borussia Dortmund. Conceded by Axel Witsel.
+MATCH_8 36'	Corner - Borussia Dortmund. Conceded by Antoine Griezmann.
+MATCH_8 45'	Corner - Atletico Madrid. Conceded by Mats Hummels.
+MATCH_8 56'	Corner - Borussia Dortmund. Conceded by César Azpilicueta.
+MATCH_8 71'	Corner - Borussia Dortmund. Conceded by Nahuel Molina.
+MATCH_8 86'	Corner - Borussia Dortmund. Conceded by Axel Witsel.
+MATCH_8 87'	Corner - Borussia Dortmund. Conceded by César Azpilicueta.
+MATCH_8 88'	Corner - Borussia Dortmund. Conceded by Axel Witsel.
+MATCH_9 4'	Corner - Borussia Dortmund. Conceded by César Azpilicueta.
+MATCH_9 7'	Corner - Atletico Madrid. Conceded by Ian Maatsen.
+MATCH_9 15'	Corner - Borussia Dortmund. Conceded by José Giménez.
+MATCH_9 16'	Corner - Borussia Dortmund. Conceded by Nahuel Molina.
+MATCH_9 49'	Corner - Atletico Madrid. Conceded by Nico Schlotterbeck.
+MATCH_9 69'	Corner - Borussia Dortmund. Conceded by Koke.
+MATCH_9 70'	Corner - Borussia Dortmund. Conceded by Rodrigo De Paul.
+MATCH_9 87'	Corner - Borussia Dortmund. Conceded by Jan Oblak.
+MATCH_10 7'	Corner - Paris Saint Germain. Conceded by João Cancelo.
+MATCH_10 17'	Corner - Paris Saint Germain. Conceded by João Cancelo.
+MATCH_10 25'	Corner - Paris Saint Germain. Conceded by Jules Koundé.
+MATCH_10 28'	Corner - Paris Saint Germain. Conceded by Marc-André ter Stegen.
+MATCH_10 45+5'	Corner - Paris Saint Germain. Conceded by Pau Cubarsí.
+MATCH_10 49'	Corner - Paris Saint Germain. Conceded by Marc-André ter Stegen.
+MATCH_10 54'	Corner - Paris Saint Germain. Conceded by Pedri.
+MATCH_10 63'	Corner - Barcelona. Conceded by Bradley Barcola.
+MATCH_10 69'	Corner - Paris Saint Germain. Conceded by João Cancelo.
+MATCH_10 76'	Corner - Paris Saint Germain. Conceded by Raphinha.
+MATCH_10 79'	Corner - Paris Saint Germain. Conceded by Jules Koundé.
+MATCH_10 88'	Corner - Barcelona. Conceded by Marquinhos.
+MATCH_10 89'	Corner - Barcelona. Conceded by Gianluigi Donnarumma.
+MATCH_11 14'	Corner - Manchester City. Conceded by Antonio Rüdiger.
+MATCH_11 15'	Corner - Manchester City. Conceded by Dani Carvajal.
+MATCH_11 15'	Corner - Manchester City. Conceded by Andriy Lunin.
+MATCH_11 27'	Corner - Manchester City. Conceded by Andriy Lunin.
+MATCH_11 32'	Corner - Manchester City. Conceded by Dani Carvajal.
+MATCH_11 34'	Corner - Manchester City. Conceded by Federico Valverde.
+MATCH_11 36'	Corner - Manchester City. Conceded by Antonio Rüdiger.
+MATCH_11 44'	Corner - Manchester City. Conceded by Dani Carvajal.
+MATCH_11 45'	Corner - Manchester City. Conceded by Andriy Lunin.
+MATCH_11 47'	Corner - Manchester City. Conceded by Ferland Mendy.
+MATCH_11 51'	Corner - Manchester City. Conceded by Nacho.
+MATCH_11 54'	Corner - Manchester City. Conceded by Federico Valverde.
+MATCH_11 69'	Corner - Manchester City. Conceded by Dani Carvajal.
+MATCH_11 87'	Corner - Manchester City. Conceded by Dani Carvajal.
+MATCH_11 90+5'	Corner - Manchester City. Conceded by Nacho.
+MATCH_11 95'	Corner - Manchester City. Conceded by Ferland Mendy.
+MATCH_11 101'	Corner - Manchester City. Conceded by Antonio Rüdiger.
+MATCH_11 105+1'	Corner - Real Madrid. Conceded by Rúben Dias.
+MATCH_11 113'	Corner - Manchester City. Conceded by Antonio Rüdiger.
+MATCH_12 16'	Corner - FC Bayern München. Conceded by Gabriel Magalhães.
+MATCH_12 23'	Corner - FC Bayern München. Conceded by David Raya.
+MATCH_12 34'	Corner - FC Bayern München. Conceded by Jorginho.
+MATCH_12 47'	Corner - FC Bayern München. Conceded by William Saliba.
+MATCH_12 57'	Corner - FC Bayern München. Conceded by Gabriel Magalhães.
+MATCH_12 61'	Corner - FC Bayern München. Conceded by William Saliba.
+MATCH_12 72'	Corner - FC Bayern München. Conceded by William Saliba.
+MATCH_12 74'	Corner - Arsenal. Conceded by Eric Dier.
+MATCH_12 74'	Corner - Arsenal. Conceded by Manuel Neuer.
+MATCH_12 76'	Corner - FC Bayern München. Conceded by Declan Rice.
+MATCH_12 90+5'	Corner - Arsenal. Conceded by Leon Goretzka.
+MATCH_13 1'	Corner - RB Leipzig. Conceded by Dani Carvajal.
+MATCH_13 8'	Corner - Real Madrid. Conceded by Lukas Klostermann.
+MATCH_13 20'	Corner - RB Leipzig. Conceded by Aurélien Tchouaméni.
+MATCH_13 42'	Corner - RB Leipzig. Conceded by Aurélien Tchouaméni.
+MATCH_13 46'	Corner - RB Leipzig. Conceded by Dani Carvajal.
+MATCH_13 51'	Corner - RB Leipzig. Conceded by Andriy Lunin.
+MATCH_13 68'	Corner - Real Madrid. Conceded by David Raum.
+MATCH_13 81'	Corner - RB Leipzig. Conceded by Andriy Lunin.
+MATCH_13 84'	Corner - RB Leipzig. Conceded by Andriy Lunin.
+MATCH_13 90+3'	Corner - Real Madrid. Conceded by Amadou Haidara.
+MATCH_14 7'	Corner - Manchester City. Conceded by Elias Jelert.
+MATCH_14 24'	Corner - FC Copenhagen. Conceded by Phil Foden.
+MATCH_14 49'	Corner - FC Copenhagen. Conceded by Nathan Aké.
+MATCH_14 54'	Corner - Manchester City. Conceded by Kamil Grabara.
+MATCH_14 59'	Corner - Manchester City. Conceded by Elias Jelert.
+MATCH_14 63'	Corner - Manchester City. Conceded by Elias Jelert.
+MATCH_14 66'	Corner - Manchester City. Conceded by Scott McKenna.
+MATCH_14 77'	Corner - Manchester City. Conceded by Scott McKenna.
+MATCH_15 19'	Corner - Real Sociedad. Conceded by Beraldo.
+MATCH_15 33'	Corner - Paris Saint Germain. Conceded by Robin Le Normand.
+MATCH_15 34'	Corner - Paris Saint Germain. Conceded by Álex Remiro.
+MATCH_15 38'	Corner - Paris Saint Germain. Conceded by André Silva.
+MATCH_15 40'	Corner - Real Sociedad. Conceded by Fabián Ruiz.
+MATCH_15 50'	Corner - Real Sociedad. Conceded by Danilo Pereira.
+MATCH_15 51'	Corner - Real Sociedad. Conceded by Vitinha.
+MATCH_15 53'	Corner - Real Sociedad. Conceded by Achraf Hakimi.
+MATCH_15 55'	Corner - Paris Saint Germain. Conceded by Álex Remiro.
+MATCH_15 56'	Corner - Paris Saint Germain. Conceded by Javi Galán.
+MATCH_15 60'	Corner - Paris Saint Germain. Conceded by Brais Méndez.
+MATCH_15 62'	Corner - Paris Saint Germain. Conceded by Martín Zubimendi.
+MATCH_15 63'	Corner - Paris Saint Germain. Conceded by Álex Remiro.
+MATCH_15 76'	Corner - Real Sociedad. Conceded by Lucas Hernández.
+MATCH_15 84'	Corner - Paris Saint Germain. Conceded by Hamari Traoré.
+MATCH_15 89'	Corner - Real Sociedad. Conceded by Marquinhos.
+MATCH_16 10'	Corner - FC Bayern München. Conceded by Mario Gila.
+MATCH_16 17'	Corner - Lazio. Conceded by Raphaël Guerreiro.
+MATCH_16 49'	Corner - Lazio. Conceded by Kim Min-Jae.
+MATCH_16 50'	Corner - Lazio. Conceded by Kim Min-Jae.
+MATCH_16 52'	Corner - FC Bayern München. Conceded by Mario Gila.
+MATCH_16 72'	Corner - FC Bayern München. Conceded by Alessio Romagnoli.
+MATCH_16 86'	Corner - FC Bayern München. Conceded by Daichi Kamada.
+MATCH_16 87'	Corner - FC Bayern München. Conceded by Manuel Lazzari.
+MATCH_17 6'	Corner - PSV Eindhoven. Conceded by Mats Hummels.
+MATCH_17 20'	Corner - Borussia Dortmund. Conceded by Jordan Teze.
+MATCH_17 35'	Corner - PSV Eindhoven. Conceded by Ian Maatsen.
+MATCH_17 40'	Corner - PSV Eindhoven. Conceded by Alexander Meyer.
+MATCH_17 49'	Corner - PSV Eindhoven. Conceded by Marco Reus.
+MATCH_17 52'	Corner - Borussia Dortmund. Conceded by Johan Bakayoko.
+MATCH_17 59'	Corner - Borussia Dortmund. Conceded by Walter Benítez.
+MATCH_17 60'	Corner - Borussia Dortmund. Conceded by Malik Tillman.
+MATCH_18 38'	Corner - Inter Milan. Conceded by José Giménez.
+MATCH_18 47'	Corner - Inter Milan. Conceded by Axel Witsel.
+MATCH_18 57'	Corner - Atletico Madrid. Conceded by Stefan de Vrij.
+MATCH_18 87'	Corner - Atletico Madrid. Conceded by Denzel Dumfries.
+MATCH_18 90+1'	Corner - Inter Milan. Conceded by Reinildo.
+MATCH_19 26'	Corner - Arsenal. Conceded by Alan Varela.
+MATCH_19 34'	Corner - Arsenal. Conceded by Wendell.
+MATCH_19 41'	Corner - Arsenal. Conceded by Wendell.
+MATCH_19 42'	Corner - Arsenal. Conceded by João Mário.
+MATCH_19 45'	Corner - Arsenal. Conceded by Wendell.
+MATCH_19 55'	Corner - Arsenal. Conceded by Alan Varela.
+MATCH_19 67'	Corner - FC Porto. Conceded by Declan Rice.
+MATCH_19 71'	Corner - Arsenal. Conceded by Pepe.
+MATCH_19 73'	Corner - Arsenal. Conceded by Wendell.
+MATCH_19 79'	Corner - Arsenal. Conceded by Otávio.
+MATCH_19 86'	Corner - Arsenal. Conceded by Otávio.
+MATCH_20 5'	Corner - Barcelona. Conceded by Giovanni Di Lorenzo.
+MATCH_20 18'	Corner - Napoli. Conceded by Ronald Araújo.
+MATCH_20 22'	Corner - Barcelona. Conceded by Alex Meret.
+MATCH_20 39'	Corner - Napoli. Conceded by Lamine Yamal.
+MATCH_20 53'	Corner - Barcelona. Conceded by Juan Jesus.
+MATCH_20 64'	Corner - Napoli. Conceded by Frenkie de Jong.
+MATCH_20 66'	Corner - Barcelona. Conceded by Alex Meret.
+MATCH_20 83'	Corner - Napoli. Conceded by Andreas Christensen.
+MATCH_20 84'	Corner - Napoli. Conceded by Ronald Araújo.
+MATCH_20 84'	Corner - Napoli. Conceded by Pedri.
+MATCH_20 85'	Corner - Napoli. Conceded by Robert Lewandowski.
+MATCH_21 7'	Corner - Real Sociedad. Conceded by Nuno Mendes.
+MATCH_21 29'	Corner - Paris Saint Germain. Conceded by Álex Remiro.
+MATCH_21 43'	Corner - Paris Saint Germain. Conceded by Igor Zubeldia.
+MATCH_21 51'	Corner - Real Sociedad. Conceded by Nuno Mendes.
+MATCH_21 55'	Corner - Paris Saint Germain. Conceded by Martín Zubimendi.
+MATCH_21 66'	Corner - Real Sociedad. Conceded by Nordi Mukiele.
+MATCH_21 75'	Corner - Real Sociedad. Conceded by Lee Kang-In.
+MATCH_21 75'	Corner - Real Sociedad. Conceded by Beraldo.
+MATCH_21 89'	Corner - Real Sociedad. Conceded by Nordi Mukiele.
+MATCH_21 90+2'	Corner - Paris Saint Germain. Conceded by Jon Pacheco.
+MATCH_22 8'	Corner - FC Bayern München. Conceded by Mario Gila.
+MATCH_22 11'	Corner - Lazio. Conceded by Joshua Kimmich.
+MATCH_22 13'	Corner - FC Bayern München. Conceded by Felipe Anderson.
+MATCH_22 17'	Corner - FC Bayern München. Conceded by Mario Gila.
+MATCH_22 34'	Corner - FC Bayern München. Conceded by Adam Marusic.
+MATCH_22 45+1'	Corner - FC Bayern München. Conceded by Adam Marusic.
+MATCH_22 55'	Corner - FC Bayern München. Conceded by Mattéo Guendouzi.
+MATCH_22 72'	Corner - Lazio. Conceded by Aleksandar Pavlovic.
+MATCH_22 79'	Corner - Lazio. Conceded by Aleksandar Pavlovic.
+MATCH_23 5'	Corner - RB Leipzig. Conceded by Dani Carvajal.
+MATCH_23 26'	Corner - Real Madrid. Conceded by Willi Orbán.
+MATCH_23 39'	Corner - RB Leipzig. Conceded by Aurélien Tchouaméni.
+MATCH_23 41'	Corner - RB Leipzig. Conceded by Ferland Mendy.
+MATCH_23 63'	Corner - Real Madrid. Conceded by Péter Gulácsi.
+MATCH_23 67'	Corner - RB Leipzig. Conceded by Antonio Rüdiger.
+MATCH_23 67'	Corner - RB Leipzig. Conceded by Vinícius Júnior.
+MATCH_23 70'	Corner - Real Madrid. Conceded by Amadou Haidara.
+MATCH_23 82'	Corner - RB Leipzig. Conceded by Andriy Lunin.
+MATCH_23 90+1'	Corner - RB Leipzig. Conceded by Ferland Mendy.
+MATCH_23 90+3'	Corner - RB Leipzig. Conceded by Joselu.
+MATCH_24 4'	Corner - Manchester City. Conceded by Elias Jelert.
+MATCH_24 9'	Corner - Manchester City. Conceded by Denis Vavro.
+MATCH_24 15'	Corner - FC Copenhagen. Conceded by Rodri.
+MATCH_24 20'	Corner - Manchester City. Conceded by Kevin Diks.
+MATCH_24 21'	Corner - Manchester City. Conceded by Victor Froholdt.
+MATCH_24 68'	Corner - FC Copenhagen. Conceded by Rúben Dias.
+MATCH_24 76'	Corner - FC Copenhagen. Conceded by Manuel Akanji.
+MATCH_24 78'	Corner - FC Copenhagen. Conceded by John Stones.
+MATCH_25 34'	Corner - Napoli. Conceded by Marc-André ter Stegen.
+MATCH_25 45'	Corner - Barcelona. Conceded by Giovanni Di Lorenzo.
+MATCH_25 45+3'	Corner - Barcelona. Conceded by Juan Jesus.
+MATCH_25 50'	Corner - Napoli. Conceded by Pau Cubarsí.
+MATCH_25 67'	Corner - Barcelona. Conceded by Alex Meret.
+MATCH_25 74'	Corner - Barcelona. Conceded by Amir Rrahmani.
+MATCH_25 86'	Corner - Barcelona. Conceded by Amir Rrahmani.
+MATCH_25 86'	Corner - Barcelona. Conceded by Giovanni Di Lorenzo.
+MATCH_25 87'	Corner - Barcelona. Conceded by Victor Osimhen.
+MATCH_26 13'	Corner - Arsenal. Conceded by Otávio.
+MATCH_26 29'	Corner - Arsenal. Conceded by Pepe.
+MATCH_26 32'	Corner - Arsenal. Conceded by Wendell.
+MATCH_26 57'	Corner - Arsenal. Conceded by Pepê Aquino.
+MATCH_26 58'	Corner - Arsenal. Conceded by João Mário.
+MATCH_26 83'	Corner - Arsenal. Conceded by Diogo Costa.
+MATCH_26 87'	Corner - Arsenal. Conceded by Alan Varela.
+MATCH_26 90+1'	Corner - Arsenal. Conceded by Alan Varela.
+MATCH_26 97'	Corner - Arsenal. Conceded by Marko Grujic.
+MATCH_26 108'	Corner - FC Porto. Conceded by Oleksandr Zinchenko.
+MATCH_27 2'	Corner - Borussia Dortmund. Conceded by Walter Benítez.
+MATCH_27 7'	Corner - Borussia Dortmund. Conceded by Olivier Boscagli.
+MATCH_27 16'	Corner - Borussia Dortmund. Conceded by Walter Benítez.
+MATCH_27 20'	Corner - Borussia Dortmund. Conceded by Johan Bakayoko.
+MATCH_27 23'	Corner - PSV Eindhoven. Conceded by Niklas Süle.
+MATCH_27 45'	Corner - PSV Eindhoven. Conceded by Niklas Süle.
+MATCH_27 56'	Corner - PSV Eindhoven. Conceded by Gregor Kobel.
+MATCH_27 71'	Corner - PSV Eindhoven. Conceded by Gregor Kobel.
+MATCH_27 80'	Corner - Borussia Dortmund. Conceded by Jordan Teze.
+MATCH_28 43'	Corner - Atletico Madrid. Conceded by Benjamin Pavard.
+MATCH_28 75'	Corner - Atletico Madrid. Conceded by Benjamin Pavard.
+MATCH_28 81'	Corner - Atletico Madrid. Conceded by Francesco Acerbi.
+MATCH_28 82'	Corner - Atletico Madrid. Conceded by Benjamin Pavard.
+MATCH_28 97'	Corner - Inter Milan. Conceded by Stefan Savic.
+MATCH_28 120'	Corner - Atletico Madrid. Conceded by Yann Bisseck.
+MATCH_29 2'	Corner - RB Leipzig. Conceded by Anthony Racioppi.
+MATCH_29 8'	Corner - RB Leipzig. Conceded by Aurèle Amenda.
+MATCH_29 11'	Corner - RB Leipzig. Conceded by Aurèle Amenda.
+MATCH_29 19'	Corner - Young Boys. Conceded by Castello Lukeba.
+MATCH_29 25'	Corner - RB Leipzig. Conceded by Filip Ugrinic.
+MATCH_29 38'	Corner - Young Boys. Conceded by Xaver Schlager.
+MATCH_29 48'	Corner - RB Leipzig. Conceded by Mohamed Ali Camara.
+MATCH_29 60'	Corner - RB Leipzig. Conceded by Loris Benito.
+MATCH_29 73'	Corner - RB Leipzig. Conceded by Anthony Racioppi.
+MATCH_29 82'	Corner - Young Boys. Conceded by Mohamed Simakan.

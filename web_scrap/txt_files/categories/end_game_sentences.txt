@@ -1,32 +1,32 @@
-MATCH_0: 	Thats all. Game finished - Borussia Dortmund 0, Real Madrid 2.
-MATCH_1: 	Thats all. Game finished - FC Bayern München 2, Real Madrid 2.
-MATCH_2: 	Thats all. Game finished - Borussia Dortmund 1, Paris Saint Germain 0.
-MATCH_3: 	Thats all. Game finished - Paris Saint Germain 0, Borussia Dortmund 1.
-MATCH_4: 	Thats all. Game finished - Real Madrid 2, FC Bayern München 1.
-MATCH_4: 	Thats all. Game finished - Real Madrid 2, FC Bayern München 1.
-MATCH_5: 	Thats all. Game finished - Real Madrid 3, Manchester City 3.
-MATCH_6: 	Thats all. Game finished - Arsenal 2, FC Bayern München 2.
-MATCH_7: 	Thats all. Game finished - Paris Saint Germain 2, Barcelona 3.
-MATCH_8: 	Thats all. Game finished - Atletico Madrid 2, Borussia Dortmund 1.
-MATCH_9: 	Thats all. Game finished - Borussia Dortmund 4, Atletico Madrid 2.
-MATCH_10: 	Thats all. Game finished - Barcelona 1, Paris Saint Germain 4.
-MATCH_11: 	Thats all. Game finished - Manchester City 1 - 3 - , Real Madrid 1 - 4
-MATCH_12: 	Thats all. Game finished - FC Bayern München 1, Arsenal 0.
-MATCH_12: 	Thats all. Game finished - FC Bayern München 1, Arsenal 0.
-MATCH_13: 	Thats all. Game finished - RB Leipzig 0, Real Madrid 1.
-MATCH_14: 	Thats all. Game finished - FC Copenhagen 1, Manchester City 3.
-MATCH_15: 	Thats all. Game finished - Paris Saint Germain 2, Real Sociedad 0.
-MATCH_16: 	Thats all. Game finished - Lazio 1, FC Bayern München 0.
-MATCH_17: 	Thats all. Game finished - PSV Eindhoven 1, Borussia Dortmund 1.
-MATCH_18: 	Thats all. Game finished - Inter Milan 1, Atletico Madrid 0.
-MATCH_19: 	Thats all. Game finished - FC Porto 1, Arsenal 0.
-MATCH_20: 	Thats all. Game finished - Napoli 1, Barcelona 1.
-MATCH_21: 	Thats all. Game finished - Real Sociedad 1, Paris Saint Germain 2.
-MATCH_22: 	Thats all. Game finished - FC Bayern München 3, Lazio 0.
-MATCH_23: 	Thats all. Game finished - Real Madrid 1, RB Leipzig 1.
-MATCH_24: 	Thats all. Game finished - Manchester City 3, FC Copenhagen 1.
-MATCH_25: 	Thats all. Game finished - Barcelona 3, Napoli 1.
-MATCH_26: 	Thats all. Game finished - Arsenal 1 - 4 - , FC Porto 0 - 2
-MATCH_27: 	Thats all. Game finished - Borussia Dortmund 2, PSV Eindhoven 0.
-MATCH_28: 	Thats all. Game finished - Atletico Madrid 2 - 3 - , Inter Milan 1 - 2
-MATCH_29: 	Thats all. Game finished - Young Boys 1, RB Leipzig 3.
+MATCH_0 	Thats all. Game finished - Borussia Dortmund 0, Real Madrid 2.
+MATCH_1 	Thats all. Game finished - FC Bayern München 2, Real Madrid 2.
+MATCH_2 	Thats all. Game finished - Borussia Dortmund 1, Paris Saint Germain 0.
+MATCH_3 	Thats all. Game finished - Paris Saint Germain 0, Borussia Dortmund 1.
+MATCH_4 	Thats all. Game finished - Real Madrid 2, FC Bayern München 1.
+MATCH_4 	Thats all. Game finished - Real Madrid 2, FC Bayern München 1.
+MATCH_5 	Thats all. Game finished - Real Madrid 3, Manchester City 3.
+MATCH_6 	Thats all. Game finished - Arsenal 2, FC Bayern München 2.
+MATCH_7 	Thats all. Game finished - Paris Saint Germain 2, Barcelona 3.
+MATCH_8 	Thats all. Game finished - Atletico Madrid 2, Borussia Dortmund 1.
+MATCH_9 	Thats all. Game finished - Borussia Dortmund 4, Atletico Madrid 2.
+MATCH_10 	Thats all. Game finished - Barcelona 1, Paris Saint Germain 4.
+MATCH_11 	Thats all. Game finished - Manchester City 1 - 3 - , Real Madrid 1 - 4
+MATCH_12 	Thats all. Game finished - FC Bayern München 1, Arsenal 0.
+MATCH_12 	Thats all. Game finished - FC Bayern München 1, Arsenal 0.
+MATCH_13 	Thats all. Game finished - RB Leipzig 0, Real Madrid 1.
+MATCH_14 	Thats all. Game finished - FC Copenhagen 1, Manchester City 3.
+MATCH_15 	Thats all. Game finished - Paris Saint Germain 2, Real Sociedad 0.
+MATCH_16 	Thats all. Game finished - Lazio 1, FC Bayern München 0.
+MATCH_17 	Thats all. Game finished - PSV Eindhoven 1, Borussia Dortmund 1.
+MATCH_18 	Thats all. Game finished - Inter Milan 1, Atletico Madrid 0.
+MATCH_19 	Thats all. Game finished - FC Porto 1, Arsenal 0.
+MATCH_20 	Thats all. Game finished - Napoli 1, Barcelona 1.
+MATCH_21 	Thats all. Game finished - Real Sociedad 1, Paris Saint Germain 2.
+MATCH_22 	Thats all. Game finished - FC Bayern München 3, Lazio 0.
+MATCH_23 	Thats all. Game finished - Real Madrid 1, RB Leipzig 1.
+MATCH_24 	Thats all. Game finished - Manchester City 3, FC Copenhagen 1.
+MATCH_25 	Thats all. Game finished - Barcelona 3, Napoli 1.
+MATCH_26 	Thats all. Game finished - Arsenal 1 - 4 - , FC Porto 0 - 2
+MATCH_27 	Thats all. Game finished - Borussia Dortmund 2, PSV Eindhoven 0.
+MATCH_28 	Thats all. Game finished - Atletico Madrid 2 - 3 - , Inter Milan 1 - 2
+MATCH_29 	Thats all. Game finished - Young Boys 1, RB Leipzig 3.

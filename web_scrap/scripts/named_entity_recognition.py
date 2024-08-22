@@ -16,7 +16,12 @@ from spacy.pipeline.entityruler import EntityRuler
 import re
 import urllib.parse
 
+ex = Namespace("http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/")
+g = Graph() 
+g.bind("ex", ex)
+g.parse("web_scrap/rdf_files/football.ttl")
 pattern_match_game = r"MATCH_+\d+"
+
 
 all_games_list = []
 
@@ -26,12 +31,6 @@ game_sentences = text.split('\n')
 for sentence in game_sentences:
     all_games_list.append(sentence.strip())
 
-   
-g = Graph()
-    
-ex = Namespace("http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/")
-g.bind("ex", ex)
-g.parse("web_scrap/football.ttl")
 
 def corner_ner():
     nlp = spacy.load("en_core_web_lg", disable=["ner"])
@@ -81,12 +80,14 @@ def corner_ner():
         team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
         player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
         time_uri = Literal(TIME_STAMP[i])
-        labels = Literal(LABELS[i].replace("MATCH_\d:", "").strip())
+        labels = Literal(re.sub(pattern_match_game, "", LABELS[i]).strip())
         game = (GAME_LABELS[i])
 
         g.add((corner_uri, RDF.type, ex.Corner))
         g.add((team_uri, RDF.type, ex.Team))
+        g.add((team_uri, RDFS.label, Literal(TEAM[i].replace(' ', '_'))))
         g.add((player_uri, RDF.type, ex.Player))
+        g.add((player_uri, RDFS.label, Literal(PLAYER[i].replace(' ', '_'))))
         g.add((corner_uri, RDFS.comment, labels))
         g.add((corner_uri, ex.corner_won_for, team_uri))
         g.add((corner_uri, ex.conceded_by, player_uri))
@@ -155,13 +156,18 @@ def substitution_ner():
         player_in_uri = URIRef(ex+f"/{PLAYER_IN[i].replace(' ', '_')}")
         player_out_uri = URIRef(ex+f"/{PLAYER_OUT[i].replace(' ', '_')}")
         time_uri = Literal(TIME_STAMP[i])
-        labels = Literal(LABELS[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS[i]).strip())
         game = Literal(GAME_LABELS[i])
 
         g.add((substitution_uri, RDF.type, ex.Substitution))
         g.add((team_uri, RDF.type, ex.Team))
+        g.add((team_uri, RDFS.label, Literal(TEAM[i].replace(' ', '_'))))
         g.add((player_in_uri, RDF.type, ex.Player))
         g.add((player_out_uri, RDF.type, ex.Player))
+
+        g.add((player_in_uri, RDFS.label, Literal(PLAYER_IN[i].replace(' ', '_'))))
+        g.add((player_out_uri, RDFS.label, Literal(PLAYER_OUT[i].replace(' ', '_'))))
+
         g.add((substitution_uri, RDFS.comment, labels))
         g.add((substitution_uri, ex.sub_for, team_uri))
         g.add((substitution_uri, ex.happened_at, time_uri))
@@ -225,12 +231,14 @@ def hand_ball_ner():
         team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
         player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
         time_uri = Literal(TIME_STAMP[i])
-        labels = Literal(LABELS[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS[i]).strip())
         game = Literal(GAME_LABELS[i])
 
         g.add((handball_uri, RDF.type, ex.Hand_Ball))
         g.add((team_uri, RDF.type, ex.Team))
+        g.add((team_uri, RDFS.label, Literal(TEAM[i].replace(' ', '_'))))
         g.add((player_uri, RDF.type, ex.Player)) 
+        g.add((player_uri, RDFS.label, Literal(PLAYER[i].replace(' ', '_'))))
         g.add((handball_uri, RDFS.comment, labels))
         g.add((handball_uri, ex.conceded_by, player_uri))
         g.add((handball_uri, ex.happened_at, time_uri))
@@ -291,12 +299,14 @@ def offside_ner():
         team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
         player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
         time_uri = Literal(TIME_STAMP[i])
-        labels = Literal(LABELS[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS[i]).strip())
         game = Literal(GAME_LABELS[i])
 
         g.add((offside_uri, RDF.type, ex.Offside))
         g.add((team_uri, RDF.type, ex.Team))
+        g.add((team_uri, RDFS.label, Literal(TEAM[i].replace(' ', '_'))))
         g.add((player_uri, RDF.type, ex.Player))
+        g.add((player_uri, RDFS.label, Literal(PLAYER[i].replace(' ', '_'))))
         g.add((offside_uri, RDFS.comment, labels))
         g.add((offside_uri, ex.offside_for, team_uri))
         g.add((offside_uri, ex.offside_caused_by, player_uri))
@@ -363,13 +373,15 @@ def free_kick_ner():
         player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
         at_place_uri = Literal(AT_PLACE[i].replace(' ', '_'))
         time_uri = Literal(TIME_STAMP[i])
-        labels = Literal(LABELS[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS[i]).strip())
         game = Literal(GAME_LABELS[i])
 
 
         g.add((free_kick_uri, RDF.type, ex.Free_Kick))
         g.add((team_uri, RDF.type, ex.Team))
+        g.add((team_uri, RDFS.label, Literal(TEAM[i].replace(' ', '_'))))
         g.add((player_uri, RDF.type, ex.Player))
+        g.add((player_uri, RDFS.label, Literal(PLAYER[i].replace(' ', '_'))))
         g.add((free_kick_uri, RDFS.comment, labels))
         g.add((free_kick_uri, ex.won_for, team_uri))
         g.add((free_kick_uri, ex.won_at_place, at_place_uri))
@@ -430,12 +442,14 @@ def foul_ner():
         team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
         player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
         time_uri = Literal(TIME_STAMP[i])
-        labels = Literal(LABELS[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS[i]).strip())
         game = Literal(GAME_LABELS[i])
 
         g.add((foul_uri, RDF.type, ex.Foul))
         g.add((team_uri, RDF.type, ex.Team))
+        g.add((team_uri, RDFS.label, Literal(TEAM[i].replace(' ', '_'))))
         g.add((player_uri, RDF.type, ex.Player))
+        g.add((player_uri, RDFS.label, Literal(PLAYER[i].replace(' ', '_'))))
         g.add((foul_uri, RDFS.comment, labels))
         g.add((foul_uri, ex.foul_from, team_uri))
         g.add((foul_uri, ex.fouled_by, player_uri))
@@ -495,12 +509,14 @@ def dangerous_play_ner():
         team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
         player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
         time_uri = Literal(TIME_STAMP[i])
-        labels = Literal(LABELS[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS[i]).strip())
         game = Literal(GAME_LABELS[i])
 
         g.add((dangerous_play_uri, RDF.type, ex.Dangerous_Play))
         g.add((team_uri, RDF.type, ex.Team))
+        g.add((team_uri, RDFS.label, Literal(TEAM[i].replace(' ', '_'))))
         g.add((player_uri, RDF.type, ex.Player))
+        g.add((player_uri, RDFS.label, Literal(PLAYER[i].replace(' ', '_'))))
         g.add((dangerous_play_uri, RDFS.comment, labels))
         g.add((dangerous_play_uri, ex.conceded_by, player_uri))
         g.add((dangerous_play_uri, ex.happened_at, time_uri))
@@ -601,12 +617,14 @@ def penalty_ner():
         team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
         player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
         time_uri = Literal(TIME_STAMP[i])
-        labels = Literal(LABELS[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS[i]).strip())
         game = Literal(GAME_LABELS[i])
         
         g.add((penalty_uri, RDF.type, ex.Penalty))
         g.add((team_uri, RDF.type, ex.Team))
+        g.add((team_uri, RDFS.label, Literal(TEAM[i].replace(' ', '_'))))
         g.add((player_uri, RDF.type, ex.Player))
+        g.add((player_uri, RDFS.label, Literal(PLAYER[i].replace(' ', '_'))))
         g.add((penalty_uri, RDFS.comment, labels))
         g.add((penalty_uri, ex.penalty_caused_by, player_uri))
         g.add((penalty_uri, ex.happened_at, time_uri))
@@ -797,12 +815,14 @@ def attacking_attempt_ner():
         player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
         way_of_attempt = Literal(WAY_OF_ATTEMPT[i].replace(' ', '_'))
         time_uri = Literal(TIME[i].replace(' ', '_'))
-        labels = Literal(LABELS[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS[i]).strip())
         game = Literal(GAME_LABELS[i])
 
         g.add((attacking_attempt_uri, RDF.type, ex.Attacking_Attempt))
         g.add((team_uri, RDF.type, ex.Team))
+        g.add((team_uri, RDFS.label, Literal(TEAM[i].replace(' ', '_'))))
         g.add((player_uri, RDF.type, ex.Player))
+        g.add((player_uri, RDFS.label, Literal(PLAYER[i].replace(' ', '_'))))
         g.add((attacking_attempt_uri, RDFS.comment, labels))
         g.add((attacking_attempt_uri, ex.counts_for, team_uri))
         g.add((attacking_attempt_uri, ex.way_of_attempt, way_of_attempt))
@@ -876,12 +896,14 @@ def card_ner(card_type):
             team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
             player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
             time_uri = Literal(TIME_STAMP[i])
-            labels = Literal(LABELS[i])
+            labels = Literal(re.sub(pattern_match_game, "", LABELS[i]).strip())
             game = Literal(GAME_LABELS[i])
 
             g.add((yellow_card_uri, RDF.type, ex.Yellow_Card))
             g.add((team_uri, RDF.type, ex.Team))
+            g.add((team_uri, RDFS.label, Literal(TEAM[i].replace(' ', '_'))))
             g.add((player_uri, RDF.type, ex.Player))
+            g.add((player_uri, RDFS.label, Literal(PLAYER[i].replace(' ', '_'))))
             g.add((yellow_card_uri, RDFS.comment, labels))
             g.add((yellow_card_uri, ex.card_counts_for, team_uri))
             g.add((yellow_card_uri, ex.recieved_by, player_uri))
@@ -904,12 +926,14 @@ def card_ner(card_type):
             team_uri = URIRef(ex+f"/{TEAM[i].replace(' ', '_')}")
             player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
             time_uri = Literal(TIME_STAMP[i])
-            labels = Literal(LABELS[i])
+            labels = Literal(re.sub(pattern_match_game, "", LABELS[i]).strip())
             game = Literal(GAME_LABELS[i])
 
             g.add((red_card_uri, RDF.type, ex.Red_Card))
             g.add((team_uri, RDF.type, ex.Team))
+            g.add((team_uri, RDFS.label, Literal(TEAM[i].replace(' ', '_'))))
             g.add((player_uri, RDF.type, ex.Player))
+            g.add((player_uri, RDFS.label, Literal(PLAYER[i].replace(' ', '_'))))
             g.add((red_card_uri, RDFS.comment, labels))
             g.add((red_card_uri, ex.card_counts_for, team_uri))
             g.add((red_card_uri, ex.recieved_by, player_uri))
@@ -1032,11 +1056,12 @@ def delay_ner():
         delay_uri = URIRef(ex+f"/Delay{str(ind+1)}")
         team_uri = URIRef(ex+f"/{TEAM_IN_MATCH[i].replace(' ', '_')}")
         time_uri = Literal(TIME_IN_MATCH[i])
-        labels = Literal(LABELS_1[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS_1[i]).strip())
         game = Literal(GAME_LABELS_1[i])
             
         g.add((delay_uri, RDF.type, ex.Delay))
         g.add((team_uri, RDF.type, ex.Team))
+        g.add((team_uri, RDFS.label, Literal(TEAM_IN_MATCH[i].replace(' ', '_'))))
         g.add((delay_uri, RDFS.comment, labels))
         g.add((delay_uri, ex.happened_at, time_uri))  
         g.add((delay_uri, ex.delay_caused_from, team_uri))   
@@ -1053,12 +1078,14 @@ def delay_ner():
         team_uri = URIRef(ex+f"/{TEAM_INJURY[i].replace(' ', '_')}")
         player_uri = URIRef(ex+f"/{PLAYER_INJURY[i].replace(' ', '_')}")
         time_uri = Literal(TIME_INJURY[i])
-        labels = Literal(LABELS_2[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS_2[i]).strip())
         game = Literal(GAME_LABELS_2[i])
 
         g.add((delay_uri, RDF.type, ex.Delay))
         g.add((team_uri, RDF.type, ex.Team))
+        g.add((team_uri, RDFS.label, Literal(TEAM_INJURY[i].replace(' ', '_'))))
         g.add((player_uri, RDF.type, ex.Player))
+        g.add((player_uri, RDFS.label, Literal(PLAYER_INJURY[i].replace(' ', '_'))))
         g.add((delay_uri, RDFS.comment, labels))
         g.add((delay_uri, ex.player_injured, player_uri))
         g.add((delay_uri, ex.happened_at, time_uri))
@@ -1075,7 +1102,7 @@ def delay_ner():
     for i in range(len(TIME_OVER)):
         delay_uri = URIRef(ex+f"/Delay{str(ind+1)}")
         time_uri = Literal(TIME_OVER[i])
-        labels = Literal(LABELS_3[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS_3[i]).strip())
         game = Literal(GAME_LABELS_3[i])
 
         
@@ -1133,7 +1160,7 @@ def first_half_end_ner():
         first_half_uri = URIRef(ex+f"/First_Half{str(i+1)}")
         score_uri = Literal(SCORE[i])
         time_uri = Literal(TIME_STAMP[i])
-        labels = Literal(LABELS[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS[i]).strip())
         game = Literal(GAME_LABELS[i])
             
 
@@ -1229,7 +1256,7 @@ def second_half_sentences_ner():
         second_half_uri = URIRef(ex+f"/Second_Half{str(i+1)}")
         score_uri = Literal(SCORE_BEGIN[i])
         time_uri = Literal(TIME_BEGIN[i])
-        labels = Literal(LABELS_1[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS_1[i]).strip())
         game = Literal(GAME_LABELS_1[i])
 
         g.add((second_half_uri, RDF.type, ex.Second_Half))
@@ -1248,7 +1275,7 @@ def second_half_sentences_ner():
         second_half_uri = URIRef(ex+f"/Second_Half{str(i+1)}")
         score_uri = Literal(SCORE_END[i])
         time_uri = Literal(TIME_END[i])
-        labels = Literal(LABELS_2[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS_2[i]).strip())
         game = Literal(GAME_LABELS_2[i])
 
         g.add((second_half_uri, RDF.type, ex.Second_Half))
@@ -1355,7 +1382,7 @@ def extra_time_first_half_ner():
         extra_time_first_half_uri = URIRef(ex+f"/First_Half_Extra_Time{str(i+1)}")
         score_uri = Literal(SCORE_BEGIN[i])
         time_uri = Literal(TIME_BEGIN[i])
-        labels = Literal(LABELS_1[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS_1[i]).strip())
         game = Literal(GAME_LABELS_1[i])
 
         g.add((extra_time_first_half_uri, RDF.type, ex.First_Half_Extra_Time))
@@ -1374,7 +1401,7 @@ def extra_time_first_half_ner():
         extra_time_first_half_uri = URIRef(ex+f"/First_Half_Extra_Time{str(i+1)}")
         score_uri = Literal(SCORE_END[i])
         time_uri = Literal(TIME_END[i])
-        labels = Literal(LABELS_2[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS_2[i]).strip())
         game = Literal(GAME_LABELS_2[i])
 
         g.add((extra_time_first_half_uri, RDF.type, ex.First_Half_Extra_Time))
@@ -1477,7 +1504,7 @@ def extra_time_second_half_ner():
         second_half_extra_time_uri = URIRef(ex+f"/Second_Half_Extra_Time{str(i+1)}")
         score_uri = Literal(SCORE_BEGIN[i])
         time_uri = Literal(TIME_BEGIN[i])
-        labels = Literal(LABELS_1[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS_1[i]).strip())
         game = Literal(GAME_LABELS_1[i])
 
         g.add((second_half_extra_time_uri, RDF.type, ex.Second_Half_Extra_Time))
@@ -1496,7 +1523,7 @@ def extra_time_second_half_ner():
         second_half_extra_time_uri = URIRef(ex+f"/Second_Half_Extra_Time{str(i+1)}")
         score_uri = Literal(SCORE_END[i])
         time_uri = Literal(TIME_END[i])
-        labels = Literal(LABELS_2[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS_2[i]).strip())
         game = Literal(GAME_LABELS_1[i])
 
         g.add((second_half_extra_time_uri, RDF.type, ex.Second_Half_Extra_Time))
@@ -1535,13 +1562,13 @@ def end_game_ner():
     SCORE = [ent.text for ent in doc.ents if ent.label_ == "SCORE"]
     GAME_LABELS = [ent.text for ent in doc.ents if ent.label_ == "GAME"]
     LABELS = []
-    for i in range(1,len(sentences),2):
+    for i in range(len(sentences)-1):
         LABELS.append(sentences[i])
-
+        
     for i in range(len(LABELS)):
         end_game_uri = URIRef(ex+f"/End_Game{str(i+1)}")
         score_uri = Literal(SCORE[i])
-        labels = Literal(LABELS[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS[i]).strip())
         game = Literal(GAME_LABELS[i])
 
         g.add((end_game_uri, RDF.type, ex.End_Game))
@@ -1694,7 +1721,7 @@ def goal_ner():
         goal_uri = URIRef(ex+f"/Goal_Scored{str(i+1)}")
         team_uri = URIRef(ex+f"/{TEAM_GOAL[i].replace(' ', '_')}")
         player_uri = URIRef(ex+f"/{PLAYER_GOAL[i].replace(' ', '_')}")
-        labels = Literal(LABELS_1[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS_1[i]).strip())
         game = Literal(GAME_LABELS_1[i])
         score_uri = Literal(SCORE_GOAL[i])
         way_of_scoring_uri = Literal(WAY_OF_SCORING[i])
@@ -1702,7 +1729,9 @@ def goal_ner():
 
         g.add((goal_uri, RDF.type, ex.Goal_Scored))
         g.add((team_uri, RDF.type, ex.Team))
+        g.add((team_uri, RDFS.label, Literal(TEAM_GOAL[i].replace(' ', '_'))))
         g.add((player_uri, RDF.type, ex.Player))
+        g.add((player_uri, RDFS.label, Literal(PLAYER_GOAL[i].replace(' ', '_'))))
         g.add((goal_uri, RDFS.comment, labels))
         g.add((goal_uri, ex.scored_by, player_uri))
         g.add((goal_uri, ex.counts_for, team_uri))
@@ -1722,14 +1751,16 @@ def goal_ner():
         own_goal_uri = URIRef(ex+f"/Own_Goal{str(j+1)}")
         team_uri = URIRef(ex+f"/{TEAM_OWN_GOAL[j].replace(' ', '_')}")
         player_uri = URIRef(ex+f"/{PLAYER_OWN_GOAL[j].replace(' ', '_')}")
-        labels = Literal(LABELS_2[j])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS_2[j]).strip())
         score_uri = Literal(SCORE_OWN_GOAL[j])
         time_uri = Literal(TIME_STAMP_OWN_GOAL[j])
         game = Literal(GAME_LABELS_2[j])
 
         g.add((own_goal_uri, RDF.type, ex.Own_Goal))
         g.add((team_uri, RDF.type, ex.Team))
+        g.add((team_uri, RDFS.label, Literal(TEAM_OWN_GOAL[j].replace(' ', '_'))))
         g.add((player_uri, RDF.type, ex.Player))
+        g.add((player_uri, RDFS.label, Literal(PLAYER_OWN_GOAL[j].replace(' ', '_'))))
         g.add((own_goal_uri, RDFS.comment, labels))
         g.add((own_goal_uri, ex.scored_by, player_uri))
         g.add((own_goal_uri, ex.makes_score, score_uri))
@@ -1789,14 +1820,19 @@ def assist_ner():
     for i in range(len(LABELS)):
         assist_uri = URIRef(ex+f"/Assist{str(i+1)}")
         player_uri = URIRef(ex+f"/{PLAYER[i].replace(' ', '_')}")
-        assisted_event_uri = URIRef(ex + ASSISTED_EVENT[i])
+        assisted_event_uri = URIRef(ex +f"/" + ASSISTED_EVENT[i])
         game = Literal(GAME_LABELS[i])
-        labels = Literal(LABELS[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS[i]).strip())
         
         g.add((assist_uri, RDF.type, ex.Assist))
         g.add((assist_uri, ex.assist_made_by, player_uri))
         g.add((assist_uri, RDFS.comment, labels))  
         g.add((assist_uri, ex.refers_to, assisted_event_uri))
+
+        g.add((player_uri, RDF.type, ex.Player))
+        g.add((player_uri, RDFS.label, Literal(PLAYER[i].replace(' ', '_'))))
+
+
 
         index_games_list = game.replace("MATCH_", "").strip()
         game = URIRef(ex+f"/{game.replace(' ', '_')}")
@@ -1842,7 +1878,7 @@ def var_decision_ner():
         var_uri = URIRef(ex+f"/VAR{str(i+1)}")
         time_uri = Literal(TIME[i])
         decision_uri = Literal(DECISION[i])
-        labels = Literal(LABELS[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS[i]).strip())
         game = Literal(GAME_LABELS[i])
         g.add((var_uri, RDF.type, ex.VAR))
         g.add((var_uri, RDFS.comment, labels)) 
@@ -2085,8 +2121,6 @@ def penalty_procedure_ner():
     GAME_LABELS_4 = [ent.text for ent in doc4.ents if ent.label_ == "GAME"]
     GAME_LABELS_5 = [ent.text for ent in doc5.ents if ent.label_ == "GAME"]
 
-    print(len(GAME_LABELS_3))
-    print(len(TEAM_SAVED))
     LABELS_1 = []
     for i in range(0,len(penalty_shootout_begins_sentences)):
         LABELS_1.append(penalty_shootout_begins_sentences[i])
@@ -2111,7 +2145,7 @@ def penalty_procedure_ner():
         penalty_procedure_uri = URIRef(ex+f"/Penalty_Procedure{str(i+1)}")
         score_uri = Literal(SCORE_BEGINS[i])
         time_uri = Literal(TIME_BEGINS[i])
-        labels = Literal(LABELS_1[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS_1[i]).strip())
         game = Literal(GAME_LABELS_2[i])
 
         g.add((penalty_procedure_uri, RDF.type, ex.Penalty_Procedure))
@@ -2129,7 +2163,7 @@ def penalty_procedure_ner():
         penalty_procedure_uri = URIRef(ex+f"/Penalty_Procedure{str(i+1)}")
         score_uri = Literal(SCORE_ENDS[i])
         time_uri = Literal(TIME_ENDS[i])
-        labels = Literal(LABELS_2[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS_2[i]).strip())
         game = Literal(GAME_LABELS_3[i])
 
         g.add((penalty_procedure_uri, RDF.type, ex.Penalty_Procedure))
@@ -2149,7 +2183,7 @@ def penalty_procedure_ner():
         player_uri = URIRef(ex+f"/{PLAYER_SAVED[i].replace(' ', '_')}")
         way_uri = Literal(WAY_SAVED[i])
         time_uri = Literal(TIME_SAVED[i])
-        labels = Literal(LABELS_3[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS_3[i]).strip())
         game = Literal(GAME_LABELS_4[i])
    
        
@@ -2162,7 +2196,9 @@ def penalty_procedure_ner():
         g.add((penalty_no_goal, ex.missed_for, team_uri))
         g.add((player_uri, ex.playsFor, team_uri))
 
-    
+        g.add((player_uri, RDF.type, ex.Player))
+        g.add((player_uri, RDFS.label, Literal(PLAYER_SAVED[i].replace(' ', '_'))))
+
         index_games_list = game.replace("MATCH_", "").strip()
         game = URIRef(ex+f"/{game.replace(' ', '_')}")
         g.add((game, RDF.type, ex.Match))
@@ -2177,7 +2213,7 @@ def penalty_procedure_ner():
         player_uri = URIRef(ex+f"/{PLAYER_MISSED[i].replace(' ', '_')}")
         way_uri = Literal(WAY_MISSED[i])
         time_uri = Literal(TIME_MISSED[i])
-        labels = Literal(LABELS_4[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS_4[i]).strip())
         game = Literal(GAME_LABELS_5[i])
 
         g.add((penalty_no_goal, RDF.type, ex.Penalty_No_Goal))
@@ -2188,7 +2224,10 @@ def penalty_procedure_ner():
         g.add((penalty_no_goal, ex.missed_for, team_uri))
         g.add((player_uri, ex.playsFor, team_uri))
 
-       
+    
+        g.add((player_uri, RDF.type, ex.Player))
+        g.add((player_uri, RDFS.label, Literal(PLAYER_MISSED[i].replace(' ', '_'))))
+
         index_games_list = game.replace("MATCH_", "").strip()
         game = URIRef(ex+f"/{game.replace(' ', '_')}")
         g.add((game, RDF.type, ex.Match))
@@ -2204,7 +2243,7 @@ def penalty_procedure_ner():
         score_uri = Literal(SCORE_GOAL[i])
         way_uri = Literal(WAY_GOAL[i])
         time_uri = Literal(TIME_GOAL[i])
-        labels = Literal(LABELS_5[i])
+        labels = Literal(re.sub(pattern_match_game, "", LABELS_5[i]).strip())
         game = Literal(GAME_LABELS_1[i])
         
         g.add((penalty_goal, RDF.type, ex.Penalty_Scored_Goal))
@@ -2217,6 +2256,9 @@ def penalty_procedure_ner():
         g.add((player_uri, ex.playsFor, team_uri)) 
 
         
+        g.add((player_uri, RDF.type, ex.Player))
+        g.add((player_uri, RDFS.label, Literal(PLAYER_GOAL[i].replace(' ', '_'))))
+
         index_games_list = game.replace("MATCH_", "").strip()
         game = URIRef(ex+f"/{game.replace(' ', '_')}")
         g.add((game, RDF.type, ex.Match))
@@ -2246,4 +2288,4 @@ goal_ner()
 attacking_attempt_ner()
 assist_ner()
 
-g.serialize("output_graph.ttl", format="turtle")
+g.serialize("web_scrap/rdf_files/output_graph.ttl", format="turtle")
