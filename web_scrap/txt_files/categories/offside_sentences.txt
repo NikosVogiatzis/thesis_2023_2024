@@ -1,92 +1,122 @@
-MATCH_0 87'	Offside - Borussia Dortmund. Niclas Füllkrug is in offside.
-MATCH_1 2'	Offside - Real Madrid. Jude Bellingham is in offside.
-MATCH_1 80'	Offside - Real Madrid. Vinícius Júnior is in offside.
-MATCH_2 16'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
-MATCH_2 18'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
-MATCH_2 31'	Offside - Borussia Dortmund. Julian Brandt is in offside.
-MATCH_3 48'	Offside - Borussia Dortmund. Niclas Füllkrug is in offside.
-MATCH_3 77'	Offside - Borussia Dortmund. Mats Hummels is in offside.
-MATCH_4 90+9'	Offside - FC Bayern München. Alphonso Davies is in offside.
-MATCH_4 90+13'	Offside - FC Bayern München. Noussair Mazraoui is in offside.
-MATCH_6 7'	Offside - Arsenal. Bukayo Saka is in offside.
-MATCH_6 45+1'	Offside - Arsenal. Kai Havertz is in offside.
-MATCH_6 47'	Offside - Arsenal. Kai Havertz is in offside.
-MATCH_6 71'	Offside - FC Bayern München. Kingsley Coman is in offside.
-MATCH_6 77'	Offside - FC Bayern München. Harry Kane is in offside.
-MATCH_7 7'	Offside - Barcelona. Ilkay Gündogan is in offside.
-MATCH_7 28'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
-MATCH_7 43'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
-MATCH_7 45'	Offside - Barcelona. Robert Lewandowski is in offside.
-MATCH_7 46'	Offside - Barcelona. Robert Lewandowski is in offside.
-MATCH_7 64'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
-MATCH_7 72'	Offside - Paris Saint Germain. Bradley Barcola is in offside.
-MATCH_9 12'	Offside - Atletico Madrid. Álvaro Morata is in offside.
-MATCH_9 13'	Offside - Borussia Dortmund. Jadon Sancho is in offside.
-MATCH_9 24'	Offside - Atletico Madrid. Nahuel Molina is in offside.
-MATCH_10 66'	Offside - Paris Saint Germain. Bradley Barcola is in offside.
-MATCH_10 85'	Offside - Barcelona. Robert Lewandowski is in offside.
-MATCH_10 90+6'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
-MATCH_11 39'	Offside - Manchester City. Josko Gvardiol is in offside.
-MATCH_11 90+1'	Offside - Real Madrid. Vinícius Júnior is in offside.
-MATCH_12 10'	Offside - FC Bayern München. Leon Goretzka is in offside.
-MATCH_12 30'	Offside - Arsenal. Kai Havertz is in offside.
-MATCH_12 80'	Offside - Arsenal. Gabriel Jesus is in offside.
-MATCH_12 90+1'	Offside - Arsenal. Bukayo Saka is in offside.
-MATCH_13 2'	Offside - RB Leipzig. Benjamin Henrichs is in offside.
-MATCH_13 36'	Offside - RB Leipzig. David Raum is in offside.
-MATCH_14 59'	Offside - Manchester City. John Stones is in offside.
-MATCH_15 16'	Offside - Real Sociedad. Takefusa Kubo is in offside.
-MATCH_15 25'	Offside - Paris Saint Germain. Ousmane Dembélé is in offside.
-MATCH_15 28'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
-MATCH_15 59'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
-MATCH_15 90+3'	Offside - Real Sociedad. Umar Sadiq is in offside.
-MATCH_16 24'	Offside - FC Bayern München. Thomas Müller is in offside.
-MATCH_16 39'	Offside - FC Bayern München. Harry Kane is in offside.
-MATCH_17 28'	Offside - PSV Eindhoven. Malik Tillman is in offside.
-MATCH_17 39'	Offside - Borussia Dortmund. Jadon Sancho is in offside.
-MATCH_17 69'	Offside - PSV Eindhoven. Johan Bakayoko is in offside.
-MATCH_20 15'	Offside - Napoli. Victor Osimhen is in offside.
-MATCH_20 27'	Offside - Napoli. Victor Osimhen is in offside.
-MATCH_20 50'	Offside - Napoli. Victor Osimhen is in offside.
-MATCH_20 68'	Offside - Napoli. Matteo Politano is in offside.
-MATCH_20 72'	Offside - Barcelona. Robert Lewandowski is in offside.
-MATCH_21 21'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
-MATCH_21 26'	Offside - Real Sociedad. Sheraldo Becker is in offside.
-MATCH_21 44'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
-MATCH_21 46'	Offside - Real Sociedad. Mikel Oyarzabal is in offside.
-MATCH_21 46'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
-MATCH_21 58'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
-MATCH_21 61'	Offside - Paris Saint Germain. Lee Kang-In is in offside.
-MATCH_21 63'	Offside - Real Sociedad. Ander Barrenetxea is in offside.
-MATCH_21 72'	Offside - Real Sociedad. Martín Zubimendi is in offside.
-MATCH_21 80'	Offside - Paris Saint Germain. Warren Zaïre-Emery is in offside.
-MATCH_21 80'	Offside - Real Sociedad. Ander Barrenetxea is in offside.
-MATCH_21 87'	Offside - Paris Saint Germain. Kylian Mbappé is in offside.
-MATCH_23 9'	Offside - RB Leipzig. Benjamin Sesko is in offside.
-MATCH_23 21'	Offside - Real Madrid. Federico Valverde is in offside.
-MATCH_24 1'	Offside - FC Copenhagen. Elias Achouri is in offside.
-MATCH_24 27'	Offside - FC Copenhagen. Orri Óskarsson is in offside.
-MATCH_24 33'	Offside - FC Copenhagen. Elias Achouri is in offside.
-MATCH_24 42'	Offside - FC Copenhagen. Elias Achouri is in offside.
-MATCH_24 45'	Offside - Manchester City. Matheus Nunes is in offside.
-MATCH_25 7'	Offside - Napoli. Matteo Politano is in offside.
-MATCH_25 18'	Offside - Napoli. Victor Osimhen is in offside.
-MATCH_25 22'	Offside - Napoli. Victor Osimhen is in offside.
-MATCH_25 43'	Offside - Napoli. Victor Osimhen is in offside.
-MATCH_25 68'	Offside - Barcelona. Lamine Yamal is in offside.
-MATCH_26 20'	Offside - Arsenal. Gabriel Magalhães is in offside.
-MATCH_26 35'	Offside - FC Porto. Galeno is in offside.
-MATCH_26 60'	Offside - Arsenal. Bukayo Saka is in offside.
-MATCH_26 70'	Offside - FC Porto. Evanilson is in offside.
-MATCH_26 81'	Offside - Arsenal. Kai Havertz is in offside.
-MATCH_26 90+7'	Offside - FC Porto. Mehdi Taremi is in offside.
-MATCH_27 24'	Offside - PSV Eindhoven. Malik Tillman is in offside.
-MATCH_27 77'	Offside - Borussia Dortmund. Niclas Füllkrug is in offside.
-MATCH_27 79'	Offside - PSV Eindhoven. Hirving Lozano is in offside.
-MATCH_27 90+3'	Offside - Borussia Dortmund. Niclas Füllkrug is in offside.
-MATCH_29 41'	Offside - Young Boys. Anthony Racioppi with a pass, however Meschack Elia is in offside.
-MATCH_29 58'	Offside - RB Leipzig. Xaver Schlager with a pass, however Loïs Openda is in offside.
-MATCH_29 64'	Offside - Young Boys. Mohamed Ali Camara with a pass, however Meschack Elia is in offside.
-MATCH_29 67'	Offside - RB Leipzig. David Raum with a pass, however Benjamin Sesko is in offside.
-MATCH_29 72'	Offside - Young Boys. Silvere Ganvoula with a pass, however Meschack Elia is in offside.
-MATCH_29 87'	Offside - RB Leipzig. David Raum with a pass, however Benjamin Sesko is in offside.
+MATCH_0 15'	Offside - Young Boys. Silvere Ganvoula is in offside.
+MATCH_0 49'	Offside - Young Boys. Meschack Elia is in offside.
+MATCH_0 56'	Offside - Young Boys. Meschack Elia is in offside.
+MATCH_0 89'	Offside - Young Boys. Meschack Elia is in offside.
+MATCH_1 50'	Offside - Juventus. Dusan Vlahovic is in offside.
+MATCH_1 51'	Offside - Juventus. Kenan Yildiz is in offside.
+MATCH_1 78'	Offside - PSV Eindhoven. Johan Bakayoko is in offside.
+MATCH_2 11'	Offside - Sporting Lisbon. Viktor Gyökeres is in offside.
+MATCH_2 15'	Offside - Lille. Thomas Meunier is in offside.
+MATCH_2 42'	Offside - Lille. Osame Sahraoui is in offside.
+MATCH_2 45+4'	Offside - Sporting Lisbon. Viktor Gyökeres is in offside.
+MATCH_2 58'	Offside - Lille. Aïssa Mandi is in offside.
+MATCH_2 76'	Offside - Lille. Matias Fernandez-Pardo is in offside.
+MATCH_2 83'	Offside - Lille. Matias Fernandez-Pardo is in offside.
+MATCH_2 89'	Offside - Lille. Alexsandro Ribeiro is in offside.
+MATCH_3 19'	Offside - VfB Stuttgart. Deniz Undav is in offside.
+MATCH_3 39'	Offside - VfB Stuttgart. Deniz Undav is in offside.
+MATCH_3 44'	Offside - VfB Stuttgart. Deniz Undav is in offside.
+MATCH_3 50'	Offside - Real Madrid. Kylian Mbappé is in offside.
+MATCH_3 69'	Offside - VfB Stuttgart. Enzo Millot is in offside.
+MATCH_4 9'	Offside - FC Bayern München. Jamal Musiala is in offside.
+MATCH_4 26'	Offside - FC Bayern München. Serge Gnabry is in offside.
+MATCH_4 50'	Offside - FC Bayern München. Serge Gnabry is in offside.
+MATCH_4 59'	Offside - FC Bayern München. Serge Gnabry is in offside.
+MATCH_4 74'	Offside - FC Bayern München. Harry Kane is in offside.
+MATCH_5 2'	Offside - AC Milan. Tijjani Reijnders is in offside.
+MATCH_5 14'	Offside - AC Milan. Davide Calabria is in offside.
+MATCH_5 45+4'	Offside - Liverpool. Diogo Jota is in offside.
+MATCH_5 55'	Offside - AC Milan. Rafael Leão is in offside.
+MATCH_5 56'	Offside - Liverpool. Kostas Tsimikas is in offside.
+MATCH_5 83'	Offside - Liverpool. Dominik Szoboszlai is in offside.
+MATCH_5 86'	Offside - Liverpool. Darwin Núñez is in offside.
+MATCH_6 15'	Offside - Sparta Prague. Veljko Birmancevic is in offside.
+MATCH_6 17'	Offside - FC Red Bull Salzburg. Moussa Yeo is in offside.
+MATCH_6 81'	Offside - FC Red Bull Salzburg. Kamil Piatkowski is in offside.
+MATCH_7 64'	Offside - Shakhtar Donetsk. Newerton is in offside.
+MATCH_7 67'	Offside - Bologna. Charalampos Lykogiannis is in offside.
+MATCH_8 53'	Offside - Girona. Bryan Gil is in offside.
+MATCH_9 7'	Offside - Inter Milan. Marcus Thuram is in offside.
+MATCH_9 12'	Offside - Inter Milan. Carlos Augusto is in offside.
+MATCH_9 25'	Offside - Manchester City. Bernardo Silva is in offside.
+MATCH_9 28'	Offside - Manchester City. Jack Grealish is in offside.
+MATCH_9 31'	Offside - Inter Milan. Marcus Thuram is in offside.
+MATCH_10 16'	Offside - Borussia Dortmund. Donyell Malen is in offside.
+MATCH_10 21'	Offside - Club Brugge. Gustaf Nilsson is in offside.
+MATCH_10 37'	Offside - Club Brugge. Gustaf Nilsson is in offside.
+MATCH_10 56'	Offside - Borussia Dortmund. Donyell Malen is in offside.
+MATCH_11 64'	Offside - Celtic. Daizen Maeda is in offside.
+MATCH_12 4'	Offside - Red Star Belgrade. Bruno Duarte is in offside.
+MATCH_12 16'	Offside - Red Star Belgrade. Peter Olayinka is in offside.
+MATCH_12 45'	Offside - Benfica. Ángel Di María is in offside.
+MATCH_12 45+1'	Offside - Red Star Belgrade. Silas Katompa Mvumpa is in offside.
+MATCH_13 9'	Offside - Feyenoord. Ramiz Zerrouki is in offside.
+MATCH_13 38'	Offside - Bayer 04 Leverkusen. Jeremie Frimpong is in offside.
+MATCH_13 66'	Offside - Feyenoord. Gernot Trauner is in offside.
+MATCH_13 73'	Offside - Feyenoord. Ayase Ueda is in offside.
+MATCH_14 2'	Offside - Barcelona. Raphinha is in offside.
+MATCH_14 19'	Offside - Monaco. Breel Embolo is in offside.
+MATCH_14 32'	Offside - Monaco. Breel Embolo is in offside.
+MATCH_14 33'	Offside - Monaco. Takumi Minamino is in offside.
+MATCH_14 35'	Offside - Monaco. Wilfried Singo is in offside.
+MATCH_14 45+2'	Offside - Barcelona. Raphinha is in offside.
+MATCH_14 66'	Offside - Monaco. George Ilenikhena is in offside.
+MATCH_14 78'	Offside - Monaco. Folarin Balogun is in offside.
+MATCH_15 2'	Offside - SK Puntigamer Sturm Graz. Seedy Jatta is in offside.
+MATCH_15 12'	Offside - SK Puntigamer Sturm Graz. Seedy Jatta is in offside.
+MATCH_15 26'	Offside - SK Puntigamer Sturm Graz. Mika Biereth is in offside.
+MATCH_15 35'	Offside - SK Puntigamer Sturm Graz. Mika Biereth is in offside.
+MATCH_15 60'	Offside - SK Puntigamer Sturm Graz. William Bøving is in offside.
+MATCH_15 80'	Offside - SK Puntigamer Sturm Graz. Erencan Yardimci is in offside.
+MATCH_16 44'	Offside - Atletico Madrid. Ángel Correa is in offside.
+MATCH_16 65'	Offside - RB Leipzig. David Raum is in offside.
+MATCH_16 66'	Offside - Atletico Madrid. Samuel Lino is in offside.
+MATCH_16 79'	Offside - Atletico Madrid. Antoine Griezmann is in offside.
+MATCH_17 1'	Offside - Arsenal. Gabriel Jesus is in offside.
+MATCH_17 28'	Offside - Arsenal. Gabriel Jesus is in offside.
+MATCH_17 41'	Offside - Arsenal. Gabriel Jesus is in offside.
+MATCH_18 19'	Offside - Sparta Prague. Lukás Haraslín is in offside.
+MATCH_18 20'	Offside - VfB Stuttgart. Deniz Undav is in offside.
+MATCH_18 30'	Offside - VfB Stuttgart. Deniz Undav is in offside.
+MATCH_18 74'	Offside - VfB Stuttgart. Deniz Undav is in offside.
+MATCH_19 10'	Offside - FC Red Bull Salzburg. Lucas Gourna-Douath is in offside.
+MATCH_19 14'	Offside - FC Red Bull Salzburg. Amar Dedic is in offside.
+MATCH_19 56'	Offside - FC Red Bull Salzburg. Adam Daghim is in offside.
+MATCH_20 26'	Offside - SK Slovan Bratislava. Tigran Barseghyan is in offside.
+MATCH_20 42'	Offside - SK Slovan Bratislava. Marko Tolic is in offside.
+MATCH_20 44'	Offside - SK Slovan Bratislava. Tigran Barseghyan is in offside.
+MATCH_20 70'	Offside - SK Slovan Bratislava. Tigran Barseghyan is in offside.
+MATCH_21 4'	Offside - PSV Eindhoven. Luuk de Jong is in offside.
+MATCH_21 45+3'	Offside - PSV Eindhoven. Ismael Saibari is in offside.
+MATCH_22 3'	Offside - Inter Milan. Marko Arnautovic is in offside.
+MATCH_22 13'	Offside - Inter Milan. Denzel Dumfries is in offside.
+MATCH_22 20'	Offside - Inter Milan. Denzel Dumfries is in offside.
+MATCH_22 30'	Offside - Inter Milan. Marko Arnautovic is in offside.
+MATCH_22 74'	Offside - Inter Milan. Denzel Dumfries is in offside.
+MATCH_23 16'	Offside - Borussia Dortmund. Jamie Gittens is in offside.
+MATCH_23 23'	Offside - Borussia Dortmund. Nico Schlotterbeck is in offside.
+MATCH_23 24'	Offside - Borussia Dortmund. Serhou Guirassy is in offside.
+MATCH_23 32'	Offside - Celtic. Nicolas Kühn is in offside.
+MATCH_23 68'	Offside - Celtic. Álex Valle is in offside.
+MATCH_23 81'	Offside - Borussia Dortmund. Marcel Sabitzer is in offside.
+MATCH_23 90+4'	Offside - Celtic. Adam Idah is in offside.
+MATCH_24 21'	Offside - Bayer 04 Leverkusen. Jeremie Frimpong is in offside.
+MATCH_24 24'	Offside - Bayer 04 Leverkusen. Amine Adli is in offside.
+MATCH_24 46'	Offside - Bayer 04 Leverkusen. Amine Adli is in offside.
+MATCH_25 5'	Offside - Young Boys. Cedric Itten is in offside.
+MATCH_25 10'	Offside - Young Boys. Joël Monteiro is in offside.
+MATCH_25 15'	Offside - Young Boys. Lewin Blum is in offside.
+MATCH_25 44'	Offside - Young Boys. Jaouen Hadjam is in offside.
+MATCH_25 63'	Offside - Young Boys. Ebrima Colley is in offside.
+MATCH_25 90+1'	Offside - Young Boys. Joël Monteiro is in offside.
+MATCH_26 2'	Offside - Arsenal. Kai Havertz is in offside.
+MATCH_26 12'	Offside - Paris Saint Germain. Désiré Doué is in offside.
+MATCH_26 38'	Offside - Arsenal. Bukayo Saka is in offside.
+MATCH_26 40'	Offside - Arsenal. Bukayo Saka is in offside.
+MATCH_27 2'	Offside - Shakhtar Donetsk. Marlon Gomes is in offside.
+MATCH_27 2'	Offside - Atalanta. Charles De Ketelaere is in offside.
+MATCH_27 50'	Offside - Shakhtar Donetsk. Eguinaldo is in offside.
+MATCH_28 50'	Offside - Girona. Donny van de Beek is in offside.
+MATCH_29 13'	Offside - Club Brugge. Ferran Jutglà is in offside.
+MATCH_29 88'	Offside - SK Puntigamer Sturm Graz. Seedy Jatta is in offside.
+MATCH_29 89'	Offside - SK Puntigamer Sturm Graz. Erencan Yardimci is in offside.

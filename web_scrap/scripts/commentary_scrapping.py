@@ -6,52 +6,19 @@ import requests
 from bs4 import BeautifulSoup
 
 
+file_path = 'web_scrap/txt_files/urls.txt'
 urls_from_file = []
-file_path = 'web_scrap/txt_files/urls.txt'
-
-
-urls = []
-file_path = 'web_scrap/txt_files/urls.txt'
-
-
-with open(file_path, 'r', encoding="utf-8") as file:
-    for line in file:
-        urls.append(line.strip())
-
-matches = []
-
-for ur_l in urls:
-
-    url_1 = ur_l
-    page = requests.get(url_1)
-    soup1 = BeautifulSoup(page.content, 'html.parser')
-    element_text = soup1.title.string
-    if element_text != '':
-        text = element_text.replace("Live Text Updates:", "")
-        text = text.replace(" - Sports Mole", "").strip()
-        matches.append(text)
-    else:
-        print('Element not found')
-
-with open("web_scrap/txt_files/matches.txt", "w", encoding="utf-8") as file:
-    for match_ in matches:
-        file.write(match_ + "\n")
-
 
 with open(file_path, 'r') as file:
     for line in file:
         urls_from_file.append(line.strip())
 
-
 all_time_stamps = []
 all_commentaries = []
 
 index = 0
-
 for url in urls_from_file:
-
     page = requests.get(url)
-
     soup = BeautifulSoup(page.content, 'html.parser')
 
     # Find all elements with class name specified and store them inside doc list
@@ -77,7 +44,6 @@ for url in urls_from_file:
 
     all_time_stamps.append(trimmed_time)
     all_commentaries.append(trimmed_commentary)
-
     index += 1
 
 with open('web_scrap/txt_files/commentary.txt', 'w', encoding='utf-8') as file:

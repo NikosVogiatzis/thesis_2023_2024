@@ -244,11 +244,6 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/caused
-:caused rdf:type owl:DatatypeProperty ;
-        rdfs:range xsd:string .
-
-
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/decision_made
 :decision_made rdf:type owl:DatatypeProperty ;
                rdfs:domain :VAR .
@@ -276,12 +271,6 @@
 :missed_with rdf:type owl:DatatypeProperty ;
              rdfs:domain :Penalty_No_Goal ;
              rdfs:range xsd:string .
-
-
-###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/penalised_for
-:penalised_for rdf:type owl:DatatypeProperty ;
-               rdfs:domain :Cards ;
-               rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/scored_with
@@ -315,6 +304,11 @@
 #    Classes
 #################################################################
 
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53#Normal_Duration
+:Normal_Duration rdf:type owl:Class ;
+                 rdfs:subClassOf :Match_Period .
+
+
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Assist
 :Assist rdf:type owl:Class ;
         rdfs:subClassOf :Match_Event .
@@ -323,6 +317,34 @@
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Attacking_Attempt
 :Attacking_Attempt rdf:type owl:Class ;
                    rdfs:subClassOf :Match_Event .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Attacking_Player
+:Attacking_Player rdf:type owl:Class ;
+                  owl:equivalentClass [ owl:intersectionOf ( :Player
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :won ;
+                                                               owl:someValuesFrom [ owl:intersectionOf ( :Free_Kick
+                                                                                                         [ rdf:type owl:Restriction ;
+                                                                                                           owl:onProperty :won_at_place ;
+                                                                                                           owl:hasValue "in_attack"
+                                                                                                         ]
+                                                                                                       ) ;
+                                                                                    rdf:type owl:Class
+                                                                                  ]
+                                                             ]
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty :caused_offside_event ;
+                                        owl:someValuesFrom :Offside
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty :noted_attacking_attempt ;
+                                        owl:someValuesFrom :Attacking_Attempt
+                                      ] ;
+                  rdfs:subClassOf :Player .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Cards
@@ -338,6 +360,26 @@
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Dangerous_Play
 :Dangerous_Play rdf:type owl:Class ;
                 rdfs:subClassOf :Violation .
+
+
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Deffensive_Player
+:Deffensive_Player rdf:type owl:Class ;
+                   owl:equivalentClass [ owl:intersectionOf ( :Player
+                                                              [ rdf:type owl:Restriction ;
+                                                                owl:onProperty :won ;
+                                                                owl:someValuesFrom [ owl:intersectionOf ( :Free_Kick
+                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                            owl:onProperty :won_at_place ;
+                                                                                                            owl:hasValue "in_defence"
+                                                                                                          ]
+                                                                                                        ) ;
+                                                                                     rdf:type owl:Class
+                                                                                   ]
+                                                              ]
+                                                            ) ;
+                                         rdf:type owl:Class
+                                       ] ;
+                   rdfs:subClassOf :Player .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Delay
@@ -357,7 +399,7 @@
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/First_Half
 :First_Half rdf:type owl:Class ;
-            rdfs:subClassOf :Match_Period .
+            rdfs:subClassOf :Normal_Duration .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/First_Half_Extra_Time
@@ -412,6 +454,15 @@
           rdfs:subClassOf :Goal .
 
 
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Penalised_Player
+:Penalised_Player rdf:type owl:Class ;
+                  owl:equivalentClass [ rdf:type owl:Restriction ;
+                                        owl:onProperty :received ;
+                                        owl:someValuesFrom :Cards
+                                      ] ;
+                  rdfs:subClassOf :Player .
+
+
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Penalty
 :Penalty rdf:type owl:Class ;
          rdfs:subClassOf :Violation .
@@ -446,9 +497,22 @@
           rdfs:subClassOf :Cards .
 
 
+###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Scorrer
+:Scorrer rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :scored ;
+                               owl:someValuesFrom :Goal_Scored
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :scored ;
+                               owl:someValuesFrom :Penalty_Scored_Goal
+                             ] ;
+         rdfs:subClassOf :Player .
+
+
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Second_Half
 :Second_Half rdf:type owl:Class ;
-             rdfs:subClassOf :Match_Period .
+             rdfs:subClassOf :Normal_Duration .
 
 
 ###  http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/Second_Half_Extra_Time

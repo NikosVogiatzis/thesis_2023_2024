@@ -1,2 +1,3 @@
-MATCH_8 67'	Dangerous play by Nico Schlotterbeck - Borussia Dortmund
-MATCH_18 17'	Dangerous play by Henrikh Mkhitaryan - Inter Milan
+MATCH_5 89'	Dangerous play by Emerson Royal - AC Milan
+MATCH_6 4'	Dangerous play by Qazim Laçi - Sparta Prague
+MATCH_8 4'	Dangerous play by Achraf Hakimi - Paris Saint Germain

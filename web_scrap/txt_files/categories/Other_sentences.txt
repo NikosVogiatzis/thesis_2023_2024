@@ -1,5 +1,61 @@
-MATCH_6 64'	Harry Kane - FC Bayern München
-MATCH_18 68'	Álvaro Morata - Atletico Madrid
-MATCH_28 45+1'	Denzel Dumfries - Inter Milan
-MATCH_29 53'	Xavi Simons - RB Leipzig - has gone down, but the referee deems it simulation.
+MATCH_0 45+1'	Fourth official has announced 4 minutes of added time.
+MATCH_0 90+1'	Fourth official has announced 6 minutes of added time.
+MATCH_1 45'	Fourth official has announced %injmins% minutes of added time.
+MATCH_1 90+1'	Fourth official has announced 3 minutes of added time.
+MATCH_2 45'	Fourth official has announced 5 minutes of added time.
+MATCH_2 90'	Fourth official has announced 3 minutes of added time.
+MATCH_3 45+1'	Fourth official has announced 4 minutes of added time.
+MATCH_3 90'	Fourth official has announced 5 minutes of added time.
+MATCH_4 45'	Fourth official has announced 4 minutes of added time.
+MATCH_4 90'	Fourth official has announced 4 minutes of added time.
+MATCH_5 45'	Fourth official has announced 5 minutes of added time.
+MATCH_5 90'	Fourth official has announced 6 minutes of added time.
+MATCH_6 45+1'	Fourth official has announced 2 minutes of added time.
+MATCH_6 90+1'	Fourth official has announced 3 minutes of added time.
+MATCH_7 45+1'	Fourth official has announced 8 minutes of added time.
+MATCH_7 90+1'	Fourth official has announced 5 minutes of added time.
+MATCH_8 45'	Fourth official has announced 1 minutes of added time.
+MATCH_8 90'	Fourth official has announced 4 minutes of added time.
+MATCH_9 45'	Fourth official has announced 1 minutes of added time.
+MATCH_9 90'	Fourth official has announced 4 minutes of added time.
+MATCH_10 45'	Fourth official has announced %injmins% minutes of added time.
+MATCH_10 90'	Fourth official has announced 3 minutes of added time.
+MATCH_11 45'	Fourth official has announced 1 minutes of added time.
+MATCH_11 90'	Fourth official has announced 2 minutes of added time.
+MATCH_12 45+1'	Fourth official has announced 3 minutes of added time.
+MATCH_12 90'	Fourth official has announced 4 minutes of added time.
+MATCH_13 45+1'	Fourth official has announced 1 minutes of added time.
+MATCH_13 90+1'	Fourth official has announced 2 minutes of added time.
+MATCH_14 45'	Fourth official has announced 2 minutes of added time.
+MATCH_14 90'	Fourth official has announced 6 minutes of added time.
+MATCH_15 45+1'	Fourth official has announced 3 minutes of added time.
+MATCH_15 90'	Fourth official has announced 4 minutes of added time.
+MATCH_16 45'	Fourth official has announced 2 minutes of added time.
+MATCH_16 90+2'	Fourth official has announced 4 minutes of added time.
+MATCH_17 45+1'	Fourth official has announced 1 minutes of added time.
+MATCH_17 90+1'	Fourth official has announced 4 minutes of added time.
+MATCH_18 45'	Fourth official has announced %injmins% minutes of added time.
+MATCH_18 90+1'	Fourth official has announced 4 minutes of added time.
+MATCH_19 45+1'	Fourth official has announced 5 minutes of added time.
+MATCH_19 90+1'	Fourth official has announced 3 minutes of added time.
+MATCH_20 45'	Fourth official has announced %injmins% minutes of added time.
+MATCH_20 90+1'	Fourth official has announced 2 minutes of added time.
+MATCH_21 45+1'	Fourth official has announced 3 minutes of added time.
+MATCH_21 90'	Fourth official has announced 3 minutes of added time.
+MATCH_22 45'	Fourth official has announced 2 minutes of added time.
+MATCH_22 90+1'	Fourth official has announced 5 minutes of added time.
+MATCH_23 45+1'	Fourth official has announced 1 minutes of added time.
+MATCH_23 90+1'	Fourth official has announced 3 minutes of added time.
+MATCH_24 45+1'	Fourth official has announced 2 minutes of added time.
+MATCH_24 90'	Fourth official has announced 4 minutes of added time.
+MATCH_25 45'	Fourth official has announced 2 minutes of added time.
+MATCH_25 90'	Fourth official has announced 3 minutes of added time.
+MATCH_26 45'	Fourth official has announced 1 minutes of added time.
+MATCH_26 90'	Fourth official has announced 4 minutes of added time.
+MATCH_27 45'	Fourth official has announced %injmins% minutes of added time.
+MATCH_27 90+1'	Fourth official has announced 4 minutes of added time.
+MATCH_28 45'	Fourth official has announced 2 minutes of added time.
+MATCH_28 90+1'	Fourth official has announced 5 minutes of added time.
+MATCH_29 45+1'	Fourth official has announced 1 minutes of added time.
+MATCH_29 90+1'	Fourth official has announced 4 minutes of added time.
 

@@ -1,226 +1,277 @@
-MATCH_0 72'	Substitution - Borussia Dortmund. Marco Reus for Karim Adeyemi.
-MATCH_0 80'	Substitution - Borussia Dortmund. Donyell Malen for Emre Can.
-MATCH_0 81'	Substitution - Borussia Dortmund. Sébastien Haller for Julian Brandt.
-MATCH_0 85'	Substitution - Real Madrid. Joselu for Jude Bellingham.
-MATCH_0 86'	Substitution - Real Madrid. Luka Modric for Toni Kroos.
-MATCH_0 87'	Substitution - Borussia Dortmund. Jamie Bynoe-Gittens for Jadon Sancho.
-MATCH_0 90'	Substitution - Real Madrid. Éder Militão for Rodrygo.
-MATCH_0 90+4'	Substitution - Real Madrid. Lucas Vázquez for Vinícius Júnior.
-MATCH_1 45'	Substitution - FC Bayern München. Raphaël Guerreiro for Leon Goretzka.
-MATCH_1 65'	Substitution - Real Madrid. Eduardo Camavinga for Nacho.
-MATCH_1 75'	Substitution - Real Madrid. Luka Modric for Jude Bellingham.
-MATCH_1 76'	Substitution - Real Madrid. Brahim Díaz for Toni Kroos.
-MATCH_1 80'	Substitution - FC Bayern München. Serge Gnabry for Thomas Müller.
-MATCH_1 87'	Substitution - Real Madrid. Joselu for Rodrygo.
-MATCH_1 87'	Substitution - FC Bayern München. Alphonso Davies for Leroy Sané.
-MATCH_2 42'	Substitution - Paris Saint Germain. Beraldo for Lucas Hernández - injury.
-MATCH_2 65'	Substitution - Paris Saint Germain. Randal Kolo Muani for Bradley Barcola.
-MATCH_2 83'	Substitution - Borussia Dortmund. Marco Reus for Karim Adeyemi.
-MATCH_2 87'	Substitution - Borussia Dortmund. Marius Wolf for Julian Ryerson - injury.
-MATCH_2 87'	Substitution - Borussia Dortmund. Felix Nmecha for Julian Brandt.
-MATCH_2 90+1'	Substitution - Borussia Dortmund. Youssoufa Moukoko for Niclas Füllkrug.
-MATCH_3 56'	Substitution - Borussia Dortmund. Marco Reus for Karim Adeyemi.
-MATCH_3 63'	Substitution - Paris Saint Germain. Marco Asensio for Fabián Ruiz.
-MATCH_3 63'	Substitution - Paris Saint Germain. Bradley Barcola for Gonçalo Ramos.
-MATCH_3 67'	Substitution - Borussia Dortmund. Niklas Süle for Jadon Sancho.
-MATCH_3 76'	Substitution - Paris Saint Germain. Lee Kang-In for Warren Zaïre-Emery.
-MATCH_3 85'	Substitution - Borussia Dortmund. Felix Nmecha for Julian Brandt.
-MATCH_4 27'	Substitution - FC Bayern München. Alphonso Davies for Serge Gnabry - injury.
-MATCH_4 69'	Substitution - Real Madrid. Luka Modric for Toni Kroos.
-MATCH_4 70'	Substitution - Real Madrid. Eduardo Camavinga for Aurélien Tchouaméni.
-MATCH_4 76'	Substitution - FC Bayern München. Kim Min-Jae for Leroy Sané.
-MATCH_4 81'	Substitution - Real Madrid. Brahim Díaz for Rodrygo.
-MATCH_4 81'	Substitution - Real Madrid. Joselu for Federico Valverde.
-MATCH_4 84'	Substitution - FC Bayern München. Thomas Müller for Jamal Musiala - injury.
-MATCH_4 85'	Substitution - FC Bayern München. Eric Choupo-Moting for Harry Kane.
-MATCH_4 90+10'	Substitution - Real Madrid. Éder Militão for Jude Bellingham.
-MATCH_5 72'	Substitution - Real Madrid. Brahim Díaz for Rodrygo.
-MATCH_5 72'	Substitution - Real Madrid. Luka Modric for Toni Kroos.
-MATCH_5 86'	Substitution - Real Madrid. Joselu for Vinícius Júnior.
-MATCH_5 87'	Substitution - Manchester City. Julián Álvarez for Phil Foden - injury.
-MATCH_6 45'	Substitution - Arsenal. Oleksandr Zinchenko for Jakub Kiwior.
-MATCH_6 66'	Substitution - FC Bayern München. Kingsley Coman for Leroy Sané.
-MATCH_6 66'	Substitution - Arsenal. Leandro Trossard for Gabriel Martinelli.
-MATCH_6 67'	Substitution - Arsenal. Gabriel Jesus for Jorginho.
-MATCH_6 70'	Substitution - FC Bayern München. Raphaël Guerreiro for Serge Gnabry - injury.
-MATCH_6 86'	Substitution - Arsenal. Thomas Partey for Kai Havertz.
-MATCH_7 45'	Substitution - Paris Saint Germain. Bradley Barcola for Marco Asensio.
-MATCH_7 61'	Substitution - Paris Saint Germain. Warren Zaïre-Emery for Lee Kang-In.
-MATCH_7 61'	Substitution - Barcelona. João Félix for Lamine Yamal.
-MATCH_7 61'	Substitution - Barcelona. Pedri for Sergi Roberto.
-MATCH_7 76'	Substitution - Barcelona. Andreas Christensen for Frenkie de Jong.
-MATCH_7 76'	Substitution - Barcelona. Ferran Torres for Raphinha.
-MATCH_7 85'	Substitution - Paris Saint Germain. Gonçalo Ramos for Fabián Ruiz.
-MATCH_7 86'	Substitution - Barcelona. Fermín López for Ilkay Gündogan.
-MATCH_8 45'	Substitution - Borussia Dortmund. Julian Brandt for Felix Nmecha.
-MATCH_8 60'	Substitution - Borussia Dortmund. Sébastien Haller for Niclas Füllkrug.
-MATCH_8 64'	Substitution - Atletico Madrid. Pablo Barrios for Álvaro Morata.
-MATCH_8 73'	Substitution - Borussia Dortmund. Jamie Bynoe-Gittens for Karim Adeyemi.
-MATCH_8 80'	Substitution - Atletico Madrid. Ángel Correa for Rodrigo De Paul.
-MATCH_8 84'	Substitution - Borussia Dortmund. Marco Reus for Marcel Sabitzer.
-MATCH_8 84'	Substitution - Borussia Dortmund. Salih Özcan for Emre Can.
-MATCH_8 90'	Substitution - Atletico Madrid. Saúl Ñíguez for Nahuel Molina.
-MATCH_8 90+1'	Substitution - Atletico Madrid. Stefan Savic for Axel Witsel.
-MATCH_8 90+1'	Substitution - Atletico Madrid. Rodrigo Riquelme for Samuel Lino.
-MATCH_9 45'	Substitution - Atletico Madrid. Pablo Barrios for Nahuel Molina.
-MATCH_9 45'	Substitution - Atletico Madrid. Rodrigo Riquelme for César Azpilicueta.
-MATCH_9 45'	Substitution - Atletico Madrid. Ángel Correa for Álvaro Morata.
-MATCH_9 66'	Substitution - Borussia Dortmund. Jamie Bynoe-Gittens for Karim Adeyemi.
-MATCH_9 84'	Substitution - Atletico Madrid. Saúl Ñíguez for Rodrigo De Paul.
-MATCH_9 86'	Substitution - Borussia Dortmund. Salih Özcan for Jadon Sancho.
-MATCH_9 90'	Substitution - Borussia Dortmund. Marco Reus for Julian Brandt.
-MATCH_10 34'	Substitution - Barcelona. Iñigo Martínez for Lamine Yamal.
-MATCH_10 62'	Substitution - Barcelona. Ferran Torres for Pedri.
-MATCH_10 77'	Substitution - Paris Saint Germain. Lee Kang-In for Bradley Barcola.
-MATCH_10 77'	Substitution - Paris Saint Germain. Marco Asensio for Fabián Ruiz.
-MATCH_10 80'	Substitution - Paris Saint Germain. Manuel Ugarte for Warren Zaïre-Emery.
-MATCH_10 82'	Substitution - Barcelona. João Félix for João Cancelo.
-MATCH_10 82'	Substitution - Barcelona. Fermín López for Frenkie de Jong.
-MATCH_10 88'	Substitution - Paris Saint Germain. Randal Kolo Muani for Ousmane Dembélé.
-MATCH_11 72'	Substitution - Manchester City. Jérémy Doku for Jack Grealish.
-MATCH_11 79'	Substitution - Real Madrid. Luka Modric for Toni Kroos.
-MATCH_11 84'	Substitution - Real Madrid. Brahim Díaz for Rodrygo.
-MATCH_11 90'	Substitution - Manchester City. Julián Álvarez for Erling Haaland.
-MATCH_11 102'	Substitution - Real Madrid. Lucas Vázquez for Vinícius Júnior - injury.
-MATCH_11 110'	Substitution - Real Madrid. Éder Militão for Dani Carvajal - injury.
-MATCH_11 112'	Substitution - Manchester City. Mateo Kovacic for Kevin De Bruyne.
-MATCH_11 112'	Substitution - Manchester City. John Stones for Manuel Akanji.
-MATCH_12 68'	Substitution - Arsenal. Gabriel Jesus for Jorginho.
-MATCH_12 68'	Substitution - Arsenal. Leandro Trossard for Gabriel Martinelli.
-MATCH_12 76'	Substitution - FC Bayern München. Kim Min-Jae for Noussair Mazraoui - injury.
-MATCH_12 86'	Substitution - Arsenal. Eddie Nketiah for Takehiro Tomiyasu.
-MATCH_12 89'	Substitution - FC Bayern München. Dayot Upamecano for Leroy Sané.
-MATCH_13 75'	Substitution - RB Leipzig. Amadou Haidara for Benjamin Henrichs.
-MATCH_13 75'	Substitution - RB Leipzig. Yussuf Poulsen for Loïs Openda.
-MATCH_13 76'	Substitution - RB Leipzig. Eljif Elmas for Dani Olmo.
-MATCH_13 84'	Substitution - Real Madrid. Lucas Vázquez for Brahim Díaz - injury.
-MATCH_13 84'	Substitution - Real Madrid. Joselu for Rodrygo.
-MATCH_13 90'	Substitution - RB Leipzig. Kevin Kampl for Xaver Schlager.
-MATCH_14 21'	Substitution - Manchester City. Jérémy Doku for Jack Grealish - injury.
-MATCH_14 55'	Substitution - FC Copenhagen. Andreas Cornelius for Viktor Claesson.
-MATCH_14 70'	Substitution - FC Copenhagen. Oscar Højlund for Diogo Gonçalves.
-MATCH_14 78'	Substitution - Manchester City. Matheus Nunes for Bernardo Silva - injury.
-MATCH_14 81'	Substitution - FC Copenhagen. Christian Sørensen for Elias Achouri.
-MATCH_14 81'	Substitution - FC Copenhagen. Jordan Larsson for Magnus Mattsson.
-MATCH_15 66'	Substitution - Real Sociedad. Arsen Zakharyan for Ander Barrenetxea.
-MATCH_15 72'	Substitution - Paris Saint Germain. Lucas Hernández for Danilo Pereira.
-MATCH_15 72'	Substitution - Paris Saint Germain. Marco Asensio for Bradley Barcola.
-MATCH_15 78'	Substitution - Real Sociedad. Jon Pacheco for Robin Le Normand.
-MATCH_15 79'	Substitution - Real Sociedad. Umar Sadiq for André Silva.
-MATCH_15 79'	Substitution - Real Sociedad. Beñat Turrientes for Brais Méndez.
-MATCH_15 83'	Substitution - Paris Saint Germain. Randal Kolo Muani for Ousmane Dembélé.
-MATCH_15 88'	Substitution - Real Sociedad. Jon Aramburu for Javi Galán.
-MATCH_16 60'	Substitution - Lazio. Manuel Lazzari for Elseid Hysaj - injury.
-MATCH_16 73'	Substitution - FC Bayern München. Matthijs de Ligt for Leon Goretzka.
-MATCH_16 74'	Substitution - Lazio. Pedro for Gustav Isaksen.
-MATCH_16 74'	Substitution - Lazio. Valentín Castellanos for Ciro Immobile.
-MATCH_16 81'	Substitution - Lazio. Patric for Mario Gila - injury.
-MATCH_16 81'	Substitution - Lazio. Daichi Kamada for Luis Alberto.
-MATCH_16 81'	Substitution - FC Bayern München. Eric Choupo-Moting for Thomas Müller.
-MATCH_16 81'	Substitution - FC Bayern München. Mathys Tel for Leroy Sané.
-MATCH_17 62'	Substitution - Borussia Dortmund. Julian Brandt for Marco Reus.
-MATCH_17 68'	Substitution - Borussia Dortmund. Marius Wolf for Jadon Sancho.
-MATCH_17 75'	Substitution - PSV Eindhoven. Ricardo Pepi for Hirving Lozano.
-MATCH_17 82'	Substitution - Borussia Dortmund. Salih Özcan for Donyell Malen.
-MATCH_17 82'	Substitution - Borussia Dortmund. Youssoufa Moukoko for Niclas Füllkrug.
-MATCH_17 83'	Substitution - PSV Eindhoven. Mauro Júnior for Ismael Saibari - injury.
-MATCH_17 90'	Substitution - PSV Eindhoven. Armando Obispo for Olivier Boscagli - injury.
-MATCH_18 45'	Substitution - Atletico Madrid. Stefan Savic for José Giménez - injury.
-MATCH_18 45'	Substitution - Inter Milan. Marko Arnautovic for Marcus Thuram - injury.
-MATCH_18 54'	Substitution - Atletico Madrid. Álvaro Morata for Saúl Ñíguez.
-MATCH_18 68'	Substitution - Atletico Madrid. Reinildo for Mario Hermoso.
-MATCH_18 68'	Substitution - Atletico Madrid. Pablo Barrios for Nahuel Molina.
-MATCH_18 69'	Substitution - Inter Milan. Denzel Dumfries for Matteo Darmian.
-MATCH_18 69'	Substitution - Inter Milan. Carlos Augusto for Federico Dimarco.
-MATCH_18 72'	Substitution - Inter Milan. Davide Frattesi for Henrikh Mkhitaryan.
-MATCH_18 78'	Substitution - Atletico Madrid. Ángel Correa for Antoine Griezmann - injury.
-MATCH_18 88'	Substitution - Inter Milan. Alexis Sánchez for Lautaro Martínez.
-MATCH_19 74'	Substitution - Arsenal. Jorginho for Leandro Trossard.
-MATCH_19 81'	Substitution - FC Porto. Iván Jaime for Nico González.
-MATCH_19 85'	Substitution - FC Porto. Toni Martínez for Evanilson.
-MATCH_19 85'	Substitution - FC Porto. Gonçalo Borges for Francisco Conceição.
-MATCH_19 90'	Substitution - FC Porto. Stephen Eustáquio for Wendell - injury.
-MATCH_20 68'	Substitution - Napoli. Hamed Traorè for Jens Cajuste.
-MATCH_20 68'	Substitution - Napoli. Jesper Lindstrøm for Khvicha Kvaratskhelia.
-MATCH_20 77'	Substitution - Napoli. Giacomo Raspadori for Matteo Politano.
-MATCH_20 77'	Substitution - Napoli. Giovanni Simeone for Victor Osimhen.
-MATCH_20 80'	Substitution - Barcelona. Raphinha for Lamine Yamal.
-MATCH_20 86'	Substitution - Barcelona. Oriol Romeu for Andreas Christensen.
-MATCH_20 86'	Substitution - Barcelona. João Félix for Pedri.
-MATCH_21 45'	Substitution - Paris Saint Germain. Lee Kang-In for Bradley Barcola.
-MATCH_21 61'	Substitution - Real Sociedad. Ander Barrenetxea for Sheraldo Becker.
-MATCH_21 61'	Substitution - Real Sociedad. Beñat Turrientes for Brais Méndez.
-MATCH_21 62'	Substitution - Paris Saint Germain. Nordi Mukiele for Nuno Mendes.
-MATCH_21 77'	Substitution - Real Sociedad. Jon Pacheco for Igor Zubeldia.
-MATCH_21 77'	Substitution - Real Sociedad. André Silva for Mikel Oyarzabal.
-MATCH_21 77'	Substitution - Paris Saint Germain. Manuel Ugarte for Fabián Ruiz.
-MATCH_21 82'	Substitution - Paris Saint Germain. Randal Kolo Muani for Ousmane Dembélé.
-MATCH_21 83'	Substitution - Paris Saint Germain. Carlos Soler for Achraf Hakimi.
-MATCH_21 83'	Substitution - Real Sociedad. Jon Olasagasti for Martín Zubimendi.
-MATCH_22 61'	Substitution - Lazio. Danilo Cataldi for Matías Vecino.
-MATCH_22 61'	Substitution - Lazio. Gustav Isaksen for Mattia Zaccagni - injury.
-MATCH_22 61'	Substitution - Lazio. Valentín Castellanos for Ciro Immobile - injury.
-MATCH_22 75'	Substitution - Lazio. Pedro for Felipe Anderson.
-MATCH_22 78'	Substitution - FC Bayern München. Alphonso Davies for Raphaël Guerreiro.
-MATCH_22 78'	Substitution - FC Bayern München. Mathys Tel for Thomas Müller.
-MATCH_22 80'	Substitution - Lazio. Daichi Kamada for Luis Alberto.
-MATCH_22 89'	Substitution - FC Bayern München. Konrad Laimer for Leroy Sané.
-MATCH_22 90+1'	Substitution - FC Bayern München. Serge Gnabry for Jamal Musiala.
-MATCH_23 45'	Substitution - Real Madrid. Rodrygo for Eduardo Camavinga.
-MATCH_23 77'	Substitution - RB Leipzig. Yussuf Poulsen for Loïs Openda.
-MATCH_23 78'	Substitution - Real Madrid. Luka Modric for Toni Kroos.
-MATCH_23 85'	Substitution - Real Madrid. Joselu for Jude Bellingham.
-MATCH_23 85'	Substitution - RB Leipzig. Christoph Baumgartner for Benjamin Sesko.
-MATCH_23 85'	Substitution - RB Leipzig. Eljif Elmas for Xaver Schlager.
-MATCH_23 90'	Substitution - RB Leipzig. Kevin Kampl for Amadou Haidara.
-MATCH_24 45'	Substitution - Manchester City. Sergio Gómez for Rodri.
-MATCH_24 58'	Substitution - FC Copenhagen. Roony Bardghji for Elias Achouri.
-MATCH_24 58'	Substitution - FC Copenhagen. Magnus Mattsson for Victor Froholdt.
-MATCH_24 68'	Substitution - Manchester City. John Stones for Rúben Dias.
-MATCH_24 69'	Substitution - FC Copenhagen. Oscar Højlund for William Clem.
-MATCH_24 69'	Substitution - FC Copenhagen. Andreas Cornelius for Orri Óskarsson.
-MATCH_24 74'	Substitution - Manchester City. Micah Hamilton for Matheus Nunes - injury.
-MATCH_24 78'	Substitution - FC Copenhagen. Birger Meling for Elias Jelert.
-MATCH_24 88'	Substitution - Manchester City. Jacob Wright for Erling Haaland.
-MATCH_25 60'	Substitution - Barcelona. Sergi Roberto for Fermín López.
-MATCH_25 61'	Substitution - Barcelona. Oriol Romeu for Andreas Christensen.
-MATCH_25 64'	Substitution - Napoli. Mathías Olivera for Mário Rui.
-MATCH_25 64'	Substitution - Napoli. Jesper Lindstrøm for Matteo Politano.
-MATCH_25 78'	Substitution - Napoli. Giacomo Raspadori for Hamed Traorè.
-MATCH_25 81'	Substitution - Barcelona. João Félix for Raphinha.
-MATCH_25 90+3'	Substitution - Napoli. Cyril Ngonge for Khvicha Kvaratskhelia.
-MATCH_26 83'	Substitution - Arsenal. Gabriel Jesus for Jorginho.
-MATCH_26 86'	Substitution - FC Porto. Jorge Sánchez for João Mário.
-MATCH_26 88'	Substitution - FC Porto. Mehdi Taremi for Evanilson.
-MATCH_26 90+7'	Substitution - FC Porto. Marko Grujic for Alan Varela - injury.
-MATCH_26 101'	Substitution - FC Porto. Stephen Eustáquio for Nico González.
-MATCH_26 101'	Substitution - FC Porto. Gonçalo Borges for Francisco Conceição.
-MATCH_26 105'	Substitution - Arsenal. Eddie Nketiah for Leandro Trossard.
-MATCH_26 105'	Substitution - Arsenal. Oleksandr Zinchenko for Jakub Kiwior.
-MATCH_27 45'	Substitution - PSV Eindhoven. Hirving Lozano for Guus Til.
-MATCH_27 58'	Substitution - Borussia Dortmund. Felix Nmecha for Julian Brandt.
-MATCH_27 70'	Substitution - Borussia Dortmund. Karim Adeyemi for Donyell Malen.
-MATCH_27 75'	Substitution - Borussia Dortmund. Marco Reus for Jadon Sancho - injury.
-MATCH_27 82'	Substitution - PSV Eindhoven. Ricardo Pepi for Joey Veerman.
-MATCH_27 86'	Substitution - PSV Eindhoven. Isaac Babadi for Mauro Júnior.
-MATCH_28 71'	Substitution - Atletico Madrid. Ángel Correa for Rodrigo De Paul.
-MATCH_28 71'	Substitution - Atletico Madrid. Rodrigo Riquelme for Samuel Lino.
-MATCH_28 73'	Substitution - Inter Milan. Francesco Acerbi for Alessandro Bastoni.
-MATCH_28 73'	Substitution - Inter Milan. Matteo Darmian for Denzel Dumfries.
-MATCH_28 79'	Substitution - Atletico Madrid. Pablo Barrios for Nahuel Molina.
-MATCH_28 79'	Substitution - Atletico Madrid. Memphis Depay for Álvaro Morata.
-MATCH_28 84'	Substitution - Inter Milan. Davide Frattesi for Nicolò Barella - injury.
-MATCH_28 84'	Substitution - Inter Milan. Yann Bisseck for Federico Dimarco.
-MATCH_28 99'	Substitution - Atletico Madrid. César Azpilicueta for Marcos Llorente.
-MATCH_28 102'	Substitution - Inter Milan. Alexis Sánchez for Marcus Thuram.
-MATCH_28 105'	Substitution - Atletico Madrid. Saúl Ñíguez for Antoine Griezmann - injury.
-MATCH_28 111'	Substitution - Inter Milan. Davy Klaassen for Henrikh Mkhitaryan.
-MATCH_29 64'	Substitution - RB Leipzig. Benjamin Sesko for Yussuf Poulsen.
-MATCH_29 69'	Substitution - Young Boys. Lewin Blum for Saidy Janko.
-MATCH_29 70'	Substitution - Young Boys. Silvere Ganvoula for Cedric Itten.
-MATCH_29 77'	Substitution - Young Boys. Darian Males for Sandro Lauper.
-MATCH_29 77'	Substitution - Young Boys. Noah Persson for Ulisses Garcia.
-MATCH_29 80'	Substitution - RB Leipzig. Christoph Baumgartner for Emil Forsberg.
-MATCH_29 85'	Substitution - Young Boys. Jean-Pierre Nsame for Cheikh Niasse.
-MATCH_29 88'	Substitution - RB Leipzig. Christopher Lenz for Loïs Openda.
-MATCH_29 88'	Substitution - RB Leipzig. Timo Werner for Xavi Simons.
+MATCH_0 45'	Substitution - Aston Villa. Diego Carlos for Lamare Bogarde.
+MATCH_0 45'	Substitution - Young Boys. Meschack Elia for Cheikh Niasse.
+MATCH_0 60'	Substitution - Aston Villa. Jhon Durán for Ollie Watkins.
+MATCH_0 63'	Substitution - Young Boys. Alan Virginius for Ebrima Colley.
+MATCH_0 63'	Substitution - Young Boys. Abdu Conté for Jaouen Hadjam.
+MATCH_0 83'	Substitution - Young Boys. Darian Males for Joël Monteiro.
+MATCH_0 83'	Substitution - Young Boys. Cedric Itten for Silvere Ganvoula.
+MATCH_0 87'	Substitution - Aston Villa. Ian Maatsen for Youri Tielemans.
+MATCH_0 88'	Substitution - Aston Villa. Ross Barkley for Lucas Digne.
+MATCH_0 88'	Substitution - Aston Villa. Emiliano Buendía for Morgan Rogers.
+MATCH_1 57'	Substitution - Juventus. Danilo for Federico Gatti - injury.
+MATCH_1 57'	Substitution - Juventus. Khéphren Thuram for Manuel Locatelli.
+MATCH_1 62'	Substitution - PSV Eindhoven. Noa Lang for Guus Til.
+MATCH_1 62'	Substitution - PSV Eindhoven. Ismael Saibari for Joey Veerman.
+MATCH_1 69'	Substitution - Juventus. Nicolò Fagioli for Kenan Yildiz.
+MATCH_1 69'	Substitution - Juventus. Timothy Weah for Nicolás González.
+MATCH_1 75'	Substitution - Juventus. Douglas Luiz for Weston McKennie.
+MATCH_1 76'	Substitution - PSV Eindhoven. Mauro Júnior for Matteo Dams.
+MATCH_1 77'	Substitution - PSV Eindhoven. Ricardo Pepi for Luuk de Jong.
+MATCH_1 86'	Substitution - PSV Eindhoven. Adamo Nagalo for Richard Ledezma.
+MATCH_2 13'	Substitution - Sporting Lisbon. Matheus Reis for Gonçalo Inácio - injury.
+MATCH_2 45'	Substitution - Sporting Lisbon. Daniel Bragança for Hidemasa Morita.
+MATCH_2 64'	Substitution - Lille. Tiago Santos for Thomas Meunier.
+MATCH_2 64'	Substitution - Lille. Matias Fernandez-Pardo for Jonathan David.
+MATCH_2 64'	Substitution - Lille. Ayyoub Bouaddi for Aïssa Mandi.
+MATCH_2 71'	Substitution - Lille. Rémy Cabella for Osame Sahraoui.
+MATCH_2 73'	Substitution - Sporting Lisbon. Maximiliano Araújo for Geovany Quenda.
+MATCH_2 82'	Substitution - Lille. Gabriel Gudmundsson for Mitchel Bakker.
+MATCH_2 88'	Substitution - Sporting Lisbon. Conrad Harder for Trincão.
+MATCH_3 45'	Substitution - Real Madrid. Éder Militão for Lucas Vázquez.
+MATCH_3 63'	Substitution - VfB Stuttgart. Fabian Rieder for Chris Führich.
+MATCH_3 63'	Substitution - VfB Stuttgart. Anrie Chase for Josha Vagnoman.
+MATCH_3 70'	Substitution - Real Madrid. Luka Modric for Aurélien Tchouaméni.
+MATCH_3 75'	Substitution - Real Madrid. Arda Güler for Rodrygo.
+MATCH_3 75'	Substitution - VfB Stuttgart. Ermedin Demirovic for Enzo Millot.
+MATCH_3 76'	Substitution - Real Madrid. Fran García for Ferland Mendy.
+MATCH_3 76'	Substitution - VfB Stuttgart. El Bilal Touré for Deniz Undav.
+MATCH_3 80'	Substitution - Real Madrid. Endrick for Jude Bellingham.
+MATCH_3 89'	Substitution - VfB Stuttgart. Dan-Axel Zagadou for Anthony Rouault.
+MATCH_4 45'	Substitution - Dinamo Zagreb. Luka Stojkovic for Marko Rog.
+MATCH_4 45'	Substitution - FC Bayern München. Sven Ulreich for Manuel Neuer - injury.
+MATCH_4 61'	Substitution - Dinamo Zagreb. Sandro Kulenovic for Marko Pjaca.
+MATCH_4 68'	Substitution - FC Bayern München. Thomas Müller for Jamal Musiala.
+MATCH_4 68'	Substitution - FC Bayern München. Leroy Sané for Michael Olise.
+MATCH_4 69'	Substitution - FC Bayern München. Eric Dier for Kim Min-Jae.
+MATCH_4 73'	Substitution - Dinamo Zagreb. Arbër Hoxha for Takuya Ogiwara.
+MATCH_4 73'	Substitution - Dinamo Zagreb. Dario Spikic for Ronaël Pierre-Gabriel.
+MATCH_4 78'	Substitution - Dinamo Zagreb. Arijan Ademi for Martin Baturina.
+MATCH_4 81'	Substitution - FC Bayern München. Leon Goretzka for Raphaël Guerreiro.
+MATCH_5 51'	Substitution - AC Milan. Lorenzo Torriani for Mike Maignan - injury.
+MATCH_5 68'	Substitution - Liverpool. Luis Díaz for Cody Gakpo.
+MATCH_5 68'	Substitution - Liverpool. Darwin Núñez for Diogo Jota.
+MATCH_5 70'	Substitution - AC Milan. Tammy Abraham for Ruben Loftus-Cheek.
+MATCH_5 70'	Substitution - AC Milan. Emerson Royal for Davide Calabria - injury.
+MATCH_5 79'	Substitution - Liverpool. Joe Gomez for Trent Alexander-Arnold.
+MATCH_5 84'	Substitution - AC Milan. Noah Okafor for Álvaro Morata.
+MATCH_5 84'	Substitution - AC Milan. Matteo Gabbia for Fikayo Tomori.
+MATCH_5 90+3'	Substitution - Liverpool. Federico Chiesa for Mohamed Salah.
+MATCH_5 90+3'	Substitution - Liverpool. Wataru Endo for Alexis Mac Allister.
+MATCH_6 45'	Substitution - FC Red Bull Salzburg. Mamady Diambou for John Mellberg.
+MATCH_6 57'	Substitution - FC Red Bull Salzburg. Karim Konaté for Moussa Yeo.
+MATCH_6 57'	Substitution - FC Red Bull Salzburg. Adam Daghim for Dorgeles Nene.
+MATCH_6 64'	Substitution - Sparta Prague. Albion Rrahmani for Victor Olatunji.
+MATCH_6 66'	Substitution - FC Red Bull Salzburg. Lucas Gourna-Douath for Bobby Clark.
+MATCH_6 71'	Substitution - Sparta Prague. Matej Rynes for Tomás Wiesner.
+MATCH_6 72'	Substitution - Sparta Prague. Ermal Krasniqi for Lukás Haraslín.
+MATCH_6 83'	Substitution - FC Red Bull Salzburg. Petar Ratkov for Stefan Bajcetic.
+MATCH_6 84'	Substitution - Sparta Prague. Lukás Sadílek for Qazim Laçi.
+MATCH_7 35'	Substitution - Shakhtar Donetsk. Newerton for Danylo Sikan - injury.
+MATCH_7 41'	Substitution - Shakhtar Donetsk. Vinícius Tobias for Yukhym Konoplia - injury.
+MATCH_7 65'	Substitution - Bologna. Samuel Iling-Junior for Riccardo Orsolini.
+MATCH_7 65'	Substitution - Bologna. Tommaso Pobega for Nikola Moro.
+MATCH_7 65'	Substitution - Bologna. Thijs Dallinga for Santiago Castro.
+MATCH_7 78'	Substitution - Bologna. Kacper Urbanski for Giovanni Fabbian.
+MATCH_7 78'	Substitution - Bologna. Juan Miranda for Charalampos Lykogiannis.
+MATCH_7 79'	Substitution - Shakhtar Donetsk. Taras Stepanenko for Artem Bondarenko.
+MATCH_7 79'	Substitution - Shakhtar Donetsk. Marlon Gomes for Heorhii Sudakov.
+MATCH_7 79'	Substitution - Shakhtar Donetsk. Lassina Traoré for Oleksandr Zubkov.
+MATCH_8 39'	Substitution - Paris Saint Germain. Randal Kolo Muani for Marco Asensio - injury.
+MATCH_8 58'	Substitution - Girona. Arnaut Danjuma for Donny van de Beek.
+MATCH_8 58'	Substitution - Girona. Portu for Cristhian Stuani.
+MATCH_8 63'	Substitution - Paris Saint Germain. João Neves for Fabián Ruiz.
+MATCH_8 63'	Substitution - Paris Saint Germain. Désiré Doué for Bradley Barcola.
+MATCH_8 63'	Substitution - Paris Saint Germain. Lee Kang-In for Vitinha.
+MATCH_8 66'	Substitution - Girona. Yáser Asprilla for Bryan Gil.
+MATCH_8 66'	Substitution - Girona. Jhon Solís for Iván Martín.
+MATCH_8 88'	Substitution - Girona. Alejandro Francés for Viktor Tsyhankov.
+MATCH_8 90+2'	Substitution - Paris Saint Germain. Beraldo for Ousmane Dembélé.
+MATCH_9 45'	Substitution - Manchester City. Ilkay Gündogan for Kevin De Bruyne - injury.
+MATCH_9 45'	Substitution - Manchester City. Phil Foden for Savinho.
+MATCH_9 66'	Substitution - Inter Milan. Lautaro Martínez for Marcus Thuram.
+MATCH_9 66'	Substitution - Inter Milan. Henrikh Mkhitaryan for Piotr Zielinski.
+MATCH_9 75'	Substitution - Inter Milan. Denzel Dumfries for Matteo Darmian.
+MATCH_9 75'	Substitution - Inter Milan. Benjamin Pavard for Yann Bisseck.
+MATCH_9 80'	Substitution - Manchester City. Jérémy Doku for Bernardo Silva.
+MATCH_9 82'	Substitution - Inter Milan. Davide Frattesi for Hakan Çalhanoglu.
+MATCH_10 59'	Substitution - Borussia Dortmund. Serhou Guirassy for Donyell Malen.
+MATCH_10 59'	Substitution - Borussia Dortmund. Waldemar Anton for Ramy Bensebaini.
+MATCH_10 65'	Substitution - Club Brugge. Ferran Jutglà for Gustaf Nilsson.
+MATCH_10 68'	Substitution - Borussia Dortmund. Felix Nmecha for Pascal Groß.
+MATCH_10 68'	Substitution - Borussia Dortmund. Jamie Gittens for Marcel Sabitzer.
+MATCH_10 71'	Substitution - Club Brugge. Kyriani Sabbe for Joaquin Seys.
+MATCH_10 85'	Substitution - Club Brugge. Chemsdine Talbi for Christos Tzolis.
+MATCH_10 85'	Substitution - Club Brugge. Romeo Vermant for Hugo Vetlesen.
+MATCH_10 87'	Substitution - Borussia Dortmund. Yan Couto for Karim Adeyemi.
+MATCH_11 71'	Substitution - Celtic. James Forrest for Nicolas Kühn.
+MATCH_11 76'	Substitution - SK Slovan Bratislava. Kyriakos Savvidis for Danylo Ignatenko.
+MATCH_11 77'	Substitution - SK Slovan Bratislava. Róbert Mak for Vladimír Weiss.
+MATCH_11 77'	Substitution - SK Slovan Bratislava. Nino Marcelli for Tigran Barseghyan.
+MATCH_11 77'	Substitution - Celtic. Anthony Ralston for Alistair Johnston.
+MATCH_11 77'	Substitution - Celtic. Adam Idah for Kyogo Furuhashi.
+MATCH_11 77'	Substitution - Celtic. Paulo Bernardo for Reo Hatate.
+MATCH_11 85'	Substitution - Celtic. Auston Trusty for Cameron Carter-Vickers.
+MATCH_11 85'	Substitution - SK Slovan Bratislava. Idjessi Metsoko for David Strelec.
+MATCH_11 85'	Substitution - SK Slovan Bratislava. Artur Gajdos for Juraj Kucka.
+MATCH_12 27'	Substitution - Red Star Belgrade. Dálcio for Ognjen Mimovic - injury.
+MATCH_12 37'	Substitution - Benfica. Issa Kaboré for Alexander Bah - injury.
+MATCH_12 56'	Substitution - Benfica. Fredrik Aursnes for Benjamín Rollheiser.
+MATCH_12 71'	Substitution - Red Star Belgrade. Cherif Ndiaye for Bruno Duarte.
+MATCH_12 71'	Substitution - Red Star Belgrade. Milson for Peter Olayinka.
+MATCH_12 82'	Substitution - Red Star Belgrade. Luka Ilic for Rade Krunic.
+MATCH_12 88'	Substitution - Benfica. Zeki Amdouni for Vangelis Pavlidis.
+MATCH_12 88'	Substitution - Benfica. Jan-Niklas Beste for Ángel Di María.
+MATCH_12 88'	Substitution - Benfica. Leandro Barreiro for Orkun Kökçü.
+MATCH_13 45'	Substitution - Feyenoord. Gijs Smal for Ramiz Zerrouki.
+MATCH_13 61'	Substitution - Feyenoord. Anis Hadj Moussa for Jordan Lotomba.
+MATCH_13 61'	Substitution - Feyenoord. Ayase Ueda for Igor Paixão.
+MATCH_13 62'	Substitution - Bayer 04 Leverkusen. Patrik Schick for Victor Boniface.
+MATCH_13 72'	Substitution - Bayer 04 Leverkusen. Amine Adli for Martin Terrier.
+MATCH_13 72'	Substitution - Bayer 04 Leverkusen. Aleix García for Florian Wirtz.
+MATCH_13 72'	Substitution - Feyenoord. Jeyland Mitchell for Gernot Trauner.
+MATCH_13 75'	Substitution - Feyenoord. Chris-Kévin Nadje for Antoni Milambo.
+MATCH_13 80'	Substitution - Bayer 04 Leverkusen. Jeanuël Belocian for Álex Grimaldo.
+MATCH_13 81'	Substitution - Bayer 04 Leverkusen. Exequiel Palacios for Granit Xhaka.
+MATCH_14 45'	Substitution - Monaco. Aleksandr Golovin for Lamine Camara.
+MATCH_14 59'	Substitution - Monaco. George Ilenikhena for Breel Embolo.
+MATCH_14 70'	Substitution - Monaco. Folarin Balogun for Takumi Minamino.
+MATCH_14 70'	Substitution - Monaco. Caio Henrique for Eliesse Ben Seghir.
+MATCH_14 79'	Substitution - Barcelona. Ferran Torres for Pau Cubarsí.
+MATCH_14 80'	Substitution - Barcelona. Gerard Martín for Lamine Yamal.
+MATCH_14 80'	Substitution - Barcelona. Sergi Domínguez for Robert Lewandowski.
+MATCH_14 83'	Substitution - Barcelona. Pablo Torre for Pedri.
+MATCH_14 88'	Substitution - Barcelona. Ansu Fati for Alejandro Balde.
+MATCH_14 88'	Substitution - Monaco. Christian Mawissa for Vanderson.
+MATCH_15 10'	Substitution - SK Puntigamer Sturm Graz. Max Johnston for Gregory Wüthrich - injury.
+MATCH_15 45'	Substitution - SK Puntigamer Sturm Graz. Malick Yalcouyé for Tomi Horvat.
+MATCH_15 60'	Substitution - SK Puntigamer Sturm Graz. Lovro Zvonarek for Seedy Jatta - injury.
+MATCH_15 62'	Substitution - Brest. Romain Del Castillo for Romain Faivre.
+MATCH_15 71'	Substitution - Brest. Jonas Martin for Mahdi Camara.
+MATCH_15 72'	Substitution - Brest. Kamory Doumbia for Edimilson Fernandes - injury.
+MATCH_15 78'	Substitution - SK Puntigamer Sturm Graz. Erencan Yardimci for Mika Biereth.
+MATCH_15 78'	Substitution - SK Puntigamer Sturm Graz. Amady Camara for Otar Kiteishvili.
+MATCH_15 84'	Substitution - Brest. Massadio Haïdara for Jordan Amavi.
+MATCH_15 85'	Substitution - Brest. Mathias Pereira Lage for Abdallah Sima.
+MATCH_16 45'	Substitution - RB Leipzig. Christoph Baumgartner for Antonio Nusa.
+MATCH_16 60'	Substitution - RB Leipzig. Nicolas Seiwald for Arthur Vermeeren.
+MATCH_16 62'	Substitution - Atletico Madrid. Samuel Lino for Rodrigo Riquelme.
+MATCH_16 63'	Substitution - Atletico Madrid. Alexander Sørloth for Julián Alvarez.
+MATCH_16 63'	Substitution - Atletico Madrid. Conor Gallagher for Rodrigo De Paul.
+MATCH_16 66'	Substitution - Atletico Madrid. Nahuel Molina for Ángel Correa.
+MATCH_16 70'	Substitution - RB Leipzig. Lutsharel Geertruida for Benjamin Sesko.
+MATCH_16 70'	Substitution - RB Leipzig. Yussuf Poulsen for Benjamin Henrichs.
+MATCH_16 83'	Substitution - RB Leipzig. Eljif Elmas for Xavi Simons.
+MATCH_16 90+2'	Substitution - Atletico Madrid. Axel Witsel for Antoine Griezmann.
+MATCH_17 58'	Substitution - Arsenal. Leandro Trossard for Gabriel Jesus.
+MATCH_17 58'	Substitution - Arsenal. Jorginho for Thomas Partey.
+MATCH_17 60'	Substitution - Atalanta. Juan Cuadrado for Charles De Ketelaere.
+MATCH_17 70'	Substitution - Atalanta. Nicolò Zaniolo for Mateo Retegui.
+MATCH_17 70'	Substitution - Atalanta. Raoul Bellanova for Davide Zappacosta.
+MATCH_17 73'	Substitution - Arsenal. Raheem Sterling for Bukayo Saka.
+MATCH_17 73'	Substitution - Arsenal. Riccardo Calafiori for Jurriën Timber.
+MATCH_17 89'	Substitution - Atalanta. Mario Pasalic for Matteo Ruggeri.
+MATCH_17 89'	Substitution - Atalanta. Lazar Samardzic for Ademola Lookman.
+MATCH_18 62'	Substitution - VfB Stuttgart. Anrie Chase for Pascal Stenzel.
+MATCH_18 62'	Substitution - VfB Stuttgart. Chris Führich for Ermedin Demirovic.
+MATCH_18 70'	Substitution - Sparta Prague. Lukás Sadílek for Qazim Laçi.
+MATCH_18 70'	Substitution - Sparta Prague. Victor Olatunji for Albion Rrahmani.
+MATCH_18 76'	Substitution - VfB Stuttgart. El Bilal Touré for Atakan Karazor.
+MATCH_18 81'	Substitution - Sparta Prague. Ermal Krasniqi for Lukás Haraslín.
+MATCH_18 84'	Substitution - VfB Stuttgart. Fabian Rieder for Jamie Leweling.
+MATCH_19 61'	Substitution - FC Red Bull Salzburg. Nicolás Capaldo for Mads Bidstrup.
+MATCH_19 61'	Substitution - FC Red Bull Salzburg. Dorgeles Nene for Bobby Clark.
+MATCH_19 63'	Substitution - Brest. Jonas Martin for Edimilson Fernandes.
+MATCH_19 63'	Substitution - Brest. Mama Baldé for Romain Del Castillo.
+MATCH_19 75'	Substitution - Brest. Mathias Pereira Lage for Abdallah Sima.
+MATCH_19 75'	Substitution - Brest. Kamory Doumbia for Mahdi Camara.
+MATCH_19 77'	Substitution - FC Red Bull Salzburg. Hendry Blank for Samson Baidoo.
+MATCH_19 77'	Substitution - FC Red Bull Salzburg. Stefan Bajcetic for Leandro Morgalla.
+MATCH_19 77'	Substitution - FC Red Bull Salzburg. Mamady Diambou for Lucas Gourna-Douath.
+MATCH_19 85'	Substitution - Brest. Romain Faivre for Ludovic Ajorque.
+MATCH_20 61'	Substitution - Manchester City. James McAtee for Erling Haaland.
+MATCH_20 61'	Substitution - Manchester City. Rúben Dias for Manuel Akanji.
+MATCH_20 63'	Substitution - SK Slovan Bratislava. Július Szöke for Danylo Ignatenko.
+MATCH_20 63'	Substitution - SK Slovan Bratislava. Sharani Zuberu for Vladimír Weiss.
+MATCH_20 78'	Substitution - Manchester City. Kyle Walker for Josko Gvardiol.
+MATCH_20 78'	Substitution - Manchester City. Jack Grealish for Phil Foden.
+MATCH_20 79'	Substitution - SK Slovan Bratislava. Nino Marcelli for David Strelec.
+MATCH_20 79'	Substitution - SK Slovan Bratislava. Lukás Pauschek for Marko Tolic.
+MATCH_20 85'	Substitution - SK Slovan Bratislava. Róbert Mak for Tigran Barseghyan.
+MATCH_21 32'	Substitution - Sporting Lisbon. Eduardo Quaresma for Ousmane Diomande - injury.
+MATCH_21 52'	Substitution - Sporting Lisbon. Daniel Bragança for Geny Catamo.
+MATCH_21 65'	Substitution - PSV Eindhoven. Rick Karsdorp for Mauro Júnior.
+MATCH_21 66'	Substitution - PSV Eindhoven. Noa Lang for Ismael Saibari.
+MATCH_21 79'	Substitution - PSV Eindhoven. Richard Ledezma for Guus Til - injury.
+MATCH_21 79'	Substitution - Sporting Lisbon. Conrad Harder for Nuno Santos.
+MATCH_21 80'	Substitution - Sporting Lisbon. Maximiliano Araújo for Trincão.
+MATCH_21 90+2'	Substitution - PSV Eindhoven. Ricardo Pepi for Johan Bakayoko.
+MATCH_22 64'	Substitution - Inter Milan. Davide Frattesi for Henrikh Mkhitaryan.
+MATCH_22 64'	Substitution - Inter Milan. Francesco Acerbi for Stefan de Vrij.
+MATCH_22 64'	Substitution - Inter Milan. Lautaro Martínez for Marko Arnautovic.
+MATCH_22 69'	Substitution - Red Star Belgrade. Luka Ilic for Cherif Ndiaye.
+MATCH_22 70'	Substitution - Red Star Belgrade. Bruno Duarte for Silas Katompa Mvumpa.
+MATCH_22 70'	Substitution - Red Star Belgrade. Nemanja Radonjic for Andrija Maksimovic.
+MATCH_22 70'	Substitution - Inter Milan. Kristjan Asllani for Hakan Çalhanoglu.
+MATCH_22 74'	Substitution - Inter Milan. Yann Bisseck for Alessandro Bastoni.
+MATCH_22 89'	Substitution - Red Star Belgrade. Milan Rodic for Vanja Drkusic.
+MATCH_22 89'	Substitution - Red Star Belgrade. Dálcio for Rade Krunic.
+MATCH_23 45'	Substitution - Celtic. Reo Hatate for Paulo Bernardo.
+MATCH_23 45'	Substitution - Celtic. Álex Valle for Greg Taylor.
+MATCH_23 48'	Substitution - Borussia Dortmund. Julien Duranville for Karim Adeyemi - injury.
+MATCH_23 61'	Substitution - Borussia Dortmund. Felix Nmecha for Pascal Groß.
+MATCH_23 61'	Substitution - Borussia Dortmund. Maximilian Beier for Julian Brandt.
+MATCH_23 62'	Substitution - Borussia Dortmund. Ramy Bensebaini for Yan Couto.
+MATCH_23 63'	Substitution - Celtic. Yang Hyun-Jun for Nicolas Kühn.
+MATCH_23 63'	Substitution - Celtic. Adam Idah for Kyogo Furuhashi.
+MATCH_23 70'	Substitution - Borussia Dortmund. Marcel Sabitzer for Serhou Guirassy.
+MATCH_23 86'	Substitution - Celtic. Anthony Ralston for Alistair Johnston - injury.
+MATCH_24 62'	Substitution - AC Milan. Álvaro Morata for Tammy Abraham.
+MATCH_24 75'	Substitution - Bayer 04 Leverkusen. Martin Terrier for Victor Boniface.
+MATCH_24 75'	Substitution - Bayer 04 Leverkusen. Robert Andrich for Aleix García.
+MATCH_24 79'	Substitution - AC Milan. Samuel Chukwueze for Christian Pulisic.
+MATCH_24 82'	Substitution - Bayer 04 Leverkusen. Exequiel Palacios for Amine Adli.
+MATCH_24 89'	Substitution - Bayer 04 Leverkusen. Jeanuël Belocian for Álex Grimaldo.
+MATCH_24 89'	Substitution - Bayer 04 Leverkusen. Nathan Tella for Florian Wirtz.
+MATCH_25 58'	Substitution - Young Boys. Zachary Athekame for Lewin Blum.
+MATCH_25 58'	Substitution - Young Boys. Cheikh Niasse for Filip Ugrinic.
+MATCH_25 64'	Substitution - Barcelona. Ansu Fati for Pedri.
+MATCH_25 64'	Substitution - Barcelona. Héctor Fort for Pau Cubarsí.
+MATCH_25 73'	Substitution - Young Boys. Alan Virginius for Ebrima Colley.
+MATCH_25 73'	Substitution - Young Boys. Silvere Ganvoula for Cedric Itten.
+MATCH_25 75'	Substitution - Barcelona. Pau Víctor for Robert Lewandowski.
+MATCH_25 75'	Substitution - Barcelona. Frenkie de Jong for Lamine Yamal.
+MATCH_25 82'	Substitution - Young Boys. Lukasz Lakomy for Kastriot Imeri.
+MATCH_25 84'	Substitution - Barcelona. Andrés Cuenca for Iñigo Martínez.
+MATCH_26 45'	Substitution - Arsenal. Jakub Kiwior for Jurriën Timber.
+MATCH_26 64'	Substitution - Paris Saint Germain. Randal Kolo Muani for Désiré Doué.
+MATCH_26 64'	Substitution - Paris Saint Germain. Fabián Ruiz for Vitinha.
+MATCH_26 64'	Substitution - Arsenal. Mikel Merino for Thomas Partey.
+MATCH_26 74'	Substitution - Arsenal. Gabriel Jesus for Leandro Trossard.
+MATCH_26 90+2'	Substitution - Arsenal. Myles Lewis-Skelly for Bukayo Saka.
+MATCH_27 45'	Substitution - Atalanta. Mario Pasalic for Berat Djimsiti.
+MATCH_27 45'	Substitution - Shakhtar Donetsk. Yukhym Konoplia for Alaa Ghram.
+MATCH_27 60'	Substitution - Atalanta. Mateo Retegui for Ademola Lookman.
+MATCH_27 60'	Substitution - Atalanta. Nicolò Zaniolo for Charles De Ketelaere.
+MATCH_27 63'	Substitution - Shakhtar Donetsk. Lassina Traoré for Eguinaldo.
+MATCH_27 63'	Substitution - Shakhtar Donetsk. Kevin for Marlon Gomes.
+MATCH_27 63'	Substitution - Shakhtar Donetsk. Artem Bondarenko for Taras Stepanenko - injury.
+MATCH_27 75'	Substitution - Atalanta. Juan Cuadrado for Raoul Bellanova.
+MATCH_27 75'	Substitution - Shakhtar Donetsk. Newerton for Oleksandr Zubkov.
+MATCH_27 83'	Substitution - Atalanta. Ben Godfrey for Odilon Kossounou - injury.
+MATCH_28 29'	Substitution - Girona. Arnaut Danjuma for Viktor Tsyhankov - injury.
+MATCH_28 61'	Substitution - Feyenoord. Ramiz Zerrouki for Ibrahim Osman.
+MATCH_28 71'	Substitution - Feyenoord. Gernot Trauner for Hugo Bueno.
+MATCH_28 71'	Substitution - Feyenoord. Julián Carranza for Ayase Ueda.
+MATCH_28 75'	Substitution - Girona. Cristhian Stuani for Bojan Miovski.
+MATCH_28 75'	Substitution - Girona. Yáser Asprilla for Bryan Gil.
+MATCH_28 82'	Substitution - Feyenoord. Luka Ivanusec for Antoni Milambo.
+MATCH_28 82'	Substitution - Girona. Jhon Solís for Yangel Herrera.
+MATCH_28 82'	Substitution - Girona. Portu for Donny van de Beek.
+MATCH_28 83'	Substitution - Feyenoord. Facundo González for Jordan Lotomba.
+MATCH_29 45'	Substitution - Club Brugge. Michal Skóras for Andreas Skov Olsen.
+MATCH_29 58'	Substitution - SK Puntigamer Sturm Graz. Seedy Jatta for Amady Camara.
+MATCH_29 66'	Substitution - SK Puntigamer Sturm Graz. Erencan Yardimci for Mika Biereth.
+MATCH_29 66'	Substitution - SK Puntigamer Sturm Graz. Tomi Horvat for William Bøving.
+MATCH_29 77'	Substitution - Club Brugge. Romeo Vermant for Ferran Jutglà.
+MATCH_29 82'	Substitution - SK Puntigamer Sturm Graz. Stefan Hierländer for Tochi Chukwuani.
+MATCH_29 82'	Substitution - SK Puntigamer Sturm Graz. Lovro Zvonarek for Malick Yalcouyé.

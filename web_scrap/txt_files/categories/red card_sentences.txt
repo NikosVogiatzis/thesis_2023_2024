@@ -1,2 +1,1 @@
-MATCH_10 29'	Ronald Araujo - Barcelona - receive red card.
-MATCH_16 67'	Dayot Upamecano - FC Bayern München - receive red card.
+MATCH_14 10'	Eric García - Barcelona - receive red card.

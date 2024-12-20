@@ -1,12 +1,23 @@
-MATCH_1 56'	Penalty FC Bayern München. Jamal Musiala draws a foul in the penalty area.
-MATCH_1 56'	Penalty conceded by Lucas Vázquez - Real Madrid - after a foul in the penalty area.
-MATCH_1 82'	Penalty Real Madrid. Rodrygo draws a foul in the penalty area.
-MATCH_1 82'	Penalty conceded by Kim Min-Jae - FC Bayern München - after a foul in the penalty area.
-MATCH_6 30'	Penalty FC Bayern München. Leroy Sané draws a foul in the penalty area.
-MATCH_6 30'	Penalty conceded by William Saliba - Arsenal - after a foul in the penalty area.
-MATCH_10 59'	Penalty Paris Saint Germain. Ousmane Dembélé draws a foul in the penalty area.
-MATCH_10 59'	Penalty conceded by João Cancelo - Barcelona - after a foul in the penalty area.
-MATCH_16 67'	Penalty Lazio. Gustav Isaksen draws a foul in the penalty area.
-MATCH_16 67'	Penalty conceded by Dayot Upamecano - FC Bayern München - after a foul in the penalty area.
-MATCH_17 54'	Penalty PSV Eindhoven. Malik Tillman draws a foul in the penalty area.
-MATCH_17 54'	Penalty conceded by Mats Hummels - Borussia Dortmund - after a foul in the penalty area.
+MATCH_4 16'	Penalty FC Bayern München. Aleksandar Pavlovic draws a foul in the penalty area.
+MATCH_4 16'	Penalty conceded by Ronaël Pierre-Gabriel - Dinamo Zagreb - after a foul in the penalty area.
+MATCH_4 69'	Penalty conceded by Josip Misic - Dinamo Zagreb - with a hand ball in the penalty area.
+MATCH_4 77'	Penalty FC Bayern München. Alphonso Davies draws a foul in the penalty area.
+MATCH_4 77'	Penalty conceded by Kévin Théophile-Catherine - Dinamo Zagreb - after a foul in the penalty area.
+MATCH_7 2'	Penalty Shakhtar Donetsk. Eguinaldo draws a foul in the penalty area.
+MATCH_7 2'	Penalty conceded by Stefan Posch - Bologna - after a foul in the penalty area.
+MATCH_10 90+3'	Penalty Borussia Dortmund. Serhou Guirassy draws a foul in the penalty area.
+MATCH_10 90+3'	Penalty conceded by Brandon Mechele - Club Brugge - after a foul in the penalty area.
+MATCH_11 55'	Penalty Celtic. Alistair Johnston draws a foul in the penalty area.
+MATCH_11 55'	Penalty conceded by Danylo Ignatenko - SK Slovan Bratislava - after a foul in the penalty area.
+MATCH_17 48'	Penalty Atalanta. Éderson draws a foul in the penalty area.
+MATCH_17 48'	Penalty conceded by Thomas Partey - Arsenal - after a foul in the penalty area.
+MATCH_22 77'	Penalty Inter Milan. Lautaro Martínez draws a foul in the penalty area.
+MATCH_22 77'	Penalty conceded by Vanja Drkusic - Red Star Belgrade - after a foul in the penalty area.
+MATCH_23 6'	Penalty Borussia Dortmund. Jamie Gittens draws a foul in the penalty area.
+MATCH_23 6'	Penalty conceded by Kasper Schmeichel - Celtic - after a foul in the penalty area.
+MATCH_23 39'	Penalty Borussia Dortmund. Karim Adeyemi draws a foul in the penalty area.
+MATCH_23 39'	Penalty conceded by Arne Engels - Celtic - after a foul in the penalty area.
+MATCH_28 35'	Penalty Feyenoord. Quinten Timber draws a foul in the penalty area.
+MATCH_28 35'	Penalty conceded by Iván Martín - Girona - after a foul in the penalty area.
+MATCH_28 66'	Penalty Girona. Bojan Miovski draws a foul in the penalty area.
+MATCH_28 66'	Penalty conceded by Timon Wellenreuther - Feyenoord - after a foul in the penalty area.

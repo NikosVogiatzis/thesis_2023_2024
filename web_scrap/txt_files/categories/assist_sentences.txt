@@ -1,633 +1,606 @@
-MATCH_0  Assist - Toni Kroos with a cross after corner. Goal_Scored1
-MATCH_0  Assist - Jude Bellingham. Goal_Scored2
-MATCH_1  Assist - Toni Kroos with a through ball. Goal_Scored3
-MATCH_1  Assist - Konrad Laimer. Goal_Scored4
-MATCH_2  Assist - Nico Schlotterbeck with a through ball. Goal_Scored7
-MATCH_3  Assist - Julian Brandt with a cross after corner. Goal_Scored8
-MATCH_4  Assist - Harry Kane following a fast break. Goal_Scored9
-MATCH_4  Assist - Antonio Rüdiger with a cross after corner.Goal awarded following VAR Review. Goal_Scored11
-MATCH_5  Assist - Vinícius Júnior following a fast break. Goal_Scored13
-MATCH_5  Assist - John Stones. Goal_Scored14
-MATCH_5  Assist - Jack Grealish. Goal_Scored15
-MATCH_5  Assist - Vinícius Júnior with a cross. Goal_Scored16
-MATCH_6  Assist - Ben White. Goal_Scored17
-MATCH_6  Assist - Leon Goretzka with a through ball. Goal_Scored18
-MATCH_6  Assist - Gabriel Jesus. Goal_Scored20
-MATCH_7  Assist - Fabián Ruiz with a through ball. Goal_Scored23
-MATCH_7  Assist - Pedri with a through ball. Goal_Scored24
-MATCH_7  Assist - Ilkay Gündogan with a cross after corner. Goal_Scored25
-MATCH_8  Assist - Antoine Griezmann. Goal_Scored27
-MATCH_9  Assist - Mats Hummels. Goal_Scored29
-MATCH_9  Assist - Marcel Sabitzer. Goal_Scored30
-MATCH_9  Assist - Marcel Sabitzer with a cross. Goal_Scored32
-MATCH_9  Assist - Niclas Füllkrug. Goal_Scored33
-MATCH_10  Assist - Lamine Yamal. Goal_Scored34
-MATCH_10  Assist - Bradley Barcola with a cross. Goal_Scored35
-MATCH_10  Assist - Achraf Hakimi after corner. Goal_Scored36
-MATCH_12  Assist - Raphaël Guerreiro with a cross. Goal_Scored41
-MATCH_13  Assist - Dani Carvajal. Goal_Scored42
-MATCH_14  Assist - Phil Foden with a through ball. Goal_Scored43
-MATCH_14  Assist - Kevin De Bruyne. Goal_Scored45
-MATCH_15  Assist - Fabián Ruiz. Goal_Scored48
-MATCH_17  Assist - Marcel Sabitzer. Goal_Scored50
-MATCH_19  Assist - Otávio. Goal_Scored53
-MATCH_20  Assist - Pedri. Goal_Scored54
-MATCH_20  Assist - Frank Anguissa. Goal_Scored55
-MATCH_21  Assist - Ousmane Dembélé with a through ball. Goal_Scored56
-MATCH_21  Assist - Lee Kang-In. Goal_Scored57
-MATCH_22  Assist - Raphaël Guerreiro. Goal_Scored59
-MATCH_22  Assist - Matthijs de Ligt after corner. Goal_Scored60
-MATCH_23  Assist - Jude Bellingham following a fast break. Goal_Scored62
-MATCH_23  Assist - David Raum with a cross. Goal_Scored63
-MATCH_24  Assist - Julián Álvarez with a cross after corner. Goal_Scored64
-MATCH_24  Assist - Orri Óskarsson following a fast break. Goal_Scored66
-MATCH_24  Assist - Rodri. Goal_Scored67
-MATCH_25  Assist - Raphinha. Goal_Scored68
-MATCH_25  Assist - Matteo Politano. Goal_Scored70
-MATCH_25  Assist - Sergi Roberto. Goal_Scored71
-MATCH_26  Assist - Martin Ødegaard with a through ball. Goal_Scored72
-MATCH_27  Assist - Julian Brandt. Goal_Scored73
-MATCH_27  Assist - Niclas Füllkrug with a head. Goal_Scored74
-MATCH_28  Assist - Nicolò Barella. Goal_Scored75
-MATCH_28  Assist - Koke with a through ball. Goal_Scored77
-MATCH_29  Assist - David Raum with a cross after corner. Goal_Scored78
-MATCH_29  Assist - Filip Ugrinic. Goal_Scored79
-MATCH_29  Assist - Kevin Kampl after corner. Goal_Scored80
-MATCH_29  Assist - Benjamin Henrichs with a through ball following a fast break. Goal_Scored81
-MATCH_0  Assist - Julian Brandt with a cross after corner. Attacking_Attempt1
-MATCH_0  Assist - Jude Bellingham. Attacking_Attempt2
-MATCH_0  Assist - Niclas Füllkrug. Attacking_Attempt3
-MATCH_0  Assist - Federico Valverde. Attacking_Attempt4
-MATCH_0  Assist - Mats Hummels with a through ball. Attacking_Attempt5
-MATCH_0  Assist - Marcel Sabitzer. Attacking_Attempt6
-MATCH_0  Assist - Ian Maatsen with a through ball. Attacking_Attempt7
-MATCH_0  Assist - Julian Brandt with a through ball. Attacking_Attempt8
-MATCH_0  Assist - Julian Brandt. Attacking_Attempt10
-MATCH_0  Assist - Toni Kroos with a cross after corner. Attacking_Attempt12
-MATCH_0  Assist - Niclas Füllkrug. Attacking_Attempt13
-MATCH_0  Assist - Julian Brandt with a cross after corner. Attacking_Attempt14
-MATCH_0  Assist - Karim Adeyemi with a cross. Attacking_Attempt16
-MATCH_0  Assist - Toni Kroos with a cross after corner. Attacking_Attempt17
-MATCH_0  Assist - Eduardo Camavinga. Attacking_Attempt19
-MATCH_0  Assist - Jude Bellingham. Attacking_Attempt21
-MATCH_0  Assist - Toni Kroos with a cross. Attacking_Attempt22
-MATCH_1  Assist - Harry Kane with a through ball. Attacking_Attempt25
-MATCH_1  Assist - Leroy Sané. Attacking_Attempt26
-MATCH_1  Assist - Harry Kane following a fast break. Attacking_Attempt27
-MATCH_1  Assist - Noussair Mazraoui following a fast break. Attacking_Attempt28
-MATCH_1  Assist - Thomas Müller. Attacking_Attempt29
-MATCH_1  Assist - Harry Kane. Attacking_Attempt30
-MATCH_1  Assist - Jamal Musiala. Attacking_Attempt31
-MATCH_1  Assist - Toni Kroos with a cross after corner. Attacking_Attempt34
-MATCH_1  Assist - Jude Bellingham. Attacking_Attempt35
-MATCH_1  Assist - Toni Kroos. Attacking_Attempt36
-MATCH_1  Assist - Aurélien Tchouaméni. Attacking_Attempt37
-MATCH_1  Assist - Noussair Mazraoui. Attacking_Attempt38
-MATCH_1  Assist - Joshua Kimmich with a cross. Attacking_Attempt39
-MATCH_1  Assist - Joshua Kimmich with a cross. Attacking_Attempt40
-MATCH_1  Assist - Rodrygo. Attacking_Attempt41
-MATCH_1  Assist - Luka Modric. Attacking_Attempt42
-MATCH_1  Assist - Joshua Kimmich. Attacking_Attempt44
-MATCH_2  Assist - Kylian Mbappé. Attacking_Attempt45
-MATCH_2  Assist - Julian Brandt. Attacking_Attempt46
-MATCH_2  Assist - Achraf Hakimi. Attacking_Attempt47
-MATCH_2  Assist - Jadon Sancho. Attacking_Attempt48
-MATCH_2  Assist - Niclas Füllkrug. Attacking_Attempt49
-MATCH_2  Assist - Kylian Mbappé. Attacking_Attempt50
-MATCH_2  Assist - Julian Brandt. Attacking_Attempt51
-MATCH_2  Assist - Julian Brandt with a cross. Attacking_Attempt53
-MATCH_2  Assist - Achraf Hakimi. Attacking_Attempt54
-MATCH_2  Assist - Bradley Barcola. Attacking_Attempt56
-MATCH_2  Assist - Bradley Barcola. Attacking_Attempt57
-MATCH_2  Assist - Marquinhos with a cross. Attacking_Attempt58
-MATCH_2  Assist - Jadon Sancho. Attacking_Attempt59
-MATCH_2  Assist - Niclas Füllkrug with a head. Attacking_Attempt60
-MATCH_2  Assist - Jadon Sancho. Attacking_Attempt61
-MATCH_2  Assist - Ian Maatsen with a cross . Attacking_Attempt62
-MATCH_2  Assist - Kylian Mbappé with a through ball. Attacking_Attempt63
-MATCH_2  Assist - Julian Ryerson. Attacking_Attempt64
-MATCH_2  Assist - Achraf Hakimi. Attacking_Attempt65
-MATCH_2  Assist - Ousmane Dembélé. Attacking_Attempt66
-MATCH_2  Assist - Vitinha. Attacking_Attempt69
-MATCH_2  Assist - Fabián Ruiz with a cross. Attacking_Attempt70
-MATCH_3  Assist - Ian Maatsen with a cross. Attacking_Attempt71
-MATCH_3  Assist - Achraf Hakimi with a cross. Attacking_Attempt72
-MATCH_3  Assist - Niclas Füllkrug. Attacking_Attempt74
-MATCH_3  Assist - Vitinha. Attacking_Attempt75
-MATCH_3  Assist - Niclas Füllkrug. Attacking_Attempt76
-MATCH_3  Assist - Kylian Mbappé. Attacking_Attempt77
-MATCH_3  Assist - Warren Zaïre-Emery. Attacking_Attempt78
-MATCH_3  Assist - Ousmane Dembélé with a cross. Attacking_Attempt79
-MATCH_3  Assist - Julian Brandt. Attacking_Attempt80
-MATCH_3  Assist - Nuno Mendes. Attacking_Attempt81
-MATCH_3  Assist - Kylian Mbappé. Attacking_Attempt82
-MATCH_3  Assist - Gonçalo Ramos after corner. Attacking_Attempt84
-MATCH_3  Assist - Vitinha. Attacking_Attempt85
-MATCH_3  Assist - Nuno Mendes with a cross. Attacking_Attempt87
-MATCH_3  Assist - Nuno Mendes. Attacking_Attempt89
-MATCH_3  Assist - Marcel Sabitzer. Attacking_Attempt90
-MATCH_3  Assist - Julian Brandt with a cross after corner. Attacking_Attempt91
-MATCH_3  Assist - Vitinha. Attacking_Attempt92
-MATCH_3  Assist - Nuno Mendes. Attacking_Attempt93
-MATCH_3  Assist - Marco Asensio. Attacking_Attempt94
-MATCH_3  Assist - Marco Asensio. Attacking_Attempt96
-MATCH_3  Assist - Achraf Hakimi. Attacking_Attempt98
-MATCH_3  Assist - Lee Kang-In with a cross . Attacking_Attempt99
-MATCH_3  Assist - Ousmane Dembélé with a cross. Attacking_Attempt100
-MATCH_3  Assist - Achraf Hakimi. Attacking_Attempt101
-MATCH_3  Assist - Ousmane Dembélé. Attacking_Attempt103
-MATCH_3  Assist - Bradley Barcola. Attacking_Attempt104
-MATCH_4  Assist - Dani Carvajal. Attacking_Attempt107
-MATCH_4  Assist - Jude Bellingham. Attacking_Attempt109
-MATCH_4  Assist - Vinícius Júnior. Attacking_Attempt110
-MATCH_4  Assist - Toni Kroos. Attacking_Attempt112
-MATCH_4  Assist - Toni Kroos. Attacking_Attempt113
-MATCH_4  Assist - Toni Kroos. Attacking_Attempt117
-MATCH_4  Assist - Harry Kane. Attacking_Attempt118
-MATCH_4  Assist - Vinícius Júnior. Attacking_Attempt121
-MATCH_4  Assist - Jude Bellingham. Attacking_Attempt123
-MATCH_4  Assist - Toni Kroos . Attacking_Attempt124
-MATCH_4  Assist - Alphonso Davies. Attacking_Attempt125
-MATCH_4  Assist - Jamal Musiala. Attacking_Attempt126
-MATCH_4  Assist - Antonio Rüdiger. Attacking_Attempt127
-MATCH_4  Assist - Jude Bellingham. Attacking_Attempt128
-MATCH_4  Assist - Joshua Kimmich. Attacking_Attempt130
-MATCH_5  Assist - Josko Gvardiol. Attacking_Attempt131
-MATCH_5  Assist - Erling Haaland. Attacking_Attempt132
-MATCH_5  Assist - Dani Carvajal. Attacking_Attempt133
-MATCH_5  Assist - Eduardo Camavinga. Attacking_Attempt135
-MATCH_5  Assist - Dani Carvajal. Attacking_Attempt136
-MATCH_5  Assist - Mateo Kovacic. Attacking_Attempt137
-MATCH_5  Assist - Vinícius Júnior following a fast break. Attacking_Attempt138
-MATCH_5  Assist - Rodrygo. Attacking_Attempt139
-MATCH_5  Assist - Bernardo Silva. Attacking_Attempt140
-MATCH_5  Assist - Jack Grealish with a cross . Attacking_Attempt143
-MATCH_5  Assist - Rodrygo. Attacking_Attempt144
-MATCH_5  Assist - Bernardo Silva. Attacking_Attempt145
-MATCH_5  Assist - Mateo Kovacic. Attacking_Attempt146
-MATCH_5  Assist - Vinícius Júnior. Attacking_Attempt147
-MATCH_5  Assist - Federico Valverde. Attacking_Attempt149
-MATCH_5  Assist - Luka Modric. Attacking_Attempt150
-MATCH_5  Assist - Aurélien Tchouaméni after corner. Attacking_Attempt151
-MATCH_6  Assist - Martin Ødegaard. Attacking_Attempt152
-MATCH_6  Assist - Kai Havertz. Attacking_Attempt153
-MATCH_6  Assist - Martin Ødegaard. Attacking_Attempt154
-MATCH_6  Assist - Martin Ødegaard. Attacking_Attempt155
-MATCH_6  Assist - Gabriel Martinelli with a cross. Attacking_Attempt156
-MATCH_6  Assist - Bukayo Saka. Attacking_Attempt158
-MATCH_6  Assist - Declan Rice with a cross . Attacking_Attempt159
-MATCH_6  Assist - Martin Ødegaard . Attacking_Attempt160
-MATCH_6  Assist - Jamal Musiala. Attacking_Attempt161
-MATCH_6  Assist - Martin Ødegaard. Attacking_Attempt163
-MATCH_6  Assist - Leroy Sané following a fast break. Attacking_Attempt164
-MATCH_6  Assist - Gabriel Jesus. Attacking_Attempt165
-MATCH_6  Assist - Joshua Kimmich. Attacking_Attempt166
-MATCH_6  Assist - Jamal Musiala. Attacking_Attempt167
-MATCH_6  Assist - Jamal Musiala. Attacking_Attempt168
-MATCH_7  Assist - Nuno Mendes. Attacking_Attempt169
-MATCH_7  Assist - Ousmane Dembélé. Attacking_Attempt170
-MATCH_7  Assist - Marquinhos. Attacking_Attempt171
-MATCH_7  Assist - Ousmane Dembélé. Attacking_Attempt172
-MATCH_7  Assist - Marco Asensio. Attacking_Attempt173
-MATCH_7  Assist - Lee Kang-In. Attacking_Attempt174
-MATCH_7  Assist - Vitinha. Attacking_Attempt175
-MATCH_7  Assist - Robert Lewandowski. Attacking_Attempt176
-MATCH_7  Assist - Ilkay Gündogan with a cross. Attacking_Attempt177
-MATCH_7  Assist - Ilkay Gündogan. Attacking_Attempt178
-MATCH_7  Assist - Ronald Araujo after corner. Attacking_Attempt179
-MATCH_7  Assist - Sergi Roberto. Attacking_Attempt180
-MATCH_7  Assist - Raphinha. Attacking_Attempt181
-MATCH_7  Assist - Kylian Mbappé. Attacking_Attempt182
-MATCH_7  Assist - Ilkay Gündogan with a cross. Attacking_Attempt183
-MATCH_7  Assist - Raphinha. Attacking_Attempt185
-MATCH_7  Assist - Kylian Mbappé. Attacking_Attempt186
-MATCH_7  Assist - Lamine Yamal with a cross. Attacking_Attempt187
-MATCH_7  Assist - Lee Kang-In. Attacking_Attempt188
-MATCH_7  Assist - Lee Kang-In. Attacking_Attempt189
-MATCH_7  Assist - Vitinha. Attacking_Attempt191
-MATCH_7  Assist - Raphinha. Attacking_Attempt192
-MATCH_7  Assist - Vitinha with a through ball. Attacking_Attempt193
-MATCH_7  Assist - Kylian Mbappé. Attacking_Attempt194
-MATCH_7  Assist - Bradley Barcola with a cross. Attacking_Attempt195
-MATCH_7  Assist - Ousmane Dembélé. Attacking_Attempt196
-MATCH_8  Assist - Antoine Griezmann. Attacking_Attempt197
-MATCH_8  Assist - Antoine Griezmann with a cross. Attacking_Attempt198
-MATCH_8  Assist - Samuel Lino. Attacking_Attempt199
-MATCH_8  Assist - Marcos Llorente. Attacking_Attempt200
-MATCH_8  Assist - Koke. Attacking_Attempt201
-MATCH_8  Assist - José Giménez with a head after corner. Attacking_Attempt202
-MATCH_8  Assist - Jadon Sancho with a cross after corner. Attacking_Attempt203
-MATCH_8  Assist - Marcel Sabitzer. Attacking_Attempt206
-MATCH_8  Assist - Niclas Füllkrug. Attacking_Attempt207
-MATCH_8  Assist - Jadon Sancho. Attacking_Attempt208
-MATCH_8  Assist - Antoine Griezmann. Attacking_Attempt210
-MATCH_8  Assist - Antoine Griezmann with a cross. Attacking_Attempt211
-MATCH_8  Assist - Niclas Füllkrug. Attacking_Attempt212
-MATCH_8  Assist - Rodrigo De Paul. Attacking_Attempt213
-MATCH_8  Assist - Antoine Griezmann with a cross. Attacking_Attempt215
-MATCH_8  Assist - Ángel Correa. Attacking_Attempt218
-MATCH_8  Assist - Julian Ryerson with a cross. Attacking_Attempt219
-MATCH_9  Assist - Karim Adeyemi. Attacking_Attempt220
-MATCH_9  Assist - Antoine Griezmann with a head following a fast break. Attacking_Attempt222
-MATCH_9  Assist - Nahuel Molina. Attacking_Attempt223
-MATCH_9  Assist - Julian Brandt with a cross after corner. Attacking_Attempt224
-MATCH_9  Assist - Jadon Sancho. Attacking_Attempt225
-MATCH_9  Assist - Julian Brandt. Attacking_Attempt227
-MATCH_9  Assist - Antoine Griezmann. Attacking_Attempt228
-MATCH_9  Assist - Ian Maatsen. Attacking_Attempt229
-MATCH_9  Assist - Julian Brandt with a cross. Attacking_Attempt230
-MATCH_9  Assist - Antoine Griezmann. Attacking_Attempt232
-MATCH_9  Assist - Antoine Griezmann with a cross after corner. Attacking_Attempt233
-MATCH_9  Assist - Karim Adeyemi. Attacking_Attempt234
-MATCH_9  Assist - Koke with a through ball. Attacking_Attempt235
-MATCH_9  Assist - Ángel Correa. Attacking_Attempt237
-MATCH_9  Assist - Jadon Sancho with a cross. Attacking_Attempt239
-MATCH_9  Assist - Emre Can. Attacking_Attempt240
-MATCH_9  Assist - Julian Brandt. Attacking_Attempt241
-MATCH_9  Assist - Nico Schlotterbeck. Attacking_Attempt242
-MATCH_9  Assist - Emre Can with a head. Attacking_Attempt243
-MATCH_10  Assist - Bradley Barcola. Attacking_Attempt245
-MATCH_10  Assist - Achraf Hakimi with a cross after corner. Attacking_Attempt246
-MATCH_10  Assist - Vitinha. Attacking_Attempt248
-MATCH_10  Assist - Bradley Barcola. Attacking_Attempt249
-MATCH_10  Assist - Ousmane Dembélé. Attacking_Attempt252
-MATCH_10  Assist - Kylian Mbappé. Attacking_Attempt253
-MATCH_10  Assist - Nuno Mendes with a cross. Attacking_Attempt254
-MATCH_10  Assist - Marquinhos. Attacking_Attempt255
-MATCH_10  Assist - Vitinha. Attacking_Attempt256
-MATCH_10  Assist - Kylian Mbappé. Attacking_Attempt257
-MATCH_10  Assist - Robert Lewandowski. Attacking_Attempt258
-MATCH_10  Assist - João Cancelo with a cross. Attacking_Attempt259
-MATCH_10  Assist - Raphinha. Attacking_Attempt260
-MATCH_10  Assist - Ferran Torres. Attacking_Attempt261
-MATCH_10  Assist - Lee Kang-In. Attacking_Attempt262
-MATCH_10  Assist - Ferran Torres. Attacking_Attempt263
-MATCH_10  Assist - Achraf Hakimi. Attacking_Attempt264
-MATCH_10  Assist - Achraf Hakimi. Attacking_Attempt266
-MATCH_11  Assist - Dani Carvajal. Attacking_Attempt267
-MATCH_11  Assist - Vinícius Júnior. Attacking_Attempt268
-MATCH_11  Assist - Jack Grealish. Attacking_Attempt269
-MATCH_11  Assist - Bernardo Silva with a cross. Attacking_Attempt270
-MATCH_11  Assist - Bernardo Silva with a head. Attacking_Attempt271
-MATCH_11  Assist - Rodri. Attacking_Attempt276
-MATCH_11  Assist - Rodri with a cross. Attacking_Attempt277
-MATCH_11  Assist - Rodri. Attacking_Attempt278
-MATCH_11  Assist - Phil Foden. Attacking_Attempt279
-MATCH_11  Assist - Erling Haaland. Attacking_Attempt280
-MATCH_11  Assist - Toni Kroos. Attacking_Attempt283
-MATCH_11  Assist - Bernardo Silva. Attacking_Attempt286
-MATCH_11  Assist - Erling Haaland. Attacking_Attempt287
-MATCH_11  Assist - Rodri. Attacking_Attempt288
-MATCH_11  Assist - Rodri. Attacking_Attempt289
-MATCH_11  Assist - Manuel Akanji. Attacking_Attempt290
-MATCH_11  Assist - Manuel Akanji with a cross. Attacking_Attempt291
-MATCH_11  Assist - Jérémy Doku. Attacking_Attempt292
-MATCH_11  Assist - Jérémy Doku. Attacking_Attempt294
-MATCH_11  Assist - Kevin De Bruyne with a cross after corner. Attacking_Attempt295
-MATCH_11  Assist - Manuel Akanji after corner. Attacking_Attempt296
-MATCH_11  Assist - Kevin De Bruyne. Attacking_Attempt297
-MATCH_11  Assist - Bernardo Silva with a cross. Attacking_Attempt299
-MATCH_11  Assist - Josko Gvardiol. Attacking_Attempt300
-MATCH_11  Assist - Brahim Díaz with a cross. Attacking_Attempt301
-MATCH_11  Assist - Josko Gvardiol. Attacking_Attempt302
-MATCH_11  Assist - Jérémy Doku. Attacking_Attempt304
-MATCH_11  Assist - Phil Foden. Attacking_Attempt305
-MATCH_12  Assist - Leon Goretzka. Attacking_Attempt307
-MATCH_12  Assist - Kai Havertz. Attacking_Attempt308
-MATCH_12  Assist - Gabriel Martinelli. Attacking_Attempt309
-MATCH_12  Assist - Noussair Mazraoui. Attacking_Attempt310
-MATCH_12  Assist - Takehiro Tomiyasu. Attacking_Attempt311
-MATCH_12  Assist - Martin Ødegaard. Attacking_Attempt312
-MATCH_12  Assist - Jamal Musiala. Attacking_Attempt313
-MATCH_12  Assist - Declan Rice with a cross. Attacking_Attempt314
-MATCH_12  Assist - Gabriel Martinelli with a head. Attacking_Attempt316
-MATCH_12  Assist - Joshua Kimmich. Attacking_Attempt317
-MATCH_12  Assist - Jamal Musiala. Attacking_Attempt319
-MATCH_12  Assist - Noussair Mazraoui. Attacking_Attempt320
-MATCH_12  Assist - Joshua Kimmich with a cross . Attacking_Attempt321
-MATCH_12  Assist - Joshua Kimmich. Attacking_Attempt322
-MATCH_12  Assist - Joshua Kimmich with a cross after corner. Attacking_Attempt324
-MATCH_12  Assist - Leon Goretzka. Attacking_Attempt325
-MATCH_12  Assist - Harry Kane. Attacking_Attempt327
-MATCH_13  Assist - Xavi Simons with a through ball. Attacking_Attempt328
-MATCH_13  Assist - Brahim Díaz. Attacking_Attempt329
-MATCH_13  Assist - Toni Kroos with a cross after corner. Attacking_Attempt330
-MATCH_13  Assist - Brahim Díaz. Attacking_Attempt331
-MATCH_13  Assist - Dani Olmo. Attacking_Attempt332
-MATCH_13  Assist - Xavi Simons. Attacking_Attempt333
-MATCH_13  Assist - Dani Olmo. Attacking_Attempt335
-MATCH_13  Assist - Vinícius Júnior. Attacking_Attempt336
-MATCH_13  Assist - Vinícius Júnior following a fast break. Attacking_Attempt337
-MATCH_13  Assist - Ferland Mendy. Attacking_Attempt338
-MATCH_13  Assist - Brahim Díaz with a through ball. Attacking_Attempt339
-MATCH_13  Assist - David Raum with a cross after corner. Attacking_Attempt340
-MATCH_13  Assist - Benjamin Henrichs. Attacking_Attempt341
-MATCH_13  Assist - Rodrygo. Attacking_Attempt343
-MATCH_13  Assist - Xavi Simons. Attacking_Attempt344
-MATCH_13  Assist - Vinícius Júnior. Attacking_Attempt345
-MATCH_13  Assist - Rodrygo. Attacking_Attempt346
-MATCH_13  Assist - Benjamin Henrichs. Attacking_Attempt347
-MATCH_13  Assist - Brahim Díaz following a fast break. Attacking_Attempt348
-MATCH_13  Assist - Xaver Schlager. Attacking_Attempt349
-MATCH_13  Assist - Amadou Haidara. Attacking_Attempt350
-MATCH_13  Assist - Amadou Haidara with a through ball. Attacking_Attempt351
-MATCH_13  Assist - Eduardo Camavinga. Attacking_Attempt354
-MATCH_13  Assist - Eduardo Camavinga with a cross. Attacking_Attempt355
-MATCH_14  Assist - Nathan Aké with a cross. Attacking_Attempt356
-MATCH_14  Assist - Bernardo Silva with a cross. Attacking_Attempt357
-MATCH_14  Assist - Jérémy Doku. Attacking_Attempt361
-MATCH_14  Assist - Rodri. Attacking_Attempt362
-MATCH_14  Assist - Rodri. Attacking_Attempt364
-MATCH_14  Assist - Elias Jelert. Attacking_Attempt366
-MATCH_14  Assist - Rodri. Attacking_Attempt367
-MATCH_14  Assist - Magnus Mattsson with a cross after corner. Attacking_Attempt368
-MATCH_14  Assist - Rodri. Attacking_Attempt369
-MATCH_14  Assist - Phil Foden. Attacking_Attempt371
-MATCH_14  Assist - Kevin De Bruyne. Attacking_Attempt372
-MATCH_14  Assist - Jérémy Doku. Attacking_Attempt373
-MATCH_14  Assist - Kyle Walker. Attacking_Attempt374
-MATCH_14  Assist - Nathan Aké. Attacking_Attempt375
-MATCH_14  Assist - Bernardo Silva with a cross. Attacking_Attempt377
-MATCH_14  Assist - Matheus Nunes. Attacking_Attempt380
-MATCH_14  Assist - Matheus Nunes. Attacking_Attempt382
-MATCH_15  Assist - Ousmane Dembélé. Attacking_Attempt385
-MATCH_15  Assist - André Silva. Attacking_Attempt386
-MATCH_15  Assist - Takefusa Kubo with a cross. Attacking_Attempt387
-MATCH_15  Assist - Brais Méndez. Attacking_Attempt391
-MATCH_15  Assist - Achraf Hakimi. Attacking_Attempt392
-MATCH_15  Assist - Vitinha. Attacking_Attempt393
-MATCH_15  Assist - Fabián Ruiz. Attacking_Attempt395
-MATCH_15  Assist - Fabián Ruiz with a through ball. Attacking_Attempt396
-MATCH_15  Assist - Takefusa Kubo with a cross. Attacking_Attempt397
-MATCH_15  Assist - André Silva. Attacking_Attempt398
-MATCH_15  Assist - Beñat Turrientes. Attacking_Attempt399
-MATCH_15  Assist - Achraf Hakimi. Attacking_Attempt400
-MATCH_15  Assist - Warren Zaïre-Emery following a fast break. Attacking_Attempt402
-MATCH_15  Assist - Takefusa Kubo with a cross after corner. Attacking_Attempt403
-MATCH_16  Assist - Leroy Sané. Attacking_Attempt404
-MATCH_16  Assist - Thomas Müller. Attacking_Attempt406
-MATCH_16  Assist - Raphaël Guerreiro. Attacking_Attempt407
-MATCH_16  Assist - Luis Alberto with a cross. Attacking_Attempt409
-MATCH_16  Assist - Danilo Cataldi. Attacking_Attempt410
-MATCH_16  Assist - Jamal Musiala. Attacking_Attempt411
-MATCH_16  Assist - Thomas Müller . Attacking_Attempt412
-MATCH_16  Assist - Luis Alberto. Attacking_Attempt413
-MATCH_16  Assist - Leon Goretzka. Attacking_Attempt414
-MATCH_16  Assist - Gustav Isaksen. Attacking_Attempt415
-MATCH_16  Assist - Luis Alberto with a through ball. Attacking_Attempt416
-MATCH_16  Assist - Luis Alberto with a cross. Attacking_Attempt417
-MATCH_16  Assist - Noussair Mazraoui with a cross. Attacking_Attempt418
-MATCH_16  Assist - Thomas Müller with a cross. Attacking_Attempt420
-MATCH_16  Assist - Thomas Müller with a cross. Attacking_Attempt421
-MATCH_16  Assist - Ciro Immobile. Attacking_Attempt422
-MATCH_16  Assist - Thomas Müller with a through ball. Attacking_Attempt423
-MATCH_16  Assist - Eric Choupo-Moting. Attacking_Attempt425
-MATCH_16  Assist - Mathys Tel with a cross. Attacking_Attempt428
-MATCH_16  Assist - Valentín Castellanos. Attacking_Attempt429
-MATCH_16  Assist - Daichi Kamada. Attacking_Attempt430
-MATCH_17  Assist - Jordan Teze. Attacking_Attempt431
-MATCH_17  Assist - Mats Hummels. Attacking_Attempt432
-MATCH_17  Assist - Luuk de Jong. Attacking_Attempt433
-MATCH_17  Assist - Emre Can. Attacking_Attempt434
-MATCH_17  Assist - Marco Reus with a cross after corner. Attacking_Attempt436
-MATCH_17  Assist - Malik Tillman. Attacking_Attempt438
-MATCH_17  Assist - Ismael Saibari with a cross. Attacking_Attempt439
-MATCH_17  Assist - Johan Bakayoko. Attacking_Attempt440
-MATCH_17  Assist - Joey Veerman with a cross . Attacking_Attempt441
-MATCH_17  Assist - Malik Tillman. Attacking_Attempt442
-MATCH_17  Assist - Jordan Teze. Attacking_Attempt445
-MATCH_17  Assist - Luuk de Jong. Attacking_Attempt446
-MATCH_17  Assist - Ian Maatsen with a cross. Attacking_Attempt447
-MATCH_17  Assist - Luuk de Jong with a head. Attacking_Attempt448
-MATCH_17  Assist - Ricardo Pepi. Attacking_Attempt449
-MATCH_18  Assist - Alessandro Bastoni with a cross . Attacking_Attempt451
-MATCH_18  Assist - Koke. Attacking_Attempt453
-MATCH_18  Assist - Marcos Llorente. Attacking_Attempt455
-MATCH_18  Assist - Marcus Thuram with a head. Attacking_Attempt457
-MATCH_18  Assist - Nicolò Barella with a cross. Attacking_Attempt458
-MATCH_18  Assist - Marcus Thuram. Attacking_Attempt459
-MATCH_18  Assist - Nicolò Barella. Attacking_Attempt460
-MATCH_18  Assist - Nicolò Barella. Attacking_Attempt461
-MATCH_18  Assist - Federico Dimarco with a cross. Attacking_Attempt462
-MATCH_18  Assist - Nicolò Barella. Attacking_Attempt463
-MATCH_18  Assist - Rodrigo De Paul. Attacking_Attempt464
-MATCH_18  Assist - Antoine Griezmann. Attacking_Attempt465
-MATCH_18  Assist - Hakan Çalhanoglu. Attacking_Attempt467
-MATCH_18  Assist - Hakan Çalhanoglu with a cross. Attacking_Attempt469
-MATCH_18  Assist - Davide Frattesi. Attacking_Attempt470
-MATCH_18  Assist - Rodrigo De Paul. Attacking_Attempt471
-MATCH_18  Assist - Davide Frattesi. Attacking_Attempt472
-MATCH_18  Assist - Ángel Correa with a cross. Attacking_Attempt473
-MATCH_18  Assist - Rodrigo De Paul. Attacking_Attempt474
-MATCH_18  Assist - Hakan Çalhanoglu with a cross. Attacking_Attempt475
-MATCH_19  Assist - Francisco Conceição with a cross. Attacking_Attempt476
-MATCH_19  Assist - Kai Havertz. Attacking_Attempt479
-MATCH_19  Assist - Bukayo Saka with a cross after corner. Attacking_Attempt480
-MATCH_19  Assist - Pepê Aquino. Attacking_Attempt482
-MATCH_19  Assist - Leandro Trossard. Attacking_Attempt483
-MATCH_19  Assist - Bukayo Saka with a cross after corner. Attacking_Attempt484
-MATCH_19  Assist - Pepê Aquino. Attacking_Attempt486
-MATCH_19  Assist - Declan Rice with a cross . Attacking_Attempt488
-MATCH_20  Assist - Ilkay Gündogan. Attacking_Attempt490
-MATCH_20  Assist - Ilkay Gündogan. Attacking_Attempt492
-MATCH_20  Assist - Pedri. Attacking_Attempt493
-MATCH_20  Assist - João Cancelo. Attacking_Attempt494
-MATCH_20  Assist - Frenkie de Jong. Attacking_Attempt495
-MATCH_20  Assist - Ilkay Gündogan with a cross . Attacking_Attempt496
-MATCH_20  Assist - Mathías Olivera with a cross. Attacking_Attempt497
-MATCH_20  Assist - Lamine Yamal. Attacking_Attempt498
-MATCH_20  Assist - Lamine Yamal with a through ball. Attacking_Attempt499
-MATCH_20  Assist - Hamed Traorè with a through ball. Attacking_Attempt502
-MATCH_20  Assist - Robert Lewandowski. Attacking_Attempt505
-MATCH_21  Assist - Fabián Ruiz. Attacking_Attempt506
-MATCH_21  Assist - Mikel Merino with a cross. Attacking_Attempt507
-MATCH_21  Assist - Kylian Mbappé. Attacking_Attempt508
-MATCH_21  Assist - Lucas Hernández. Attacking_Attempt509
-MATCH_21  Assist - Bradley Barcola. Attacking_Attempt510
-MATCH_21  Assist - Hamari Traoré. Attacking_Attempt512
-MATCH_21  Assist - Beraldo. Attacking_Attempt513
-MATCH_21  Assist - Javi Galán with a cross after corner. Attacking_Attempt515
-MATCH_21  Assist - Warren Zaïre-Emery. Attacking_Attempt516
-MATCH_21  Assist - Mikel Oyarzabal. Attacking_Attempt517
-MATCH_21  Assist - Takefusa Kubo with a cross after corner. Attacking_Attempt519
-MATCH_21  Assist - Hamari Traoré with a cross after corner. Attacking_Attempt520
-MATCH_21  Assist - Javi Galán. Attacking_Attempt522
-MATCH_21  Assist - Takefusa Kubo. Attacking_Attempt523
-MATCH_21  Assist - Takefusa Kubo. Attacking_Attempt524
-MATCH_21  Assist - Kylian Mbappé. Attacking_Attempt526
-MATCH_22  Assist - Felipe Anderson. Attacking_Attempt527
-MATCH_22  Assist - Thomas Müller. Attacking_Attempt528
-MATCH_22  Assist - Leroy Sané. Attacking_Attempt529
-MATCH_22  Assist - Joshua Kimmich with a cross after corner. Attacking_Attempt530
-MATCH_22  Assist - Mattia Zaccagni. Attacking_Attempt531
-MATCH_22  Assist - Jamal Musiala. Attacking_Attempt532
-MATCH_22  Assist - Joshua Kimmich. Attacking_Attempt533
-MATCH_22  Assist - Leroy Sané. Attacking_Attempt535
-MATCH_22  Assist - Joshua Kimmich with a cross. Attacking_Attempt536
-MATCH_22  Assist - Thomas Müller. Attacking_Attempt537
-MATCH_22  Assist - Joshua Kimmich with a cross. Attacking_Attempt539
-MATCH_22  Assist - Leon Goretzka. Attacking_Attempt541
-MATCH_22  Assist - Thomas Müller with a head. Attacking_Attempt542
-MATCH_22  Assist - Leroy Sané. Attacking_Attempt543
-MATCH_22  Assist - Adam Marusic with a cross. Attacking_Attempt545
-MATCH_22  Assist - Raphaël Guerreiro. Attacking_Attempt546
-MATCH_22  Assist - Harry Kane. Attacking_Attempt547
-MATCH_22  Assist - Thomas Müller. Attacking_Attempt548
-MATCH_22  Assist - Jamal Musiala. Attacking_Attempt549
-MATCH_22  Assist - Jamal Musiala. Attacking_Attempt550
-MATCH_22  Assist - Jamal Musiala. Attacking_Attempt552
-MATCH_23  Assist - Xavi Simons. Attacking_Attempt553
-MATCH_23  Assist - Xavi Simons with a cross . Attacking_Attempt554
-MATCH_23  Assist - Federico Valverde. Attacking_Attempt555
-MATCH_23  Assist - Dani Olmo following a fast break. Attacking_Attempt556
-MATCH_23  Assist - Federico Valverde. Attacking_Attempt557
-MATCH_23  Assist - Benjamin Henrichs. Attacking_Attempt558
-MATCH_23  Assist - David Raum. Attacking_Attempt559
-MATCH_23  Assist - Xavi Simons with a cross after corner. Attacking_Attempt560
-MATCH_23  Assist - Aurélien Tchouaméni with a cross. Attacking_Attempt561
-MATCH_23  Assist - Vinícius Júnior. Attacking_Attempt563
-MATCH_23  Assist - Jude Bellingham. Attacking_Attempt564
-MATCH_23  Assist - Federico Valverde. Attacking_Attempt565
-MATCH_23  Assist - Dani Carvajal. Attacking_Attempt566
-MATCH_23  Assist - David Raum with a cross after corner. Attacking_Attempt568
-MATCH_23  Assist - Xaver Schlager with a cross after corner. Attacking_Attempt569
-MATCH_23  Assist - Rodrygo after corner. Attacking_Attempt570
-MATCH_23  Assist - Willi Orbán with a head. Attacking_Attempt571
-MATCH_23  Assist - Loïs Openda. Attacking_Attempt572
-MATCH_23  Assist - Amadou Haidara. Attacking_Attempt573
-MATCH_23  Assist - Benjamin Henrichs. Attacking_Attempt574
-MATCH_23  Assist - Amadou Haidara. Attacking_Attempt576
-MATCH_23  Assist - David Raum with a cross after corner. Attacking_Attempt577
-MATCH_23  Assist - Rodrygo with a cross. Attacking_Attempt578
-MATCH_23  Assist - Joselu. Attacking_Attempt579
-MATCH_23  Assist - Christoph Baumgartner with a head. Attacking_Attempt580
-MATCH_23  Assist - Xavi Simons with a cross. Attacking_Attempt581
-MATCH_24  Assist - Josko Gvardiol. Attacking_Attempt582
-MATCH_24  Assist - Julián Álvarez with a cross after corner. Attacking_Attempt583
-MATCH_24  Assist - Oscar Bobb. Attacking_Attempt585
-MATCH_24  Assist - Peter Ankersen. Attacking_Attempt586
-MATCH_24  Assist - Erling Haaland. Attacking_Attempt588
-MATCH_24  Assist - Erling Haaland. Attacking_Attempt589
-MATCH_24  Assist - Mateo Kovacic. Attacking_Attempt590
-MATCH_24  Assist - Roony Bardghji. Attacking_Attempt592
-MATCH_24  Assist - Mohamed Elyounoussi with a head after corner. Attacking_Attempt593
-MATCH_24  Assist - Andreas Cornelius. Attacking_Attempt594
-MATCH_24  Assist - Roony Bardghji after corner. Attacking_Attempt595
-MATCH_24  Assist - Andreas Cornelius. Attacking_Attempt596
-MATCH_24  Assist - Roony Bardghji. Attacking_Attempt597
-MATCH_24  Assist - Julián Álvarez. Attacking_Attempt598
-MATCH_24  Assist - Julián Álvarez. Attacking_Attempt599
-MATCH_24  Assist - Birger Meling following a fast break. Attacking_Attempt600
-MATCH_25  Assist - Fermín López. Attacking_Attempt601
-MATCH_25  Assist - Matteo Politano with a through ball. Attacking_Attempt602
-MATCH_25  Assist - Pau Cubarsí. Attacking_Attempt604
-MATCH_25  Assist - Lamine Yamal following a fast break. Attacking_Attempt606
-MATCH_25  Assist - Fermín López. Attacking_Attempt607
-MATCH_25  Assist - Mário Rui. Attacking_Attempt609
-MATCH_25  Assist - Victor Osimhen after corner. Attacking_Attempt610
-MATCH_25  Assist - Jules Koundé. Attacking_Attempt611
-MATCH_25  Assist - Khvicha Kvaratskhelia. Attacking_Attempt612
-MATCH_25  Assist - Lamine Yamal. Attacking_Attempt613
-MATCH_25  Assist - Ronald Araujo with a head. Attacking_Attempt614
-MATCH_25  Assist - Hamed Traorè. Attacking_Attempt616
-MATCH_25  Assist - Hamed Traorè. Attacking_Attempt617
-MATCH_25  Assist - Khvicha Kvaratskhelia with a cross after corner. Attacking_Attempt618
-MATCH_25  Assist - João Cancelo. Attacking_Attempt619
-MATCH_25  Assist - Victor Osimhen. Attacking_Attempt620
-MATCH_25  Assist - Ilkay Gündogan with a cross. Attacking_Attempt622
-MATCH_25  Assist - Sergi Roberto. Attacking_Attempt624
-MATCH_25  Assist - Raphinha. Attacking_Attempt625
-MATCH_25  Assist - Sergi Roberto with a head. Attacking_Attempt627
-MATCH_25  Assist - Robert Lewandowski. Attacking_Attempt628
-MATCH_25  Assist - Ilkay Gündogan. Attacking_Attempt629
-MATCH_25  Assist - Mathías Olivera with a cross. Attacking_Attempt630
-MATCH_25  Assist - Khvicha Kvaratskhelia. Attacking_Attempt631
-MATCH_25  Assist - Ilkay Gündogan. Attacking_Attempt633
-MATCH_25  Assist - Frank Anguissa. Attacking_Attempt634
-MATCH_26  Assist - Leandro Trossard. Attacking_Attempt636
-MATCH_26  Assist - Ben White. Attacking_Attempt637
-MATCH_26  Assist - Bukayo Saka after corner. Attacking_Attempt638
-MATCH_26  Assist - Leandro Trossard with a cross. Attacking_Attempt639
-MATCH_26  Assist - João Mário with a cross. Attacking_Attempt641
-MATCH_26  Assist - Nico González. Attacking_Attempt642
-MATCH_26  Assist - Francisco Conceição. Attacking_Attempt643
-MATCH_26  Assist - Leandro Trossard with a cross. Attacking_Attempt644
-MATCH_26  Assist - Pepê Aquino. Attacking_Attempt645
-MATCH_26  Assist - Kai Havertz. Attacking_Attempt647
-MATCH_26  Assist - Nico González. Attacking_Attempt649
-MATCH_26  Assist - Leandro Trossard with a cross . Attacking_Attempt650
-MATCH_26  Assist - Bukayo Saka. Attacking_Attempt651
-MATCH_26  Assist - Martin Ødegaard. Attacking_Attempt652
-MATCH_26  Assist - Jorge Sánchez. Attacking_Attempt654
-MATCH_26  Assist - Eddie Nketiah. Attacking_Attempt655
-MATCH_27  Assist - Julian Brandt with a cross. Attacking_Attempt658
-MATCH_27  Assist - Jadon Sancho with a cross. Attacking_Attempt659
-MATCH_27  Assist - Donyell Malen. Attacking_Attempt660
-MATCH_27  Assist - Niklas Süle with a cross. Attacking_Attempt661
-MATCH_27  Assist - Donyell Malen. Attacking_Attempt662
-MATCH_27  Assist - Marcel Sabitzer. Attacking_Attempt664
-MATCH_27  Assist - Joey Veerman. Attacking_Attempt665
-MATCH_27  Assist - Joey Veerman. Attacking_Attempt666
-MATCH_27  Assist - Luuk de Jong. Attacking_Attempt667
-MATCH_27  Assist - Marcel Sabitzer. Attacking_Attempt668
-MATCH_27  Assist - Johan Bakayoko. Attacking_Attempt669
-MATCH_27  Assist - Mauro Júnior. Attacking_Attempt670
-MATCH_27  Assist - Jadon Sancho. Attacking_Attempt671
-MATCH_27  Assist - Johan Bakayoko with a cross. Attacking_Attempt672
-MATCH_27  Assist - Sergiño Dest. Attacking_Attempt673
-MATCH_27  Assist - Johan Bakayoko with a through ball. Attacking_Attempt674
-MATCH_27  Assist - Mauro Júnior. Attacking_Attempt675
-MATCH_27  Assist - Donyell Malen. Attacking_Attempt676
-MATCH_27  Assist - Jordan Teze. Attacking_Attempt677
-MATCH_27  Assist - Joey Veerman with a cross. Attacking_Attempt678
-MATCH_27  Assist - Jordan Teze with a cross after corner. Attacking_Attempt680
-MATCH_27  Assist - Karim Adeyemi. Attacking_Attempt681
-MATCH_27  Assist - Sergiño Dest. Attacking_Attempt685
-MATCH_27  Assist - Jordan Teze with a through ball. Attacking_Attempt686
-MATCH_28  Assist - Rodrigo De Paul. Attacking_Attempt687
-MATCH_28  Assist - Rodrigo De Paul. Attacking_Attempt688
-MATCH_28  Assist - Hakan Çalhanoglu. Attacking_Attempt689
-MATCH_28  Assist - Nicolò Barella. Attacking_Attempt691
-MATCH_28  Assist - Koke. Attacking_Attempt692
-MATCH_28  Assist - Mario Hermoso with a cross. Attacking_Attempt693
-MATCH_28  Assist - Koke. Attacking_Attempt694
-MATCH_28  Assist - Antoine Griezmann . Attacking_Attempt695
-MATCH_28  Assist - Marcos Llorente. Attacking_Attempt696
-MATCH_28  Assist - Nicolò Barella. Attacking_Attempt697
-MATCH_28  Assist - Marcos Llorente. Attacking_Attempt698
-MATCH_28  Assist - Antoine Griezmann. Attacking_Attempt701
-MATCH_28  Assist - Marcos Llorente with a cross. Attacking_Attempt702
-MATCH_28  Assist - Marcos Llorente. Attacking_Attempt703
-MATCH_28  Assist - Lautaro Martínez with a through ball following a fast break. Attacking_Attempt704
-MATCH_28  Assist - Pablo Barrios with a cross. Attacking_Attempt705
-MATCH_28  Assist - Lautaro Martínez. Attacking_Attempt707
-MATCH_28  Assist - Koke. Attacking_Attempt708
-MATCH_28  Assist - Antoine Griezmann. Attacking_Attempt710
-MATCH_28  Assist - Yann Bisseck with a cross. Attacking_Attempt711
-MATCH_28  Assist - Rodrigo Riquelme. Attacking_Attempt712
-MATCH_28  Assist - Hakan Çalhanoglu with a cross after corner. Attacking_Attempt713
-MATCH_28  Assist - Alexis Sánchez with a cross. Attacking_Attempt714
-MATCH_28  Assist - Memphis Depay. Attacking_Attempt716
-MATCH_28  Assist - Benjamin Pavard. Attacking_Attempt717
-MATCH_28  Assist - Alexis Sánchez. Attacking_Attempt720
-MATCH_28  Assist - Memphis Depay. Attacking_Attempt721
-MATCH_29  Assist - Xavi Simons. Attacking_Attempt722
-MATCH_29  Assist - Loïs Openda. Attacking_Attempt723
-MATCH_29  Assist - Xaver Schlager. Attacking_Attempt724
-MATCH_29  Assist - Xavi Simons with a cross after corner. Attacking_Attempt725
-MATCH_29  Assist - Kevin Kampl following a fast break. Attacking_Attempt726
-MATCH_29  Assist - Filip Ugrinic after corner. Attacking_Attempt728
-MATCH_29  Assist - Xavi Simons. Attacking_Attempt729
-MATCH_29  Assist - Saidy Janko. Attacking_Attempt730
-MATCH_29  Assist - Sandro Lauper. Attacking_Attempt731
-MATCH_29  Assist - Xaver Schlager. Attacking_Attempt732
-MATCH_29  Assist - David Raum with a cross after corner. Attacking_Attempt735
-MATCH_29  Assist - Kevin Kampl. Attacking_Attempt736
-MATCH_29  Assist - Xaver Schlager. Attacking_Attempt737
-MATCH_29  Assist - David Raum with a cross. Attacking_Attempt738
-MATCH_29  Assist - Meschack Elia with a cross. Attacking_Attempt739
-MATCH_29  Assist - Emil Forsberg. Attacking_Attempt741
-MATCH_29  Assist - Meschack Elia. Attacking_Attempt742
-MATCH_29  Assist - Kevin Kampl. Attacking_Attempt743
-MATCH_29  Assist - Xavi Simons. Attacking_Attempt744
-MATCH_29  Assist - Noah Persson with a cross. Attacking_Attempt746
+MATCH_0  Assist - John McGinn with a cross after corner. Goal_Scored1
+MATCH_0  Assist - Ollie Watkins. Goal_Scored2
+MATCH_0  Assist - Youri Tielemans. Goal_Scored3
+MATCH_1  Assist - Nicolás González. Goal_Scored4
+MATCH_1  Assist - Dusan Vlahovic with a through ball. Goal_Scored6
+MATCH_1  Assist - Johan Bakayoko. Goal_Scored7
+MATCH_2  Assist - Pote. Goal_Scored8
+MATCH_2  Assist - Daniel Bragança. Goal_Scored9
+MATCH_3  Assist - Rodrygo. Goal_Scored10
+MATCH_3  Assist - Jamie Leweling after corner. Goal_Scored11
+MATCH_3  Assist - Luka Modric with a cross after corner. Goal_Scored12
+MATCH_3  Assist - Dani Carvajal following a fast break. Goal_Scored13
+MATCH_4  Assist - Jamal Musiala.Goal awarded following VAR Review. Goal_Scored15
+MATCH_4  Assist - Joshua Kimmich with a cross after corner. Goal_Scored16
+MATCH_4  Assist - Marko Pjaca. Goal_Scored17
+MATCH_4  Assist - Josip Misic with a through ball. Goal_Scored18
+MATCH_4  Assist - Jamal Musiala. Goal_Scored20
+MATCH_4  Assist - Thomas Müller. Goal_Scored23
+MATCH_4  Assist - Joshua Kimmich with a cross. Goal_Scored24
+MATCH_5  Assist - Álvaro Morata. Goal_Scored25
+MATCH_5  Assist - Trent Alexander-Arnold with a cross . Goal_Scored26
+MATCH_5  Assist - Kostas Tsimikas with a cross after corner. Goal_Scored27
+MATCH_5  Assist - Cody Gakpo following a fast break. Goal_Scored28
+MATCH_6  Assist - Filip Panák. Goal_Scored30
+MATCH_6  Assist - Victor Olatunji. Goal_Scored31
+MATCH_10  Assist - Emre Can. Goal_Scored32
+MATCH_10  Assist - Felix Nmecha. Goal_Scored33
+MATCH_11  Assist - Arne Engels with a cross after corner. Goal_Scored35
+MATCH_11  Assist - Nicolas Kühn. Goal_Scored36
+MATCH_11  Assist - Marko Tolic. Goal_Scored38
+MATCH_11  Assist - Reo Hatate. Goal_Scored39
+MATCH_11  Assist - James Forrest with a through ball. Goal_Scored40
+MATCH_12  Assist - Cherif Ndiaye with a through ball. Goal_Scored43
+MATCH_13  Assist - Robert Andrich. Goal_Scored44
+MATCH_13  Assist - Jeremie Frimpong following a fast break. Goal_Scored46
+MATCH_14  Assist - Vanderson. Goal_Scored47
+MATCH_14  Assist - Marc Casadó. Goal_Scored48
+MATCH_14  Assist - Vanderson with a through ball following a fast break. Goal_Scored49
+MATCH_15  Assist - Ludovic Ajorque. Goal_Scored51
+MATCH_16  Assist - Marcos Llorente with a cross following a fast break. Goal_Scored53
+MATCH_16  Assist - Antoine Griezmann with a cross after corner. Goal_Scored54
+MATCH_18  Assist - Maximilian Mittelstädt with a cross. Goal_Scored55
+MATCH_19  Assist - Ludovic Ajorque following a fast break. Goal_Scored57
+MATCH_19  Assist - Mama Baldé. Goal_Scored60
+MATCH_20  Assist - Jérémy Doku. Goal_Scored62
+MATCH_20  Assist - Rico Lewis with a through ball. Goal_Scored63
+MATCH_20  Assist - Phil Foden. Goal_Scored64
+MATCH_22  Assist - Mehdi Taremi. Goal_Scored68
+MATCH_22  Assist - Mehdi Taremi. Goal_Scored69
+MATCH_23  Assist - Arne Engels with a cross. Goal_Scored72
+MATCH_23  Assist - Julian Brandt with a through ball. Goal_Scored73
+MATCH_23  Assist - Nico Schlotterbeck. Goal_Scored77
+MATCH_25  Assist - Raphinha. Goal_Scored80
+MATCH_25  Assist - Pedri with a cross . Goal_Scored82
+MATCH_25  Assist - Iñigo Martínez after corner. Goal_Scored83
+MATCH_26  Assist - Leandro Trossard with a cross. Goal_Scored84
+MATCH_27  Assist - Ademola Lookman with a cross . Goal_Scored86
+MATCH_27  Assist - Sead Kolasinac. Goal_Scored87
+MATCH_27  Assist - Davide Zappacosta with a cross. Goal_Scored88
+MATCH_28  Assist - Igor Paixão with a through ball. Goal_Scored90
+MATCH_28  Assist - Arnaut Danjuma. Goal_Scored91
+MATCH_29  Assist - Raphael Onyedika. Goal_Scored92
+MATCH_0  Assist - Ebrima Colley. Attacking_Attempt4
+MATCH_0  Assist - Filip Ugrinic. Attacking_Attempt5
+MATCH_0  Assist - Ollie Watkins with a head. Attacking_Attempt6
+MATCH_0  Assist - Morgan Rogers. Attacking_Attempt8
+MATCH_0  Assist - Morgan Rogers. Attacking_Attempt10
+MATCH_0  Assist - Morgan Rogers following a fast break. Attacking_Attempt11
+MATCH_0  Assist - Jacob Ramsey. Attacking_Attempt12
+MATCH_0  Assist - Lucas Digne. Attacking_Attempt13
+MATCH_0  Assist - Ollie Watkins. Attacking_Attempt14
+MATCH_0  Assist - Amadou Onana. Attacking_Attempt16
+MATCH_0  Assist - Lucas Digne with a cross. Attacking_Attempt17
+MATCH_0  Assist - Filip Ugrinic. Attacking_Attempt20
+MATCH_0  Assist - Morgan Rogers. Attacking_Attempt22
+MATCH_0  Assist - Filip Ugrinic. Attacking_Attempt23
+MATCH_0  Assist - Jacob Ramsey. Attacking_Attempt24
+MATCH_0  Assist - Meschack Elia. Attacking_Attempt25
+MATCH_0  Assist - Jacob Ramsey. Attacking_Attempt26
+MATCH_0  Assist - Emiliano Buendía. Attacking_Attempt27
+MATCH_0  Assist - Tanguy Zoukrou. Attacking_Attempt29
+MATCH_1  Assist - Teun Koopmeiners with a cross. Attacking_Attempt30
+MATCH_1  Assist - Jerdy Schouten. Attacking_Attempt31
+MATCH_1  Assist - Richard Ledezma with a cross. Attacking_Attempt32
+MATCH_1  Assist - Johan Bakayoko. Attacking_Attempt33
+MATCH_1  Assist - Joey Veerman. Attacking_Attempt34
+MATCH_1  Assist - Joey Veerman. Attacking_Attempt35
+MATCH_1  Assist - Teun Koopmeiners. Attacking_Attempt36
+MATCH_1  Assist - Teun Koopmeiners with a cross. Attacking_Attempt37
+MATCH_1  Assist - Manuel Locatelli with a cross. Attacking_Attempt38
+MATCH_1  Assist - Teun Koopmeiners with a cross. Attacking_Attempt39
+MATCH_1  Assist - Joey Veerman with a cross. Attacking_Attempt40
+MATCH_1  Assist - Luuk de Jong with a head. Attacking_Attempt41
+MATCH_1  Assist - Richard Ledezma with a cross. Attacking_Attempt42
+MATCH_1  Assist - Nicolás González with a through ball. Attacking_Attempt43
+MATCH_1  Assist - Dusan Vlahovic. Attacking_Attempt44
+MATCH_1  Assist - Nicolás González following a fast break. Attacking_Attempt45
+MATCH_1  Assist - Noa Lang. Attacking_Attempt46
+MATCH_1  Assist - Malik Tillman. Attacking_Attempt47
+MATCH_1  Assist - Noa Lang. Attacking_Attempt48
+MATCH_1  Assist - Teun Koopmeiners. Attacking_Attempt49
+MATCH_1  Assist - Nicolò Fagioli. Attacking_Attempt50
+MATCH_1  Assist - Dusan Vlahovic. Attacking_Attempt51
+MATCH_1  Assist - Teun Koopmeiners with a cross after corner. Attacking_Attempt52
+MATCH_1  Assist - Malik Tillman. Attacking_Attempt53
+MATCH_2  Assist - Trincão. Attacking_Attempt54
+MATCH_2  Assist - Viktor Gyökeres. Attacking_Attempt55
+MATCH_2  Assist - Viktor Gyökeres. Attacking_Attempt56
+MATCH_2  Assist - Viktor Gyökeres with a through ball. Attacking_Attempt57
+MATCH_2  Assist - Geny Catamo with a cross. Attacking_Attempt58
+MATCH_2  Assist - Matheus Reis with a cross. Attacking_Attempt59
+MATCH_2  Assist - Morten Hjulmand. Attacking_Attempt60
+MATCH_2  Assist - Trincão with a cross after corner. Attacking_Attempt62
+MATCH_2  Assist - Pote. Attacking_Attempt63
+MATCH_2  Assist - Daniel Bragança. Attacking_Attempt64
+MATCH_2  Assist - Viktor Gyökeres. Attacking_Attempt65
+MATCH_2  Assist - Morten Hjulmand. Attacking_Attempt68
+MATCH_2  Assist - Pote. Attacking_Attempt70
+MATCH_3  Assist - Maximilian Mittelstädt. Attacking_Attempt74
+MATCH_3  Assist - Kylian Mbappé after corner. Attacking_Attempt75
+MATCH_3  Assist - Deniz Undav. Attacking_Attempt76
+MATCH_3  Assist - Deniz Undav. Attacking_Attempt77
+MATCH_3  Assist - Ferland Mendy. Attacking_Attempt78
+MATCH_3  Assist - Jamie Leweling. Attacking_Attempt79
+MATCH_3  Assist - Deniz Undav. Attacking_Attempt80
+MATCH_3  Assist - Vinícius Júnior with a cross. Attacking_Attempt81
+MATCH_3  Assist - Vinícius Júnior. Attacking_Attempt82
+MATCH_3  Assist - Jamie Leweling. Attacking_Attempt83
+MATCH_3  Assist - Enzo Millot with a cross after corner. Attacking_Attempt84
+MATCH_3  Assist - Jude Bellingham. Attacking_Attempt85
+MATCH_3  Assist - Rodrygo with a cross. Attacking_Attempt86
+MATCH_3  Assist - Vinícius Júnior. Attacking_Attempt87
+MATCH_3  Assist - Angelo Stiller with a cross . Attacking_Attempt88
+MATCH_3  Assist - Ferland Mendy. Attacking_Attempt89
+MATCH_3  Assist - Jude Bellingham. Attacking_Attempt91
+MATCH_3  Assist - Rodrygo with a cross after corner. Attacking_Attempt92
+MATCH_3  Assist - Federico Valverde. Attacking_Attempt93
+MATCH_3  Assist - Dani Carvajal. Attacking_Attempt95
+MATCH_3  Assist - Chris Führich. Attacking_Attempt96
+MATCH_3  Assist - Enzo Millot. Attacking_Attempt97
+MATCH_3  Assist - Atakan Karazor. Attacking_Attempt99
+MATCH_3  Assist - Fabian Rieder. Attacking_Attempt100
+MATCH_3  Assist - Atakan Karazor. Attacking_Attempt101
+MATCH_3  Assist - Fabian Rieder with a cross. Attacking_Attempt103
+MATCH_3  Assist - Endrick with a through ball. Attacking_Attempt104
+MATCH_3  Assist - Arda Güler with a head. Attacking_Attempt105
+MATCH_4  Assist - Raphaël Guerreiro. Attacking_Attempt106
+MATCH_4  Assist - Aleksandar Pavlovic. Attacking_Attempt107
+MATCH_4  Assist - Joshua Kimmich with a cross. Attacking_Attempt108
+MATCH_4  Assist - Alphonso Davies. Attacking_Attempt110
+MATCH_4  Assist - Jamal Musiala after corner. Attacking_Attempt111
+MATCH_4  Assist - Ronaël Pierre-Gabriel. Attacking_Attempt113
+MATCH_4  Assist - Joshua Kimmich. Attacking_Attempt114
+MATCH_4  Assist - Jamal Musiala. Attacking_Attempt115
+MATCH_4  Assist - Jamal Musiala. Attacking_Attempt116
+MATCH_4  Assist - Luka Stojkovic with a through ball. Attacking_Attempt118
+MATCH_4  Assist - Alphonso Davies. Attacking_Attempt120
+MATCH_4  Assist - Jamal Musiala. Attacking_Attempt121
+MATCH_4  Assist - Jamal Musiala with a through ball. Attacking_Attempt123
+MATCH_4  Assist - Joshua Kimmich with a cross. Attacking_Attempt124
+MATCH_4  Assist - Raphaël Guerreiro. Attacking_Attempt125
+MATCH_4  Assist - Aleksandar Pavlovic. Attacking_Attempt126
+MATCH_4  Assist - Thomas Müller with a cross. Attacking_Attempt127
+MATCH_5  Assist - Davide Calabria. Attacking_Attempt128
+MATCH_5  Assist - Diogo Jota. Attacking_Attempt129
+MATCH_5  Assist - Cody Gakpo. Attacking_Attempt130
+MATCH_5  Assist - Alexis Mac Allister. Attacking_Attempt131
+MATCH_5  Assist - Trent Alexander-Arnold. Attacking_Attempt132
+MATCH_5  Assist - Kostas Tsimikas. Attacking_Attempt135
+MATCH_5  Assist - Diogo Jota. Attacking_Attempt136
+MATCH_5  Assist - Trent Alexander-Arnold. Attacking_Attempt138
+MATCH_5  Assist - Trent Alexander-Arnold. Attacking_Attempt139
+MATCH_5  Assist - Alexis Mac Allister with a through ball. Attacking_Attempt142
+MATCH_5  Assist - Dominik Szoboszlai. Attacking_Attempt143
+MATCH_5  Assist - Christian Pulisic after corner. Attacking_Attempt144
+MATCH_5  Assist - Kostas Tsimikas with a cross after corner. Attacking_Attempt145
+MATCH_5  Assist - Mohamed Salah. Attacking_Attempt146
+MATCH_5  Assist - Theo Hernández with a cross after corner. Attacking_Attempt149
+MATCH_5  Assist - Darwin Núñez. Attacking_Attempt150
+MATCH_5  Assist - Alexis Mac Allister. Attacking_Attempt151
+MATCH_5  Assist - Christian Pulisic with a cross . Attacking_Attempt152
+MATCH_5  Assist - Tijjani Reijnders. Attacking_Attempt154
+MATCH_6  Assist - Filip Panák. Attacking_Attempt155
+MATCH_6  Assist - Ángelo Preciado with a cross. Attacking_Attempt157
+MATCH_6  Assist - Moussa Yeo. Attacking_Attempt158
+MATCH_6  Assist - Bobby Clark. Attacking_Attempt159
+MATCH_6  Assist - Veljko Birmancevic. Attacking_Attempt160
+MATCH_6  Assist - Kamil Piatkowski. Attacking_Attempt163
+MATCH_6  Assist - Oscar Gloukh. Attacking_Attempt164
+MATCH_6  Assist - Ángelo Preciado. Attacking_Attempt166
+MATCH_6  Assist - Stefan Bajcetic. Attacking_Attempt167
+MATCH_6  Assist - Stefan Bajcetic. Attacking_Attempt168
+MATCH_6  Assist - Nicolás Capaldo. Attacking_Attempt169
+MATCH_6  Assist - Albion Rrahmani. Attacking_Attempt170
+MATCH_6  Assist - Nicolás Capaldo. Attacking_Attempt172
+MATCH_7  Assist - Santiago Castro. Attacking_Attempt174
+MATCH_7  Assist - Dan Ndoye. Attacking_Attempt175
+MATCH_7  Assist - Santiago Castro. Attacking_Attempt176
+MATCH_7  Assist - Stefan Posch. Attacking_Attempt177
+MATCH_7  Assist - Santiago Castro. Attacking_Attempt179
+MATCH_7  Assist - Mykola Matviienko after corner. Attacking_Attempt180
+MATCH_7  Assist - Dan Ndoye with a through ball. Attacking_Attempt181
+MATCH_7  Assist - Santiago Castro. Attacking_Attempt183
+MATCH_7  Assist - Nikola Moro with a head. Attacking_Attempt185
+MATCH_7  Assist - Riccardo Orsolini after corner. Attacking_Attempt188
+MATCH_7  Assist - Oleksandr Zubkov. Attacking_Attempt189
+MATCH_7  Assist - Nikola Moro following a fast break. Attacking_Attempt190
+MATCH_7  Assist - Stefan Posch with a cross. Attacking_Attempt191
+MATCH_7  Assist - Taras Stepanenko. Attacking_Attempt192
+MATCH_8  Assist - Achraf Hakimi. Attacking_Attempt194
+MATCH_8  Assist - Vitinha. Attacking_Attempt195
+MATCH_8  Assist - Warren Zaïre-Emery. Attacking_Attempt196
+MATCH_8  Assist - Bradley Barcola. Attacking_Attempt197
+MATCH_8  Assist - Bryan Gil. Attacking_Attempt200
+MATCH_8  Assist - Fabián Ruiz. Attacking_Attempt201
+MATCH_8  Assist - Bradley Barcola. Attacking_Attempt202
+MATCH_8  Assist - Viktor Tsyhankov. Attacking_Attempt203
+MATCH_8  Assist - Warren Zaïre-Emery. Attacking_Attempt204
+MATCH_8  Assist - Miguel Gutiérrez with a cross. Attacking_Attempt205
+MATCH_8  Assist - Ousmane Dembélé. Attacking_Attempt206
+MATCH_8  Assist - Achraf Hakimi. Attacking_Attempt207
+MATCH_8  Assist - Marquinhos. Attacking_Attempt208
+MATCH_8  Assist - Warren Zaïre-Emery with a cross. Attacking_Attempt209
+MATCH_8  Assist - Achraf Hakimi. Attacking_Attempt210
+MATCH_8  Assist - João Neves. Attacking_Attempt211
+MATCH_8  Assist - Lee Kang-In with a cross after corner. Attacking_Attempt212
+MATCH_8  Assist - Lee Kang-In. Attacking_Attempt213
+MATCH_8  Assist - Ousmane Dembélé with a cross after corner. Attacking_Attempt214
+MATCH_8  Assist - João Neves. Attacking_Attempt215
+MATCH_8  Assist - Ousmane Dembélé. Attacking_Attempt217
+MATCH_8  Assist - Lee Kang-In with a cross after corner. Attacking_Attempt218
+MATCH_8  Assist - Achraf Hakimi. Attacking_Attempt219
+MATCH_8  Assist - Randal Kolo Muani. Attacking_Attempt220
+MATCH_8  Assist - Randal Kolo Muani following a fast break. Attacking_Attempt222
+MATCH_9  Assist - Mehdi Taremi. Attacking_Attempt224
+MATCH_9  Assist - Mehdi Taremi following a fast break. Attacking_Attempt225
+MATCH_9  Assist - Savinho with a cross. Attacking_Attempt227
+MATCH_9  Assist - Nicolò Barella. Attacking_Attempt228
+MATCH_9  Assist - Hakan Çalhanoglu with a cross after corner. Attacking_Attempt229
+MATCH_9  Assist - Kevin De Bruyne with a cross. Attacking_Attempt230
+MATCH_9  Assist - Jack Grealish. Attacking_Attempt231
+MATCH_9  Assist - Jack Grealish. Attacking_Attempt232
+MATCH_9  Assist - Jack Grealish. Attacking_Attempt235
+MATCH_9  Assist - Kevin De Bruyne. Attacking_Attempt236
+MATCH_9  Assist - Erling Haaland. Attacking_Attempt237
+MATCH_9  Assist - Piotr Zielinski. Attacking_Attempt238
+MATCH_9  Assist - Jack Grealish. Attacking_Attempt239
+MATCH_9  Assist - Mehdi Taremi. Attacking_Attempt240
+MATCH_9  Assist - Hakan Çalhanoglu with a cross after corner. Attacking_Attempt241
+MATCH_9  Assist - Rico Lewis. Attacking_Attempt242
+MATCH_9  Assist - Marcus Thuram. Attacking_Attempt245
+MATCH_9  Assist - Ilkay Gündogan. Attacking_Attempt246
+MATCH_9  Assist - Rodri. Attacking_Attempt249
+MATCH_9  Assist - Phil Foden with a cross . Attacking_Attempt250
+MATCH_9  Assist - Phil Foden. Attacking_Attempt252
+MATCH_9  Assist - Nicolò Barella. Attacking_Attempt253
+MATCH_9  Assist - Phil Foden. Attacking_Attempt254
+MATCH_9  Assist - Jérémy Doku. Attacking_Attempt255
+MATCH_9  Assist - Josko Gvardiol with a cross. Attacking_Attempt256
+MATCH_9  Assist - Jérémy Doku with a cross. Attacking_Attempt257
+MATCH_10  Assist - Julian Ryerson with a cross. Attacking_Attempt258
+MATCH_10  Assist - Niklas Süle. Attacking_Attempt259
+MATCH_10  Assist - Pascal Groß with a through ball. Attacking_Attempt260
+MATCH_10  Assist - Maxim De Cuyper after corner. Attacking_Attempt261
+MATCH_10  Assist - Brandon Mechele after corner. Attacking_Attempt262
+MATCH_10  Assist - Maxim De Cuyper with a through ball. Attacking_Attempt266
+MATCH_10  Assist - Maxim De Cuyper with a cross. Attacking_Attempt268
+MATCH_10  Assist - Pascal Groß. Attacking_Attempt269
+MATCH_10  Assist - Hugo Vetlesen. Attacking_Attempt270
+MATCH_10  Assist - Ramy Bensebaini with a through ball. Attacking_Attempt271
+MATCH_10  Assist - Julian Brandt. Attacking_Attempt272
+MATCH_10  Assist - Julian Ryerson. Attacking_Attempt273
+MATCH_10  Assist - Karim Adeyemi. Attacking_Attempt274
+MATCH_10  Assist - Christos Tzolis. Attacking_Attempt275
+MATCH_10  Assist - Maxim De Cuyper with a cross. Attacking_Attempt276
+MATCH_10  Assist - Karim Adeyemi. Attacking_Attempt278
+MATCH_10  Assist - Pascal Groß from a free kick. Attacking_Attempt279
+MATCH_10  Assist - Hans Vanaken. Attacking_Attempt281
+MATCH_10  Assist - Andreas Skov Olsen. Attacking_Attempt282
+MATCH_10  Assist - Andreas Skov Olsen. Attacking_Attempt283
+MATCH_10  Assist - Andreas Skov Olsen. Attacking_Attempt284
+MATCH_10  Assist - Karim Adeyemi. Attacking_Attempt286
+MATCH_10  Assist - Jamie Gittens. Attacking_Attempt287
+MATCH_10  Assist - Felix Nmecha. Attacking_Attempt288
+MATCH_10  Assist - Hans Vanaken following a fast break. Attacking_Attempt289
+MATCH_11  Assist - Alistair Johnston with a through ball. Attacking_Attempt290
+MATCH_11  Assist - Tigran Barseghyan. Attacking_Attempt291
+MATCH_11  Assist - Greg Taylor with a cross. Attacking_Attempt292
+MATCH_11  Assist - Nicolas Kühn with a through ball. Attacking_Attempt295
+MATCH_11  Assist - Reo Hatate. Attacking_Attempt296
+MATCH_11  Assist - David Strelec with a through ball. Attacking_Attempt297
+MATCH_11  Assist - Reo Hatate. Attacking_Attempt298
+MATCH_11  Assist - Nicolas Kühn. Attacking_Attempt299
+MATCH_11  Assist - Nicolas Kühn. Attacking_Attempt300
+MATCH_11  Assist - Arne Engels with a through ball. Attacking_Attempt302
+MATCH_11  Assist - Alistair Johnston. Attacking_Attempt303
+MATCH_11  Assist - Kevin Wimmer. Attacking_Attempt304
+MATCH_11  Assist - Paulo Bernardo. Attacking_Attempt305
+MATCH_11  Assist - Juraj Kucka. Attacking_Attempt306
+MATCH_11  Assist - Marko Tolic. Attacking_Attempt307
+MATCH_12  Assist - Álvaro Carreras. Attacking_Attempt308
+MATCH_12  Assist - Álvaro Carreras with a cross. Attacking_Attempt309
+MATCH_12  Assist - Ognjen Mimovic. Attacking_Attempt310
+MATCH_12  Assist - Timi Elsnik. Attacking_Attempt311
+MATCH_12  Assist - Benjamín Rollheiser. Attacking_Attempt312
+MATCH_12  Assist - Dálcio. Attacking_Attempt313
+MATCH_12  Assist - Seol Young-Woo. Attacking_Attempt315
+MATCH_12  Assist - Timi Elsnik with a cross . Attacking_Attempt316
+MATCH_12  Assist - Dálcio. Attacking_Attempt317
+MATCH_12  Assist - Timi Elsnik with a cross after corner. Attacking_Attempt318
+MATCH_12  Assist - Seol Young-Woo. Attacking_Attempt319
+MATCH_12  Assist - Rade Krunic. Attacking_Attempt324
+MATCH_12  Assist - Timi Elsnik. Attacking_Attempt325
+MATCH_12  Assist - Álvaro Carreras. Attacking_Attempt326
+MATCH_12  Assist - Ángel Di María. Attacking_Attempt327
+MATCH_12  Assist - Seol Young-Woo. Attacking_Attempt328
+MATCH_12  Assist - Fredrik Aursnes. Attacking_Attempt329
+MATCH_13  Assist - Igor Paixão with a cross. Attacking_Attempt331
+MATCH_13  Assist - Thomas Beelen. Attacking_Attempt333
+MATCH_13  Assist - Florian Wirtz. Attacking_Attempt334
+MATCH_13  Assist - Jordan Lotomba. Attacking_Attempt335
+MATCH_13  Assist - Antoni Milambo. Attacking_Attempt336
+MATCH_13  Assist - Quinten Timber. Attacking_Attempt338
+MATCH_13  Assist - Florian Wirtz. Attacking_Attempt339
+MATCH_13  Assist - Victor Boniface with a through ball following a fast break. Attacking_Attempt340
+MATCH_13  Assist - Igor Paixão. Attacking_Attempt341
+MATCH_13  Assist - Florian Wirtz following a fast break. Attacking_Attempt344
+MATCH_13  Assist - Anis Hadj Moussa with a cross. Attacking_Attempt345
+MATCH_13  Assist - Jeremie Frimpong following a fast break. Attacking_Attempt346
+MATCH_13  Assist - Jeremie Frimpong. Attacking_Attempt347
+MATCH_13  Assist - Patrik Schick. Attacking_Attempt348
+MATCH_14  Assist - Takumi Minamino. Attacking_Attempt350
+MATCH_14  Assist - Vanderson. Attacking_Attempt353
+MATCH_14  Assist - Wilfried Singo. Attacking_Attempt354
+MATCH_14  Assist - Robert Lewandowski. Attacking_Attempt355
+MATCH_14  Assist - Denis Zakaria. Attacking_Attempt356
+MATCH_14  Assist - Takumi Minamino. Attacking_Attempt357
+MATCH_14  Assist - Maghnes Akliouche. Attacking_Attempt358
+MATCH_14  Assist - Lamine Camara with a cross. Attacking_Attempt359
+MATCH_14  Assist - Aleksandr Golovin. Attacking_Attempt361
+MATCH_14  Assist - Raphinha with a cross. Attacking_Attempt362
+MATCH_14  Assist - Denis Zakaria. Attacking_Attempt363
+MATCH_14  Assist - Denis Zakaria. Attacking_Attempt364
+MATCH_14  Assist - Folarin Balogun. Attacking_Attempt365
+MATCH_14  Assist - Aleksandr Golovin. Attacking_Attempt366
+MATCH_14  Assist - Aleksandr Golovin. Attacking_Attempt367
+MATCH_15  Assist - Ludovic Ajorque with a cross. Attacking_Attempt369
+MATCH_15  Assist - Mahdi Camara. Attacking_Attempt370
+MATCH_15  Assist - William Bøving with a cross. Attacking_Attempt372
+MATCH_15  Assist - Jusuf Gazibegovic. Attacking_Attempt373
+MATCH_15  Assist - William Bøving. Attacking_Attempt374
+MATCH_15  Assist - Jusuf Gazibegovic following a fast break. Attacking_Attempt376
+MATCH_15  Assist - Romain Faivre with a cross after corner. Attacking_Attempt377
+MATCH_15  Assist - Lovro Zvonarek. Attacking_Attempt378
+MATCH_15  Assist - Lovro Zvonarek. Attacking_Attempt379
+MATCH_15  Assist - Ludovic Ajorque with a cross. Attacking_Attempt380
+MATCH_15  Assist - William Bøving. Attacking_Attempt381
+MATCH_15  Assist - Mathias Pereira Lage. Attacking_Attempt383
+MATCH_15  Assist - Romain Del Castillo. Attacking_Attempt384
+MATCH_15  Assist - Ludovic Ajorque with a through ball. Attacking_Attempt385
+MATCH_15  Assist - Romain Del Castillo. Attacking_Attempt387
+MATCH_16  Assist - David Raum with a cross. Attacking_Attempt389
+MATCH_16  Assist - Antoine Griezmann with a cross after corner. Attacking_Attempt391
+MATCH_16  Assist - Ángel Correa. Attacking_Attempt392
+MATCH_16  Assist - Amadou Haidara. Attacking_Attempt393
+MATCH_16  Assist - Ángel Correa. Attacking_Attempt394
+MATCH_16  Assist - Rodrigo Riquelme. Attacking_Attempt395
+MATCH_16  Assist - Rodrigo Riquelme with a cross after corner. Attacking_Attempt397
+MATCH_16  Assist - Julián Alvarez. Attacking_Attempt398
+MATCH_16  Assist - Rodrigo De Paul with a cross after corner. Attacking_Attempt399
+MATCH_16  Assist - Rodrigo Riquelme with a cross after corner. Attacking_Attempt400
+MATCH_16  Assist - Marcos Llorente with a cross. Attacking_Attempt401
+MATCH_16  Assist - Rodrigo De Paul with a cross after corner. Attacking_Attempt402
+MATCH_16  Assist - Koke following a fast break. Attacking_Attempt403
+MATCH_16  Assist - Rodrigo De Paul. Attacking_Attempt404
+MATCH_16  Assist - Antoine Griezmann. Attacking_Attempt406
+MATCH_16  Assist - Nahuel Molina with a cross. Attacking_Attempt409
+MATCH_16  Assist - Yussuf Poulsen. Attacking_Attempt410
+MATCH_16  Assist - David Raum with a cross. Attacking_Attempt411
+MATCH_16  Assist - Samuel Lino. Attacking_Attempt412
+MATCH_16  Assist - Marcos Llorente with a cross. Attacking_Attempt413
+MATCH_17  Assist - Gabriel Jesus. Attacking_Attempt414
+MATCH_17  Assist - Gabriel Jesus. Attacking_Attempt415
+MATCH_17  Assist - Matteo Ruggeri with a cross after corner. Attacking_Attempt418
+MATCH_17  Assist - Gabriel Jesus. Attacking_Attempt419
+MATCH_17  Assist - Mateo Retegui. Attacking_Attempt420
+MATCH_17  Assist - Éderson. Attacking_Attempt423
+MATCH_17  Assist - Ademola Lookman. Attacking_Attempt424
+MATCH_17  Assist - Raheem Sterling with a through ball. Attacking_Attempt425
+MATCH_17  Assist - Ademola Lookman with a cross after corner. Attacking_Attempt426
+MATCH_18  Assist - Matej Rynes. Attacking_Attempt427
+MATCH_18  Assist - Ángelo Preciado. Attacking_Attempt428
+MATCH_18  Assist - Veljko Birmancevic. Attacking_Attempt429
+MATCH_18  Assist - Angelo Stiller. Attacking_Attempt430
+MATCH_18  Assist - Veljko Birmancevic. Attacking_Attempt432
+MATCH_18  Assist - Kaan Kairinen with a cross . Attacking_Attempt433
+MATCH_18  Assist - Jaroslav Zeleny. Attacking_Attempt434
+MATCH_18  Assist - Ermedin Demirovic. Attacking_Attempt435
+MATCH_18  Assist - Angelo Stiller. Attacking_Attempt436
+MATCH_18  Assist - Enzo Millot with a through ball. Attacking_Attempt438
+MATCH_18  Assist - Matej Rynes with a cross. Attacking_Attempt439
+MATCH_18  Assist - Ermedin Demirovic. Attacking_Attempt440
+MATCH_18  Assist - Angelo Stiller. Attacking_Attempt441
+MATCH_18  Assist - Ermedin Demirovic. Attacking_Attempt443
+MATCH_18  Assist - Ángelo Preciado. Attacking_Attempt447
+MATCH_18  Assist - Maximilian Mittelstädt with a cross. Attacking_Attempt449
+MATCH_18  Assist - Angelo Stiller. Attacking_Attempt451
+MATCH_18  Assist - Enzo Millot with a cross. Attacking_Attempt453
+MATCH_18  Assist - Chris Führich after corner. Attacking_Attempt455
+MATCH_18  Assist - Enzo Millot with a through ball. Attacking_Attempt456
+MATCH_18  Assist - Chris Führich. Attacking_Attempt458
+MATCH_18  Assist - Maximilian Mittelstädt. Attacking_Attempt459
+MATCH_18  Assist - Enzo Millot. Attacking_Attempt461
+MATCH_18  Assist - Fabian Rieder with a cross. Attacking_Attempt462
+MATCH_18  Assist - Jeff Chabot. Attacking_Attempt464
+MATCH_19  Assist - Amar Dedic with a through ball. Attacking_Attempt465
+MATCH_19  Assist - Bobby Clark. Attacking_Attempt466
+MATCH_19  Assist - Bobby Clark. Attacking_Attempt467
+MATCH_19  Assist - Adam Daghim with a cross. Attacking_Attempt468
+MATCH_19  Assist - Oscar Gloukh. Attacking_Attempt469
+MATCH_19  Assist - Samson Baidoo. Attacking_Attempt470
+MATCH_19  Assist - Romain Del Castillo following a fast break. Attacking_Attempt472
+MATCH_19  Assist - Amar Dedic. Attacking_Attempt473
+MATCH_19  Assist - Oscar Gloukh with a cross. Attacking_Attempt474
+MATCH_19  Assist - Kenny Lala with a cross. Attacking_Attempt475
+MATCH_19  Assist - Mahdi Camara. Attacking_Attempt476
+MATCH_19  Assist - Romain Del Castillo with a cross . Attacking_Attempt477
+MATCH_19  Assist - Romain Del Castillo. Attacking_Attempt478
+MATCH_19  Assist - Karim Konaté. Attacking_Attempt480
+MATCH_19  Assist - Adam Daghim. Attacking_Attempt481
+MATCH_19  Assist - Mads Bidstrup. Attacking_Attempt482
+MATCH_19  Assist - Oscar Gloukh. Attacking_Attempt483
+MATCH_19  Assist - Ludovic Ajorque. Attacking_Attempt484
+MATCH_19  Assist - Amar Dedic. Attacking_Attempt485
+MATCH_19  Assist - Ludovic Ajorque. Attacking_Attempt486
+MATCH_19  Assist - Kamory Doumbia. Attacking_Attempt488
+MATCH_20  Assist - Vladimír Weiss following a fast break. Attacking_Attempt489
+MATCH_20  Assist - Rico Lewis. Attacking_Attempt490
+MATCH_20  Assist - Jérémy Doku with a cross. Attacking_Attempt491
+MATCH_20  Assist - Rico Lewis with a through ball. Attacking_Attempt492
+MATCH_20  Assist - Jérémy Doku. Attacking_Attempt493
+MATCH_20  Assist - Manuel Akanji. Attacking_Attempt494
+MATCH_20  Assist - Ilkay Gündogan. Attacking_Attempt495
+MATCH_20  Assist - Phil Foden. Attacking_Attempt496
+MATCH_20  Assist - Jérémy Doku. Attacking_Attempt497
+MATCH_20  Assist - Savinho. Attacking_Attempt499
+MATCH_20  Assist - Phil Foden. Attacking_Attempt500
+MATCH_20  Assist - Jérémy Doku. Attacking_Attempt502
+MATCH_20  Assist - Ilkay Gündogan. Attacking_Attempt503
+MATCH_20  Assist - John Stones. Attacking_Attempt504
+MATCH_20  Assist - Matheus Nunes with a cross. Attacking_Attempt505
+MATCH_20  Assist - David Strelec. Attacking_Attempt506
+MATCH_20  Assist - Kenan Bajric following a fast break. Attacking_Attempt507
+MATCH_20  Assist - Rico Lewis. Attacking_Attempt508
+MATCH_20  Assist - Matheus Nunes with a cross. Attacking_Attempt509
+MATCH_20  Assist - John Stones. Attacking_Attempt510
+MATCH_20  Assist - Ilkay Gündogan with a cross after corner. Attacking_Attempt511
+MATCH_20  Assist - Ilkay Gündogan with a cross. Attacking_Attempt513
+MATCH_20  Assist - Ilkay Gündogan. Attacking_Attempt514
+MATCH_20  Assist - Savinho with a cross after corner. Attacking_Attempt515
+MATCH_21  Assist - Luuk de Jong. Attacking_Attempt516
+MATCH_21  Assist - Luuk de Jong. Attacking_Attempt517
+MATCH_21  Assist - Trincão. Attacking_Attempt518
+MATCH_21  Assist - Geny Catamo. Attacking_Attempt519
+MATCH_21  Assist - Nuno Santos with a cross after corner. Attacking_Attempt520
+MATCH_21  Assist - Mauro Júnior. Attacking_Attempt521
+MATCH_21  Assist - Ismael Saibari. Attacking_Attempt522
+MATCH_21  Assist - Olivier Boscagli. Attacking_Attempt523
+MATCH_21  Assist - Geovany Quenda. Attacking_Attempt526
+MATCH_21  Assist - Johan Bakayoko. Attacking_Attempt528
+MATCH_21  Assist - Olivier Boscagli. Attacking_Attempt529
+MATCH_21  Assist - Johan Bakayoko with a cross. Attacking_Attempt530
+MATCH_21  Assist - Trincão. Attacking_Attempt532
+MATCH_21  Assist - Rick Karsdorp. Attacking_Attempt533
+MATCH_21  Assist - Malik Tillman. Attacking_Attempt534
+MATCH_21  Assist - Jerdy Schouten. Attacking_Attempt535
+MATCH_21  Assist - Viktor Gyökeres. Attacking_Attempt537
+MATCH_21  Assist - Malik Tillman. Attacking_Attempt538
+MATCH_21  Assist - Rick Karsdorp. Attacking_Attempt539
+MATCH_21  Assist - Morten Hjulmand. Attacking_Attempt540
+MATCH_22  Assist - Marko Arnautovic with a through ball. Attacking_Attempt544
+MATCH_22  Assist - Timi Elsnik. Attacking_Attempt545
+MATCH_22  Assist - Hakan Çalhanoglu. Attacking_Attempt546
+MATCH_22  Assist - Hakan Çalhanoglu. Attacking_Attempt547
+MATCH_22  Assist - Peter Olayinka with a cross. Attacking_Attempt550
+MATCH_22  Assist - Uros Spajic. Attacking_Attempt551
+MATCH_22  Assist - Silas Katompa Mvumpa after corner. Attacking_Attempt554
+MATCH_22  Assist - Henrikh Mkhitaryan. Attacking_Attempt555
+MATCH_22  Assist - Piotr Zielinski with a cross. Attacking_Attempt556
+MATCH_22  Assist - Henrikh Mkhitaryan. Attacking_Attempt557
+MATCH_22  Assist - Benjamin Pavard. Attacking_Attempt558
+MATCH_22  Assist - Nemanja Radonjic. Attacking_Attempt560
+MATCH_22  Assist - Carlos Augusto. Attacking_Attempt561
+MATCH_23  Assist - Yan Couto. Attacking_Attempt563
+MATCH_23  Assist - Pascal Groß with a cross. Attacking_Attempt564
+MATCH_23  Assist - Pascal Groß with a cross. Attacking_Attempt565
+MATCH_23  Assist - Julian Brandt. Attacking_Attempt566
+MATCH_23  Assist - Julian Ryerson. Attacking_Attempt569
+MATCH_23  Assist - Callum McGregor. Attacking_Attempt570
+MATCH_23  Assist - Julien Duranville. Attacking_Attempt571
+MATCH_23  Assist - Serhou Guirassy. Attacking_Attempt572
+MATCH_23  Assist - Reo Hatate with a head. Attacking_Attempt574
+MATCH_23  Assist - Arne Engels. Attacking_Attempt575
+MATCH_23  Assist - Felix Nmecha. Attacking_Attempt577
+MATCH_23  Assist - Daizen Maeda. Attacking_Attempt578
+MATCH_23  Assist - Daizen Maeda. Attacking_Attempt579
+MATCH_24  Assist - Amine Adli. Attacking_Attempt580
+MATCH_24  Assist - Aleix García with a cross. Attacking_Attempt581
+MATCH_24  Assist - Florian Wirtz. Attacking_Attempt583
+MATCH_24  Assist - Florian Wirtz. Attacking_Attempt584
+MATCH_24  Assist - Amine Adli with a head. Attacking_Attempt585
+MATCH_24  Assist - Florian Wirtz. Attacking_Attempt587
+MATCH_24  Assist - Youssouf Fofana. Attacking_Attempt589
+MATCH_24  Assist - Álex Grimaldo. Attacking_Attempt590
+MATCH_24  Assist - Granit Xhaka. Attacking_Attempt592
+MATCH_24  Assist - Álex Grimaldo. Attacking_Attempt593
+MATCH_24  Assist - Christian Pulisic. Attacking_Attempt594
+MATCH_24  Assist - Tijjani Reijnders. Attacking_Attempt595
+MATCH_24  Assist - Christian Pulisic. Attacking_Attempt597
+MATCH_24  Assist - Christian Pulisic. Attacking_Attempt600
+MATCH_24  Assist - Theo Hernández with a cross. Attacking_Attempt601
+MATCH_24  Assist - Tijjani Reijnders. Attacking_Attempt602
+MATCH_24  Assist - Youssouf Fofana with a cross. Attacking_Attempt603
+MATCH_24  Assist - Florian Wirtz following a fast break. Attacking_Attempt604
+MATCH_24  Assist - Álvaro Morata. Attacking_Attempt605
+MATCH_24  Assist - Youssouf Fofana. Attacking_Attempt607
+MATCH_24  Assist - Theo Hernández. Attacking_Attempt609
+MATCH_24  Assist - Robert Andrich following a fast break. Attacking_Attempt610
+MATCH_25  Assist - Marc Casadó. Attacking_Attempt611
+MATCH_25  Assist - Lamine Yamal. Attacking_Attempt612
+MATCH_25  Assist - Kastriot Imeri. Attacking_Attempt613
+MATCH_25  Assist - Iñigo Martínez. Attacking_Attempt615
+MATCH_25  Assist - Raphinha with a cross. Attacking_Attempt616
+MATCH_25  Assist - Lewin Blum with a cross. Attacking_Attempt617
+MATCH_25  Assist - Jules Koundé. Attacking_Attempt618
+MATCH_25  Assist - Robert Lewandowski. Attacking_Attempt619
+MATCH_25  Assist - Raphinha. Attacking_Attempt620
+MATCH_25  Assist - Raphinha. Attacking_Attempt622
+MATCH_25  Assist - Lamine Yamal after corner. Attacking_Attempt623
+MATCH_25  Assist - Kastriot Imeri. Attacking_Attempt627
+MATCH_25  Assist - Marc Casadó. Attacking_Attempt629
+MATCH_25  Assist - Raphinha. Attacking_Attempt630
+MATCH_25  Assist - Ferran Torres. Attacking_Attempt631
+MATCH_25  Assist - Mohamed Ali Camara. Attacking_Attempt632
+MATCH_26  Assist - Riccardo Calafiori. Attacking_Attempt633
+MATCH_26  Assist - Lee Kang-In with a cross after corner. Attacking_Attempt634
+MATCH_26  Assist - Bradley Barcola. Attacking_Attempt636
+MATCH_26  Assist - Désiré Doué. Attacking_Attempt637
+MATCH_26  Assist - Kai Havertz. Attacking_Attempt638
+MATCH_26  Assist - Gabriel Martinelli with a cross. Attacking_Attempt639
+MATCH_26  Assist - Warren Zaïre-Emery. Attacking_Attempt640
+MATCH_26  Assist - Lee Kang-In with a cross after corner. Attacking_Attempt641
+MATCH_26  Assist - Lee Kang-In. Attacking_Attempt642
+MATCH_26  Assist - João Neves. Attacking_Attempt643
+MATCH_26  Assist - Bukayo Saka. Attacking_Attempt644
+MATCH_26  Assist - Lee Kang-In with a cross after corner. Attacking_Attempt645
+MATCH_26  Assist - Lee Kang-In. Attacking_Attempt646
+MATCH_27  Assist - Lazar Samardzic following a fast break. Attacking_Attempt647
+MATCH_27  Assist - Ademola Lookman. Attacking_Attempt649
+MATCH_27  Assist - Marten de Roon. Attacking_Attempt650
+MATCH_27  Assist - Lazar Samardzic with a cross. Attacking_Attempt651
+MATCH_27  Assist - Davide Zappacosta after corner. Attacking_Attempt652
+MATCH_27  Assist - Lazar Samardzic. Attacking_Attempt653
+MATCH_27  Assist - Lazar Samardzic with a cross after corner. Attacking_Attempt654
+MATCH_27  Assist - Raoul Bellanova with a cross. Attacking_Attempt656
+MATCH_27  Assist - Davide Zappacosta with a head. Attacking_Attempt658
+MATCH_27  Assist - Eguinaldo with a head. Attacking_Attempt659
+MATCH_27  Assist - Marlon Gomes. Attacking_Attempt661
+MATCH_27  Assist - Charles De Ketelaere. Attacking_Attempt662
+MATCH_27  Assist - Mario Pasalic. Attacking_Attempt663
+MATCH_27  Assist - Nicolò Zaniolo. Attacking_Attempt664
+MATCH_27  Assist - Mario Pasalic following a fast break. Attacking_Attempt665
+MATCH_27  Assist - Lazar Samardzic. Attacking_Attempt666
+MATCH_27  Assist - Lassina Traoré. Attacking_Attempt667
+MATCH_27  Assist - Heorhii Sudakov. Attacking_Attempt669
+MATCH_27  Assist - Dmytro Kryskiv. Attacking_Attempt670
+MATCH_27  Assist - Lazar Samardzic. Attacking_Attempt671
+MATCH_28  Assist - Igor Paixão. Attacking_Attempt673
+MATCH_28  Assist - Donny van de Beek. Attacking_Attempt674
+MATCH_28  Assist - Viktor Tsyhankov with a cross after corner. Attacking_Attempt675
+MATCH_28  Assist - Viktor Tsyhankov with a cross. Attacking_Attempt676
+MATCH_28  Assist - Igor Paixão with a cross . Attacking_Attempt677
+MATCH_28  Assist - Miguel Gutiérrez. Attacking_Attempt678
+MATCH_28  Assist - Bryan Gil. Attacking_Attempt680
+MATCH_28  Assist - Bryan Gil with a cross. Attacking_Attempt682
+MATCH_28  Assist - Hwang In-Beom with a cross following a fast break. Attacking_Attempt683
+MATCH_28  Assist - Iván Martín. Attacking_Attempt684
+MATCH_28  Assist - Arnaut Danjuma with a cross. Attacking_Attempt685
+MATCH_28  Assist - Luka Ivanusec. Attacking_Attempt686
+MATCH_28  Assist - Arnaut Danjuma with a cross. Attacking_Attempt687
+MATCH_29  Assist - Andreas Skov Olsen with a cross. Attacking_Attempt688
+MATCH_29  Assist - Joaquin Seys. Attacking_Attempt689
+MATCH_29  Assist - Raphael Onyedika. Attacking_Attempt691
+MATCH_29  Assist - Mika Biereth. Attacking_Attempt693
+MATCH_29  Assist - Amady Camara. Attacking_Attempt694
+MATCH_29  Assist - Hans Vanaken. Attacking_Attempt696
+MATCH_29  Assist - Amady Camara. Attacking_Attempt697
+MATCH_29  Assist - Michal Skóras. Attacking_Attempt699
+MATCH_29  Assist - Michal Skóras. Attacking_Attempt700
+MATCH_29  Assist - Michal Skóras. Attacking_Attempt701
+MATCH_29  Assist - Tomi Horvat with a cross after corner. Attacking_Attempt702
+MATCH_29  Assist - Maxim De Cuyper with a cross after corner. Attacking_Attempt703
+MATCH_29  Assist - Raphael Onyedika. Attacking_Attempt704
+MATCH_29  Assist - Hans Vanaken. Attacking_Attempt705
+MATCH_29  Assist - Lovro Zvonarek with a head. Attacking_Attempt706
+MATCH_29  Assist - Ardon Jashari. Attacking_Attempt707

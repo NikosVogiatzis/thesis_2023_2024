@@ -1,30 +1,30 @@
-Borussia Dortmund 0-2 Real Madrid
-Bayern Munich 2-2 Real Madrid
-Borussia Dortmund 1-0 Paris Saint-Germain
-Paris Saint-Germain 0-1 Borussia Dortmund
-Real Madrid 2-1 Bayern Munich
-Real Madrid 3-3 Manchester City
-Arsenal 2-2 Bayern Munich
-Paris Saint-Germain 2-3 Barcelona
-Atletico Madrid 2-1 Borussia Dortmund
-Borussia Dortmund 4-2 Atletico Madrid
-Barcelona 1-4 Paris Saint-Germain
-Manchester City 1-1 Real Madrid
-Bayern Munich 1-0 Arsenal
-RB Leipzig 0-1 Real Madrid
-Copenhagen 1-3 Manchester City
-Paris Saint-Germain 2-0 Real Sociedad
-Lazio 1-0 Bayern Munich
-PSV Eindhoven 1-1 Borussia Dortmund
-Inter Milan 1-0 Atletico Madrid
-Porto 1-0 Arsenal
-Napoli 1-1 Barcelona
-Real Sociedad 1-2 Paris Saint-Germain
-Bayern Munich 3-0 Lazio
-Real Madrid 1-1 RB Leipzig
-Manchester City 3-1 Copenhagen
-Barcelona 3-1 Napoli
-Arsenal 1-0 Porto
-Borussia Dortmund 2-0 PSV Eindhoven
-Atletico Madrid 2-1 Inter Milan
-Young Boys 1-3 RB Leipzig
+ Young Boys 0-3 Aston Villa
+ Juventus 3-1 PSV Eindhoven
+ Sporting Lisbon 2-0 Lille
+ Real Madrid 3-1 Stuttgart
+ Bayern Munich 9-2 Dinamo Zagreb
+ AC Milan 1-3 Liverpool
+ Sparta Prague 3-0 Red Bull Salzburg
+ Bologna 0-0 Shakhtar Donetsk
+ Paris Saint-Germain 1-0 Girona
+ Manchester City 0-0 Inter Milan
+ Club Brugge 0-3 Borussia Dortmund
+ Celtic 5-1 Slovan Bratislava
+ Red Star Belgrade 1-2 Benfica
+ Feyenoord 0-4 Bayer Leverkusen
+ Monaco 2-1 Barcelona
+ Brest 2-1 Sturm Graz
+ Atletico Madrid 2-1 RB Leipzig
+ Atalanta BC 0-0 Arsenal
+ Stuttgart 1-1 Sparta Prague
+ Red Bull Salzburg 0-4 Brest
+ Slovan Bratislava 0-4 Manchester City
+ PSV Eindhoven 1-1 Sporting Lisbon
+ Inter Milan 4-0 Red Star Belgrade
+ Borussia Dortmund 7-1 Celtic
+ Bayer Leverkusen 1-0 AC Milan
+ Barcelona 5-0 Young Boys
+ Arsenal 2-0 Paris Saint-Germain
+ Shakhtar Donetsk 0-3 Atalanta BC
+ Girona 2-3 Feyenoord
+ Sturm Graz 0-1 Club Brugge

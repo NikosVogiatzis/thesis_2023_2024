@@ -1,5 +1,18 @@
-MATCH_4 73'	VAR Decision: No Goal Real Madrid 0-1 FC Bayern München.
-MATCH_4 90+2'	VAR Decision: Goal Real Madrid 2-1 FC Bayern München - Joselu
-MATCH_27 77'	GOAL OVERTURNED BY VAR: Niclas Füllkrug - Borussia Dortmund - scores but the goal is ruled out after a VAR review.
-MATCH_27 78'	VAR Decision: No Goal Borussia Dortmund 1-0 PSV Eindhoven.
-MATCH_29 54'	VAR Decision: No Penalty RB Leipzig.
+MATCH_0 43'	GOAL OVERTURNED BY VAR: Ollie Watkins - Aston Villa - scores but the goal is ruled out after a VAR review.
+MATCH_0 45'	VAR Decision: No Goal Young Boys 0-2 Aston Villa.
+MATCH_0 78'	GOAL OVERTURNED BY VAR: Jhon Durán - Aston Villa - scores but the goal is ruled out after a VAR review.
+MATCH_0 79'	VAR Decision: No Goal Young Boys 0-2 Aston Villa.
+MATCH_3 35'	VAR Decision: No Penalty Real Madrid.
+MATCH_4 16'	GOAL OVERTURNED BY VAR: Serge Gnabry - FC Bayern München - scores but the goal is ruled out after a VAR review.
+MATCH_4 18'	VAR Decision: No Goal FC Bayern München 0-0 Dinamo Zagreb.
+MATCH_4 18'	VAR Decision: Penalty FC Bayern München.
+MATCH_4 34'	VAR Decision: Goal FC Bayern München 2-0 Dinamo Zagreb - Raphaël Guerreiro
+MATCH_4 59'	GOAL OVERTURNED BY VAR: Harry Kane - FC Bayern München - scores but the goal is ruled out after a VAR review.
+MATCH_4 60'	VAR Decision: No Goal FC Bayern München 4-2 Dinamo Zagreb.
+MATCH_4 71'	VAR Decision: Penalty FC Bayern München.
+MATCH_14 86'	VAR Decision: No Penalty Monaco.
+MATCH_19 10'	GOAL OVERTURNED BY VAR: Samson Baidoo - FC Red Bull Salzburg - scores but the goal is ruled out after a VAR review.
+MATCH_19 12'	VAR Decision: No Goal FC Red Bull Salzburg 0-0 Brest.
+MATCH_25 90+1'	GOAL OVERTURNED BY VAR: Joël Monteiro - Young Boys - scores but the goal is ruled out after a VAR review.
+MATCH_25 90+1'	VAR Decision: No Goal Barcelona 5-0 Young Boys.
+MATCH_28 52'	VAR Decision: No Goal Girona 1-2 Feyenoord.

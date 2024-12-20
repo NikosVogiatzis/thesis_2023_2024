@@ -5,31 +5,10 @@
     We are using spacy and entityRuler to make our custom entities.
 """
 
-from rdflib.plugins.sparql import prepareQuery
-from owlready2 import get_ontology
 from rdflib import Graph, URIRef, Literal, Namespace, RDF, RDFS, OWL
-from urllib.parse import quote 
 import spacy
-from rdflib import Graph, URIRef, Literal
-from rdflib.namespace import RDF, RDFS
 from spacy.pipeline.entityruler import EntityRuler
 import re
-import urllib.parse
-
-ex = Namespace("http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/")
-g = Graph() 
-g.bind("ex", ex)
-g.parse("web_scrap/rdf_files/football.ttl")
-pattern_match_game = r"MATCH_+\d+"
-
-
-all_games_list = []
-
-with open("web_scrap/txt_files/matches.txt", "r", encoding="utf-8") as file:
-    text = file.read()
-game_sentences = text.split('\n')
-for sentence in game_sentences:
-    all_games_list.append(sentence.strip())
 
 
 def corner_ner():
@@ -2265,7 +2244,21 @@ def penalty_procedure_ner():
         g.add((game, RDFS.comment, Literal(all_games_list[int(index_games_list)])))
         g.add((penalty_goal, ex.at_game, game))
 
+ex = Namespace("http://www.semanticweb.org/vogia/ontologies/2024/3/untitled-ontology-53/")
+g = Graph() 
+g.bind("ex", ex)
+g.parse("web_scrap/rdf_files/football.ttl")
+pattern_match_game = r"MATCH_+\d+"
 
+
+all_games_list = []
+
+with open("web_scrap/txt_files/matches.txt", "r", encoding="utf-8") as file:
+    text = file.read()
+game_sentences = text.split('\n')
+for sentence in game_sentences:
+    all_games_list.append(sentence.strip())
+    
 corner_ner()
 hand_ball_ner()
 offside_ner()
